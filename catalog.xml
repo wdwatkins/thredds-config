@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" xmlns:xlink="http://www.w3.org/1999/xlink" name="CIDA THREDDS Server.">
+	<service name="Services" serviceType="Compound" base="">
+		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+		<!--<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>-->
+		<service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+		<!--service name="wms" serviceType="WMS" base="/thredds/wms/"/-->
+		<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+		<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+		<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+		<service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+	</service>
+	<service name="wicci_services" serviceType="Compound" base="">
+		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+	</service>
+	<service name="http" serviceType="Compound" base="">
+		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+	</service>
+	<dataset name="CIDA THREDDS Holdings" ID="CTH">
+		<documentation type="Summary">Datasets held by the Center for Integrated Data Analytics for access via TDS.</documentation>
+		<publisher>
+			<name>CIDA</name>
+			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+		</publisher>
+		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States." ID="cida.usgs.gov/prism" serviceName="Services" urlPath="prism">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
+			<documentation xlink:href="ftp://prism.oregonstate.edu/pub/prism/us/grids/" xlink:title="Originating Data Repository"/>
+			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
+			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
+			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed Jan 2012.</documentation>
+			<keyword>Surface Winds Atmosphere</keyword>
+			<keyword>Air Temperature Atmosphere</keyword>
+			<keyword>Precipitation</keyword>
+			<keyword>Rain</keyword>
+			<keyword>Downscaled Climate Projection</keyword>
+			<creator>
+				<name>PRISM Climate Group</name>
+				<contact url="http://prism.oregonstate.edu/" email="gibson@nacse.org"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>53</start>
+					<size>-29</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-125</start>
+					<size>58</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1895-01-01T00:00</start>
+				<end>2011-11-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/prism/prism.ncml"/>
+		</dataset>
+                <dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. Accessed October 2014" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
+                        <dataType>Grid</dataType>
+                        <dataFormat>NcML</dataFormat>
+                        <documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
+                        <documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
+                        <documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
+                        <documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2014</documentation>
+                        <keyword>Surface Winds Atmosphere</keyword>
+                        <keyword>Air Temperature Atmosphere</keyword>
+                        <keyword>Precipitation</keyword>
+                        <keyword>Rain</keyword>
+                        <keyword>Downscaled Climate Projection</keyword>
+                        <creator>
+                                <name>PRISM Climate Group</name>
+                                <contact url="http://prism.oregonstate.edu/" email="gibson@nacse.org"/>
+                        </creator>
+                        <publisher>
+                                <name>CIDA</name>
+                                <contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+                        </publisher>
+                        <geospatialCoverage>
+                                <northsouth>
+                                        <start>53</start>
+                                        <size>-29</size>
+                                        <units>degrees_north</units>
+                                </northsouth>
+                                <eastwest>
+                                        <start>-125</start>
+                                        <size>58</size>
+                                        <units>degrees_east</units>
+                                </eastwest>
+                        </geospatialCoverage>
+                        <timeCoverage>
+                                <start>1895-01-01T00:00</start>
+                                <end>2013-12-01T00:00</end>
+                                <resolution>1 Month</resolution>
+                        </timeCoverage>
+                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/prism_v2/prism.ncml"/>
+                </dataset>
+		<dataset name="Gridded Meteorological Observations 1950-1999" ID="cida.usgs.gov/thredds/gmo/GMO" serviceName="Services" urlPath="gmo/GMO_w_meta.ncml">
+			<dataFormat>NetCDF-Grid</dataFormat>
+			<documentation xlink:href="http://www.engr.scu.edu/~emaurer/data.shtml" xlink:title="Ed Maurer's Data and Files"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">Gridded Meteorological Observations</documentation>
+			<documentation type="Reference">Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United States, J. Climate 15(22), 3237-3251</documentation>
+			<keyword>Surface Winds Atmosphere</keyword>
+			<keyword>Air Temperature Atmosphere</keyword>
+			<keyword>Precipitation</keyword>
+			<keyword>Rain</keyword>
+			<creator>
+				<name>E. Maurer</name>
+				<contact url="http://www.engr.scu.edu/~emaurer/data.shtml" email="emaurer@engr.scu.edu"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>53</start>
+					<size>-29</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-125</start>
+					<size>58</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1950-01-01T00:00</start>
+				<end>1999-12-31T00:00</end>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/gmo/GMO_w_meta.ncml"/>
+		</dataset>
+		<dataset name="Gridded Meteorological Observations 1949-2010" ID="cida.usgs.gov/new_gmo" serviceName="Services" urlPath="new_gmo">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<documentation xlink:href="http://www.engr.scu.edu/~emaurer/data.shtml" xlink:title="Ed Maurer's Data and Files"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">Updated Gridded Meteorological Observations 1949-2010</documentation>
+			<documentation type="Reference">Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United States, J. Climate 15(22), 3237-3251</documentation>
+			<keyword>Surface Winds Atmosphere</keyword>
+			<keyword>Air Temperature Atmosphere</keyword>
+			<keyword>Precipitation</keyword>
+			<keyword>Rain</keyword>
+			<creator>
+				<name>E. Maurer</name>
+				<contact url="http://www.engr.scu.edu/~emaurer/gridded_obs/index_gridded_obs.html" email="emaurer@engr.scu.edu"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>53</start>
+					<size>-29</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-125</start>
+					<size>58</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1949-01-01T00:00</start>
+				<end>2010-12-31T00:00</end>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/new_gmo/GMO_w_meta.ncml"/>
+		</dataset>
+		<dataset name="University of Idaho Gridded Surface Meteorological Dataset" ID="cida.usgs.gov/thredds/UofIMETDATA" serviceName="Services" urlPath="UofIMETDATA">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<documentation xlink:href="http://nimbus.cos.uidaho.edu/METDATA/" xlink:title="UofI METDATA"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">This archive contains daily surface meteorological (METDATA) data for the Continental United States at 4-km (1/24-deg) resolution. The meteorological variables are maximum/minimum temperature, precipitation amount and duration, maximum/minimum relative humidity,downward shortwave solar radiation, wind speed and direction, and specific humidity. The method utilized here combines desirable spatial attributes of gridded climate data from PRISM and desirable temporal attributes of regional-scale reanalysis and daily gauge-based precipitation from NLDAS-2 to derive a spatially and temporally complete high resolution gridded dataset of surface meteorological variables for the continental US for 1979-2012. Validation of this data suggests that it can serve as a suitable surrogate for landscape-scale ecological modeling across vast unmonitored areas of the US. </documentation>
+			<documentation type="Reference">Abatzoglou J. T. " Development of gridded surface meteorological data for ecological applications and modeling, " International Journal of Climatology. (2013)    doi: 10.1002/joc.3413</documentation>
+			<keyword>daily precipitation</keyword>
+			<keyword>daily precipitation duration</keyword>
+			<keyword>daily maximum temperature</keyword>
+			<keyword>daily minimum temperature</keyword>
+			<keyword>daily downward shortwave solar radiation</keyword>
+			<keyword>daily specific humidity</keyword>
+			<keyword>daily maximum relative humidity</keyword>
+			<keyword>daily minimum relative humidity</keyword>
+			<keyword>daily wind speed</keyword>
+			<keyword>daily wind direction</keyword>
+			<keyword>ClimatologyMeteorologyAtmosphere</keyword>
+			<keyword>Gridded Meteorological Data, EPSCoR Data</keyword>
+			<creator>
+				<name>Dr. John Abatzoglou</name>
+				<contact url="http://nimbus.cos.uidaho.edu/METDATA/" email="jabatzoglou@uidaho.edu"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>25.0631</start>
+					<size>24.3329</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-124.7722</start>
+					<size>57.7074</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1979-01-01T00:00</start>
+				<end>2012-12-31T00:00</end>
+				<resolution>1 Year</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/gridmet/gridmet.ncml">
+				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+				<attribute name="title" type="String" value="Daily Meteorological data for continental US"/>
+				<attribute name="summary" type="String" value="This archive contains daily surface meteorological (METDATA) data for the Continental United States at 4-km (1/24-deg) resolution. The meteorological variables are maximum/minimum temperature, precipitation amount and duration, maximum/minimum relative humidity,downward shortwave solar radiation, wind speed and direction, and specific humidity. The method utilized here combines desirable spatial attributes of gridded climate data from PRISM and desirable temporal attributes of regional-scale reanalysis and daily gauge-based precipitation from NLDAS-2 to derive a spatially and temporally complete high resolution gridded dataset of surface meteorological variables for the continental US for 1979-2012. Validation of this data suggests that it can serve as a suitable surrogate for landscape-scale ecological modeling across vast unmonitored areas of the US. "/>
+				<attribute name="keywords" type="String" value="daily precipitation, daily precipitation duration, daily maximum temperature, daily minimum temperature, daily downward shortwave solar radiation, daily specific humidity, daily maximum relative humidity, daily minimum relative humidity, daily wind speed, daily wind direction, ClimatologyMeteorologyAtmosphere, Gridded Meteorological Data, EPSCoR Data"/>
+				<attribute name="id" type="String" value="UofIMETDATA"/>
+				<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+				<attribute name="cdm_data_type" type="String" value="Grid"/>
+				<attribute name="date_created" type="String" value="2012-08-16"/>
+				<attribute name="creator_name" type="String" value="Dr. John Abatzoglou"/>
+				<attribute name="creator_url" type="String" value="http://nimbus.cos.uidaho.edu/METDATA/"/>
+				<attribute name="creator_email" type="String" value="jabatzoglou@uidaho.edu"/>
+				<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+				<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+				<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+				<attribute name="institution" type="String" value="University of Idaho"/>
+				<attribute name="date_issued" type="String" value="2012-08-16"/>
+				<attribute name="project" type="String" value="METDATA"/>
+				<attribute name="processing_level" type="String" value="Gridded Meteorogolical Data"/>
+				<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please reference this data by using the phrase -daily gridded meteorological data(METDATA) for the continental US- and by citing the article (Abatzoglou,2012). Further, appropriately acknowledge the National Science Foundation (NSF), Idaho EPSCoR and the individual investigators responsible for the data set."/>
+				<attribute name="contributors" type="String" value="Dr. John Abatzoglou"/>
+				<attribute name="geospatial_lat_min" type="String" value="25.0631"/>
+				<attribute name="geospatial_lat_max" type="String" value="49.3960"/>
+				<attribute name="geospatial_lon_min" type="String" value="-124.7722"/>
+				<attribute name="geospatial_lon_max" type="String" value="-67.0648"/>
+				<attribute name="time_coverage_start" type="String" value="1979-01-01T00:00"/>
+				<attribute name="time_coverage_end" type="String" value="2012-12-31T00:00"/>
+				<attribute name="time_coverage_resolution" type="String" value="P1Y"/>
+				<attribute name="license" type="String" value="Freely available"/>
+				<attribute name="history" value="Original data series published with 320 files. The data series was updated in June, 2012. The total number of files increased from 320 to 330. Ten new files were added; one for each variable for 2011. Additionally, the orginal 320 files were updated for consistent formatting to address some of the issues that a few users found with the previous version. One file in this series (th_1979) was updated by Dr. Abatzoglou on August 14, 2012. The original file would not display in ArcGIS.Thirty-four (34) items in the series were updated on October 5, 2012. The files were tmmx_2011.nc and all the pr* files (pr_1979.nc through pr_2011.nc)."/>
+			</netcdf>
+		</dataset>
+		<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="http://www.ntsg.umt.edu/project/TopoWx" xlink:title="Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature"/>
+				<documentation type="Rights">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/).</documentation>
+				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (http://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The interpolation model is open source and information on obtaining model code can be found at http://www.ntsg.umt.edu/project/TopoWx. The following data are available in this archive: 1948-2012 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error).</documentation>
+				<documentation type="Reference">Oyler JW, Ballantyne A, Jencso K, Sweet M, Running S. Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature. International Journal of Climatology. http://dx.doi.org/10.1002/joc.4127</documentation>
+				<keyword>maximum temperature</keyword>
+				<keyword>minimum temperature</keyword>
+				<keyword>land skin temperature</keyword>
+				<keyword>MODIS</keyword>
+				<keyword>kriging</keyword>
+				<keyword>homogenization</keyword>
+				<keyword>gridded meteorological data</keyword>
+				<creator>
+					<name>Jared Oyler</name>
+					<contact url="http://www.ntsg.umt.edu/" email="jared.oyler@ntsg.umt.edu"/>
+				</creator>
+				<publisher>
+					<name>Center for Integrated Data Analytics</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>24</start>
+						<size>26</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>59</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start>1948-01-01T00:00:00</start>
+				<end>2012-12-31T00:00:00</end>
+				<resolution>Daily</resolution>
+			</timeCoverage>
+			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx" serviceName="Services" urlPath="topowx">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/TopoWx/TopoWx-source/daily_mosaics/agg.ncml"/>
+			</dataset>
+			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx_normals" serviceName="Services" urlPath="topowx_normals">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+					<aggregation type="union">
+						<netcdf location="/mnt/thredds-optimized/TopoWx/TopoWx-source/normals_tmax.nc"/>
+						<netcdf location="/mnt/thredds-optimized/TopoWx/TopoWx-source/normals_tmin.nc"/>
+					</aggregation>
+				</netcdf>
+			</dataset>
+		</dataset>
+		<dataset name="Statistical Asynchronous Regional Regression Daily Downscaled Climate Projections" ID="dcp">
+			<metadata inherited="true">
+				<documentation xlink:href="http://serap.er.usgs.gov/docs/SerapOFR2010_1213.pdf" xlink:title="Initial Report Describing Data Processing"/>
+				<documentation xlink:href="http://dx.doi.org/10.1002/joc.3603" xlink:title="Report Describing Data Processing Methodology. The third, full piecewise downscaling method was used to produce these data."/>
+				<documentation xlink:href="http://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf" xlink:title="Final Report Describing Data Processing and Quality Control"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Summary">In this project, we used an advanced statistical downscaling method that combines high-resolution observations with outputs from 16 different global climate models based on 4 future emission scenarios to generate the most comprehensive dataset of daily temperature and precipitation projections available for climate change impacts in the U.S. The gridded dataset covers the continental United States, southern Canada and northern Mexico at one-eighth degree resolution and Alaska at one-half degree resolution. The high-resolution projections produced by this work have been rigorously quality-controlled for both errors and biases in the global climate and statistical downscaling models. We also calculated projected future changes in a broad range of impact-relevant indicators, from seasonal temperature to extreme precipitation days. The results of the error and bias tests and the indicator calculations are made available as part of this database.</documentation>
+				<documentation type="Reference">Hayhoe, K., Stoner, et al., (2013), Development and Dissemination of a High-Resolution National Climate Change Dataset. http://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf</documentation>
+				<documentation type="Reference">Stoner, A. M. K., Hayhoe, K., Yang, X. and Wuebbles, D. J. (2012), An asynchronous regional regression model for statistical downscaling of daily climate variables. Int. J. Climatol.. doi: 10.1002/joc.3603</documentation>
+				<documentation type="Reference">Dalton, M.S., and Jones, S.A., comps., 2010, Southeast Regional Assessment Project for the National Climate Change and Wildlife Science Center, U.S. Geological Survey: U.S. Geological Survey Open-File Report 2010 - 1213, 38 p.</documentation>
+				<keyword>Surface Winds Atmosphere</keyword>
+				<keyword>Air Temperature Atmosphere</keyword>
+				<keyword>Precipitation</keyword>
+				<keyword>Rain</keyword>
+				<keyword>Downscaled Climate Projection</keyword>
+				<creator>
+					<name>Katharine Hayhoe</name>
+					<contact url="http://www.katharinehayhoe.com/" email="hayhoe@atmosresearch.com"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+			</metadata>
+			<dataset name="1/8 degree-CONUS Daily Downscaled Climate Projections by Katharine Hayhoe" ID="cida.usgs.gov/thredds/dcp/conus" serviceName="Services" urlPath="dcp/conus">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/dcp_compressed/ncml/union_conus.ncml"/>
+				<dataFormat>NetCDF-Grid</dataFormat>
+				<geospatialCoverage>
+					<northsouth>
+						<start>53</start>
+						<size>-29</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>58</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+					<start>1960-01-01T00:00</start>
+					<end>2099-12-31T00:00</end>
+					<resolution>1 Hour</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="Half degree-Alaska Asynchronous Regional Regression Daily Downscaled Climate Projections by Katharine Hayhoe" ID="cida.usgs.gov/thredds/dcp/alaska" serviceName="Services" urlPath="dcp/alaska">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/dcp_compressed/ncml/union_alaska.ncml"/>
+				<dataFormat>NetCDF-Grid</dataFormat>
+				<geospatialCoverage>
+					<northsouth>
+						<start>71.25</start>
+						<size>-21</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-174.2</start>
+						<size>48.5</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</dataset>
+			<datasetScan name="Station Downscaling (beta services)" ID="cida.usgs.gov/dcp/stations" path="dcp/stations" location="/mnt/thredds-optimized/hayhoe/archive/final/station_downscaling/">
+				<metadata inherited="true">
+					<serviceName>wicci_services</serviceName>
+				</metadata>
+			</datasetScan>
+			<datasetScan name="Documentation and Files" ID="cida.usgs.gov/dcp/files" path="dcp/files" location="/mnt/thredds-optimized/dcp_compressed/documentation_and_files/">
+				<serviceName>http</serviceName>
+				<metadata inherited="true">
+					<serviceName>HTTPServer</serviceName>
+				</metadata>
+			</datasetScan>
+		</dataset>
+		<dataset name="Statistically downscaled GCM data using Bias Corrected Constructed Analogs Daily CMIP5 Climate Projections V2">
+			<metadata inherited="true">
+				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/" xlink:title="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections"/>
+				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/Errata.ClimateDownscalingDocumentation.130717.pdf" xlink:title="Errata describing issues found with this dataset and the solution which was applied to the data in this THREDDS archive."/>
+				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
+				<documentation type="Summary">This archive contains projections of daily BCCA CMIP5 projections of precipitation, daily maximum, and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ Corrections to the dry bias in precipitation have been applied to this dataset according the Errata here: http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/Errata.ClimateDownscalingDocumentation.130717.pdf The values in this archive will differ slightly from those in the gdp-dcp archive. These data have been rounded to the nearest 0.1 (mm or deg C) so will vary +/- 0.05 compared to the original data. This was done in an effort to compress / deflate the data.</documentation>
+				<documentation type="Reference">Reclamation, 2013. 'Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with preceding Information, and Summary of User Needs', prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 47pp.</documentation>
+				<documentation type="Reference">Daily BC method: modified version of Maurer EP, Hidalgo HG, Das T, Dettinger MD, Cayan DR, 2010, Hydrol Earth Syst Sci 14:1125-1138 CA method: Hidalgo HG, Dettinger MD, Cayan DR, 2008, California Energy Commission technical report CEC-500-2007-123</documentation>
+				<documentation type="Reference">Reference period obs: updated version of Maurer EP, Wood AW, Adam JC, Lettenmaier DP, Nijssen B, 2002, J Climate 15(22):3237â€“3251, provided via http://www.engr.scu.edu/~emaurer/gridded_obs/index_gridded_obs.html</documentation>
+				<keyword>Downscaled Climate Projection</keyword>
+				<keyword>Air Temperature Atmosphere</keyword>
+				<keyword>Precipitation</keyword>
+				<creator>
+					<name>Bridget Thrasher</name>
+					<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+				</creator>
+				<creator>
+					<name>Ed Maurer</name>
+					<contact url="http://www.engr.scu.edu/~emaurer/" email="emaurer@scu.edu"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>53</start>
+						<size>-29</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>58</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2100-01-01T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</metadata>
+			<dataset name="BCCA Historical CMIP5 Climate Projections V2" ID="cida.usgs.gov/cmip5_bcca/historical" serviceName="Services" urlPath="cmip5_bcca/historical">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/bcca/cmip5/ncmls/unions/BCCA_0.125deg.historical.ncml"/>
+			</dataset>
+			<dataset name="BCCA Future CMIP5 Climate Projections V2" ID="cida.usgs.gov/cmip5_bcca/future" serviceName="Services" urlPath="cmip5_bcca/future">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/bcca/cmip5/ncmls/unions/BCCA_0.125deg.rcp.ncml"/>
+			</dataset>
+		</dataset>
+		<dataset name="Statistically downscaled GCM data using Bias Corrected Constructed Analogs Daily CMIP3 Climate Projections V2">
+			<metadata inherited="true">
+				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/" xlink:title="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections"/>
+				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/Errata.ClimateDownscalingDocumentation.130717.pdf" xlink:title="Errata describing issues found with this dataset and the solution which was applied to the data in this THREDDS archive."/>
+				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
+				<documentation type="Summary">This archive contains projections of daily BCCA CMIP3 projections of precipitation, daily maximum, and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ Corrections to the dry bias in precipitation have been applied to this dataset according the Errata here: http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/Errata.ClimateDownscalingDocumentation.130717.pdf The values in this archive will differ slightly from those in the gdp-dcp archive. These data have been rounded to the nearest 0.1 (mm or deg C) so will vary +/- 0.05 compared to the original data. This was done in an effort to compress / deflate the data.</documentation>
+				<documentation type="Reference">Reclamation, 2013. 'Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with preceding Information, and Summary of User Needs', prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 47pp.</documentation>
+				<documentation type="Reference">Daily BC method: modified version of Maurer EP, Hidalgo HG, Das T, Dettinger MD, Cayan DR, 2010, Hydrol Earth Syst Sci 14:1125-1138 CA method: Hidalgo HG, Dettinger MD, Cayan DR, 2008, California Energy Commission technical report CEC-500-2007-123</documentation>
+				<documentation type="Reference">Reference period obs: Maurer EP, Wood AW, Adam JC, Lettenmaier DP, Nijssen B, 2002, J Climate 15(22):3237â€“3251, provided via http://www.engr.scu.edu/~emaurer/gridded_obs/index_gridded_obs.html</documentation>
+				<keyword>Downscaled Climate Projection</keyword>
+				<keyword>Air Temperature Atmosphere</keyword>
+				<keyword>Precipitation</keyword>
+				<creator>
+					<name>Bridget Thrasher</name>
+					<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+				</creator>
+				<creator>
+					<name>Ed Maurer</name>
+					<contact url="http://www.engr.scu.edu/~emaurer/" email="emaurer@scu.edu"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>53</start>
+						<size>-29</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>58</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2100-01-01T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</metadata>
+			<dataset name="BCCA Historical CMIP3 Climate Projections V2" ID="cida.usgs.gov/cmip3_bcca/historical" serviceName="Services" urlPath="cmip3_bcca/historical">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/bcca/cmip3/ncmls/unions/BCCA_0.125deg.gregorian.20c3m.ncml"/>
+			</dataset>
+			<dataset name="BCCA Future CMIP3 Climate Projections V2" ID="cida.usgs.gov/cmip3_bcca/future" serviceName="Services" urlPath="cmip3_bcca/future">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/bcca/cmip3/ncmls/unions/BCCA_0.125deg.gregorian.sres.ncml"/>
+			</dataset>
+		</dataset>
+		<dataset name="1/8 degree-CONUS Monthly Bias Corrected Spatially Downscaled Climate Projections by Maurer, Brekke, Pruitt, and Duffy" ID="cida.usgs.gov/maurer" serviceName="Services" urlPath="maurer/maurer_brekke_w_meta.ncml">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<documentation xlink:href="http://www.agu.org/pubs/eos-news/supplements/2007/47-504.shtml" xlink:title="Report Describing Data Processing"/>
+			<documentation xlink:href="http://gdo-dcp.ucllnl.org/" xlink:title="Raw Data and Additional Information"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">This archive contains fine spatial-resolution translations of 112 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
+			<documentation type="Reference">Maurer, E. P., L. Brekke, T. Pruitt, and P. B. Duffy (2007), Fine-resolution climate projections enhance regional climate change impact studies, Eos Trans. AGU, 88(47), 504.</documentation>
+			<keyword>Surface Winds Atmosphere</keyword>
+			<keyword>Air Temperature Atmosphere</keyword>
+			<keyword>Precipitation</keyword>
+			<keyword>Rain</keyword>
+			<keyword>Downscaled Climate Projection</keyword>
+			<creator>
+				<name>Ed Maurer</name>
+				<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>53</start>
+					<size>-29</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-125</start>
+					<size>58</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1950-01-01T00:00</start>
+				<end>2099-12-31T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+		</dataset>
+		<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections">
+			<metadata inherited="true">
+				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/" xlink:title="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections"/>
+				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
+				<documentation type="Summary">This archive contains 234 projections of monthly BCSD CMIP5 projections of precipitation and monthly means of daily-average, daily maximum and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/</documentation>
+				<documentation type="Reference">Wood AW, Maurer EP, Kumar A, Lettenmaier DP, 2002, J Geophys Res 107(D20):4429 and 
+			Wood AW, Leung LR, Sridhar V, Lettenmaier DP, 2004, Clim Change 62:189:216</documentation>
+				<keyword>Downscaled Climate Projection</keyword>
+				<keyword>Air Temperature Atmosphere</keyword>
+				<keyword>Precipitation</keyword>
+				<creator>
+					<name>Bridget Thrasher</name>
+					<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
+				</creator>
+				<creator>
+					<name>Ed Maurer</name>
+					<contact url="http://www.engr.scu.edu/~emaurer/" email="emaurer@scu.edu"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>53</start>
+						<size>-29</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>58</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2100-01-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
+			</metadata>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections 12-2005 - 11-2099" ID="cida.usgs.gov/cmip5_bcsd/future_1" serviceName="Services" urlPath="cmip5_bcsd/future_1">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/future_1.ncml"/>
+			</dataset>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections 01-2006 - 12-2100" ID="cida.usgs.gov/cmip5_bcsd/future_2" serviceName="Services" urlPath="cmip5_bcsd/future_2">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/future_2.ncml"/>
+			</dataset>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-2006 - 12-2099" ID="cida.usgs.gov/cmip5_bcsd/future_3" serviceName="Services" urlPath="cmip5_bcsd/future_3">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/future_3.ncml"/>
+			</dataset>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-2006 - 12-2035" ID="cida.usgs.gov/cmip5_bcsd/future_4" serviceName="Services" urlPath="cmip5_bcsd/future_4">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/future_4.ncml"/>
+			</dataset>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-2006 - 12-2035" ID="cida.usgs.gov/cmip5_bcsd/future_5" serviceName="Services" urlPath="cmip5_bcsd/future_5">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/future_5.ncml"/>
+			</dataset>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  12-2005 - 12-2100" ID="cida.usgs.gov/cmip5_bcsd/future_6" serviceName="Services" urlPath="cmip5_bcsd/future_6">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/future_6.ncml"/>
+			</dataset>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-1950 - 12-2005" ID="cida.usgs.gov/cmip5_bcsd/historical_1" serviceName="Services" urlPath="cmip5_bcsd/historical_1">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/historical_1.ncml"/>
+			</dataset>
+			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections 01-1950 - 11-2005" ID="cida.usgs.gov/cmip5_bcsd/historical_2" serviceName="Services" urlPath="cmip5_bcsd/historical_2">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/cmip5_bcsd/historical_2.ncml"/>
+			</dataset>
+		</dataset>
+		<dataset name="Thermosteric Sea Level Rise Projections with Parametric Uncertainty" ID="cida.usgs.gov/thredds/slr2d/" serviceName="Services" urlPath="slr2d">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<documentation xlink:href="http://www.ncsu.edu/" xlink:title="NCSU"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">These files contain spatial fields of simulated yearly thermosteric sea-level anomalies between 1951-2100 (referenced to year 1800) from a perturbed physics ensemble experiment using the University of Victoria Earth System Model (UVic).  Thermosteric sea-level anomalies are derived from changes in density, which are calculated using the model's temperature and salinity fields.  The ensemble varies 3 parameters controlling the model's equilibrium climate sensitivity (CS), background vertical diffusivity in the ocean (KV), and radiative effects of atmospheric sulfate aerosols (ASC).  These parameters are varied over the following ranges: CS-(1.1, 1.6, 2.2, 2.6, 3.1, 4.0, 5.4, 6.5, 8.2, 11.2); KV-(0.1, 0.2, 0.3, 0.4, 0.5); ASC-(0.00, 0.75, 1.50, 2.25, 3.00).  The unique parameter combination for each ensemble member is reflected in the variable name, where we have multiplied the parameter values by 100 to display as integer values.  For the projection phase of the ensemble (2005-2100), we use atmospheric forcings from the RCP8.5 scenario.  These forcings include atmospheric CO2 concentrations, radiative forcings from non-CO2 greenhouse gases, and spatially resolved changes in albedo associated with direct effects of sulfate aerosols.  See Sriver et al., 2012 for complete discussion.</documentation>
+			<documentation type="Reference">Sriver, R.L., Urban, N.M, Olson, R., and Keller, K. (2012), Toward a physically plausible upper bound of sea-level rise projections, Climatic Change, 115:893-902, doi:10.1007/s10584-012-0610-6</documentation>
+			<keyword>Sea Level Rise with Parametric Uncertainty</keyword>
+			<creator>
+				<name>Adam Terando</name>
+				<contact url="http://www.ncsu.edu/" email="ajterand@ncsu.edu"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>-180</start>
+					<size>360</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-180</start>
+					<size>360</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1951-01-01T00:00</start>
+				<end>2100-01-01T00:00</end>
+				<resolution>1 Year</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/slr2d/slr2d_meta.ncml"/>
+		</dataset>
+		<dataset name="National RFC QPE Mosaic Archive" ID="cida.usgs.gov/thredds/qpe/anational" serviceName="Services" urlPath="qpe/anational_w_meta.ncml">
+			<!--<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/qpe/anational_w_meta.ncml">-->
+			<dataFormat>NetCDF-Grid</dataFormat>
+			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
+			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">National Mosaic of Radar indicated-rain gage verified and corrected precipitation estimate on a ~10km grid. 6 hour temporal resolution. Files are added daily from the latest 7 day dataset.</documentation>
+			<keyword>Precipitation Amount</keyword>
+			<keyword>Rain</keyword>
+			<creator>
+				<name>River Forecasting Centers</name>
+				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
+			</creator>
+			<contributor role="aggregate and archive">National Precipitation Verification Unit</contributor>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>53</start>
+					<size>-29</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-125</start>
+					<size>58</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>2001-04-1T18:00:00Z</start>
+				<end>present</end>
+			</timeCoverage>
+		</dataset>
+		<dataset name="North Central River Forecasting Center QPE Archive" ID="cida.usgs.gov/thredds/qpe/ancrfcqpe" serviceName="Services" urlPath="qpe/ancrfcqpe_w_meta.ncml">
+			<!--<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="dods://cida-eros-thredds2.er.usgs.gov:8080/thredds/rfc_qpe/dodsC/RFC/QPE/KMSR"/>-->
+			<dataFormat>NetCDF-Grid</dataFormat>
+			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
+			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">Radar indicated-rain gage verified and corrected precipitation estimate on the ~4km HRAP grid. 1 hour and 6 hour temporal resolution. Includes only the North Central River Forecasting Center's data.</documentation>
+			<keyword>Precipitation Amount</keyword>
+			<keyword>Rain</keyword>
+			<creator>
+				<name>River Forecasting Centers</name>
+				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
+			</creator>
+			<contributor role="aggregate and archive">National Precipitation Verification Unit</contributor>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>38</start>
+					<size>13</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-105</start>
+					<size>16</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>2000-06-15T00:00</start>
+				<end>2011-11-19T11:00</end>
+			</timeCoverage>
+		</dataset>
+		<dataset name="Ohio River Forecasting Center QPE Archive" ID="cida.usgs.gov/thredds/qpe/aohrfcqpe" serviceName="Services" urlPath="qpe/aohrfcqpe_w_meta.ncml">
+			<!--<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="dods://cida-eros-thredds2.er.usgs.gov:8080/thredds/rfc_qpe/dodsC/RFC/QPE/KTIR">-->
+			<dataFormat>NetCDF-Grid</dataFormat>
+			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
+			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">Radar indicated-rain gage verified and corrected precipitation estimate on the ~4km HRAP grid. 1 hour and 6 hour temporal resolution. Includes only the Ohio River Forecasting Center's data.</documentation>
+			<keyword>Precipitation Amount</keyword>
+			<keyword>Rain</keyword>
+			<creator>
+				<name>River Forecasting Centers</name>
+				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
+			</creator>
+			<contributor role="aggregate and archive">National Precipitation Verification Unit</contributor>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>35.5</start>
+					<size>10</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-90</start>
+					<size>21.3</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>2000-06-26T00:00</start>
+				<end>present</end>
+			</timeCoverage>
+		</dataset>
+		<dataset name="Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains." ID="wicci">
+			<metadata inherited="true">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<documentation xlink:href="http://ccr.aos.wisc.edu/resources/data_scripts/LCC/descriptions.html" xlink:title="Brief Description"/>
+				<documentation xlink:href="http://djlorenz.github.io/downscaling2/main.html" xlink:title="Summary of Projections"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Summary">This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
+				<documentation type="Reference">In Preparation. Earlier version documented in 2011 Notaro, M., D. J. Lorenz, D. Vimont, S. Vavrus, C. Kucharik, and K. Franz "21st century Wisconsin snow projections based on an operational snow model driven by statistically downscaled climate data." International Journal of Climatology, 31, 1615-1633.</documentation>
+				<keyword>daily precipitation</keyword>
+				<keyword>daily maximum temperature</keyword>
+				<keyword>daily minimum temperature</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<creator>
+					<name>David Lorenz</name>
+					<contact url="http://djlorenz.github.io/" email="dlorenz@wisc.edu"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>24.6</start>
+						<size>30.1</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-115.3</start>
+						<size>48.3</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+			</metadata>
+			<dataset name="1961-2000 - Daily" ID="cida.usgs.gov/wicci/cmip3/20c3m" serviceName="Services" urlPath="wicci/cmip3/20c3m">
+				<timeCoverage>
+					<start>1961-01-01T00:00</start>
+					<end>2000-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/wicci/cmip3/ncml/20c3m.ncml">
+					<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+					<attribute name="title" type="String" value="Daily Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains."/>
+					<attribute name="summary" type="String" value="This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4)."/>
+					<attribute name="keywords" type="String" value="daily precipitation, daily maximum temperature, daily minimum temperature, downscaled climate projection"/>
+					<attribute name="id" type="String" value="cida.usgs.gov/thredds/wicci"/>
+					<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+					<attribute name="cdm_data_type" type="String" value="Grid"/>
+					<attribute name="date_created" type="String" value="2012-04-12"/>
+					<attribute name="creator_name" type="String" value="David Lorenz"/>
+					<attribute name="creator_url" type="String" value="http://ccr.aos.wisc.edu/about/Personnel/faculty_staff/lorenz_david.php"/>
+					<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
+					<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+					<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+					<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+					<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
+					<attribute name="date_issued" type="String" value="2012-01-01"/>
+					<attribute name="project" type="String" value=""/>
+					<attribute name="processing_level" type="String" value="Downscaled Climate Model Simulations"/>
+					<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' After acknowledging the CMIP3 data, please reference this archive by using the phrase 'daily statistically downscaled climate projections for the US and southern Canada east of the Rocky Mountains.'"/>
+					<attribute name="contributors" type="String" value="Dan Vimont, Mike Notaro, Steve Vavrus"/>
+					<attribute name="geospatial_lat_min" type="String" value="24.6"/>
+					<attribute name="geospatial_lat_max" type="String" value="54.7"/>
+					<attribute name="geospatial_lon_min" type="String" value="-115.3"/>
+					<attribute name="geospatial_lon_max" type="String" value="-67.0"/>
+					<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+					<attribute name="time_coverage_end" type="String" value="2100-12-31T00:00"/>
+					<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+					<attribute name="license" type="String" value="Freely available"/>
+				</netcdf>
+			</dataset>
+			<dataset name="2046-2065 - Daily" ID="cida.usgs.gov/wicci/cmip3/sres_early" serviceName="Services" urlPath="wicci/cmip3/sres_early">
+				<timeCoverage>
+					<start>2046-01-01T00:00</start>
+					<end>2065-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/wicci/cmip3/ncml/sres_01.ncml">
+					<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+					<attribute name="title" type="String" value="Daily Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains."/>
+					<attribute name="summary" type="String" value="This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4)."/>
+					<attribute name="keywords" type="String" value="daily precipitation, daily maximum temperature, daily minimum temperature, downscaled climate projection"/>
+					<attribute name="id" type="String" value="cida.usgs.gov/thredds/wicci"/>
+					<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+					<attribute name="cdm_data_type" type="String" value="Grid"/>
+					<attribute name="date_created" type="String" value="2012-04-12"/>
+					<attribute name="creator_name" type="String" value="David Lorenz"/>
+					<attribute name="creator_url" type="String" value="http://ccr.aos.wisc.edu/about/Personnel/faculty_staff/lorenz_david.php"/>
+					<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
+					<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+					<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+					<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+					<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
+					<attribute name="date_issued" type="String" value="2012-01-01"/>
+					<attribute name="project" type="String" value=""/>
+					<attribute name="processing_level" type="String" value="Downscaled Climate Model Simulations"/>
+					<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' After acknowledging the CMIP3 data, please reference this archive by using the phrase 'daily statistically downscaled climate projections for the US and southern Canada east of the Rocky Mountains.'"/>
+					<attribute name="contributors" type="String" value="Dan Vimont, Mike Notaro, Steve Vavrus"/>
+					<attribute name="geospatial_lat_min" type="String" value="24.6"/>
+					<attribute name="geospatial_lat_max" type="String" value="54.7"/>
+					<attribute name="geospatial_lon_min" type="String" value="-115.3"/>
+					<attribute name="geospatial_lon_max" type="String" value="-67.0"/>
+					<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+					<attribute name="time_coverage_end" type="String" value="2100-12-31T00:00"/>
+					<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+					<attribute name="license" type="String" value="Freely available"/>
+				</netcdf>
+			</dataset>
+			<dataset name="2081-2100 - Daily" ID="cida.usgs.gov/wicci/cmip3/sres_late" serviceName="Services" urlPath="wicci/cmip3/sres_late">
+				<timeCoverage>
+					<start>2081-01-01T00:00</start>
+					<end>2100-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/wicci/cmip3/ncml/sres_02.ncml">
+					<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+					<attribute name="title" type="String" value="Daily Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains."/>
+					<attribute name="summary" type="String" value="This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4)."/>
+					<attribute name="keywords" type="String" value="daily precipitation, daily maximum temperature, daily minimum temperature, downscaled climate projection"/>
+					<attribute name="id" type="String" value="cida.usgs.gov/thredds/wicci"/>
+					<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+					<attribute name="cdm_data_type" type="String" value="Grid"/>
+					<attribute name="date_created" type="String" value="2012-04-12"/>
+					<attribute name="creator_name" type="String" value="David Lorenz"/>
+					<attribute name="creator_url" type="String" value="http://ccr.aos.wisc.edu/about/Personnel/faculty_staff/lorenz_david.php"/>
+					<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
+					<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+					<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+					<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+					<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
+					<attribute name="date_issued" type="String" value="2012-01-01"/>
+					<attribute name="project" type="String" value=""/>
+					<attribute name="processing_level" type="String" value="Downscaled Climate Model Simulations"/>
+					<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' After acknowledging the CMIP3 data, please reference this archive by using the phrase 'daily statistically downscaled climate projections for the US and southern Canada east of the Rocky Mountains.'"/>
+					<attribute name="contributors" type="String" value="Dan Vimont, Mike Notaro, Steve Vavrus"/>
+					<attribute name="geospatial_lat_min" type="String" value="24.6"/>
+					<attribute name="geospatial_lat_max" type="String" value="54.7"/>
+					<attribute name="geospatial_lon_min" type="String" value="-115.3"/>
+					<attribute name="geospatial_lon_max" type="String" value="-67.0"/>
+					<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+					<attribute name="time_coverage_end" type="String" value="2100-12-31T00:00"/>
+					<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+					<attribute name="license" type="String" value="Freely available"/>
+				</netcdf>
+			</dataset>
+			<dataset name="1961-2000 Climatology" ID="cida.usgs.gov/wicci/cmip3/20c3m_clmtlgy" serviceName="Services" urlPath="wicci/cmip3/20c3m_clmtlgy">
+				<timeCoverage>
+					<start>1961-01-01T00:00</start>
+					<end>2000-12-31T00:00</end>
+					<resolution>Climatology</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/wicci/cmip3/ncml/20c3m_mean_cdf.ncml">
+					<variable name="time">
+						<attribute name="units" value="days since 1961-1-1 00:00:00"/>
+					</variable>
+					<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+					<attribute name="title" type="String" value="Daily Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains."/>
+					<attribute name="summary" type="String" value="This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4)."/>
+					<attribute name="keywords" type="String" value="daily precipitation, daily maximum temperature, daily minimum temperature, downscaled climate projection"/>
+					<attribute name="id" type="String" value="cida.usgs.gov/thredds/wicci"/>
+					<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+					<attribute name="cdm_data_type" type="String" value="Grid"/>
+					<attribute name="date_created" type="String" value="2012-04-12"/>
+					<attribute name="creator_name" type="String" value="David Lorenz"/>
+					<attribute name="creator_url" type="String" value="http://djlorenz.github.io/"/>
+					<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
+					<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+					<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+					<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+					<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
+					<attribute name="date_issued" type="String" value="2012-01-01"/>
+					<attribute name="project" type="String" value=""/>
+					<attribute name="processing_level" type="String" value="Downscaled Climate Model Simulations"/>
+					<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' After acknowledging the CMIP3 data, please reference this archive by using the phrase 'daily statistically downscaled climate projections for the US and southern Canada east of the Rocky Mountains.'"/>
+					<attribute name="contributors" type="String" value="Dan Vimont, Mike Notaro, Steve Vavrus"/>
+					<attribute name="geospatial_lat_min" type="String" value="24.6"/>
+					<attribute name="geospatial_lat_max" type="String" value="54.7"/>
+					<attribute name="geospatial_lon_min" type="String" value="-115.3"/>
+					<attribute name="geospatial_lon_max" type="String" value="-67.0"/>
+					<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+					<attribute name="time_coverage_end" type="String" value="2100-12-31T00:00"/>
+					<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+					<attribute name="license" type="String" value="Freely available"/>
+				</netcdf>
+			</dataset>
+			<dataset name="2046-2065 Climatology" ID="cida.usgs.gov/wicci/cmip3/sres_early_clmtlgy" serviceName="Services" urlPath="wicci/cmip3/sres_early_clmtlgy">
+				<timeCoverage>
+					<start>2046-01-01T00:00</start>
+					<end>2065-12-31T00:00</end>
+					<resolution>Climatology</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/wicci/cmip3/ncml/sres_01_mean_cdf.ncml">
+					<variable name="time">
+						<attribute name="units" value="days since 2046-1-1 00:00:00"/>
+					</variable>
+					<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+					<attribute name="title" type="String" value="Daily Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains."/>
+					<attribute name="summary" type="String" value="This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4)."/>
+					<attribute name="keywords" type="String" value="daily precipitation, daily maximum temperature, daily minimum temperature, downscaled climate projection"/>
+					<attribute name="id" type="String" value="cida.usgs.gov/thredds/wicci"/>
+					<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+					<attribute name="cdm_data_type" type="String" value="Grid"/>
+					<attribute name="date_created" type="String" value="2012-04-12"/>
+					<attribute name="creator_name" type="String" value="David Lorenz"/>
+					<attribute name="creator_url" type="String" value="http://djlorenz.github.io/"/>
+					<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
+					<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+					<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+					<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+					<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
+					<attribute name="date_issued" type="String" value="2012-01-01"/>
+					<attribute name="project" type="String" value=""/>
+					<attribute name="processing_level" type="String" value="Downscaled Climate Model Simulations"/>
+					<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' After acknowledging the CMIP3 data, please reference this archive by using the phrase 'daily statistically downscaled climate projections for the US and southern Canada east of the Rocky Mountains.'"/>
+					<attribute name="contributors" type="String" value="Dan Vimont, Mike Notaro, Steve Vavrus"/>
+					<attribute name="geospatial_lat_min" type="String" value="24.6"/>
+					<attribute name="geospatial_lat_max" type="String" value="54.7"/>
+					<attribute name="geospatial_lon_min" type="String" value="-115.3"/>
+					<attribute name="geospatial_lon_max" type="String" value="-67.0"/>
+					<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+					<attribute name="time_coverage_end" type="String" value="2100-12-31T00:00"/>
+					<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+					<attribute name="license" type="String" value="Freely available"/>
+				</netcdf>
+			</dataset>
+			<dataset name="2081-2100 Climatology" ID="cida.usgs.gov/wicci/cmip3/sres_late_clmtlgy" serviceName="Services" urlPath="wicci/cmip3/sres_late_clmtlgy">
+				<timeCoverage>
+					<start>2081-01-01T00:00</start>
+					<end>2100-12-31T00:00</end>
+					<resolution>Climatology</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/wicci/cmip3/ncml/sres_02_mean_cdf.ncml">
+					<variable name="time">
+						<attribute name="units" value="days since 2081-1-1 00:00:00"/>
+					</variable>
+					<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+					<attribute name="title" type="String" value="Daily Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains."/>
+					<attribute name="summary" type="String" value="This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4)."/>
+					<attribute name="keywords" type="String" value="daily precipitation, daily maximum temperature, daily minimum temperature, downscaled climate projection"/>
+					<attribute name="id" type="String" value="cida.usgs.gov/thredds/wicci"/>
+					<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+					<attribute name="cdm_data_type" type="String" value="Grid"/>
+					<attribute name="date_created" type="String" value="2012-04-12"/>
+					<attribute name="creator_name" type="String" value="David Lorenz"/>
+					<attribute name="creator_url" type="String" value="http://djlorenz.github.io/"/>
+					<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
+					<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+					<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+					<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+					<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
+					<attribute name="date_issued" type="String" value="2012-01-01"/>
+					<attribute name="project" type="String" value=""/>
+					<attribute name="processing_level" type="String" value="Downscaled Climate Model Simulations"/>
+					<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' After acknowledging the CMIP3 data, please reference this archive by using the phrase 'daily statistically downscaled climate projections for the US and southern Canada east of the Rocky Mountains.'"/>
+					<attribute name="contributors" type="String" value="Dan Vimont, Mike Notaro, Steve Vavrus"/>
+					<attribute name="geospatial_lat_min" type="String" value="24.6"/>
+					<attribute name="geospatial_lat_max" type="String" value="54.7"/>
+					<attribute name="geospatial_lon_min" type="String" value="-115.3"/>
+					<attribute name="geospatial_lon_max" type="String" value="-67.0"/>
+					<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+					<attribute name="time_coverage_end" type="String" value="2100-12-31T00:00"/>
+					<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+					<attribute name="license" type="String" value="Freely available"/>
+				</netcdf>
+			</dataset>
+			<datasetScan name="Files" ID="cida.usgs.gov/cmip3/wicci" path="cmip3/wicci" location="/mnt/thredds-optimized/wicci/cmip3/">
+				<metadata inherited="true">
+					<serviceName>wicci_services</serviceName>
+				</metadata>
+			</datasetScan>
+		</dataset>
+		<dataset name="Columbia River Basin Daily MACA-VIC Results">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here: http://www.unidata.ucar.edu/projects/THREDDS/tech/catalog/v1.0.2/InvCatalogSpec.html#dlElements -->
+				<documentation xlink:href="https://nccwsc.usgs.gov/display-project/4f8c64d2e4b0546c0c397b46/5006f517e4b0abf7ce733f98" xlink:title="MACA-VIC"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Summary">This archive contains daily downscaled meteorological and hydrological projections for the Columbia Basin in the United States at 1/16-deg resolution utilizing 6 different downscaling methods. The downscaled meteorological variables are maximum/minimum temperature(tasmax/tasmin), precipitation amount(pr), downward shortwave solar radiation(rsds), wind speed(was), and specific humidity(huss). The downscaling is based on the CCSM3e model from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3) utilizing the historical 20C3M (1971-1999) and future SRESA2(2041-2070) scenarios. The downscaling methods include 3 statistical downscaling methods: Multivariate Adaptive Constructed Analogs (MACAv2) and monthly(and daily) Bias Correction Spatial Dissaggregation (mBCSD,dBCSD); 3 dynamical downscaling methods: interpolations of the outputs from North American Regional Climate Change Assessment Program(sdNARCCAP) regional downscaling utilizing 3 regional models: CRCM,MM5I and WRFG; and 3 hybrid downscaling methods: bias correction of interpolated outputs from NARCCAP regional downscaling using CRCM,MM5I and WRFG(sdbcNARCCAP). All of the methods are used to downscale the entire suite of variables except for mBCSD (which is only used to downscale tmax/tmin/pr and these results are used with MTCLIM(Glassy et al., 1994) to generate rsds/was/huss). Each of the downscaling outputs are run through the Variable Infiltration Capacity (VIC) hydrologic model to generate the hydrological projections.</documentation>
+				<documentation type="Reference">Abatzoglou, J.T, and Brown T.J. (2011), A Comparison of Statistical Downscaling Methods Suited for Wildfire Applications, Int. J. Climatol. [doi: 10.1002/joc.2312]. Livneh B, E.A. Rosenberg, C. Lin, B. Nijssen, V. Mishra, K. Andreadis, E.P. Maurer, and D.P. Lettenmaier, 2013:  A long-term hydrologically based data set of land surface fluxes and states for the conterminous United States: Updates and extensions, Journal of Climate, [doi:10.1175/JCLI-D-12-00508.1.]. Mearns, L.O., et al., 2007, updated 2011. The North American Regional Climate Change Assessment Program dataset, National Center for Atmospheric Research Earth System Grid data portal, Boulder, CO. [doi:10.5065/D6RN35ST]. Data downloaded 2012-12-10. Wood,A. W., L.R. Leung, V. Sridhard, and D. P. Lettenmaier (2004) Hydrologic Implications of Dynamical and Statistical Approaches to Downscaling Climate Model Outputs, Climatic Change, 62,189-216.</documentation>
+				<keyword>daily precipitation</keyword>
+				<keyword>daily maximum temperature</keyword>
+				<keyword>daily minimum temperature</keyword>
+				<keyword>daily downward shortwave solar radiation</keyword>
+				<keyword>daily specific humidity</keyword>
+				<keyword>daily wind speed</keyword>
+				<keyword>CMIP3</keyword>
+				<keyword>Gridded Meteorological Data</keyword>
+				<keyword>Gridded Hydrological Data</keyword>
+				<creator>
+					<name>John Abatzoglou</name>
+					<contact url="https://nccwsc.usgs.gov/display-project/4f8c64d2e4b0546c0c397b46/5006f517e4b0abf7ce733f98" email="jabatzoglou@uidaho.edu"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>41.2188</start>
+						<size>11.625</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-124.5938</start>
+						<size>14.8126</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<dataset name="Daily MACA-VIC Past" ID="cida.usgs.gov/thredds/MACA-VIC/past" serviceName="Services" urlPath="MACA_VIC/past">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maca-vic/union_20C3M.ncml"/>
+				<timeCoverage>
+					<start>1971-01-01T00:00</start>
+					<end>1999-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="Daily MACA-VIC Future" ID="cida.usgs.gov/thredds/MACA-VIC/future" serviceName="Services" urlPath="MACA_VIC/future">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maca-vic/union.ncml"/>
+				<timeCoverage>
+					<start>2041-01-01T00:00</start>
+					<end>2070-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<datasetScan name="Direct File Access" ID="cida.usgs.gov/maca-vic/files" serviceName="http" path="maca-vic/files" location="/mnt/thredds-optimized/maca-vic/"/>
+		</dataset>
+		<dataset name="Western US Hydroclimate Scenarios Project">
+			<metadata inherited="true">
+				<documentation xlink:href="http://cses.washington.edu/cig/data/wus.shtml" xlink:title="Documentation Home Page"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Reference">This research was sponsored by a grant from the Department of the Interior, USGS NW Climate Science Center, a multi-institution DOI-funded project located at the University of Washington, Oregon State University, and the University of Idaho. We also acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.</documentation>
+				<keyword>climate change</keyword>
+				<keyword>climate impacts</keyword>
+				<keyword>statistical downscaling</keyword>
+				<keyword>dynamical downscaling</keyword>
+				<keyword>hydrologic change</keyword>
+				<keyword>extremes</keyword>
+				<keyword>Western U.S.</keyword>
+				<keyword>Western United States</keyword>
+				<keyword>PNW</keyword>
+				<keyword>Pacific Northwest</keyword>
+				<creator>
+					<name>Guillaume S. Mauger</name>
+					<contact url="http://cses.washington.edu/cig/data/wus.shtml" email="gmauger@uw.edu"/>
+				</creator>
+				<creator>
+					<name>Brigid Dotson</name>
+					<contact url="http://cses.washington.edu/cig/data/wus.shtml" email="bdotson@uw.edu"/>
+				</creator>
+				<creator>
+					<name>Matt Stumbaugh</name>
+					<contact url="http://cses.washington.edu/cig/data/wus.shtml" email="mrstu@uw.edu"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>31.34375</start>
+						<size>21.5</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-124.6</start>
+						<size>21.6</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<dataset name="Daily Observationally-Based Historical Data" ID="cida.usgs.gov/thredds/WUS_HSP/historical" serviceName="Services" urlPath="WUS_HSP/historical">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/historical.nc"/>
+				<documentation type="Summary">This archive contains daily statistically downscaled climate projections and simulated land surface water and energy fluxes for the western United States and southern British Columbia at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling used is the Modified Delta approach (see Littell et al. 2011), based on 10 models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
+				<timeCoverage>
+					<start>1915-01-01T00:00</start>
+					<end>2006-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="Statistically Downscaled Projections 2040s" ID="cida.usgs.gov/thredds/WUS_HSP/SD_A1B_2040s" serviceName="Services" urlPath="WUS_HSP/SD_A1B_2040s">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/SD_A1B_2040s.ncml "/>
+				<documentation type="Summary">This archive contains daily statistically downscaled climate projections and simulated land surface water and energy fluxes for the western United States and southern British Columbia at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling used is the Modified Delta approach (see Littell et al. 2011), based on 10 models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
+				<documentation xlink:href="http://warm.atmos.washington.edu/2860/r7climate/study_report/CBCCSP_chap4_gcm_final.pdf" xlink:title="Note that time-stamps on these data are not in the future. See the statistical downscaling chapter from this report for more information."/>
+			</dataset>
+			<dataset name="Statistically Downscaled Projections 2080s" ID="cida.usgs.gov/thredds/WUS_HSP/SD_A1B_2080s" serviceName="Services" urlPath="WUS_HSP/SD_A1B_2080s">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/SD_A1B_2080s.ncml "/>
+				<documentation type="Summary">This archive contains daily statistically downscaled climate projections and simulated land surface water and energy fluxes for the western United States and southern British Columbia at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling used is the Modified Delta approach (see Littell et al. 2011), based on 10 models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
+				<documentation xlink:href="http://warm.atmos.washington.edu/2860/r7climate/study_report/CBCCSP_chap4_gcm_final.pdf" xlink:title="Note that time-stamps on these data are not in the future. See the statistical downscaling chapter from this report for more information."/>
+			</dataset>
+			<dataset name="Dynamically Downscaled Data, ECHAM5 1970-1999" ID="cida.usgs.gov/thredds/WUS_HSP/WRF_1980s_echam5" serviceName="Services" urlPath="WUS_HSP/WRF_1980s_echam5">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/WRF_1980s_echam5.nc"/>
+				<documentation type="Summary">This archive contains daily dynamically downscaled climate projections and simulated land surface water and energy fluxes for the northwestern United States and part of southern British Columbia (N of about 38 degrees N and W of about 105 degrees W) at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling is based on the Weather Research and Forecasting (WRF) regional model. WRF was run using boundary conditions from the ECHAM5 global model and the SRES A1B emissions scenario, one of the models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4). Climate simulations were performed using an inner grid resolution of 12-km over the region and a 100-year (1970-2070) simulation.</documentation>
+				<timeCoverage>
+					<start>1970-01-01T00:00</start>
+					<end>1999-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="Dynamically Downscaled Projections, ECHAM5 2020s" ID="cida.usgs.gov/thredds/WUS_HSP/WRF_A1B_echam5_2020s" serviceName="Services" urlPath="WUS_HSP/WRF_A1B_echam5_2020s">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/WRF_A1B_2020s_echam5.nc"/>
+				<documentation type="Summary">This archive contains daily dynamically downscaled climate projections and simulated land surface water and energy fluxes for the northwestern United States and part of southern British Columbia (N of about 38 degrees N and W of about 105 degrees W) at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling is based on the Weather Research and Forecasting (WRF) regional model. WRF was run using boundary conditions from the ECHAM5 global model and the SRES A1B emissions scenario, one of the models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4). Climate simulations were performed using an inner grid resolution of 12-km over the region and a 100-year (1970-2070) simulation.</documentation>
+				<timeCoverage>
+					<start>2010-01-01T00:00</start>
+					<end>2039-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="Dynamically Downscaled Projections, ECHAM5 2050s" ID="cida.usgs.gov/thredds/WUS_HSP/WRF_A1B_echam5_2050s" serviceName="Services" urlPath="WUS_HSP/WRF_A1B_echam5_2050s">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/WRF_A1B_2050s_echam5.nc"/>
+				<documentation type="Summary">This archive contains daily dynamically downscaled climate projections and simulated land surface water and energy fluxes for the northwestern United States and part of southern British Columbia (N of about 38 degrees N and W of about 105 degrees W) at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling is based on the Weather Research and Forecasting (WRF) regional model. WRF was run using boundary conditions from the ECHAM5 global model and the SRES A1B emissions scenario, one of the models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4). Climate simulations were performed using an inner grid resolution of 12-km over the region and a 100-year (1970-2070) simulation.</documentation>
+				<timeCoverage>
+					<start>2040-01-01T00:00</start>
+					<end>2069-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<datasetScan name="Direct File Access" ID="cida.usgs.gov/thredds/WUS_HSP/files" serviceName="http" path="WUS_HSP/files" location="/mnt/thredds-optimized/WUS_HSP/"/>
+		</dataset>
+		<catalogRef xlink:title="California Basin Characterization Model Data" xlink:href="CA-BCM-Catalog.xml" name="California Basin Characterization Model Data"/>
+		<dataset name="Integrated Climate and Land-Use Scenarios v1.3" ID="iclus">
+			<metadata inherited="true">
+				<documentation xlink:href="http://www.epa.gov/ncea/global/iclus" xlink:title="Homepage of the ICLUS Project"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Summary">Climate and land-use change are major components of global environmental change with feedbacks between these components. The consequences of these interactions show that land use may exacerbate or alleviate climate change effects. Based on these findings it is important to use land-use scenarios that are consistent with the specific assumptions underlying climate-change scenarios. The Integrated Climate and Land-Use Scenarios (ICLUS) project developed land-use outputs that are based on a downscaled version of the Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) social, economic, and demographic storylines. ICLUS outputs are derived from a pair of models. A demographic model generates county-level population estimates that are distributed by a spatial allocation model (SERGoM v3) as housing density across the landscape. Land-use outputs were developed for the four main SRES storylines and a baseline ('base case'). The model is run for the conterminous USA and output is semi-decadally for each scenario to 2100. In addition to housing density at a 1 hectare spatial resolution, this project also generated estimates of impervious surface at a resolution of 1 square kilometer.</documentation>
+				<documentation type="Reference">U.S. Environmental Protection Agency (EPA). 2010. ICLUS v1.3 User's Manual: ArcGIS Tools and Datasets for Modeling US Housing Density Growth. Global Change Research Program, National Center for Environmental Assessment, Washington, DC; EPA/600/R-09/143F.</documentation>
+				<keyword>Land Surface</keyword>
+				<keyword>Land Use</keyword>
+				<keyword>Land Cover</keyword>
+				<keyword>Housing Density</keyword>
+				<keyword>Housing Classification</keyword>
+				<keyword>Impervious Surface</keyword>
+				<creator>
+					<name>Philip Morefield</name>
+					<contact url="http://www.epa.gov/ncea/global/iclus" email="morefield.philip@epa.gov"/>
+				</creator>
+				<creator>
+					<name>Britta Bierwagen</name>
+					<contact url="http://www.epa.gov/ncea/global/iclus" email="bierwagen.britta@epa.gov"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<serviceName>HTTPServer</serviceName>
+			</metadata>
+			<dataset name="ICLUS v1.3 Impervious Surface Projections for the Conterminous USA" ID="cida.usgs.gov/ICLUS/is" serviceName="Services" urlPath="iclus/is">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<metadata>
+					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B4D34EB4D-FDD9-4612-98DE-3C723B6B0095%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for impervious surface calculations"/>
+				</metadata>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/iclus/is_union.ncml"/>
+			</dataset>
+			<dataset name="ICLUS v1.3 Raw Housing Density Projections for the Conterminous USA" ID="cida.usgs.gov/ICLUS/hd" serviceName="Services" urlPath="iclus/hd">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<metadata>
+					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B5F363F21-CCC1-4ED5-BF53-1C3657AAD505%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for housing density projections"/>
+				</metadata>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/iclus/hd_union.ncml"/>
+			</dataset>
+			<dataset name="ICLUS v1.3 Housing Classification Projections for the Conterminous USA" ID="cida.usgs.gov/ICLUS/hc" serviceName="Services" urlPath="iclus/hc">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<metadata>
+					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B2E953B8B-08A1-42FB-BAAB-1D5C246BC7D0%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for housing density classifications"/>
+				</metadata>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/iclus/hc_union.ncml"/>
+			</dataset>
+			<datasetScan name="ICLUS Complete Files" ID="cida.usgs.gov/ICLUS/files" path="ICLUS/files" location="/mnt/thredds-optimized/iclus/">
+				<filter>
+					<include wildcard="*.tif"/>
+					<include wildcard="*.nc"/>
+					<exclude wildcard="*.ncml"/>
+				</filter>
+				<serviceName>http</serviceName>
+			</datasetScan>
+		</dataset>
+	</dataset>
+	<dataset name="Mean Monthly Evaporation Atlas for the Contiguous 48 United States (1956-1970)" ID="cida.usgs.gov/mows/pe" serviceName="Services" urlPath="mows/pe">
+		<dataType>Grid</dataType>
+		<metadata>
+			<documentation xlink:href="http://www.nws.noaa.gov/oh/hdsc/PMP_related_studies/TR33.pdf" xlink:title="Link to Original TR-33 Report."/>
+			<documentation xlink:href="http://www.nws.noaa.gov/oh/hdsc/PMP_related_studies/TR34.pdf" xlink:title="Link to Original TR-34 Report."/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">TR-33: Maps are presented showing the areal distribution in the contiguous 48 states of evaporation (1) observed from Class A pans from from May through October, (2) estimated for a free water surface (FWS) and (3) estimated for an FWS for the entire year. A map is presented of the coefficients to convert from pan evaporation to FWS evaporation. Sources of data, analyses of the maps, and limitation on their use are described. TR-34: This publication is a compilation of monthly, seasonal, and annual averages of estimated pan evaporation based on observations from Class A pans and on meteorological measurements by the National Weather Service (NWS) and cooperating agencies. It replace Technical Paper No. 13 (U.S. Weather Bureau, Hydrologic Branch, Division of Climatological and Hydrologic Services, 1950). These tabulations were generated from the augmentation of a smaller data set used to develop evaporation maps published in NOAA Technical Report NWS-33, Evaporation Atlas for the Contiguous 48 United States, (Farnsworth et al., 1982). This report and its companion report, the evaporation atlas, should facilitate the determination of monthly values of evaporation at most points in the country.</documentation>
+			<documentation type="Reference">Farnsworth, R.K., Thompson, E.S., and Peck, E.L, 1982, Evaporation atlas for the contiguous 48 United States, NOAA Technical Report NWS 33, National Oceanic and Atmospheric Administration, Washington, DC, p. 27.</documentation>
+			<documentation type="Reference">Farnsworth, R.K. and Thompson, E.S., 1982, Mean monthly, seasonal, and annual pan evaporation for the United States, NOAA Technical Report NWS 34, National Oceanic and Atmospheric Administration, Washington, DC, p. 85.</documentation>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>50</start>
+					<size>-25</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-125</start>
+					<size>60</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1956-01-01T00:00</start>
+				<end>1970-01-01T00:00</end>
+				<resolution>Mean Monthly</resolution>
+			</timeCoverage>
+		</metadata>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/mows/pe/pe.nc">
+			<variable name="pe">
+				<remove type="attribute" name="esri_pe_string"/>
+				<attribute name="long_name" value="Estimated Mean Monthly Evapotranspiration 1956-1970"/>
+			</variable>
+		</netcdf>
+	</dataset>
+	<dataset name="Normal Incident Solar Radiation Atlas" ID="cida.usgs.gov/mows/sr" serviceName="Services" urlPath="mows/sr">
+		<dataType>Grid</dataType>
+		<metadata>
+			<documentation xlink:href="http://www.nrel.gov/gis/data_solar.html" xlink:title="Original Source of Data"/>
+			<documentation xlink:href="http://www.nrel.gov/gis/data/GIS_Data_Technology_Specific/United_States/Solar/metadata/us_ghi.shp.xml" xlink:title="Complete Metadata for Source Dataset."/>
+			<documentation type="Rights">Freely Available. Note Disclaimer: http://www.nrel.gov/disclaimer.html</documentation>
+			<documentation type="Summary">These data were originally downloaded from the National Renewable Energy Laboratory (NREL) web site http://www.nrel.gov/gis/data_solar.html in units of kilowatt-hours per square meter per day and were converted to Langleys per day. 1 Langley per day = 1 calorie per square centimeter per day. or 1 Langley per day = 0.01163 kilowatt-hour per square meter per day. NREL has several different values of solar radiation available, the "global horizontal" data is what is represented by this service. "Global horizontal" means on a surface perpendicular to the radius -- i.e. a horizontal plate, wherever on the Earth you are measuring (or using) it. Please note NREL's disclaimer: http://www.nrel.gov/disclaimer.html</documentation>
+			<documentation type="Reference">http://www.nrel.gov/gis/data_solar.html</documentation>
+			<documentation type="Reference">Perez, R., P. Ineichen, K. Moore, M.Kmiecik, C. Chain, R. George and F. Vignola (2002): A New Operational Satellite-to-Irradiance Model. Solar Energy</documentation>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>50</start>
+					<size>-32</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-161</start>
+					<size>95</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1998-01-01T00:00</start>
+				<end>2009-01-01T00:00</end>
+				<resolution>Mean Monthly</resolution>
+			</timeCoverage>
+		</metadata>
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/mows/sr/sr.nc">
+			<variable name="sr">
+				<remove type="attribute" name="esri_pe_string"/>
+				<attribute name="long_name" value="Horizontal Solar Irradiance"/>
+				<attribute name="units" value="langleys per day"/>
+			</variable>
+		</netcdf>
+	</dataset>
+	<dataset name="Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data">
+		<metadata inherited="true">
+			<documentation xlink:href="http://dx.doi.org/10.1111/jawr.12057" xlink:title="Information on the model used to create this dataset."/>
+			<documentation xlink:href="http://pubs.er.usgs.gov/publication/70048035" xlink:title="Information on validation of the dataset."/>
+			<documentation type="Rights">Freely Available.</documentation>
+			<documentation type="Summary">Actual ET (ETa) is produced using the operational Simplified Surface Energy Balance (SSEBop) model (Senay and others, 2013) for the period 2000 to present. The SSEBop setup is based on the Simplified Surface Energy Balance (SSEB) approach (Senay and others, 2007, 2011) with unique parameterization for operational applications. It combines ET fractions generated from remotely sensed MODIS thermal imagery, acquired every 8 days, with reference ET using a thermal index approach. The unique feature of the SSEBop parameterization is that it uses pre-defined, seasonally dynamic, boundary conditions that are unique to each pixel for the hot/dry and cold/wet reference points.</documentation>
+			<documentation type="Reference">Senay, G. B., Bohms, S., Singh, R. K., Gowda, P. H., Velpuri, N. M., Alemu, H., et al. (2013). Operational evapotranspirationmapping using remote sensing andweather datasets: A new parameterization for the SSEB approach. Journal of the American Water Resources Association, 1–15, http://dx.doi.org/10.1111/jawr.12057.</documentation>
+			<documentation type="Reference">Velpuri, N. M., Senay, G. B., Singh, R. K., Bohms, S., and Verdin, J. P.: A comprehensive evaluation of two MODIS evapotranspiration products over the conterminous United States: Using point and gridded FLUXNET and water balance ET, Remote Sensing of Environment, 139, 35-49, http://dx.doi.org/10.1016/j.rse.2013.07.013, 2013.</documentation>
+			<keyword>Evapotranspiration</keyword>
+			<keyword>Energy Balance</keyword>
+			<keyword>MODIS</keyword>
+			<keyword>Thermal Imagery</keyword>
+			<keyword>Remote Sensing</keyword>
+			<keyword>ETa</keyword>
+			<creator>
+				<name>Stefanie Bohms</name>
+				<contact url="http://eros.usgs.gov/" email="sbohms@usgs.gov"/>
+			</creator>
+			<creator>
+				<name>Gabriel Senay</name>
+				<contact url="http://eros.usgs.gov/" email="senay@usgs.gov"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+		</metadata>
+		<dataset name="Monthly Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data" ID="cida.usgs.gov/ssebopeta/monthly" serviceName="Services" urlPath="ssebopeta/monthly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/ssebopeta/monthlyETa/modis_monthly_ET.ncml"/>
+		</dataset>
+		<dataset name="Annual Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data" ID="cida.usgs.gov/ssebopeta/yearly" serviceName="Services" urlPath="ssebopeta/yearly">
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/ssebopeta/yearlyETa/modis_ET.ncml"/>
+		</dataset>
+		<datasetScan name="Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Files" ID="cida.usgs.gov/ssebopeta/files" serviceName="http" path="ssebopeta/files" location="/mnt/thredds-optimized/ssebopeta/">
+			<filter>
+				<include wildcard="*.tif"/>
+				<include wildcard="*.tar.gz"/>
+				<exclude wildcard="*.ncml"/>
+			</filter>
+		</datasetScan>
+	</dataset>
+	<dataset name="South East Regional Assessment Project Urbanization and Sea Level Projections">
+		<metadata inherited="true">
+			<documentation type="Rights">Freely Available.</documentation>
+			<creator>
+				<name>Curtis Belyea</name>
+				<contact url="http://www.basic.ncsu.edu/" email="cbelyea@ncsu.edu"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+		</metadata>
+		<dataset name="Urban Growth Projection for Southeast Regional Assessment Project" ID="cida.usgs.gov/serap/serap_urb" serviceName="Services" urlPath="serap/serap_urb">
+			<metadata>
+				<documentation type="Summary">This dataset represents the extent of urbanization (for the year indicated) predicted by the model SLEUTH, developed by Dr. Keith C. Clarke, at the University of California, Santa Barbara, Department of Geography and modified by David I. Donato of the United States Geological Survey (USGS) Eastern Geographic Science Center (EGSC). Further model modification and implementation was performed at the Biodiversity and Spatial Information Center at North Carolina State University. Purpose: Urban growth probability extents throughout the 21st century for the Southeast Regional Assessment Project, which encompasses the states of Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee and Virginia and parts of the states of Arkansas, Illinois, Indiana, Louisiana, Maryland, Missouri, Ohio and West Virginia. Credit: Southeast Regional Assessment Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea. Use Limitation: This data set is not intended for site-specific analyses. Interpretations derived from its use are suited for regional and planning purposes only. These data are not intended to be used at scales larger than 1:100,000. Acknowledgment of Biodiversity and Spatial Analysis Center at North Carolina State University is appreciated.</documentation>
+				<documentation type="Reference">Southeast Regional Assessment Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea.</documentation>
+				<keyword>SLEUTH</keyword>
+				<keyword>Urbanization</keyword>
+				<keyword>Prediction</keyword>
+				<keyword>Development</keyword>
+				<keyword>Growth</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/serap/serap_urb_nc/agg.ncml"/>
+		</dataset>
+		<dataset name="Urban Growth Projection for the South Atlantic Migratory Bird Initiative" ID="cida.usgs.gov/serap/sambi_urb" serviceName="Services" urlPath="serap/sambi_urb">
+			<metadata>
+				<documentation type="Summary">This dataset represents the extent of urbanization (for the year indicated) predicted by the model SLEUTH, developed by Dr. Keith C. Clarke, at the University of California, Santa Barbara, Department of Geography and modified by David I. Donato of the United States Geological Survey (USGS) Eastern Geographic Science Center (EGSC). Further model modification and implementation was performed at the Biodiversity and Spatial Information Center at North Carolina State University. Urban growth probability extents throughout the 21st century for the DSL-SAMBI, which encompasses the Atlantic Coastal Plain in the states of Alabama, Florida, Georgia, North Carolina, South Carolina and Virginia. This data set is not intended for site-specific analyses. Interpretations derived from its use are suited for regional and planning purposes only. These data are not intended to be used at scales larger than 1:100,000. Acknowledgment of Biodiversity and Spatial Analysis Center at North Carolina State University is appreciated.</documentation>
+				<documentation type="Reference">Southeast Regional Assessment Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea. Designing Sustainable Landscapes Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea.</documentation>
+				<keyword>SLEUTH</keyword>
+				<keyword>Urbanization</keyword>
+				<keyword>Prediction</keyword>
+				<keyword>Development</keyword>
+				<keyword>Growth</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/serap/sambi_urb_nc/agg.ncml"/>
+		</dataset>
+		<dataset name="Sea Level Projections for the South Atlantic Migratory Bird Initiative" ID="cida.usgs.gov/serap/slamm" serviceName="Services" urlPath="serap/slamm">
+			<metadata>
+				<documentation type="Summary">This dataset is output from the Sea Level Affecting Marshes Model (SLAMM) for the South Atlantic Migratory Bird Initiative (SAMBI) geographic planning region. It represents 10 year increments (ranging from year 2000 - year 2100) for the climate change scenario A1B, A1FI, A2, or B1. The dataset was developed as one component for modeling landscape scale alterations of avian habitats due to climate change. It may also be used as a stand-alone product to illustrate potential changes in marsh and coastal environments due to longterm sea level rise. Model outputs from SLAMM are subject to constraints of the modeling process itself. The Biodiversity and Spatial Information Center (BaSIC) did not create the SLAMM modeling approach and/or algorithims. However, all effort was made to ensure data inputs required by the model are of the highest quality. Certain input parameters may need to be altered to create a more reliable model projection. BaSIC is currently (January 2010) working with cooperators to address such issues. Clough, J. S. 2008. SLAMM 5.0.1. Technical documentation and executable program downloadable from http://www.warrenpinnacle.com/prof/SLAMM/index.html</documentation>
+				<documentation type="Reference">Park, R. A., T. V. Armentano, and C. L. Cloonan. 1986. Predicting the Effects of Sea Level Ris on Coastal Wetlands. Pages 129-152 in J. G. Titus, ed. Effects of Changes in Stratospheric Ozone and Global Climate, Vol. 4: Sea Level Rise. U.S. Environmental Protection Agency, Washington, D.C.</documentation>
+				<keyword>Sea Level Rise</keyword>
+				<keyword>Climate Change</keyword>
+				<keyword>Southeastern United States</keyword>
+				<keyword>SAMBI</keyword>
+				<keyword>SLAMM</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/serap/slamm_nc/slamm_union.ncml"/>
+		</dataset>
+		<datasetScan name="Direct File Access" ID="cida.usgs.gov/serap/files" serviceName="http" path="serap/files" location="/mnt/thredds-optimized/serap/">
+			<!--<filter>
+							<include wildcard="*.tar.gz"/>
+							<exclude wildcard="*.ncml"/>
+						</filter>-->
+		</datasetScan>
+	</dataset>
+	<catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="http://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>
+	<datasetRoot path="misc" location="/mnt/thredds-optimized/misc"/>
+	<datasetRoot path="dcp" location="/mnt/thredds-optimized/dcp_compressed"/>
+	<datasetRoot path="maurer" location="/mnt/thredds-optimized/maurer"/>
+	<datasetRoot path="qpe" location="/mnt/thredds-optimized/qpe"/>
+</catalog>
