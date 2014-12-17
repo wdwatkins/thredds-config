@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="slr2d_out/slr2d.ncml">
+	        <!-- Global Attributes for Dataset Discovery -->
+	        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	        <attribute name="title" type="String" value="Thermosteric Sea Level Rise"/>
+	        <attribute name="summary" type="String" value="These files contain spatial fields of simulated yearly thermosteric sea-level anomalies between 1951-2100 (referenced to year 1800) from a perturbed physics ensemble experiment using the University of Victoria Earth System Model (UVic).  Thermosteric sea-level anomalies are derived from changes in density, which are calculated using the model's temperature and salinity fields.  The ensemble varies 3 parameters controlling the model's equilibrium climate sensitivity (CS), background vertical diffusivity in the ocean (KV), and radiative effects of atmospheric sulfate aerosols (ASC).  These parameters are varied over the following ranges: CS-(1.1, 1.6, 2.2, 2.6, 3.1, 4.0, 5.4, 6.5, 8.2, 11.2); KV-(0.1, 0.2, 0.3, 0.4, 0.5); ASC-(0.00, 0.75, 1.50, 2.25, 3.00).  The unique parameter combination for each ensemble member is reflected in the variable name, where we have multiplied the parameter values by 100 to display as integer values.  For the projection phase of the ensemble (2005-2100), we use atmospheric forcings from the RCP8.5 scenario.  These forcings include atmospheric CO2 concentrations, radiative forcings from non-CO2 greenhouse gases, and spatially resolved changes in albedo associated with direct effects of sulfate aerosols.  See Sriver et al., 2012 for complete discussion."/>
+	        <attribute name="keywords" type="String" value="Thermosteric Sea-Level Rise"/>
+	        <attribute name="id" type="String" value="cida.usgs.gov/thredds/slr2d"/>
+	        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	        <attribute name="cdm_data_type" type="String" value="Grid"/>
+	        <attribute name="date_created" type="String" value="2012-04-12"/>
+	        <attribute name="creator_name" type="String" value="Ryan Sriver"/>
+	        <attribute name="creator_url" type="String" value="http://www.ncsu.edu/"/>
+	        <attribute name="creator_email" type="String" value="rsriver@illinois.edu"/>
+	        <attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	        <attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	        <attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
+	        <attribute name="institution" type="String" value="Developed at Penn State"/>
+	        <attribute name="date_issued" type="String" value="2012-04-12"/>
+	        <attribute name="processing_level" type="String" value="Two processing levels removed from model output"/>
+	        <attribute name="acknowledgement" type="String" value="Sriver, R.L., Urban, N.M, Olson, R., and Keller, K. (2012), Toward a physically plausible upper bound of sea-level rise projections, Climatic Change, 115:893-902, doi:10.1007/s10584-012-0610-6"/>
+	        <attribute name="geospatial_lat_min" type="String" value="-180"/>
+	        <attribute name="geospatial_lat_max" type="String" value="180"/>
+	        <attribute name="geospatial_lon_min" type="String" value="-180" />
+	        <attribute name="geospatial_lon_max" type="String" value="180"/>
+	        <attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+	        <attribute name="time_coverage_end" type="String" value="2100-01-01T00:00"/>
+	        <attribute name="time_coverage_resolution" type="String" value="P1Y"/>
+	        <attribute name="license" type="String" value="Freely available"/>
+	        <!-- end - Global Attributes for Dataset Discovery -->
+	<remove name="history" type="attribute"/>
+</netcdf>

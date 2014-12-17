@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="title" type="String" value="Columbia River Basin Daily MACA-VIC Results SRES"/>
+	<remove name="naming_authority" type="attribute"/>
+	<remove name="Metadata_Link" type="attribute"/>
+	<remove name="keywords_vocabulary" type="attribute"/>
+	<aggregation type="union">
+		<netcdf location="dbcsd_pr_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="precipitation_amount" name="dbcsd__precipitation_amount"/>
+		</netcdf>
+		<netcdf location="macav2_pr_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="precipitation_amount" name="macav2__precipitation_amount"/>
+		</netcdf>
+		<netcdf location="mbcsd_pr_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="precipitation_amount" name="mbcsd__precipitation_amount"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_CRCM_pr_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="precipitation_amount" name="sdbcNARCCAP_CRCM__precipitation_amount"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_MM5I_pr_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="precipitation_amount" name="sdbcNARCCAP_MM5I__precipitation_amount"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_WRFG_pr_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="precipitation_amount" name="sdbcNARCCAP_WRFG__precipitation_amount"/>
+		</netcdf>
+		<netcdf location="dbcsd_rsds_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="surface_downwelling_shortwave_flux_in_air" name="dbcsd__surface_downwelling_shortwave_flux_in_air"/>
+		</netcdf>
+		<netcdf location="macav2_rsds_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="surface_downwelling_shortwave_flux_in_air" name="macav2__surface_downwelling_shortwave_flux_in_air"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_CRCM_rsds_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="surface_downwelling_shortwave_flux_in_air" name="sdbcNARCCAP_CRCM__surface_downwelling_shortwave_flux_in_air"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_MM5I_rsds_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="surface_downwelling_shortwave_flux_in_air" name="sdbcNARCCAP_MM5I__surface_downwelling_shortwave_flux_in_air"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_WRFG_rsds_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="surface_downwelling_shortwave_flux_in_air" name="sdbcNARCCAP_WRFG__surface_downwelling_shortwave_flux_in_air"/>
+		</netcdf>
+		<netcdf location="dbcsd_huss_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="specific_humidity" name="dbcsd__specific_humidity"/>
+		</netcdf>
+		<netcdf location="macav2_huss_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="specific_humidity" name="macav2__specific_humidity"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_CRCM_huss_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="specific_humidity" name="sdbcNARCCAP_CRCM__specific_humidity"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_MM5I_huss_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="specific_humidity" name="sdbcNARCCAP_MM5I__specific_humidity"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_WRFG_huss_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="specific_humidity" name="sdbcNARCCAP_WRFG__specific_humidity"/>
+		</netcdf>
+		<netcdf location="dbcsd_tasmin_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="dbcsd__air_temperature"/>
+		</netcdf>
+		<netcdf location="macav2_tasmin_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="macav2__air_temperature"/>
+		</netcdf>
+		<netcdf location="mbcsd_tasmin_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="mbcsd__air_temperature"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_CRCM_tasmin_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="sdbcNARCCAP_CRCM__air_temperature"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_MM5I_tasmin_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="sdbcNARCCAP_MM5I__air_temperature"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_WRFG_tasmin_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="sdbcNARCCAP_WRFG__air_temperature"/>
+		</netcdf>
+		<netcdf location="dbcsd_tasmax_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="dbcsd__air_temperature"/>
+		</netcdf>
+		<netcdf location="macav2_tasmax_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="macav2__air_temperature"/>
+		</netcdf>
+		<netcdf location="mbcsd_tasmax_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="mbcsd__air_temperature"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_CRCM_tasmax_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="sdbcNARCCAP_CRCM__air_temperature"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_MM5I_tasmax_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="sdbcNARCCAP_MM5I__air_temperature"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_WRFG_tasmax_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="air_temperature" name="sdbcNARCCAP_WRFG__air_temperature"/>
+		</netcdf>
+		<netcdf location="dbcsd_was_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="wind_speed" name="dbcsd__wind_speed"/>
+		</netcdf>
+		<netcdf location="macav2_was_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="wind_speed" name="macav2__wind_speed"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_CRCM_was_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="wind_speed" name="sdbcNARCCAP_CRCM__wind_speed"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_MM5I_was_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="wind_speed" name="sdbcNARCCAP_MM5I__wind_speed"/>
+		</netcdf>
+		<netcdf location="sdbcNARCCAP_WRFG_was_CCSM3e_SRESA2_2041_2070_COLUMBIA.nc">
+			<variable orgName="wind_speed" name="sdbcNARCCAP_WRFG__wind_speed"/>
+		</netcdf>
+	</aggregation>
+</netcdf>

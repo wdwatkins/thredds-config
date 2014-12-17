@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation type="joinExisting" dimName="time">
+                <netcdf location="prism_1890-1899.nc" />
+                <netcdf location="prism_1900-1909.nc" />
+                <netcdf location="prism_1910-1919.nc" />
+                <netcdf location="prism_1920-1929.nc" />
+                <netcdf location="prism_1930-1939.nc" />
+                <netcdf location="prism_1940-1949.nc" />
+                <netcdf location="prism_1950-1959.nc" />
+                <netcdf location="prism_1960-1969.nc" />
+                <netcdf location="prism_1970-1979.nc" />
+                <netcdf location="prism_1980-1989.nc" />
+                <netcdf location="prism_1990-1999.nc" />
+                <netcdf location="prism_2000-2009.nc" />
+                <netcdf location="prism_2010-2019.nc" />
+				<!-- Global Attributes for Dataset Discovery -->
+				<attribute name="acknowledgment" type="String" value="PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed Jan 2012."/>
+				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+				<attribute name="title" type="String" value="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States."/>
+				<attribute name="summary" type="String" value=" This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data. "/>
+				<attribute name="keywords" type="String" value="Atmospheric Temperature, Air Temperature Atmosphere, Precipitation, Rain, Maximum Daily Temperature, Minimum  Daily Temperature"/>
+				<attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+				<attribute name="id" type="String" value="prism/thredds/cida.usgs.gov"/>
+				<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+				<attribute name="cdm_data_type" type="String" value="Grid"/>
+				<attribute name="creator_name" type="String" value="Christopher Daley"/>
+				<attribute name="creator_email" type="String" value="daley@nacse.org"/>
+				<attribute name="publisher_name" type="String" value="PRISM Climate Group"/>
+				<attribute name="publisher_url" type="String" value="http://prism.oregonstate.edu/"/>
+				<attribute name="geospatial_lat_min" type="String" value="24"/>
+				<attribute name="geospatial_lat_max" type="String" value="53"/>
+				<attribute name="geospatial_lon_min" type="String" value="-125"/>
+				<attribute name="geospatial_lon_max" type="String" value="-67"/>
+				<attribute name="time_coverage_start" type="String" value="1895-01-01T00:00"/>
+				<attribute name="time_coverage_end" type="String" value="2011-11-01T00:00"/>
+				<attribute name="time_coverage_resolution" type="String" value="Monthly"/>
+				<attribute name="license" type="String" value="Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information."/>
+				<attribute name="authors" value="PRISM Climate Group"/>
+				<attribute name="institution" value="Oregon State University"/>
+				<!-- end - Global Attributes for Dataset Discovery -->
+        </aggregation>
+</netcdf>

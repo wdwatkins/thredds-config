@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<dimension orgName="x0" name="x" />
+	<dimension orgName="y0" name="y" />
+	<variable orgName="geoX0" name="geoX" shape="x"/>
+	<variable orgName="geoY0" name="geoY" shape="y"/>
+	<variable orgName="crs0" name="crs" />
+	<aggregation dimName="time" type="joinNew">
+		<variableAgg name="I0B0"/>
+		<scan location="./housing_density/hd_iclus_a1" suffix=".tif" />
+	</aggregation>
+	<variable name="time" type="int" shape="time" >
+	    <attribute name="units" value="calendar years since 2005-01-01 00:00"/>
+	    <attribute name="_CoordinateAxisType" value="Time" />
+	       <values start="0" increment="5" />
+	 </variable>
+	<variable orgName="I0B0" name="housing_density_hd_iclus_a1" shape="time y x">
+		<attribute name="grid_mapping" value="crs" />
+		<attribute name="coordinates" value="time geoY geoX" />
+		<remove name="image" type="attribute" />
+		<remove name="band" type="attribute" />
+		<attribute name="missing_value" type="int" value="-2147483648" />
+		<attribute name="units" type="string" value="thousand housing units per hectare" />
+	</variable>
+</netcdf>

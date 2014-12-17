@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf location="./hd_a1.ncml"/>
+		<netcdf location="./hd_a2.ncml"/>
+		<netcdf location="./hd_b1.ncml"/>
+		<netcdf location="./hd_b2.ncml"/>
+		<netcdf location="./hd_bc.ncml"/>
+		<netcdf location="./is_a1.ncml"/>
+		<netcdf location="./is_a2.ncml"/>
+		<netcdf location="./is_b1.ncml"/>
+		<netcdf location="./is_b2.ncml"/>
+		<netcdf location="./is_bc.ncml"/>
+	</aggregation>
+</netcdf>

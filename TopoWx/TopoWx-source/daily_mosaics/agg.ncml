@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf>
+			<aggregation timeUnitsChange="true" dimName="time" type="joinExisting">
+				<scan location="tmax" suffix=".nc" subdirs="false" />		
+			</aggregation>
+		</netcdf>
+		<netcdf>	
+			<aggregation timeUnitsChange="true" dimName="time" type="joinExisting">
+                		<scan location="tmin" suffix=".nc" subdirs="false" />
+        		</aggregation>
+		</netcdf>
+	</aggregation>
+	<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States"/>
+	<attribute name="summary" type="String" value="The TopoWx ('Topography Weather') dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (http://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The interpolation model is open source and information on obtaining model code can be found at http://www.ntsg.umt.edu/project/TopoWx. The following data are available in this archive: 1948-2012 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error)."/>
+	<attribute name="keywords" type="String" value="maximum temperature, minimum temperature, land skin temperature, MODIS, kriging, homogenization, gridded meteorological data"/>
+	<attribute name="id" type="String" value="topowx"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2014-06-13"/>
+	<attribute name="creator_name" type="String" value="Jared Oyler"/>
+	<attribute name="creator_url" type="String" value="http://www.ntsg.umt.edu/"/>
+	<attribute name="creator_email" type="String" value="jared.oyler@ntsg.umt.edu"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://cida-usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="institution" type="String" value="USGS"/>
+	<attribute name="date_issued" type="String" value="2014-07-1"/>
+	<attribute name="project" type="String" value="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States"/>
+	<attribute name="processing_level" type="String" value="Historical Gridded Meteorological Data"/>
+	<attribute name="acknowledgement" type="String" value="Please cite this data as: Oyler JW, Ballantyne A, Jencso K, Sweet M, Running S. Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature. International Journal of Climatology. In Review."/>
+	<attribute name="geospatial_lat_min" type="String" value="24.1"/>
+	<attribute name="geospatial_lat_max" type="String" value="51.2"/>
+	<attribute name="geospatial_lon_min" type="String" value="-125"/>
+	<attribute name="geospatial_lon_max" type="String" value="-99.7"/>
+	<attribute name="time_coverage_start" type="String" value="1948-01-01T00:00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2012-12-31T00:00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P1D"/>
+	<attribute name="license" type="String" value="This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/)."/>
+	<attribute name="history" value="No revisions."/>
+	<!-- end - Global Attributes for Dataset Discovery -->	
+</netcdf>
+
