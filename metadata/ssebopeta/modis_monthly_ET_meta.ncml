@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/ssebopeta/monthlyETa/modis_monthly_ET.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+    <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+    <attribute name="Conventions" type="String" value="CF-1.5" />
+    <attribute name="title" type="String" value="Conterminous U.S. actual evapotranspiration data"/>
+    <attribute name="summary" type="String" value="Actual ET (ETa) is produced using the operational Simplified Surface Energy Balance (SSEBop) model (Senay and others, 2013) for the period 2000 to present. The SSEBop setup is based on the Simplified Surface Energy Balance (SSEB) approach (Senay and others, 2007, 2011) with unique parameterization for operational applications. It combines ET fractions generated from remotely sensed MODIS thermal imagery, acquired every 8 days, with reference ET using a thermal index approach. The unique feature of the SSEBop parameterization is that it uses pre-defined, seasonally dynamic, boundary conditions that are unique to each pixel for the hot/dry and cold/wet reference points."/>
+    <attribute name="keywords" type="String" value=""/>
+    <attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+    <attribute name="id" type="String" value="/pub/dcp/archive/bcca/..."/>
+    <attribute name="naming_authority" type="String" value="gdo-dcp.ucllnl.org"/>
+    <attribute name="cdm_data_type" type="String" value="Grid"/>
+    <attribute name="date_created" type="String" value="February, 2013"/>
+    <attribute name="date_modified" type="String" value="February, 2013"/>
+    <attribute name="creator_name" type="String" value="Gabriel Senay"/>
+    <attribute name="creator_url" type="String" value="http://eros.usgs.gov/"/>
+    <attribute name="creator_email" type="String" value="senay@usgs.gov"/>
+	<attribute name="creator_name" type="String" value="Stefanie Bohms"/>
+    <attribute name="creator_url" type="String" value="http://eros.usgs.gov/"/>
+    <attribute name="creator_email" type="String" value="sbohms@usgs.gov"/>
+    <attribute name="publisher_name" type="String" value="David Blodgett"/>
+    <attribute name="publisher_url" type="String" value="http://cida.usgs.gov/"/>
+    <attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+    <attribute name="institution" type="String" value="U.S. Geological Survey"/>
+    <attribute name="date_issued" type="String" value="February, 2013"/>
+    <attribute name="project" type="String" value="WaterSMART National Water Census"/>
+    <attribute name="processing_level" type="String" value="Refer to documentation."/>
+    <attribute name="acknowledgement" type="String" value="Senay, G.B., M. Budde, J.P. Verdin, and A.M. Melesse, 2007. A coupled remote sensing and simplified surface energy balance approach to estimate actual evapotranspiration from irrigated fields. Special issue: Remote sensing of natural resources and the environment. SENSORS, 1, 979-1000. 	Senay, G.B., M. Budde, J.P. Verdin, 2011. Enhancing the Simplified Surface Energy Balance (SSEB) approach for estimating landscape ET: Validation with the METRIC model. Agricultural Water Management, 98: 606-618. Senay, G.B., S. Bohms, R. Singh, P.A. Gowda,  N.M. Velpuri, H. Alemu and J.P. Verdin, 2013. Operational evapotranspiration mapping using remote sensing and weather datasets: A new parameterization for the SSEB approach. Journal of American Water Resources Research. Accepted."/>
+    <attribute name="contributors" type="String" value="Senay, G.B., S. Bohms, R. Singh, P.A. Gowda,  N.M. Velpuri, H. Alemu, J.P. Verdin,  M. Budde and A.M. Melesse."/>
+    <attribute name="geospatial_lat_min" type="String" value="24"/>
+    <attribute name="geospatial_lat_max" type="String" value="49.5"/>
+    <attribute name="geospatial_lon_min" type="String" value="-126"/>
+    <attribute name="geospatial_lon_max" type="String" value="-66.5"/>
+    <attribute name="time_coverage_start" type="String" value="2007-06-16T12:00"/>
+    <attribute name="time_coverage_end" type="String" value="2011-06-16T12:00"/>
+    <attribute name="time_coverage_resolution" type="String" value="P1Y"/> <!--P1M for Monthly -->
+    <attribute name="license" type="String" value="Freely available"/>
+    <!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>	

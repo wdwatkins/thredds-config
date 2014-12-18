@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+    <aggregation type="union">
+		<netcdf location="sresa1b/sresa1b.bccr_bcm2_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_bccr-bcm2-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.bccr_bcm2_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_bccr-bcm2-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_cccma-cgcm3-1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_cccma-cgcm3-1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_cccma-cgcm3-1_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_cccma-cgcm3-1_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_cccma-cgcm3-1_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_cccma-cgcm3-1_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_cccma-cgcm3-1_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_cccma-cgcm3-1_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_cccma-cgcm3-1_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cccma_cgcm3_1.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_cccma-cgcm3-1_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cnrm_cm3.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_cnrm-cm3_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.cnrm_cm3.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_cnrm-cm3_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.csiro_mk3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_csiro-mk3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.csiro_mk3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_csiro-mk3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.gfdl_cm2_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_gfdl-cm2-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.gfdl_cm2_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_gfdl-cm2-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.gfdl_cm2_1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_gfdl-cm2-1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.gfdl_cm2_1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_gfdl-cm2-1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.giss_model_e_r.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_giss-model-e-r_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.giss_model_e_r.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_giss-model-e-r_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.giss_model_e_r.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_giss-model-e-r_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.giss_model_e_r.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_giss-model-e-r_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.inmcm3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_inmcm3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.inmcm3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_inmcm3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ipsl_cm4.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ipsl-cm4_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ipsl_cm4.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ipsl-cm4_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miroc3_2_medres.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_miroc3-2-medres_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miroc3_2_medres.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_miroc3-2-medres_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miroc3_2_medres.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_miroc3-2-medres_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miroc3_2_medres.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_miroc3-2-medres_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miroc3_2_medres.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_miroc3-2-medres_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miroc3_2_medres.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_miroc3-2-medres_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miub_echo_g.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_miub-echo-g_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miub_echo_g.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_miub-echo-g_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miub_echo_g.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_miub-echo-g_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miub_echo_g.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_miub-echo-g_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miub_echo_g.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_miub-echo-g_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.miub_echo_g.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_miub-echo-g_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mpi_echam5.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mpi-echam5_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mpi_echam5.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mpi-echam5_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mpi_echam5.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mpi-echam5_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mpi_echam5.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mpi-echam5_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mpi_echam5.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mpi-echam5_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mpi_echam5.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mpi-echam5_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mri-cgcm2-3-2a_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mri-cgcm2-3-2a_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mri-cgcm2-3-2a_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mri-cgcm2-3-2a_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mri-cgcm2-3-2a_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mri-cgcm2-3-2a_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mri-cgcm2-3-2a_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mri-cgcm2-3-2a_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_mri-cgcm2-3-2a_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.mri_cgcm2_3_2a.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_mri-cgcm2-3-2a_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-ccsm3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-ccsm3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-ccsm3-0_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-ccsm3-0_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-ccsm3-0_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-ccsm3-0_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-ccsm3-0_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-ccsm3-0_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.6.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-ccsm3-0_6_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.6.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-ccsm3-0_6_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.7.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-ccsm3-0_7_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_ccsm3_0.7.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-ccsm3-0_7_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-pcm1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-pcm1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-pcm1_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-pcm1_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-pcm1_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-pcm1_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ncar-pcm1_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ncar_pcm1.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ncar-pcm1_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ukmo_hadcm3.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa1b_ukmo-hadcm3_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa1b/sresa1b.ukmo_hadcm3.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa1b_ukmo-hadcm3_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.bccr_bcm2_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_bccr-bcm2-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.bccr_bcm2_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_bccr-bcm2-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_cccma-cgcm3-1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_cccma-cgcm3-1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_cccma-cgcm3-1_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_cccma-cgcm3-1_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_cccma-cgcm3-1_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_cccma-cgcm3-1_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_cccma-cgcm3-1_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_cccma-cgcm3-1_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_cccma-cgcm3-1_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cccma_cgcm3_1.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_cccma-cgcm3-1_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cnrm_cm3.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_cnrm-cm3_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.cnrm_cm3.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_cnrm-cm3_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.csiro_mk3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_csiro-mk3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.csiro_mk3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_csiro-mk3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.gfdl_cm2_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_gfdl-cm2-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.gfdl_cm2_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_gfdl-cm2-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.gfdl_cm2_1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_gfdl-cm2-1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.gfdl_cm2_1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_gfdl-cm2-1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.giss_model_e_r.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_giss-model-e-r_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.giss_model_e_r.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_giss-model-e-r_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.inmcm3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_inmcm3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.inmcm3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_inmcm3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ipsl_cm4.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ipsl-cm4_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ipsl_cm4.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ipsl-cm4_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miroc3_2_medres.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_miroc3-2-medres_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miroc3_2_medres.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_miroc3-2-medres_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miroc3_2_medres.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_miroc3-2-medres_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miroc3_2_medres.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_miroc3-2-medres_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miroc3_2_medres.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_miroc3-2-medres_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miroc3_2_medres.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_miroc3-2-medres_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miub_echo_g.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_miub-echo-g_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miub_echo_g.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_miub-echo-g_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miub_echo_g.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_miub-echo-g_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miub_echo_g.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_miub-echo-g_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miub_echo_g.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_miub-echo-g_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.miub_echo_g.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_miub-echo-g_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mpi_echam5.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mpi-echam5_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mpi_echam5.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mpi-echam5_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mpi_echam5.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mpi-echam5_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mpi_echam5.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mpi-echam5_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mpi_echam5.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mpi-echam5_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mpi_echam5.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mpi-echam5_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mri-cgcm2-3-2a_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mri-cgcm2-3-2a_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mri-cgcm2-3-2a_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mri-cgcm2-3-2a_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mri-cgcm2-3-2a_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mri-cgcm2-3-2a_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mri-cgcm2-3-2a_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mri-cgcm2-3-2a_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_mri-cgcm2-3-2a_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.mri_cgcm2_3_2a.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_mri-cgcm2-3-2a_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-ccsm3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-ccsm3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-ccsm3-0_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-ccsm3-0_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-ccsm3-0_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-ccsm3-0_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-ccsm3-0_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_ccsm3_0.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-ccsm3-0_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-pcm1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-pcm1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-pcm1_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-pcm1_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-pcm1_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-pcm1_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ncar-pcm1_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ncar_pcm1.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ncar-pcm1_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ukmo_hadcm3.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresa2_ukmo-hadcm3_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresa2/sresa2.ukmo_hadcm3.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresa2_ukmo-hadcm3_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.bccr_bcm2_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_bccr-bcm2-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.bccr_bcm2_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_bccr-bcm2-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_cccma-cgcm3-1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_cccma-cgcm3-1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_cccma-cgcm3-1_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_cccma-cgcm3-1_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_cccma-cgcm3-1_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_cccma-cgcm3-1_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_cccma-cgcm3-1_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_cccma-cgcm3-1_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_cccma-cgcm3-1_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cccma_cgcm3_1.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_cccma-cgcm3-1_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cnrm_cm3.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_cnrm-cm3_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.cnrm_cm3.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_cnrm-cm3_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.csiro_mk3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_csiro-mk3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.csiro_mk3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_csiro-mk3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.gfdl_cm2_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_gfdl-cm2-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.gfdl_cm2_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_gfdl-cm2-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.gfdl_cm2_1.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_gfdl-cm2-1_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.gfdl_cm2_1.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_gfdl-cm2-1_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.giss_model_e_r.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_giss-model-e-r_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.giss_model_e_r.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_giss-model-e-r_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.inmcm3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_inmcm3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.inmcm3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_inmcm3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ipsl_cm4.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ipsl-cm4_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ipsl_cm4.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ipsl-cm4_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miroc3_2_medres.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_miroc3-2-medres_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miroc3_2_medres.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_miroc3-2-medres_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miroc3_2_medres.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_miroc3-2-medres_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miroc3_2_medres.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_miroc3-2-medres_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miroc3_2_medres.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_miroc3-2-medres_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miroc3_2_medres.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_miroc3-2-medres_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miub_echo_g.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_miub-echo-g_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miub_echo_g.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_miub-echo-g_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miub_echo_g.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_miub-echo-g_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miub_echo_g.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_miub-echo-g_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miub_echo_g.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_miub-echo-g_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.miub_echo_g.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_miub-echo-g_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mpi_echam5.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mpi-echam5_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mpi_echam5.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mpi-echam5_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mpi_echam5.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mpi-echam5_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mpi_echam5.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mpi-echam5_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mpi_echam5.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mpi-echam5_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mpi_echam5.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mpi-echam5_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mri-cgcm2-3-2a_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mri-cgcm2-3-2a_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mri-cgcm2-3-2a_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mri-cgcm2-3-2a_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mri-cgcm2-3-2a_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mri-cgcm2-3-2a_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mri-cgcm2-3-2a_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mri-cgcm2-3-2a_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_mri-cgcm2-3-2a_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.mri_cgcm2_3_2a.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_mri-cgcm2-3-2a_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-ccsm3-0_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-ccsm3-0_1_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-ccsm3-0_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-ccsm3-0_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-ccsm3-0_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-ccsm3-0_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.4.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-ccsm3-0_4_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.4.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-ccsm3-0_4_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.5.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-ccsm3-0_5_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.5.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-ccsm3-0_5_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.6.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-ccsm3-0_6_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.6.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-ccsm3-0_6_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.7.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-ccsm3-0_7_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_ccsm3_0.7.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-ccsm3-0_7_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_pcm1.2.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-pcm1_2_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_pcm1.2.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-pcm1_2_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_pcm1.3.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ncar-pcm1_3_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ncar_pcm1.3.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ncar-pcm1_3_Tavg" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ukmo_hadcm3.1.monthly.Prcp.1950-2099.nc">
+			<variable orgName="Prcp" name="sresb1_ukmo-hadcm3_1_Prcp" />
+		</netcdf>
+		<netcdf location="sresb1/sresb1.ukmo_hadcm3.1.monthly.Tavg.1950-2099.nc">
+			<variable orgName="Tavg" name="sresb1_ukmo-hadcm3_1_Tavg" />
+		</netcdf>
+	</aggregation>
+</netcdf>

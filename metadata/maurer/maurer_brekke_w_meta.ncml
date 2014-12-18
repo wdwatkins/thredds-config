@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maurer/maurer_brekke.ncml">
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="acknowledgment" type="String" value="Maurer, E. P., L. Brekke, T. Pruitt, and P. B. Duffy (2007), Fine-resolution climate projections enhance regional climate change impact studies, Eos Trans. AGU, 88(47), 504."/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Bias Corrected Spatially Downscaled Monthly Climate Predictions"/>
+	<attribute name="summary" type="String" value="	This archive contains fine spatial-resolution translations of 112 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report."/>
+	<attribute name="keywords" type="String" value="Atmospheric Temperature, Air Temperature Atmosphere, Precipitation, Rain, Maximum Daily Temperature, Minimum 
+Daily Temperature"/>
+	<attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/thredds/"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2007-01-01"/>
+	<attribute name="date_modified" type="String" value="2007-01-01"/>
+	<attribute name="creator_name" type="String" value="Ed Maurer"/>
+	<attribute name="creator_email" type="String" value="emaurer@scu.edu"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
+	<attribute name="date_issued" type="String" value="2011-07-20"/>
+	<attribute name="project" type="String" value=""/>
+	<attribute name="processing_level" type="String" value="Downscaled GCM simulation"/>
+	<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' In first making reference to the data from this archive, please first reference the CMIP3 dataset by including the phrase 'the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset'. Subsequent references within the same publication might refer to the CMIP3 data with terms such as 'CMIP3 data', 'the CMIP3 multi-model dataset', 'the CMIP3 archive', or the 'CMIP3 dataset'. After acknowledging the CMIP3 data, please reference this archive by using the phrase 'bias-corrected and spatially downscaled climate projections derived from CMIP3 data and served at: http://gdo-dcp.ucllnl.org/downscaled_cmip3_projections/"/>
+	<attribute name="contributors" type="String" value="Levi Brekke, Phil Duffy"/>
+	<attribute name="geospatial_lat_min" type="String" value="24"/>
+	<attribute name="geospatial_lat_max" type="String" value="53"/>
+	<attribute name="geospatial_lon_min" type="String" value="-125"/>
+	<attribute name="geospatial_lon_max" type="String" value="-67"/>
+	<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2099-12-31T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="Monthly"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<attribute name="creation_date" value="Sept, 2009;
+		July-Sept, 2007"/>
+	<attribute name="authors" value="E.Maurer,L.Brekke,T.Pruitt"/>
+	<attribute name="nco_openmp_thread_number" value=""/>
+	<attribute name="Conventions" value="GDT 1.2"/>
+	<attribute name="SurfSgnConvention" value="Traditional"/>
+	<attribute name="institution" value="Santa Clara U., U.S. Bureau of Reclamation, U.S.  Dept. of Energy"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation dimName="day" type="joinExisting" timeUnitsChange="true">
+		<scan location="../gridmet" regExp=".*vs.*"/>
+	</aggregation>
+	<variable name="wind_speed">
+		<attribute name="coordinates" value="day lat lon "/>
+		<remove name="esri_pe_string" type="attribute"/>
+	</variable>
+</netcdf>

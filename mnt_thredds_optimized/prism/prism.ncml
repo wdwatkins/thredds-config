@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation type="joinExisting" dimName="time">
+                <netcdf location="prism_1890-1899.nc" />
+                <netcdf location="prism_1900-1909.nc" />
+                <netcdf location="prism_1910-1919.nc" />
+                <netcdf location="prism_1920-1929.nc" />
+                <netcdf location="prism_1930-1939.nc" />
+                <netcdf location="prism_1940-1949.nc" />
+                <netcdf location="prism_1950-1959.nc" />
+                <netcdf location="prism_1960-1969.nc" />
+                <netcdf location="prism_1970-1979.nc" />
+                <netcdf location="prism_1980-1989.nc" />
+                <netcdf location="prism_1990-1999.nc" />
+                <netcdf location="prism_2000-2009.nc" />
+                <netcdf location="prism_2010-2019.nc" />
+        </aggregation>
+</netcdf>
