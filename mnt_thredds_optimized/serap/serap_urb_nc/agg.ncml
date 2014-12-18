@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation dimName="time" type="joinNew">
+		<variableAgg name="Band1"/>
+		<scan location="./" suffix=".nc" dateFormatMark="serap_urb#yyyy" subdirs="false"/>
+	</aggregation>
+	<variable name="urb_prob" orgName="Band1">
+		<attribute name="long_name" value="Predicted probability of future urbanization"/>
+		<attribute name="units" value="Percent * 10"/>
+	</variable>
+	<variable name="albers_conical_equal_area">
+		<remove name="spatial_ref" type="attribute"/>
+	</variable>
+	<variable name="time" type="int">
+		<attribute name="units" value="calendar years since 2000-01-01" />
+		<attribute name="_CoordinateAxisType" value="Time" />
+		<values>10 20 30 40 50 60 70 80 90 100</values>
+	</variable>
+	<remove name="GDAL_AREA_OR_POINT" type="attribute"/>
+	<remove name="nco_openmp_thread_number" type="attribute"/>
+</netcdf>

@@ -386,12 +386,12 @@
 			<dataset name="BCCA Historical CMIP5 Climate Projections V2" ID="cida.usgs.gov/cmip5_bcca/historical" serviceName="Services" urlPath="cmip5_bcca/historical">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip5/cmip5_historical_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip5_historical_meta.ncml"/>
 			</dataset>
 			<dataset name="BCCA Future CMIP5 Climate Projections V2" ID="cida.usgs.gov/cmip5_bcca/future" serviceName="Services" urlPath="cmip5_bcca/future">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip5/cmip5_future_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip5_future_meta.ncml"/>
 			</dataset>
 		</dataset>
 		<dataset name="Statistically downscaled GCM data using Bias Corrected Constructed Analogs Daily CMIP3 Climate Projections V2">
@@ -439,12 +439,12 @@
 			<dataset name="BCCA Historical CMIP3 Climate Projections V2" ID="cida.usgs.gov/cmip3_bcca/historical" serviceName="Services" urlPath="cmip3_bcca/historical">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip3/cmip3_historical_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip3_historical_meta.ncml"/>
 			</dataset>
 			<dataset name="BCCA Future CMIP3 Climate Projections V2" ID="cida.usgs.gov/cmip3_bcca/future" serviceName="Services" urlPath="cmip3_bcca/future">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip3/cmip3_future_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/bcca/cmip3_future_meta.ncml"/>
 			</dataset>
 		</dataset>
 		<dataset name="1/8 degree-CONUS Monthly Bias Corrected Spatially Downscaled Climate Projections by Maurer, Brekke, Pruitt, and Duffy" ID="cida.usgs.gov/maurer" serviceName="Services" urlPath="maurer/maurer_brekke_w_meta.ncml">
@@ -1119,7 +1119,7 @@
 		<dataset name="Annual Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data" ID="cida.usgs.gov/ssebopeta/yearly" serviceName="Services" urlPath="ssebopeta/yearly">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/ssebopeta/yearlyETa/modis_ET.ncml"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/ssebopeta/modis_ET_meta.ncml"/>
 		</dataset>
 		<datasetScan name="Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Files" ID="cida.usgs.gov/ssebopeta/files" serviceName="http" path="ssebopeta/files" location="/mnt/thredds-optimized/ssebopeta/">
 			<filter>
@@ -1153,7 +1153,7 @@
 			</metadata>
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/serap/serap_urb_nc/agg.ncml"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/serap/serap_urb_nc_meta.ncml"/>
 		</dataset>
 		<dataset name="Urban Growth Projection for the South Atlantic Migratory Bird Initiative" ID="cida.usgs.gov/serap/sambi_urb" serviceName="Services" urlPath="serap/sambi_urb">
 			<metadata>
@@ -1167,7 +1167,7 @@
 			</metadata>
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/serap/sambi_urb_nc/agg.ncml"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/serap/sambi_urb_nc_meta.ncml"/>
 		</dataset>
 		<dataset name="Sea Level Projections for the South Atlantic Migratory Bird Initiative" ID="cida.usgs.gov/serap/slamm" serviceName="Services" urlPath="serap/slamm">
 			<metadata>
@@ -1191,6 +1191,4 @@
 		</datasetScan>
 	</dataset>
 	<catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="http://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>
-	<datasetRoot path="misc" location="/mnt/thredds-optimized/misc"/>
-	<datasetRoot path="dcp" location="/mnt/thredds-optimized/dcp_compressed"/>
 </catalog>
