@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/serap/">	    
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Sea Level Rise Projections for DSL-SAMBI"/>
+	<attribute name="summary" type="String" value="This dataset is output from the Sea Level Affecting Marshes Model (SLAMM) for the South Atlantic Migratory Bird Initiative (SAMBI) geographic planning region. It represents 10 year increments (ranging from year 2000 - year 2100) for the climate change scenario A1B, A1FI, A2, or B1. The dataset was developed as one component for modeling landscape scale alterations of avian habitats due to climate change. It may also be used as a stand-alone product to illustrate potential changes in marsh and coastal environments due to longterm sea level rise. Model outputs from SLAMM are subject to constraints of the modeling process itself. The Biodiversity and Spatial Information Center (BaSIC) did not create the SLAMM modeling approach and/or algorithims. However, all effort was made to ensure data inputs required by the model are of the highest quality. Certain input parameters may need to be altered to create a more reliable model projection. BaSIC is currently (January 2010) working with cooperators to address such issues. Clough, J. S. 2008. SLAMM 5.0.1. Technical documentation and executable program downloadable from http://www.warrenpinnacle.com/prof/SLAMM/index.html"/>
+	<attribute name="keywords" type="String" value="Sea Level Rise, Climate Change, Southeastern United States, SAMBI, SLAMM"/>
+	<attribute name="id" type="String" value="serap/slamm"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2012-03-01"/>
+	<attribute name="creator_name" type="String" value="Curtis M. Belyea"/>
+	<attribute name="creator_url" type="String" value="http://www.basic.ncsu.edu/"/>
+	<attribute name="creator_email" type="String" value="cbelyea@ncsu.edu"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
+	<attribute name="institution" type="String" value="ncsu"/>
+	<attribute name="date_issued" type="String" value="2012-03-01"/>
+	<attribute name="project" type="String" value="Southeast Regional Assessment Project"/>
+	<attribute name="processing_level" type="String" value="Model Result"/>
+	<attribute name="acknowledgement" type="String" value="Park, R. A., T. V. Armentano, and C. L. Cloonan. 1986. Predicting the Effects of Sea Level Ris on Coastal Wetlands. Pages 129-152 in J. G. Titus, ed. Effects of Changes in Stratospheric Ozone and Global Climate, Vol. 4: Sea Level Rise. U.S. Environmental Protection Agency, Washington, D.C."/>
+	<attribute name="geospatial_lat_min" type="String" value="28.292724"/>
+	<attribute name="geospatial_lat_max" type="String" value="38.14274"/>
+	<attribute name="geospatial_lon_min" type="String" value="-85.459682" />
+	<attribute name="geospatial_lon_max" type="String" value="-75.007583"/>
+	<attribute name="time_coverage_start" type="String" value="2010-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2100-01-01T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P10Y"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<attribute name="metadata" type="String" value="http://cida.usgs.gov/thredds/fileServer/serap/files/slamm_metadata_iso19139.xml"/>
+</netcdf>
