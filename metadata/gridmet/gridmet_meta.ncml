@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/gridmet/gridmet.ncml">
-				<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
-				<attribute name="Conventions" value="CF-1.0"/>
-				<attribute name="title" type="String" value="Daily Meteorological data for continental US"/>
-				<attribute name="summary" type="String" value="This archive contains daily surface meteorological (METDATA) data for the Continental United States at 4-km (1/24-deg) resolution. The meteorological variables are maximum/minimum temperature, precipitation amount and duration, maximum/minimum relative humidity,downward shortwave solar radiation, wind speed and direction, and specific humidity. The method utilized here combines desirable spatial attributes of gridded climate data from PRISM and desirable temporal attributes of regional-scale reanalysis and daily gauge-based precipitation from NLDAS-2 to derive a spatially and temporally complete high resolution gridded dataset of surface meteorological variables for the continental US for 1979-2012. Validation of this data suggests that it can serve as a suitable surrogate for landscape-scale ecological modeling across vast unmonitored areas of the US. "/>
-				<attribute name="keywords" type="String" value="daily precipitation, daily precipitation duration, daily maximum temperature, daily minimum temperature, daily downward shortwave solar radiation, daily specific humidity, daily maximum relative humidity, daily minimum relative humidity, daily wind speed, daily wind direction, ClimatologyMeteorologyAtmosphere, Gridded Meteorological Data, EPSCoR Data"/>
-				<attribute name="id" type="String" value="UofIMETDATA"/>
-				<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
-				<attribute name="cdm_data_type" type="String" value="Grid"/>
-				<attribute name="date_created" type="String" value="2012-08-16"/>
-				<attribute name="creator_name" type="String" value="Dr. John Abatzoglou"/>
-				<attribute name="creator_url" type="String" value="http://nimbus.cos.uidaho.edu/METDATA/"/>
-				<attribute name="creator_email" type="String" value="jabatzoglou@uidaho.edu"/>
-				<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-				<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
-				<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
-				<attribute name="institution" type="String" value="University of Idaho"/>
-				<attribute name="date_issued" type="String" value="2012-08-16"/>
-				<attribute name="project" type="String" value="METDATA"/>
-				<attribute name="processing_level" type="String" value="Gridded Meteorogolical Data"/>
-				<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please reference this data by using the phrase -daily gridded meteorological data(METDATA) for the continental US- and by citing the article (Abatzoglou,2012). Further, appropriately acknowledge the National Science Foundation (NSF), Idaho EPSCoR and the individual investigators responsible for the data set."/>
-				<attribute name="contributors" type="String" value="Dr. John Abatzoglou"/>
-				<attribute name="geospatial_lat_min" type="String" value="25.0631"/>
-				<attribute name="geospatial_lat_max" type="String" value="49.3960"/>
-				<attribute name="geospatial_lon_min" type="String" value="-124.7722"/>
-				<attribute name="geospatial_lon_max" type="String" value="-67.0648"/>
-				<attribute name="time_coverage_start" type="String" value="1979-01-01T00:00"/>
-				<attribute name="time_coverage_end" type="String" value="2012-12-31T00:00"/>
-				<attribute name="time_coverage_resolution" type="String" value="P1Y"/>
-				<attribute name="license" type="String" value="Freely available"/>
-				<attribute name="history" value="Original data series published with 320 files. The data series was updated in June, 2012. The total number of files increased from 320 to 330. Ten new files were added; one for each variable for 2011. Additionally, the orginal 320 files were updated for consistent formatting to address some of the issues that a few users found with the previous version. One file in this series (th_1979) was updated by Dr. Abatzoglou on August 14, 2012. The original file would not display in ArcGIS.Thirty-four (34) items in the series were updated on October 5, 2012. The files were tmmx_2011.nc and all the pr* files (pr_1979.nc through pr_2011.nc)."/>
-			</netcdf>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="Conventions" value="CF-1.0"/>
+	<attribute name="title" type="String" value="Daily Meteorological data for continental US"/>
+	<attribute name="summary" type="String" value="This archive contains daily surface meteorological (METDATA) data for the Continental United States at 4-km (1/24-deg) resolution. The meteorological variables are maximum/minimum temperature, precipitation amount and duration, maximum/minimum relative humidity,downward shortwave solar radiation, wind speed and direction, and specific humidity. The method utilized here combines desirable spatial attributes of gridded climate data from PRISM and desirable temporal attributes of regional-scale reanalysis and daily gauge-based precipitation from NLDAS-2 to derive a spatially and temporally complete high resolution gridded dataset of surface meteorological variables for the continental US for 1979-2012. Validation of this data suggests that it can serve as a suitable surrogate for landscape-scale ecological modeling across vast unmonitored areas of the US. "/>
+	<attribute name="keywords" type="String" value="daily precipitation, daily precipitation duration, daily maximum temperature, daily minimum temperature, daily downward shortwave solar radiation, daily specific humidity, daily maximum relative humidity, daily minimum relative humidity, daily wind speed, daily wind direction, ClimatologyMeteorologyAtmosphere, Gridded Meteorological Data, EPSCoR Data"/>
+	<attribute name="id" type="String" value="UofIMETDATA"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2012-08-16"/>
+	<attribute name="creator_name" type="String" value="Dr. John Abatzoglou"/>
+	<attribute name="creator_url" type="String" value="http://nimbus.cos.uidaho.edu/METDATA/"/>
+	<attribute name="creator_email" type="String" value="jabatzoglou@uidaho.edu"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="institution" type="String" value="University of Idaho"/>
+	<attribute name="date_issued" type="String" value="2012-08-16"/>
+	<attribute name="project" type="String" value="METDATA"/>
+	<attribute name="processing_level" type="String" value="Gridded Meteorogolical Data"/>
+	<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please reference this data by using the phrase -daily gridded meteorological data(METDATA) for the continental US- and by citing the article (Abatzoglou,2012). Further, appropriately acknowledge the National Science Foundation (NSF), Idaho EPSCoR and the individual investigators responsible for the data set."/>
+	<attribute name="contributors" type="String" value="Dr. John Abatzoglou"/>
+	<attribute name="geospatial_lat_min" type="String" value="25.0631"/>
+	<attribute name="geospatial_lat_max" type="String" value="49.3960"/>
+	<attribute name="geospatial_lon_min" type="String" value="-124.7722"/>
+	<attribute name="geospatial_lon_max" type="String" value="-67.0648"/>
+	<attribute name="time_coverage_start" type="String" value="1979-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2012-12-31T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P1Y"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<attribute name="history" value="Original data series published with 320 files. The data series was updated in June, 2012. The total number of files increased from 320 to 330. Ten new files were added; one for each variable for 2011. Additionally, the orginal 320 files were updated for consistent formatting to address some of the issues that a few users found with the previous version. One file in this series (th_1979) was updated by Dr. Abatzoglou on August 14, 2012. The original file would not display in ArcGIS.Thirty-four (34) items in the series were updated on October 5, 2012. The files were tmmx_2011.nc and all the pr* files (pr_1979.nc through pr_2011.nc)."/>
+</netcdf>

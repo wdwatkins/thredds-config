@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<remove name="model_id" type="attribute" />
+	<remove name="CDI" type="attribute" />
+	<remove name="NCO" type="attribute" />
+	<remove name="CDO" type="attribute" />
+    <remove name="experiment" type="attribute" />
+    <remove name="experiment_id" type="attribute" />
+    <remove name="parent_experiment" type="attribute" />
+    <remove name="parent_experiment_id" type="attribute" />
+    <remove name="parent_experiment_rip" type="attribute" />
+    <remove name="creation_date" type="attribute" />
 	<aggregation type="union">
 		<netcdf location="../joins/BCCA_0.125deg_pr_day_ACCESS1-0_rcp45_r1i1p1.ncml">
 			<variable orgName="pr" name="BCCA_0-125deg_pr_day_ACCESS1-0_rcp45_r1i1p1">

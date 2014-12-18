@@ -29,12 +29,4 @@
 	<attribute name="time_coverage_end" type="String" value="2100-12-01T00:00"/>
 	<attribute name="time_coverage_resolution" type="String" value="P1D"/>
 	<attribute name="license" type="String" value="Freely available"/>
-	<remove name="nco_openmp_thread_number" type="attribute" />
-	<remove name="CDI" type="attribute" />
-	<remove name="NCO" type="attribute" />
-	<remove name="CDO" type="attribute" />
-    <remove name="creation_date" type="attribute" />
-    <remove name="comment" type="attribute" />
-    <remove name="description" type="attribute" />
-    <remove name="bound" type="attribute" />
 </netcdf>	

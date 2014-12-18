@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<remove name="nco_openmp_thread_number" type="attribute" />
+	<remove name="CDI" type="attribute" />
+	<remove name="NCO" type="attribute" />
+	<remove name="CDO" type="attribute" />
+    <remove name="creation_date" type="attribute" />
+    <remove name="comment" type="attribute" />
+    <remove name="description" type="attribute" />
+    <remove name="bound" type="attribute" />
 	<aggregation type="union">
 		<netcdf location="../joins/cccma_cgcm3_1.gregorian.sresa1b.run1.pr.BCCA_0.125deg.ncml">
 			<variable orgName="pr" name="cccma_cgcm3_1-gregorian-sresa1b-run1-pr-BCCA_0-125deg"/>
