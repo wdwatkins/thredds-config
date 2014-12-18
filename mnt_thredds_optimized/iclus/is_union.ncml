@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf location="./is_a1.ncml"/>
+		<netcdf location="./is_a2.ncml"/>
+		<netcdf location="./is_b1.ncml"/>
+		<netcdf location="./is_b2.ncml"/>
+		<netcdf location="./is_bc.ncml"/>
+	</aggregation>
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="Conventions" type="String" value="CF-1.6"/>
+	<attribute name="title" type="String" value="ICLUS v1.3 Raw Housing Density and Impervious Surface Projections for the Conterminous USA"/>
+	<attribute name="summary" type="String" value="Climate and land-use change are major components of global environmental change with feedbacks between these components. The consequences of these interactions show that land use may exacerbate or alleviate climate change effects. Based on these findings it is important to use land-use scenarios that are consistent with the specific assumptions underlying climate-change scenarios. The Integrated Climate and Land-Use Scenarios (ICLUS) project developed land-use outputs that are based on a downscaled version of the Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) social, economic, and demographic storylines. ICLUS outputs are derived from a pair of models. A demographic model generates county-level population estimates that are distributed by a spatial allocation model (SERGoM v3) as housing density across the landscape. Land-use outputs were developed for the four main SRES storylines and a baseline ('base case'). The model is run for the conterminous USA and output is semi-decadally for each scenario to 2100. In addition to housing density at a 1 hectare spatial resolution, this project also generated estimates of impervious surface at a resolution of 1 square kilometer. Additional metadata for housing density projections is avilable at: https://edg.epa.gov/metadata/rest/document?id=%7B5F363F21-CCC1-4ED5-BF53-1C3657AAD505%7D&amp;xsl=metadata_to_html_full Additional metadata for impervious surface calculations is available at: https://edg.epa.gov/metadata/rest/document?id=%7B4D34EB4D-FDD9-4612-98DE-3C723B6B0095%7D&amp;xsl=metadata_to_html_full"/>
+	<attribute name="keywords" type="String" value="EARTH SCIENCE,LAND SURFACE,LAND USE/LAND COVER"/>
+	<attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+	<attribute name="id" type="String" value="www.epa.gov/ncea/global/iclus"/>
+	<attribute name="naming_authority" type="String" value="www.epa.gov/ncea/global/iclus"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="September, 2010"/>
+	<attribute name="date_modified" type="String" value="September, 2010"/>
+	<attribute name="creator_name" type="String" value="Philip Morefield"/>
+	<attribute name="creator_url" type="String" value="http://www.epa.gov/ncea/global/iclus"/>
+	<attribute name="creator_email" type="String" value="morefield.philip@epa.gov"/>
+	<attribute name="creator_name" type="String" value="Britta Bierwagen"/>
+	<attribute name="creator_url" type="String" value="http://epa.gov/ncea/global/iclus/"/>
+	<attribute name="creator_email" type="String" value="bierwagen.britta@epa.gov"/>
+	<attribute name="publisher_name" type="String" value="David Blodgett"/>
+	<attribute name="publisher_url" type="String" value="http://cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="institution" type="String" value="U.S. Geological Survey"/>
+	<attribute name="date_issued" type="String" value="August, 2013"/>
+	<attribute name="project" type="String" value="Integrated Climate and Land-Use Scenarios (ICLUS)"/>
+	<attribute name="processing_level" type="String" value="Refer to documentation."/>
+	<attribute name="acknowledgement" type="String" value="U.S. Environmental Protection Agency (EPA). 2010. ICLUS v1.3 User's Manual: ArcGIS Tools and Datasets for Modeling US Housing Density Growth. Global Change Research Program, National Center for Environmental Assessment, Washington, DC; EPA/600/R-09/143F."/>
+	<attribute name="contributors" type="String" value="Bierwagen, P.M., Morefield, P.E., Theobald, D.M., Groth, P."/>
+	<attribute name="geospatial_lat_min" type="String" value="6.65223303"/>
+	<attribute name="geospatial_lat_max" type="String" value="61.7110157"/>
+	<attribute name="geospatial_lon_min" type="String" value="-138.21454852"/>
+	<attribute name="geospatial_lon_max" type="String" value="-12.68151645"/>
+	<attribute name="time_coverage_start" type="String" value="2000-01-01T12:00"/>
+	<attribute name="time_coverage_end" type="String" value="2100-01-01T12:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P5Y"/>
+	<attribute name="license" type="String" value="Public domain"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>

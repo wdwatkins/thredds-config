@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
- <aggregation dimName="TIME" type="joinExisting" timeUnitsChange="true">
- <scan location="../wus_16d/" regExp="SD_A1B_2040s_miroc_3.2.*" subdirs="false"/>
- </aggregation>
-</netcdf>

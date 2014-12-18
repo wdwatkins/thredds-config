@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf location="../hayhoe_NAm_pr_latlon.nc" />
+		<netcdf location="../derivative.ensemble_a1b_pr-days_above_threshold.nc" />
+		<netcdf location="../derivative.ensemble_a1fi_pr-days_above_threshold.nc" />
+		<netcdf location="../derivative.ensemble_a2_pr-days_above_threshold.nc" />
+		<netcdf location="../derivative.ensemble_b1_pr-days_above_threshold.nc" />
+	</aggregation>
+</netcdf>

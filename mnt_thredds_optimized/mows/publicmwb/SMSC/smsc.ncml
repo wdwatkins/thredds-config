@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="AWC.nc">
+	<variable name="SMSC">
+		<attribute name="grid_mapping" value="albers_conical_equal_area"/>
+		<attribute name="coordinates" value="N E"/>
+	</variable>
+	<variable name="E">
+		<attribute name="standard_name" value="projection_x_coordinate"/>
+		<attribute name="units" value="m" />
+	</variable>
+	<variable name="N">
+		<attribute name="standard_name" value="projection_y_coordinate"/>
+		<attribute name="units" value="m" />
+	</variable>
+	<variable name="albers_conical_equal_area" type="int">
+		<attribute name="grid_mapping_name" value="albers_conical_equal_area"/>
+		<attribute name="standard_parallel" type="double" value="29.5 45.5"/>
+		<attribute name="latitude_of_projection_origin" type="double" value="23"/>
+		<attribute name="longitude_of_central_meridian" type="double" value="-96"/>
+		<attribute name="false_easting" type="double" value="0"/>
+		<attribute name="false_northing" type="double" value="0"/>
+		<attribute name="longitude_of_prime_meridian" type="double" value="0.0"/>
+		<attribute name="semi_major_axis" type="double" value="6378137.0"/>
+		<attribute name="inverse_flattening" type="double" value="298.257222101"/>
+	</variable>
+	<attribute name="conventions" value="CF-1.4"/>
+</netcdf>

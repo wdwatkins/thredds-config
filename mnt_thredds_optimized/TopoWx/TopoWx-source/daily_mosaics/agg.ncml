@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<netcdf>
+			<aggregation timeUnitsChange="true" dimName="time" type="joinExisting">
+				<scan location="tmax" suffix=".nc" subdirs="false" />		
+			</aggregation>
+		</netcdf>
+		<netcdf>	
+			<aggregation timeUnitsChange="true" dimName="time" type="joinExisting">
+                		<scan location="tmin" suffix=".nc" subdirs="false" />
+        		</aggregation>
+		</netcdf>
+	</aggregation>
+</netcdf>
+

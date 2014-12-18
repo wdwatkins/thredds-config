@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/gmo/GMO.ncml">
+	<attribute name="history" type="String" value="2002 - created by E Maurer et. al. 2007 - converted to netCDF by E Maurer      2010-04-23 - D Blodgett added attributes for dataset discovery"/>
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="acknowledgment" type="String" value="Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United 
+States, J. Climate 15(22), 3237-3251"/>
+	<attribute name="title" type="String" value="Gridded Observed Meteorological Data, 1950-1999"/>
+	<attribute name="summary" type="String" value="These daily gridded observations at 
+1/8 degree spatial resolution (about 12 km) are a baseline dataset to be compared to 
+downscaled climate predictions. The grid used is the same as has been used by other 1/8th 
+degree spatial resolution downscaling projects."/>
+	<attribute name="comment" type="String" value="This dataset has primarily been used 
+to calibrate environmental process models which will be driven by downscaled climate 
+projections for climate impacts prediction."/>
+	<attribute name="keywords" type="String" value="Atmosphere, Atmospheric Winds, Surface Winds Atmosphere, Atmospheric Temperature, Air Temperature Atmosphere,  
+Precipitation, Rain"/>
+	<attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+	<attribute name="id" type="String" value="internal.cida.usgs.gov/thredds/GMO.ncml"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2005-09-22T00:00"/>
+	<attribute name="creator_name" type="String" value="E. Maurer"/>
+	<attribute name="creator_url" type="String" value="http://www.engr.scu.edu/~emaurer/data.shtml"/>
+	<attribute name="creator_email" type="String" value="emaurer@engr.scu.edu"/>
+	<attribute name="institution" type="String" value="Civil Engineering Department - Santa Clara University"/>
+	<attribute name="project" type="String" value=""/>
+	<attribute name="processing_level" type="String" value=""/>
+	<attribute name="acknowledgement" type="String" value="Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United States, J. Climate 15(22), 3237-3251"/>
+	<attribute name="geospatial_lat_min" type="String" value="24"/>
+	<attribute name="geospatial_lat_max" type="String" value="53"/>
+	<attribute name="geospatial_lon_min" type="String" value="-125"/>
+	<attribute name="geospatial_lon_max" type="String" value="-67"/>
+	<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="1999-12-31T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P1D"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>

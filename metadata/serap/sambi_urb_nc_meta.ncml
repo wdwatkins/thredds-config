@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/serap/sambi_urb_nc/agg.ncml">	
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Urban Growth Projection for DSL-SAMBI"/>
+	<attribute name="summary" type="String" value="This dataset represents the extent of urbanization (for the year indicated) predicted by the model SLEUTH, developed by Dr. Keith C. Clarke, at the University of California, Santa Barbara, Department of Geography and modified by David I. Donato of the United States Geological Survey (USGS) Eastern Geographic Science Center (EGSC). Further model modification and implementation was performed at the Biodiversity and Spatial Information Center at North Carolina State University. Urban growth probability extents throughout the 21st century for the DSL-SAMBI, which encompasses the Atlantic Coastal Plain in the states of Alabama, Florida, Georgia, North Carolina, South Carolina and Virginia. This data set is not intended for site-specific analyses. Interpretations derived from its use are suited for regional and planning purposes only. These data are not intended to be used at scales larger than 1:100,000. Acknowledgment of Biodiversity and Spatial Analysis Center at North Carolina State University is appreciated."/>
+	<attribute name="keywords" type="String" value="SLEUTH, Urbanization, Prediction, Development, Growth, Model, Project Gigalopolis"/>
+	<attribute name="id" type="String" value="sambi_urb"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2012-03-01"/>
+	<attribute name="creator_name" type="String" value="Curtis M. Belyea"/>
+	<attribute name="creator_url" type="String" value="http://www.basic.ncsu.edu/"/>
+	<attribute name="creator_email" type="String" value="cbelyea@ncsu.edu"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
+	<attribute name="institution" type="String" value="ncsu"/>
+	<attribute name="date_issued" type="String" value="2012-03-01"/>
+	<attribute name="project" type="String" value="Southeast Regional Assessment Project"/>
+	<attribute name="processing_level" type="String" value="Model Result"/>
+	<attribute name="acknowledgement" type="String" value="Southeast Regional Assessment Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea. Designing Sustainable Landscapes Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea."/>
+	<attribute name="geospatial_lat_min" type="String" value="28.271632"/>
+	<attribute name="geospatial_lat_max" type="String" value="38.162486"/>
+	<attribute name="geospatial_lon_min" type="String" value="-85.48252" />
+	<attribute name="geospatial_lon_max" type="String" value="-74.980784"/>
+	<attribute name="time_coverage_start" type="String" value="2010-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2100-01-01T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="P10Y"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<attribute name="history" value="Original ArcGIS grids were converted to NetCDF with gdaltranslate. The data were then changed to make them appropriate for aerial summary statistics calculation; that is, noData was set to zero in the domain of the dataset, a noData mask was applied outside the modeled domain, and the original urbanization extent (which was represented as 1) was set to 100%. For information preceding this modification, see the metadata in the original ArcGIS formatted data here: http://cida.usgs.gov/thredds/catalog.html"/>
+</netcdf>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/wicci/cmip3/ncml/sres_01.ncml">	
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Daily Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains."/>
+	<attribute name="summary" type="String" value="This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4)."/>
+	<attribute name="keywords" type="String" value="daily precipitation, daily maximum temperature, daily minimum temperature, downscaled climate projection"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/thredds/wicci"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="2012-04-12"/>
+	<attribute name="creator_name" type="String" value="David Lorenz"/>
+	<attribute name="creator_url" type="String" value="http://ccr.aos.wisc.edu/about/Personnel/faculty_staff/lorenz_david.php"/>
+	<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
+	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
+	<attribute name="date_issued" type="String" value="2012-01-01"/>
+	<attribute name="project" type="String" value=""/>
+	<attribute name="processing_level" type="String" value="Downscaled Climate Model Simulations"/>
+	<attribute name="acknowledgement" type="String" value="Whenever you publish research based on data from this archive, please include the following acknowledgement of the superceding CMIP3 effort: 'We acknowledge the modeling groups, the Program for Climate Model Diagnosis and Intercomparison (PCMDI) and the WCRP's Working Group on Coupled Modelling (WGCM) for their roles in making available the WCRP CMIP3 multi-model dataset. Support of this dataset is provided by the Office of Science, U.S. Department of Energy.' After acknowledging the CMIP3 data, please reference this archive by using the phrase 'daily statistically downscaled climate projections for the US and southern Canada east of the Rocky Mountains.'"/>
+	<attribute name="contributors" type="String" value="Dan Vimont, Mike Notaro, Steve Vavrus"/>
+	<attribute name="geospatial_lat_min" type="String" value="24.6"/>
+	<attribute name="geospatial_lat_max" type="String" value="54.7"/>
+	<attribute name="geospatial_lon_min" type="String" value="-115.3"/>
+	<attribute name="geospatial_lon_max" type="String" value="-67.0"/>
+	<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2100-12-31T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+	<attribute name="license" type="String" value="Freely available"/>
+</netcdf>

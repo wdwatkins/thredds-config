@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<variable orgName="Band1" name="urb">
+		<attribute name="long_name" value="Urban Growth SAMBI-DSL" />
+		<attribute name="units" value="percent" />
+		<attribute name="name" value="urb" />
+	</variable>
+	<variable name="x">
+		<attribute name="_CoordinateAxisType" value="GeoX" />
+	</variable>
+	<variable name="y">
+		<attribute name="_CoordinateAxisType" value="GeoY" />
+	</variable>
+	<variable name="time" type="int">
+		<attribute name="units" value="calendar years since 2000-01-01" />
+		<attribute name="_CoordinateAxisType" value="Time" />
+		<values>10 20 30 40 50 60 70 80 90 100</values>
+	</variable>
+	<variable name="albers_conical_equal_area">
+		<remove name="spatial_ref" type="attribute"/>
+	</variable>
+	<aggregation type="joinNew" dimName="time">
+		<variableAgg name="Band1" />
+		<scan location="./" suffix=".nc" dateFormatMark="sambi_urb#yyyy" subdirs="false"/>
+	</aggregation>
+	<remove name="GDAL_AREA_OR_POINT" type="attribute"/>
+	<remove name="nco_openmp_thread_number" type="attribute"/>
+</netcdf>
