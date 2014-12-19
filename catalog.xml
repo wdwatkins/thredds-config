@@ -603,7 +603,7 @@
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/slr2d/slr2d_meta.ncml"/>
 		</dataset>
 		<dataset name="National RFC QPE Mosaic Archive" ID="cida.usgs.gov/thredds/qpe/anational" serviceName="Services" urlPath="qpe/anational_w_meta.ncml">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/qpe/anational_w_meta.ncml">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/qpe/anational_w_meta.ncml"/>
 			<dataFormat>NetCDF-Grid</dataFormat>
 			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
 			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
@@ -673,7 +673,7 @@
 			</timeCoverage>
 		</dataset>
 		<dataset name="Ohio River Forecasting Center QPE Archive" ID="cida.usgs.gov/thredds/qpe/aohrfcqpe" serviceName="Services" urlPath="qpe/aohrfcqpe_w_meta.ncml">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/qpe/aohrfcqpe_w_meta.ncml">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/qpe/aohrfcqpe_w_meta.ncml"/>
 			<dataFormat>NetCDF-Grid</dataFormat>
 			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
 			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
