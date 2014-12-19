@@ -22,7 +22,14 @@ In the catalog.xml inventory, datasets where previous direct linkages to a union
 
 Also required when a dataset provides a direct linkage to an ncml file in the urlPath, are empty directories in the root level of the implementation, so that the server rewrite rules do not cause issues.
 
+### mnt_thredds_optimized
+Mirrors the data directory and contains join/union ncml files that were likely created by scripts. As time wears on, the scripts to create these files will be incorporated into these folders in some way.
 
+### metadata
+Contains metadata 'wrapper' ncml files for all 'datasets'. Each folder represents a 'collection'. These files contain absolute paths to files on the server.
+
+# gmo, maurer, qpe
+These directories are needed to account for an implementation detail of THREDDS that would require changing service urls to overcome. They are empty and should go away once the urls have been changed.
 
 
   
