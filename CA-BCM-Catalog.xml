@@ -69,7 +69,7 @@ The following data are available in this archive: Raw, monthly model output for 
 				<end>2010-12-31T00:00:00</end>
 				<resolution>Monthly</resolution>
 			</timeCoverage>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/CA-BCM-2014/ca_bcm_2014_union_HST_meta.ncml"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/CA-BCM-2014/ca_bcm_2014_union_HST_meta.ncml"/>
 		</dataset>
 		<dataset name="Future California Basin Characterization Model Downscaled Climate and Hydrology" ID="cida.usgs.gov/CA-BCM-2014/future" serviceName="Services" urlPath="CA-BCM-2014/future">
 			<timeCoverage>
@@ -77,7 +77,7 @@ The following data are available in this archive: Raw, monthly model output for 
 				<end>2100-12-31T00:00:00</end>
 				<resolution>Monthly</resolution>
 			</timeCoverage>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/CA-BCM-2014/ca_bcm_2014_union_meta.ncml"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/CA-BCM-2014/ca_bcm_2014_union_meta.ncml"/>
 		</dataset>
 		<datasetScan name="Files" ID="cida.usgs.gov/CA-BCM-2014" path="CA-BCM-2014" location="/mnt/thredds-optimized/CA-BCM-2014/">
                         <metadata inherited="true">
