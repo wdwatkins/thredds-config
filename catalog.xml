@@ -448,6 +448,7 @@
 			</dataset>
 		</dataset>
 		<dataset name="1/8 degree-CONUS Monthly Bias Corrected Spatially Downscaled Climate Projections by Maurer, Brekke, Pruitt, and Duffy" ID="cida.usgs.gov/maurer" serviceName="Services" urlPath="maurer/maurer_brekke_w_meta.ncml">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/maurer_brekke_w_meta.ncml"/>
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
 			<documentation xlink:href="http://www.agu.org/pubs/eos-news/supplements/2007/47-504.shtml" xlink:title="Report Describing Data Processing"/>
