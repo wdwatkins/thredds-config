@@ -262,10 +262,10 @@
 				<resolution>Daily</resolution>
 			</timeCoverage>
 			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx" serviceName="Services" urlPath="topowx">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/daily/topowx_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/topowx_meta.ncml"/>
 			</dataset>
 			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx_normals" serviceName="Services" urlPath="topowx_normals">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWX/monthly/topowx_normals.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWX/topowx_normals.ncml"/>
 			</dataset>
 		</dataset>
 		<dataset name="Statistical Asynchronous Regional Regression Daily Downscaled Climate Projections" ID="dcp">
@@ -751,7 +751,7 @@
 					<end>2000-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/20c3m.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/20c3m_meta.ncml" />
 			</dataset>
 			<dataset name="2046-2065 - Daily" ID="cida.usgs.gov/wicci/cmip3/sres_early" serviceName="Services" urlPath="wicci/cmip3/sres_early">
 				<timeCoverage>
@@ -759,7 +759,7 @@
 					<end>2065-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_01.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_01_meta.ncml" />
 			</dataset>
 			<dataset name="2081-2100 - Daily" ID="cida.usgs.gov/wicci/cmip3/sres_late" serviceName="Services" urlPath="wicci/cmip3/sres_late">
 				<timeCoverage>
@@ -767,7 +767,7 @@
 					<end>2100-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_02.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_02_meta.ncml" />
 			</dataset>
 			<dataset name="1961-2000 Climatology" ID="cida.usgs.gov/wicci/cmip3/20c3m_clmtlgy" serviceName="Services" urlPath="wicci/cmip3/20c3m_clmtlgy">
 				<timeCoverage>
