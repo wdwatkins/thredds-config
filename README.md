@@ -5,7 +5,7 @@ This is a work in progress, we will be adding thredds configuration and document
 
 All metadata, union and join files are now stored in Stash. 
 
-Metadata about each collection of datasets are statically included in the Dataset Inventory Catalog (catalog.xml) file using the XML namespace for THREDDS InvCatalog markup language version 1.0. The standard tags in the file are used to generate a catalog web site on the CIDA THREDDS server for service exploration. 
+Metadata about each collection of datasets are statically included in the Dataset Inventory Catalog (catalog.xml) file using the XML namespace for [THREDDS InvCatalog](http://www.unidata.ucar.edu/software/thredds/current/tds/catalog/index.html) markup language version 1.0. The standard tags in the file are used to generate a catalog web site on the CIDA THREDDS server for service exploration. 
 
 Each dataset-specific metadata link included within its collection points to the location of metadata about the specific netcdf dataset. Dataset-specific metadata are stored in Stash in /metadata/[collection]/[dataset].ncml files. 
 
