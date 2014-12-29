@@ -1,1 +1,3 @@
 This directory is meant to mirror the data directory as closely as possible.  Eventually this will either go away or we will use it to deploy data changes.
+
+Scripts that create these ncmls have been moved into directories relative to the ncmls them selves. These were used in a manual workflow to generate ncmls. There is NO guarantee that these scripts can be used to recreate these ncml files. Some manual intervention (find and replace, etc.) may have occurred.
