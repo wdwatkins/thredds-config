@@ -64,43 +64,43 @@
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism/prism_meta.ncml"/>
 		</dataset>
 		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. Accessed October 2014" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
-				<dataType>Grid</dataType>
-				<dataFormat>NcML</dataFormat>
-				<documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
-				<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
-				<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
-				<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2014</documentation>
-				<keyword>Surface Winds Atmosphere</keyword>
-				<keyword>Air Temperature Atmosphere</keyword>
-				<keyword>Precipitation</keyword>
-				<keyword>Rain</keyword>
-				<keyword>Downscaled Climate Projection</keyword>
-				<creator>
-						<name>PRISM Climate Group</name>
-						<contact url="http://prism.oregonstate.edu/" email="gibson@nacse.org"/>
-				</creator>
-				<publisher>
-						<name>CIDA</name>
-						<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
-				</publisher>
-				<geospatialCoverage>
-						<northsouth>
-								<start>53</start>
-								<size>-29</size>
-								<units>degrees_north</units>
-						</northsouth>
-						<eastwest>
-								<start>-125</start>
-								<size>58</size>
-								<units>degrees_east</units>
-						</eastwest>
-				</geospatialCoverage>
-				<timeCoverage>
-						<start>1895-01-01T00:00</start>
-						<end>2013-12-01T00:00</end>
-						<resolution>1 Month</resolution>
-				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism_v2/prism_v2_meta.ncml"/>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
+			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
+			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
+			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2014</documentation>
+			<keyword>Surface Winds Atmosphere</keyword>
+			<keyword>Air Temperature Atmosphere</keyword>
+			<keyword>Precipitation</keyword>
+			<keyword>Rain</keyword>
+			<keyword>Downscaled Climate Projection</keyword>
+			<creator>
+				<name>PRISM Climate Group</name>
+				<contact url="http://prism.oregonstate.edu/" email="gibson@nacse.org"/>
+			</creator>
+			<publisher>
+				<name>CIDA</name>
+				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>53</start>
+					<size>-29</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-125</start>
+					<size>58</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+			<timeCoverage>
+				<start>1895-01-01T00:00</start>
+				<end>2013-12-01T00:00</end>
+				<resolution>1 Month</resolution>
+			</timeCoverage>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism_v2/prism_v2_meta.ncml"/>
 		</dataset>
 		<dataset name="Gridded Meteorological Observations 1950-1999" ID="cida.usgs.gov/thredds/gmo/GMO" serviceName="Services" urlPath="gmo/GMO_w_meta.ncml">
 			<dataFormat>NetCDF-Grid</dataFormat>
@@ -487,13 +487,12 @@
 				<resolution>1 Month</resolution>
 			</timeCoverage>
 		</dataset>
-		<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections">
+		<dataset name="Bias Corrected Spatially Downscaled (BCSD) Monthly CMIP5 Climate Projections">
 			<metadata inherited="true">
 				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/" xlink:title="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections"/>
 				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
-				<documentation type="Summary">This archive contains 234 projections of monthly BCSD CMIP5 projections of precipitation and monthly means of daily-average, daily maximum and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/</documentation>
-				<documentation type="Reference">Wood AW, Maurer EP, Kumar A, Lettenmaier DP, 2002, J Geophys Res 107(D20):4429 and 
-			Wood AW, Leung LR, Sridhar V, Lettenmaier DP, 2004, Clim Change 62:189:216</documentation>
+				<documentation type="Summary">This archive contains 234 projections of monthly BCSD CMIP5 projections of precipitation and monthly means of daily-average, daily maximum and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ Notice: This dataset contains several collections. Each collection is a unique set of variables (GCM-Scenario-temp/precip combinations) which are available for different date ranges. To access the full ensemble, you must access the data from each of the collections.</documentation>
+				<documentation type="Reference">Wood AW, Maurer EP, Kumar A, Lettenmaier DP, 2002, J Geophys Res 107(D20):4429 and Wood AW, Leung LR, Sridhar V, Lettenmaier DP, 2004, Clim Change 62:189:216</documentation>
 				<keyword>Downscaled Climate Projection</keyword>
 				<keyword>Air Temperature Atmosphere</keyword>
 				<keyword>Precipitation</keyword>
@@ -527,44 +526,84 @@
 					<resolution>1 Month</resolution>
 				</timeCoverage>
 			</metadata>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections 12-2005 - 11-2099" ID="cida.usgs.gov/cmip5_bcsd/future_1" serviceName="Services" urlPath="cmip5_bcsd/future_1">
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 1 12-2005 - 11-2099" ID="cida.usgs.gov/cmip5_bcsd/future_1" serviceName="Services" urlPath="cmip5_bcsd/future_1">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2005-12-01T00:00</start>
+					<end>2099-11-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_1_meta.ncml"/>
 			</dataset>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections 01-2006 - 12-2100" ID="cida.usgs.gov/cmip5_bcsd/future_2" serviceName="Services" urlPath="cmip5_bcsd/future_2">
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 2 01-2006 - 12-2100" ID="cida.usgs.gov/cmip5_bcsd/future_2" serviceName="Services" urlPath="cmip5_bcsd/future_2">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2006-01-01T00:00</start>
+					<end>2100-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_2_meta.ncml"/>
 			</dataset>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-2006 - 12-2099" ID="cida.usgs.gov/cmip5_bcsd/future_3" serviceName="Services" urlPath="cmip5_bcsd/future_3">
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 3 01-2006 - 12-2099" ID="cida.usgs.gov/cmip5_bcsd/future_3" serviceName="Services" urlPath="cmip5_bcsd/future_3">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2006-01-01T00:00</start>
+					<end>2099-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_3_meta.ncml"/>
 			</dataset>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-2006 - 12-2035" ID="cida.usgs.gov/cmip5_bcsd/future_4" serviceName="Services" urlPath="cmip5_bcsd/future_4">
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 4 01-2006 - 12-2035" ID="cida.usgs.gov/cmip5_bcsd/future_4" serviceName="Services" urlPath="cmip5_bcsd/future_4">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2006-01-01T00:00</start>
+					<end>2035-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_4_meta.ncml"/>
 			</dataset>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-2006 - 12-2035" ID="cida.usgs.gov/cmip5_bcsd/future_5" serviceName="Services" urlPath="cmip5_bcsd/future_5">
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 5 12-2005 - 12-2099" ID="cida.usgs.gov/cmip5_bcsd/future_5" serviceName="Services" urlPath="cmip5_bcsd/future_5">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2005-12-01T00:00</start>
+					<end>2099-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_5_meta.ncml"/>
 			</dataset>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  12-2005 - 12-2100" ID="cida.usgs.gov/cmip5_bcsd/future_6" serviceName="Services" urlPath="cmip5_bcsd/future_6">
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 6 12-2005 - 12-2100" ID="cida.usgs.gov/cmip5_bcsd/future_6" serviceName="Services" urlPath="cmip5_bcsd/future_6">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2005-12-01T00:00</start>
+					<end>2100-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_6_meta.ncml"/>
 			</dataset>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections  01-1950 - 12-2005" ID="cida.usgs.gov/cmip5_bcsd/historical_1" serviceName="Services" urlPath="cmip5_bcsd/historical_1">
+			<dataset name="Historical BCSD Monthly CMIP5 Climate Projections Collection 1 01-1950 - 12-2005" ID="cida.usgs.gov/cmip5_bcsd/historical_1" serviceName="Services" urlPath="cmip5_bcsd/historical_1">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2005-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/historical_1_meta.ncml"/>
 			</dataset>
-			<dataset name="Bias Corrected Spatially Downscaled Monthly CMIP5 Climate Projections 01-1950 - 11-2005" ID="cida.usgs.gov/cmip5_bcsd/historical_2" serviceName="Services" urlPath="cmip5_bcsd/historical_2">
+			<dataset name="Historical BCSD Monthly CMIP5 Climate Projections Collection 2 01-1950 - 11-2005" ID="cida.usgs.gov/cmip5_bcsd/historical_2" serviceName="Services" urlPath="cmip5_bcsd/historical_2">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2005-11-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/historical_2_meta.ncml"/>
 			</dataset>
 		</dataset>
@@ -752,7 +791,7 @@
 					<end>2000-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/20c3m_meta.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/20c3m_meta.ncml"/>
 			</dataset>
 			<dataset name="2046-2065 - Daily" ID="cida.usgs.gov/wicci/cmip3/sres_early" serviceName="Services" urlPath="wicci/cmip3/sres_early">
 				<timeCoverage>
@@ -760,7 +799,7 @@
 					<end>2065-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_01_meta.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_01_meta.ncml"/>
 			</dataset>
 			<dataset name="2081-2100 - Daily" ID="cida.usgs.gov/wicci/cmip3/sres_late" serviceName="Services" urlPath="wicci/cmip3/sres_late">
 				<timeCoverage>
@@ -768,7 +807,7 @@
 					<end>2100-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_02_meta.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_02_meta.ncml"/>
 			</dataset>
 			<dataset name="1961-2000 Climatology" ID="cida.usgs.gov/wicci/cmip3/20c3m_clmtlgy" serviceName="Services" urlPath="wicci/cmip3/20c3m_clmtlgy">
 				<timeCoverage>
@@ -776,7 +815,7 @@
 					<end>2000-12-31T00:00</end>
 					<resolution>Climatology</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/20c3m_mean_cdf_meta.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/20c3m_mean_cdf_meta.ncml"/>
 			</dataset>
 			<dataset name="2046-2065 Climatology" ID="cida.usgs.gov/wicci/cmip3/sres_early_clmtlgy" serviceName="Services" urlPath="wicci/cmip3/sres_early_clmtlgy">
 				<timeCoverage>
@@ -784,7 +823,7 @@
 					<end>2065-12-31T00:00</end>
 					<resolution>Climatology</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_01_mean_cdf_meta.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_01_mean_cdf_meta.ncml"/>
 			</dataset>
 			<dataset name="2081-2100 Climatology" ID="cida.usgs.gov/wicci/cmip3/sres_late_clmtlgy" serviceName="Services" urlPath="wicci/cmip3/sres_late_clmtlgy">
 				<timeCoverage>
@@ -792,7 +831,7 @@
 					<end>2100-12-31T00:00</end>
 					<resolution>Climatology</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_02_mean_cdf_meta.ncml" />
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_02_mean_cdf_meta.ncml"/>
 			</dataset>
 			<datasetScan name="Files" ID="cida.usgs.gov/cmip3/wicci" path="cmip3/wicci" location="/mnt/thredds-optimized/wicci/cmip3/">
 				<metadata inherited="true">
