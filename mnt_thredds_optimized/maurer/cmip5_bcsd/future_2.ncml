@@ -2266,5 +2266,206 @@
 		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r2i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012.nc">
 			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012"/>
 		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r2i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r2i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r2i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp26_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r3i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r3i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r3i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp26/mon/r3i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp26_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r2i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r2i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r2i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r2i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp45_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r3i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r3i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r3i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp45/mon/r3i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp45_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r2i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r2i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r2i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r2i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp85_r2i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r3i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r3i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r3i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-lr/rcp85/mon/r3i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_rcp85_r3i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp26/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp26/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp26/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp26/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-MR_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp45/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp45/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp45/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp45/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-MR_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp85/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp85/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp85/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/rcp85/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-MR_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp26/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp26/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp26/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp26/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_NorESM1-M_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp45/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp45/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp45/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp45/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_NorESM1-M_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp60/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp60/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp60/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp60/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_NorESM1-M_rcp60_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp85/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp85/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp85/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/rcp85/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_NorESM1-M_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp26/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-ME_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-ME_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp26/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-ME_rcp26_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-ME_rcp26_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp45/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-ME_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-ME_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp45/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-ME_rcp45_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-ME_rcp45_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp60/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-ME_rcp60_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-ME_rcp60_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp60/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-ME_rcp60_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-ME_rcp60_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp85/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-ME_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-ME_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/rcp85/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-ME_rcp85_r1i1p1_200601-210012.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-ME_rcp85_r1i1p1_200601-210012"/>
+		</netcdf>
 	</aggregation>
 </netcdf>

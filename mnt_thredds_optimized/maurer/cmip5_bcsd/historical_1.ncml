@@ -919,5 +919,35 @@
 		<netcdf location="../cmip5_bcsd/mpi-esm-lr/historical/mon/r3i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-LR_historical_r3i1p1_195001-200512.nc">
 			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-LR_historical_r3i1p1_195001-200512"/>
 		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/historical/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/historical/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/historical/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/mpi-esm-mr/historical/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_MPI-ESM-MR_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/historical/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-M_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-M_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/historical/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-M_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-M_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/historical/mon/r1i1p1/tasmax/BCSD_0.125deg_tasmax_Amon_NorESM1-M_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="tasmax" name="BCSD_0-125deg_tasmax_Amon_NorESM1-M_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-m/historical/mon/r1i1p1/tasmin/BCSD_0.125deg_tasmin_Amon_NorESM1-M_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="tasmin" name="BCSD_0-125deg_tasmin_Amon_NorESM1-M_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/historical/mon/r1i1p1/pr/BCSD_0.125deg_pr_Amon_NorESM1-ME_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="pr" name="BCSD_0-125deg_pr_Amon_NorESM1-ME_historical_r1i1p1_195001-200512"/>
+		</netcdf>
+		<netcdf location="../cmip5_bcsd/noresm1-me/historical/mon/r1i1p1/tas/BCSD_0.125deg_tas_Amon_NorESM1-ME_historical_r1i1p1_195001-200512.nc">
+			<variable orgName="tas" name="BCSD_0-125deg_tas_Amon_NorESM1-ME_historical_r1i1p1_195001-200512"/>
+		</netcdf>
 	</aggregation>
 </netcdf>
