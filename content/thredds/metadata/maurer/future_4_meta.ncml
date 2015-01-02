@@ -37,15 +37,7 @@
 	<remove name="parent_experiment_id" type="attribute" />
 	<remove name="parent_experiment_rip" type="attribute" />
 	<remove name="creation_date" type="attribute" />
-	<remove name="institution" type="attribute" />
-	<remove name="model_id" type="attribute" />
 	<remove name="frequency" type="attribute" />
-	<remove name="experiment" type="attribute" />
-	<remove name="experiment_id" type="attribute" />
-	<remove name="parent_experiment" type="attribute" />
-	<remove name="parent_experiment_id" type="attribute" />
-	<remove name="parent_experiment_rip" type="attribute" />
-	<remove name="creation_date" type="attribute" />
 	<remove name="history" type="attribute" />
 	<remove name="NCO" type="attribute" />
 </netcdf>		
