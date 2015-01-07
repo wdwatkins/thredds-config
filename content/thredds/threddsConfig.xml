@@ -93,13 +93,13 @@
   CDM uses the DiskCache directory to store temporary files, like uncompressed files. -->
   <DiskCache>
     <alwaysUse>false</alwaysUse>
-    <dir>/mnt/thredds-optimized/cache/cdm</dir>
+	<dir>/opt/tomcat/content/thredds/cache/cdm</dir>
     <scour>-1</scour>
     <maxSize>10 Gb</maxSize>
   </DiskCache>
 
   <FeatureCollection>
-    <dir>/mnt/thredds-optimized/cache/collection</dir>
+    <dir>/opt/tomcat/content/thredds/cache/collection</dir>
     <maxSize>1 Gb</maxSize>
     <jvmPercent>2</jvmPercent>
   </FeatureCollection>
@@ -148,7 +148,7 @@
   <!--
   Persist joinNew aggregations to named directory. scour every 24 hours, delete stuff older than 30 days-->
   <AggregationCache>
-    <dir>/opt/tomcat/instance/prod-8080/content/thredds/cache/agg</dir>
+    <dir>/opt/tomcat/content/thredds/cache/agg</dir>
     <scour>-1</scour>
     <maxAge>-1</maxAge>
   </AggregationCache>
@@ -163,7 +163,7 @@
 
   <NetcdfSubsetService>
     <allow>true</allow>
-    <dir>/mnt/thredds-optimized/cache/ncss</dir>
+	<dir>/opt/tomcat/content/thredds/cache/ncss</dir>
     <scour>10 min</scour>
     <maxAge>60 min</maxAge>
 <!--    <metarDataDir>/opt/tomcat/content/thredds/public/stn/</metarDataDir>
@@ -175,7 +175,7 @@
   <WCS>
     <allow>true</allow>
     <allowRemote>false</allowRemote>
-    <dir>/mnt/thredds-optimized/cache/wcsCache/</dir>
+	<dir>/opt/tomcat/content/thredds/cache/wcsCache/</dir>
     <scour>-1</scour>
     <maxAge>-1</maxAge>
   </WCS>
