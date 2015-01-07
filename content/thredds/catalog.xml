@@ -274,7 +274,7 @@
 				<documentation xlink:href="http://dx.doi.org/10.1002/joc.3603" xlink:title="Report Describing Data Processing Methodology. The third, full piecewise downscaling method was used to produce these data."/>
 				<documentation xlink:href="http://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf" xlink:title="Final Report Describing Data Processing and Quality Control"/>
 				<documentation type="Rights">Freely Available.</documentation>
-				<documentation type="Summary">In this project, we used an advanced statistical downscaling method that combines high-resolution observations with outputs from 16 different global climate models based on 4 future emission scenarios to generate the most comprehensive dataset of daily temperature and precipitation projections available for climate change impacts in the U.S. The gridded dataset covers the continental United States, southern Canada and northern Mexico at one-eighth degree resolution and Alaska at one-half degree resolution. The high-resolution projections produced by this work have been rigorously quality-controlled for both errors and biases in the global climate and statistical downscaling models. We also calculated projected future changes in a broad range of impact-relevant indicators, from seasonal temperature to extreme precipitation days. The results of the error and bias tests and the indicator calculations are made available as part of this database.</documentation>
+				<documentation type="Summary">In this project, we used an advanced statistical downscaling method that combines high-resolution observations with outputs from 16 different global climate models based on 4 future emission scenarios to generate the most comprehensive dataset of daily temperature and precipitation projections available for climate change impacts in the U.S. The gridded dataset covers the continental United States, southern Canada and northern Mexico at one-eighth degree resolution and Alaska at one-half degree resolution. The high-resolution projections produced by this work have been rigorously quality-controlled for both errors and biases in the global climate and statistical downscaling models. We also calculated projected future changes in a broad range of impact-relevant indicators, from seasonal temperature to extreme precipitation days. The results of the error and bias tests and the indicator calculations are made available as part of this database. Note that the CONUS temperature and precipitation data were split into two sub datasets in January 2014. This was done because the precipitation data uses a slightly different longitude axis than the temperature data.</documentation>
 				<documentation type="Reference">Hayhoe, K., Stoner, et al., (2013), Development and Dissemination of a High-Resolution National Climate Change Dataset. http://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf</documentation>
 				<documentation type="Reference">Stoner, A. M. K., Hayhoe, K., Yang, X. and Wuebbles, D. J. (2012), An asynchronous regional regression model for statistical downscaling of daily climate variables. Int. J. Climatol.. doi: 10.1002/joc.3603</documentation>
 				<documentation type="Reference">Dalton, M.S., and Jones, S.A., comps., 2010, Southeast Regional Assessment Project for the National Climate Change and Wildlife Science Center, U.S. Geological Survey: U.S. Geological Survey Open-File Report 2010 - 1213, 38 p.</documentation>
@@ -292,8 +292,29 @@
 					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 			</metadata>
-			<dataset name="1/8 degree-CONUS Daily Downscaled Climate Projections by Katharine Hayhoe" ID="cida.usgs.gov/thredds/dcp/conus" serviceName="Services" urlPath="dcp/conus">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/dcp_compressed/union_conus_meta.ncml"/>
+			<dataset name="1/8 degree-CONUS Daily Downscaled Climate Projections Minimum and Maximum Temperature by Katharine Hayhoe" ID="cida.usgs.gov/thredds/dcp/conus" serviceName="Services" urlPath="dcp/conus">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/dcp_compressed/union_conus_t_meta.ncml"/>
+				<dataFormat>NetCDF-Grid</dataFormat>
+				<geospatialCoverage>
+					<northsouth>
+						<start>53</start>
+						<size>-29</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>58</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+					<start>1960-01-01T00:00</start>
+					<end>2099-12-31T00:00</end>
+					<resolution>1 Hour</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="1/8 degree-CONUS Daily Downscaled Climate Projections Precipitation by Katharine Hayhoe" ID="cida.usgs.gov/thredds/dcp/conus" serviceName="Services" urlPath="dcp/conus">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/dcp_compressed/union_conus_pr_meta.ncml"/>
 				<dataFormat>NetCDF-Grid</dataFormat>
 				<geospatialCoverage>
 					<northsouth>
