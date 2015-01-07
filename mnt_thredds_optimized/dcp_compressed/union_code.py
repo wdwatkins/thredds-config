@@ -57,7 +57,9 @@ for line in lines:
             a.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
         if 'pr' in new_name and 'NAm' in new_name:
             c.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
-        if 'tmin' in new_name or 'tmax' in new_name and 'NAm' in new_name: 
+        if 'tmax' in new_name and 'NAm' in new_name: 
+            d.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
+        if 'tmin' in new_name and 'NAm' in new_name: 
             d.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
 
 c.write('   </aggregation>\n</netcdf>')
