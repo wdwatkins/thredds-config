@@ -48,17 +48,17 @@ for line in lines:
     if '.nc' in line and '.nc.gz' not in line:
         new_name = line[0:-1-13].replace('.','-')
         if 'pr' in new_name:
-            orgName = 'pr' 
-            c.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
+            orgName = 'pr'
         if 'tmin' in new_name:
             orgName = 'tmin' 
-            d.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
         if 'tmax' in new_name:
             orgName = 'tmax' 
-            d.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
         if 'Alas' in line:
             a.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
-            
+        if 'pr' in new_name and 'NAm' in new_name:
+            c.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
+        if 'tmin' in new_name or 'tmax' in new_name and 'NAm' in new_name: 
+            d.write('       <netcdf location="../documentation_and_files/files/'+line[0:-1]+'">\n         <variable orgName="'+orgName+'" name="'+new_name+'" />\n        </netcdf>\n')
 
 c.write('   </aggregation>\n</netcdf>')
 d.write('   </aggregation>\n</netcdf>')
