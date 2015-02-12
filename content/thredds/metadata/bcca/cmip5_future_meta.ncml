@@ -29,4 +29,37 @@
 	<attribute name="time_coverage_end" type="String" value="2100-12-01T00:00"/>
 	<attribute name="time_coverage_resolution" type="String" value="P1D"/>
 	<attribute name="license" type="String" value="Freely available"/>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-CM3_rcp26_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-CM3_rcp60_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-CM3_rcp85_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2G_rcp26_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2G_rcp45_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2G_rcp60_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2G_rcp85_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2M_rcp26_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2M_rcp45_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2M_rcp60_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
+	<variable name="BCCA_0-125deg_tasmax_day_GFDL-ESM2M_rcp85_r1i1p1">
+		<remove name="valid_range" type="attribute"/>
+	</variable>
 </netcdf>	
