@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/new_gmo/GMO.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/new_gmo/GMO.ncml">
 	<attribute name="history" type="String" value="2002 - created by E Maurer et. al. 2007 - converted to netCDF by E Maurer      2010-04-23 - D Blodgett added attributes for dataset discovery"/>
 	<!-- Global Attributes for Dataset Discovery -->
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>

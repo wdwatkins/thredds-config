@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/TopoWx/TopoWx-source/daily_mosaics/agg.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/TopoWx/TopoWx-source/daily_mosaics/agg.ncml">
 	<!-- Global Attributes for Dataset Discovery (These are ncml documented here: http://www.unidata.ucar.edu/software/netcdf-java/formats/DataDiscoveryAttConvention.html)-->
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
 	<attribute name="title" type="String" value="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States"/>
