@@ -607,6 +607,26 @@
 				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_6_meta.ncml"/>
 			</dataset>
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 7 01-2006 - 11-2100" ID="cida.usgs.gov/cmip5_bcsd/future_7" serviceName="Services" urlPath="cmip5_bcsd/future_7">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2005-12-01T00:00</start>
+					<end>2100-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_7_meta.ncml"/>
+			</dataset>
+			<dataset name="Future BCSD Monthly CMIP5 Climate Projections Collection 8 12-2005 - 11-2100" ID="cida.usgs.gov/cmip5_bcsd/future_8" serviceName="Services" urlPath="cmip5_bcsd/future_8">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<timeCoverage>
+					<start>2005-12-01T00:00</start>
+					<end>2100-12-01T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/maurer/future_8_meta.ncml"/>
+			</dataset>
 			<dataset name="Historical BCSD Monthly CMIP5 Climate Projections Collection 1 01-1950 - 12-2005" ID="cida.usgs.gov/cmip5_bcsd/historical_1" serviceName="Services" urlPath="cmip5_bcsd/historical_1">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
