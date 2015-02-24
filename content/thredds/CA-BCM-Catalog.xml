@@ -79,7 +79,7 @@ The following data are available in this archive: Raw, monthly model output for 
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/CA-BCM-2014/ca_bcm_2014_union_meta.ncml"/>
 		</dataset>
-		<datasetScan name="Files" ID="cida.usgs.gov/CA-BCM-2014" path="CA-BCM-2014" location="/mnt/thredds-optimized/CA-BCM-2014/">
+		<datasetScan name="Files" ID="cida.usgs.gov/CA-BCM-2014" path="CA-BCM-2014" location="/mnt/thredds/CA-BCM-2014/">
                         <metadata inherited="true">
                                 <serviceName>Scan_Services</serviceName>
                         </metadata>

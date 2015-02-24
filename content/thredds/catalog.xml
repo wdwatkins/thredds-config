@@ -350,12 +350,12 @@
 					</eastwest>
 				</geospatialCoverage>
 			</dataset>
-			<datasetScan name="Station Downscaling (beta services)" ID="cida.usgs.gov/dcp/stations" path="dcp/stations" location="/mnt/thredds-optimized/hayhoe/archive/final/station_downscaling/">
+			<datasetScan name="Station Downscaling (beta services)" ID="cida.usgs.gov/dcp/stations" path="dcp/stations" location="/mnt/thredds/hayhoe/archive/final/station_downscaling/">
 				<metadata inherited="true">
 					<serviceName>wicci_services</serviceName>
 				</metadata>
 			</datasetScan>
-			<datasetScan name="Documentation and Files" ID="cida.usgs.gov/dcp/files" path="dcp/files" location="/mnt/thredds-optimized/dcp_compressed/documentation_and_files/">
+			<datasetScan name="Documentation and Files" ID="cida.usgs.gov/dcp/files" path="dcp/files" location="/mnt/thredds/dcp_compressed/documentation_and_files/">
 				<serviceName>http</serviceName>
 				<metadata inherited="true">
 					<serviceName>HTTPServer</serviceName>
@@ -854,7 +854,7 @@
 				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/wicci/sres_02_mean_cdf_meta.ncml"/>
 			</dataset>
-			<datasetScan name="Files" ID="cida.usgs.gov/cmip3/wicci" path="cmip3/wicci" location="/mnt/thredds-optimized/wicci/cmip3/">
+			<datasetScan name="Files" ID="cida.usgs.gov/cmip3/wicci" path="cmip3/wicci" location="/mnt/thredds/wicci/cmip3/">
 				<metadata inherited="true">
 					<serviceName>wicci_services</serviceName>
 				</metadata>
@@ -898,7 +898,7 @@
 				</geospatialCoverage>
 			</metadata>
 			<dataset name="Daily MACA-VIC Past" ID="cida.usgs.gov/thredds/MACA-VIC/past" serviceName="Services" urlPath="MACA_VIC/past">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maca-vic/union_20C3M.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/maca-vic/union_20C3M.ncml"/>
 				<timeCoverage>
 					<start>1971-01-01T00:00</start>
 					<end>1999-12-31T00:00</end>
@@ -906,14 +906,14 @@
 				</timeCoverage>
 			</dataset>
 			<dataset name="Daily MACA-VIC Future" ID="cida.usgs.gov/thredds/MACA-VIC/future" serviceName="Services" urlPath="MACA_VIC/future">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/maca-vic/union.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/maca-vic/union.ncml"/>
 				<timeCoverage>
 					<start>2041-01-01T00:00</start>
 					<end>2070-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
 			</dataset>
-			<datasetScan name="Direct File Access" ID="cida.usgs.gov/maca-vic/files" serviceName="http" path="maca-vic/files" location="/mnt/thredds-optimized/maca-vic/"/>
+			<datasetScan name="Direct File Access" ID="cida.usgs.gov/maca-vic/files" serviceName="http" path="maca-vic/files" location="/mnt/thredds/maca-vic/"/>
 		</dataset>
 		<dataset name="Western US Hydroclimate Scenarios Project">
 			<metadata inherited="true">
@@ -960,7 +960,7 @@
 				</geospatialCoverage>
 			</metadata>
 			<dataset name="Daily Observationally-Based Historical Data" ID="cida.usgs.gov/thredds/WUS_HSP/historical" serviceName="Services" urlPath="WUS_HSP/historical">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/historical.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/WUS_HSP/historical.nc"/>
 				<documentation type="Summary">This archive contains daily statistically downscaled climate projections and simulated land surface water and energy fluxes for the western United States and southern British Columbia at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling used is the Modified Delta approach (see Littell et al. 2011), based on 10 models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
 				<timeCoverage>
 					<start>1915-01-01T00:00</start>
@@ -969,17 +969,17 @@
 				</timeCoverage>
 			</dataset>
 			<dataset name="Statistically Downscaled Projections 2040s" ID="cida.usgs.gov/thredds/WUS_HSP/SD_A1B_2040s" serviceName="Services" urlPath="WUS_HSP/SD_A1B_2040s">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/SD_A1B_2040s.ncml "/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/WUS_HSP/SD_A1B_2040s.ncml "/>
 				<documentation type="Summary">This archive contains daily statistically downscaled climate projections and simulated land surface water and energy fluxes for the western United States and southern British Columbia at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling used is the Modified Delta approach (see Littell et al. 2011), based on 10 models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
 				<documentation xlink:href="http://warm.atmos.washington.edu/2860/r7climate/study_report/CBCCSP_chap4_gcm_final.pdf" xlink:title="Note that time-stamps on these data are not in the future. See the statistical downscaling chapter from this report for more information."/>
 			</dataset>
 			<dataset name="Statistically Downscaled Projections 2080s" ID="cida.usgs.gov/thredds/WUS_HSP/SD_A1B_2080s" serviceName="Services" urlPath="WUS_HSP/SD_A1B_2080s">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/SD_A1B_2080s.ncml "/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/WUS_HSP/SD_A1B_2080s.ncml "/>
 				<documentation type="Summary">This archive contains daily statistically downscaled climate projections and simulated land surface water and energy fluxes for the western United States and southern British Columbia at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling used is the Modified Delta approach (see Littell et al. 2011), based on 10 models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
 				<documentation xlink:href="http://warm.atmos.washington.edu/2860/r7climate/study_report/CBCCSP_chap4_gcm_final.pdf" xlink:title="Note that time-stamps on these data are not in the future. See the statistical downscaling chapter from this report for more information."/>
 			</dataset>
 			<dataset name="Dynamically Downscaled Data, ECHAM5 1970-1999" ID="cida.usgs.gov/thredds/WUS_HSP/WRF_1980s_echam5" serviceName="Services" urlPath="WUS_HSP/WRF_1980s_echam5">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/WRF_1980s_echam5.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/WUS_HSP/WRF_1980s_echam5.nc"/>
 				<documentation type="Summary">This archive contains daily dynamically downscaled climate projections and simulated land surface water and energy fluxes for the northwestern United States and part of southern British Columbia (N of about 38 degrees N and W of about 105 degrees W) at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling is based on the Weather Research and Forecasting (WRF) regional model. WRF was run using boundary conditions from the ECHAM5 global model and the SRES A1B emissions scenario, one of the models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4). Climate simulations were performed using an inner grid resolution of 12-km over the region and a 100-year (1970-2070) simulation.</documentation>
 				<timeCoverage>
 					<start>1970-01-01T00:00</start>
@@ -988,7 +988,7 @@
 				</timeCoverage>
 			</dataset>
 			<dataset name="Dynamically Downscaled Projections, ECHAM5 2020s" ID="cida.usgs.gov/thredds/WUS_HSP/WRF_A1B_echam5_2020s" serviceName="Services" urlPath="WUS_HSP/WRF_A1B_echam5_2020s">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/WRF_A1B_2020s_echam5.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/WUS_HSP/WRF_A1B_2020s_echam5.nc"/>
 				<documentation type="Summary">This archive contains daily dynamically downscaled climate projections and simulated land surface water and energy fluxes for the northwestern United States and part of southern British Columbia (N of about 38 degrees N and W of about 105 degrees W) at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling is based on the Weather Research and Forecasting (WRF) regional model. WRF was run using boundary conditions from the ECHAM5 global model and the SRES A1B emissions scenario, one of the models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4). Climate simulations were performed using an inner grid resolution of 12-km over the region and a 100-year (1970-2070) simulation.</documentation>
 				<timeCoverage>
 					<start>2010-01-01T00:00</start>
@@ -997,7 +997,7 @@
 				</timeCoverage>
 			</dataset>
 			<dataset name="Dynamically Downscaled Projections, ECHAM5 2050s" ID="cida.usgs.gov/thredds/WUS_HSP/WRF_A1B_echam5_2050s" serviceName="Services" urlPath="WUS_HSP/WRF_A1B_echam5_2050s">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/WUS_HSP/WRF_A1B_2050s_echam5.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/WUS_HSP/WRF_A1B_2050s_echam5.nc"/>
 				<documentation type="Summary">This archive contains daily dynamically downscaled climate projections and simulated land surface water and energy fluxes for the northwestern United States and part of southern British Columbia (N of about 38 degrees N and W of about 105 degrees W) at 1/16th (0.0625) degree resolution. Climate and hydrologic variables (21 total) are as follows: precipitation, temperature (avg./max./min.), outgoing longwave radiation, incoming shortwave radiation, relative humidity, vapor pressure deficit, evapotranspiration, runoff, baseflow, soil moisture (3-layers), snow water equivalent, snow depth, and potential evapotranspiration (5 vegetation references). The downscaling is based on the Weather Research and Forecasting (WRF) regional model. WRF was run using boundary conditions from the ECHAM5 global model and the SRES A1B emissions scenario, one of the models from Phase 3 of the Coupled Model Intercomparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4). Climate simulations were performed using an inner grid resolution of 12-km over the region and a 100-year (1970-2070) simulation.</documentation>
 				<timeCoverage>
 					<start>2040-01-01T00:00</start>
@@ -1005,7 +1005,7 @@
 					<resolution>1 Day</resolution>
 				</timeCoverage>
 			</dataset>
-			<datasetScan name="Direct File Access" ID="cida.usgs.gov/thredds/WUS_HSP/files" serviceName="http" path="WUS_HSP/files" location="/mnt/thredds-optimized/WUS_HSP/"/>
+			<datasetScan name="Direct File Access" ID="cida.usgs.gov/thredds/WUS_HSP/files" serviceName="http" path="WUS_HSP/files" location="/mnt/thredds/WUS_HSP/"/>
 		</dataset>
 		<catalogRef xlink:title="California Basin Characterization Model Data" xlink:href="CA-BCM-Catalog.xml" name="California Basin Characterization Model Data"/>
 		<dataset name="Integrated Climate and Land-Use Scenarios v1.3" ID="iclus">
@@ -1040,7 +1040,7 @@
 				<metadata>
 					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B4D34EB4D-FDD9-4612-98DE-3C723B6B0095%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for impervious surface calculations"/>
 				</metadata>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/iclus/is_union.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/iclus/is_union.ncml"/>
 			</dataset>
 			<dataset name="ICLUS v1.3 Raw Housing Density Projections for the Conterminous USA" ID="cida.usgs.gov/ICLUS/hd" serviceName="Services" urlPath="iclus/hd">
 				<dataType>Grid</dataType>
@@ -1048,7 +1048,7 @@
 				<metadata>
 					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B5F363F21-CCC1-4ED5-BF53-1C3657AAD505%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for housing density projections"/>
 				</metadata>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/iclus/hd_union.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/iclus/hd_union.ncml"/>
 			</dataset>
 			<dataset name="ICLUS v1.3 Housing Classification Projections for the Conterminous USA" ID="cida.usgs.gov/ICLUS/hc" serviceName="Services" urlPath="iclus/hc">
 				<dataType>Grid</dataType>
@@ -1056,9 +1056,9 @@
 				<metadata>
 					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B2E953B8B-08A1-42FB-BAAB-1D5C246BC7D0%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for housing density classifications"/>
 				</metadata>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/iclus/hc_union.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/iclus/hc_union.ncml"/>
 			</dataset>
-			<datasetScan name="ICLUS Complete Files" ID="cida.usgs.gov/ICLUS/files" path="ICLUS/files" location="/mnt/thredds-optimized/iclus/">
+			<datasetScan name="ICLUS Complete Files" ID="cida.usgs.gov/ICLUS/files" path="ICLUS/files" location="/mnt/thredds/iclus/">
 				<filter>
 					<include wildcard="*.tif"/>
 					<include wildcard="*.nc"/>
@@ -1099,7 +1099,7 @@
 				<resolution>Mean Monthly</resolution>
 			</timeCoverage>
 		</metadata>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/mows/pe/pe.nc">
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/mows/pe/pe.nc">
 			<variable name="pe">
 				<remove type="attribute" name="esri_pe_string"/>
 				<attribute name="long_name" value="Estimated Mean Monthly Evapotranspiration 1956-1970"/>
@@ -1137,7 +1137,7 @@
 				<resolution>Mean Monthly</resolution>
 			</timeCoverage>
 		</metadata>
-		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds-optimized/mows/sr/sr.nc">
+		<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/mows/sr/sr.nc">
 			<variable name="sr">
 				<remove type="attribute" name="esri_pe_string"/>
 				<attribute name="long_name" value="Horizontal Solar Irradiance"/>
@@ -1182,7 +1182,7 @@
 			<dataFormat>NcML</dataFormat>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/ssebopeta/modis_ET_meta.ncml"/>
 		</dataset>
-		<datasetScan name="Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Files" ID="cida.usgs.gov/ssebopeta/files" serviceName="http" path="ssebopeta/files" location="/mnt/thredds-optimized/ssebopeta/">
+		<datasetScan name="Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Files" ID="cida.usgs.gov/ssebopeta/files" serviceName="http" path="ssebopeta/files" location="/mnt/thredds/ssebopeta/">
 			<filter>
 				<include wildcard="*.tif"/>
 				<include wildcard="*.tar.gz"/>
@@ -1244,7 +1244,7 @@
 			<dataFormat>NcML</dataFormat>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/serap/slamm_meta.ncml"/>
 		</dataset>
-		<datasetScan name="Direct File Access" ID="cida.usgs.gov/serap/files" serviceName="http" path="serap/files" location="/mnt/thredds-optimized/serap/">
+		<datasetScan name="Direct File Access" ID="cida.usgs.gov/serap/files" serviceName="http" path="serap/files" location="/mnt/thredds/serap/">
 			<!--<filter>
 							<include wildcard="*.tar.gz"/>
 							<exclude wildcard="*.ncml"/>
