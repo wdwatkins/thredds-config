@@ -25,6 +25,12 @@ f.close()
 f=open('./future_6.ncml','a')
 f.write('<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">\n <aggregation type="union">\n')
 f.close()
+f=open('./future_7.ncml','a')
+f.write('<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">\n <aggregation type="union">\n')
+f.close()
+f=open('./future_8.ncml','a')
+f.write('<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">\n <aggregation type="union">\n')
+f.close()
 open_switch=0
 path_switch=0
 for line in lines:
@@ -56,9 +62,9 @@ for line in lines:
                 elif line[-1-16:-1-3] == '200512-210012':
                     f=open('./future_6.ncml','a')
                 elif line[-1-16:-1-3] == '200601-210011':
-                    f=open('./future_6.ncml','a')
+                    f=open('./future_7.ncml','a')
                 elif line[-1-16:-1-3] == '200512-210011':
-                    f=open('./future_6.ncml','a')
+                    f=open('./future_8.ncml','a')
                 else:
                     print 'Missed a time period: '+line
                 open_switch=1
@@ -99,5 +105,11 @@ f=open('./future_5.ncml','a')
 f.write(' </aggregation>\n</netcdf>')
 f.close()
 f=open('./future_6.ncml','a')    
+f.write(' </aggregation>\n</netcdf>')
+f.close()
+f=open('./future_7.ncml','a')    
+f.write(' </aggregation>\n</netcdf>')
+f.close()
+f=open('./future_8.ncml','a')    
 f.write(' </aggregation>\n</netcdf>')
 f.close()
