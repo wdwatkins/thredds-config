@@ -3,18 +3,18 @@
 	<service name="Services" serviceType="Compound" base="">
 		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
 		<!--<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>-->
-		<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
-		<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
-		<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+		<!--<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>-->
+		<!--<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>-->
+		<!--<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>-->
 		<service name="iso" serviceType="ISO" base="/thredds/iso/"/>
 	</service>
 	        <service name="Scan_Services" serviceType="Compound" base="">
                 <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
                 <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
                 <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
-                <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
-                <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
-                <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+                <!--<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>-->
+                <!--<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>-->
+                <!--<service name="iso" serviceType="ISO" base="/thredds/iso/"/>-->
         </service>
 	<dataset name="California Basin Characterization Model Downscaled Climate and Hydrology">
 		<metadata inherited="true">
