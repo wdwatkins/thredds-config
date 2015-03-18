@@ -36,4 +36,7 @@
     <attribute name="time_coverage_resolution" type="String" value="P1Y"/> <!--P1M for Monthly -->
     <attribute name="license" type="String" value="Freely available"/>
     <!-- end - Global Attributes for Dataset Discovery -->
+	<variable name="et">
+		<attribute name="long_name" type="String" value="Actual Evapotranspiration"/>
+	</variable>
 </netcdf>	
