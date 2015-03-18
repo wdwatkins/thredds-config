@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/iclus/is_union.ncmll">
+	<variable name="impervious_surface_is_iclus_a1">
+		<attribute name="long_name" type="String" value="Percent Impervious"/>
+	</variable>
+	<variable name="impervious_surface_is_iclus_a2">
+		<attribute name="long_name" type="String" value="Percent Impervious"/>
+	</variable>
+	<variable name="impervious_surface_is_iclus_b1">
+		<attribute name="long_name" type="String" value="Percent Impervious"/>
+	</variable>
+	<variable name="impervious_surface_is_iclus_b1">
+		<attribute name="long_name" type="String" value="Percent Impervious"/>
+	</variable>
+	<variable name="impervious_surface_is_iclus_bc">
+		<attribute name="long_name" type="String" value="Percent Impervious"/>
+	</variable>
+</netcdf>

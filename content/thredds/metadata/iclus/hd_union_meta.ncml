@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/iclus/hd_union.ncml">
+	<variable name="housing_density_hd_iclus_a1">
+		<attribute name="long_name" type="String" value="Housing Density"/>
+	</variable>
+	<variable name="housing_density_hd_iclus_a2">
+		<attribute name="long_name" type="String" value="Housing Density"/>
+	</variable>
+	<variable name="housing_density_hd_iclus_b1">
+		<attribute name="long_name" type="String" value="Housing Density"/>
+	</variable>
+	<variable name="housing_density_hd_iclus_b1">
+		<attribute name="long_name" type="String" value="Housing Density"/>
+	</variable>
+	<variable name="housing_density_hd_iclus_bc">
+		<attribute name="long_name" type="String" value="Housing Density"/>
+	</variable>
+</netcdf>

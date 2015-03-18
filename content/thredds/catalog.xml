@@ -1060,7 +1060,7 @@
 				<metadata>
 					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B4D34EB4D-FDD9-4612-98DE-3C723B6B0095%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for impervious surface calculations"/>
 				</metadata>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/iclus/is_union.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/iclus/is_union_meta.ncml"/>
 			</dataset>
 			<dataset name="ICLUS v1.3 Raw Housing Density Projections for the Conterminous USA" ID="cida.usgs.gov/ICLUS/hd" serviceName="Services" urlPath="iclus/hd">
 				<dataType>Grid</dataType>
@@ -1068,7 +1068,7 @@
 				<metadata>
 					<documentation xlink:href="https://edg.epa.gov/metadata/rest/document?id=%7B5F363F21-CCC1-4ED5-BF53-1C3657AAD505%7D&amp;xsl=metadata_to_html_full" xlink:title="Additional metadata for housing density projections"/>
 				</metadata>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/iclus/hd_union.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/iclus/hd_union_meta.ncml"/>
 			</dataset>
 			<dataset name="ICLUS v1.3 Housing Classification Projections for the Conterminous USA" ID="cida.usgs.gov/ICLUS/hc" serviceName="Services" urlPath="iclus/hc">
 				<dataType>Grid</dataType>
