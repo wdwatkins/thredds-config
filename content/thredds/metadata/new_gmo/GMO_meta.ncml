@@ -29,4 +29,19 @@
 	<attribute name="time_coverage_resolution" type="String" value="P1D"/>
 	<attribute name="license" type="String" value="Freely available"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
+	<variable name="pr">
+		<attribute name="long_name" type="String" value="Precipitation"/>
+	</variable>
+	<variable name="tas">
+		<attribute name="long_name" type="String" value="Average Temperature"/>
+	</variable>
+	<variable name="tasmax">
+		<attribute name="long_name" type="String" value="Maximum Temperature"/>
+	</variable>
+	<variable name="tasmin">
+		<attribute name="long_name" type="String" value="Minimum Temperature"/>
+	</variable>
+	<variable name="wind">
+		<attribute name="long_name" type="String" value="Wind Speed"/>
+	</variable>
 </netcdf>
