@@ -9,7 +9,7 @@
 	<variable name="housing_density_hd_iclus_b1">
 		<attribute name="long_name" type="String" value="Housing Density"/>
 	</variable>
-	<variable name="housing_density_hd_iclus_b1">
+	<variable name="housing_density_hd_iclus_b2">
 		<attribute name="long_name" type="String" value="Housing Density"/>
 	</variable>
 	<variable name="housing_density_hd_iclus_bc">
