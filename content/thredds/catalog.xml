@@ -918,7 +918,9 @@
 				</geospatialCoverage>
 			</metadata>
 			<dataset name="Daily MACA-VIC Past" ID="cida.usgs.gov/thredds/MACA-VIC/past" serviceName="Services" urlPath="MACA_VIC/past">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/maca-vic/union_20C3M.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/maca-vic/union_20C3M.ncml">
+					<attribute name="Conventions" value="CF-1.4" />
+				</netcdf>
 				<timeCoverage>
 					<start>1971-01-01T00:00</start>
 					<end>1999-12-31T00:00</end>
@@ -926,7 +928,9 @@
 				</timeCoverage>
 			</dataset>
 			<dataset name="Daily MACA-VIC Future" ID="cida.usgs.gov/thredds/MACA-VIC/future" serviceName="Services" urlPath="MACA_VIC/future">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/maca-vic/union.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/maca-vic/union.ncml">
+					<attribute name="Conventions" value="CF-1.4" />
+				</netcdf>
 				<timeCoverage>
 					<start>2041-01-01T00:00</start>
 					<end>2070-12-31T00:00</end>
