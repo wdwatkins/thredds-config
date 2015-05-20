@@ -52,13 +52,13 @@ The following data are available in this archive: Raw, monthly model output for 
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
-					<start>44.292218</start>
+					<start>31.1</start>
 					<size>13.246873</size>
 					<units>degrees_north</units>
 				</northsouth>
 				<eastwest>
-					<start>-112.450323</start>
-					<size>-13.005076</size>
+					<start>-125.450323</start>
+					<size>13.005076</size>
 					<units>degrees_east</units>
 				</eastwest>
 			</geospatialCoverage>
