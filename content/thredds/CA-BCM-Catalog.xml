@@ -58,7 +58,7 @@ The following data are available in this archive: Raw, monthly model output for 
 				</northsouth>
 				<eastwest>
 					<start>-112.450323</start>
-					<size>13.005076</size>
+					<size>-13.005076</size>
 					<units>degrees_east</units>
 				</eastwest>
 			</geospatialCoverage>
