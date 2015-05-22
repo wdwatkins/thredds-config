@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
 	<aggregation type="union">
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -10,7 +10,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -19,7 +19,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -28,7 +28,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -37,7 +37,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -46,7 +46,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -55,7 +55,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -64,7 +64,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -73,7 +73,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -82,7 +82,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.1_ASCL0.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC0_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -91,7 +91,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -100,7 +100,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -109,7 +109,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -118,7 +118,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -127,7 +127,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -136,7 +136,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -145,7 +145,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -154,7 +154,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -163,7 +163,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -172,7 +172,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.1_ASCL0.75_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC75_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -181,7 +181,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -190,7 +190,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -199,7 +199,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -208,7 +208,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -217,7 +217,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -226,7 +226,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -235,7 +235,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -244,7 +244,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -253,7 +253,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -262,7 +262,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.1_ASCL1.50_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC150_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -271,7 +271,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -280,7 +280,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -289,7 +289,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -298,7 +298,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -307,7 +307,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -316,7 +316,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -325,7 +325,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -334,7 +334,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -343,7 +343,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -352,7 +352,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.1_ASCL2.25_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC225_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -361,7 +361,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -370,7 +370,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -379,7 +379,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -388,7 +388,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -397,7 +397,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -406,7 +406,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -415,7 +415,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -424,7 +424,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -433,7 +433,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -442,7 +442,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.1_ASCL3.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV10_ASC300_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -451,7 +451,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.1 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -460,7 +460,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -469,7 +469,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -478,7 +478,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -487,7 +487,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -496,7 +496,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -505,7 +505,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -514,7 +514,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -523,7 +523,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -532,7 +532,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.2_ASCL0.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC0_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -541,7 +541,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -550,7 +550,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -559,7 +559,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -568,7 +568,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -577,7 +577,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -586,7 +586,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -595,7 +595,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -604,7 +604,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -613,7 +613,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -622,7 +622,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.2_ASCL0.75_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC75_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -631,7 +631,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -640,7 +640,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -649,7 +649,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -658,7 +658,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -667,7 +667,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -676,7 +676,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -685,7 +685,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -694,7 +694,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -703,7 +703,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -712,7 +712,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.2_ASCL1.50_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC150_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -721,7 +721,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -730,7 +730,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -739,7 +739,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -748,7 +748,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -757,7 +757,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -766,7 +766,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -775,7 +775,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -784,7 +784,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -793,7 +793,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -802,7 +802,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.2_ASCL2.25_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC225_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -811,7 +811,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -820,7 +820,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -829,7 +829,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -838,7 +838,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -847,7 +847,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -856,7 +856,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -865,7 +865,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -874,7 +874,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -883,7 +883,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -892,7 +892,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.2_ASCL3.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV20_ASC300_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -901,7 +901,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.2 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -910,7 +910,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -919,7 +919,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -928,7 +928,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -937,7 +937,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -946,7 +946,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -955,7 +955,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -964,7 +964,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -973,7 +973,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -982,7 +982,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.3_ASCL0.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC0_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -991,7 +991,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1000,7 +1000,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1009,7 +1009,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1018,7 +1018,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1027,7 +1027,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1036,7 +1036,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1045,7 +1045,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1054,7 +1054,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1063,7 +1063,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1072,7 +1072,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.3_ASCL0.75_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC75_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1081,7 +1081,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1090,7 +1090,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1099,7 +1099,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1108,7 +1108,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1117,7 +1117,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1126,7 +1126,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1135,7 +1135,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1144,7 +1144,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1153,7 +1153,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1162,7 +1162,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.3_ASCL1.50_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC150_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1171,7 +1171,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1180,7 +1180,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1189,7 +1189,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1198,7 +1198,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1207,7 +1207,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1216,7 +1216,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1225,7 +1225,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1234,7 +1234,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1243,7 +1243,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1252,7 +1252,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.3_ASCL2.25_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC225_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1261,7 +1261,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1270,7 +1270,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1279,7 +1279,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1288,7 +1288,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1297,7 +1297,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1306,7 +1306,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1315,7 +1315,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1324,7 +1324,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1333,7 +1333,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1342,7 +1342,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.3_ASCL3.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV30_ASC300_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1351,7 +1351,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.3 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1360,7 +1360,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1369,7 +1369,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1378,7 +1378,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1387,7 +1387,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1396,7 +1396,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1405,7 +1405,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1414,7 +1414,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1423,7 +1423,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1432,7 +1432,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.4_ASCL0.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC0_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1441,7 +1441,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1450,7 +1450,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1459,7 +1459,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1468,7 +1468,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1477,7 +1477,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1486,7 +1486,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1495,7 +1495,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1504,7 +1504,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1513,7 +1513,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1522,7 +1522,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.4_ASCL0.75_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC75_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1531,7 +1531,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1540,7 +1540,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1549,7 +1549,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1558,7 +1558,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1567,7 +1567,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1576,7 +1576,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1585,7 +1585,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1594,7 +1594,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1603,7 +1603,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1612,7 +1612,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.4_ASCL1.50_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC150_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1621,7 +1621,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1630,7 +1630,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1639,7 +1639,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1648,7 +1648,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1657,7 +1657,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1666,7 +1666,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1675,7 +1675,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1684,7 +1684,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1693,7 +1693,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1702,7 +1702,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.4_ASCL2.25_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC225_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1711,7 +1711,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1720,7 +1720,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1729,7 +1729,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1738,7 +1738,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1747,7 +1747,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1756,7 +1756,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1765,7 +1765,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1774,7 +1774,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1783,7 +1783,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1792,7 +1792,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.4_ASCL3.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV40_ASC300_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1801,7 +1801,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.4 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1810,7 +1810,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1819,7 +1819,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1828,7 +1828,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1837,7 +1837,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1846,7 +1846,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1855,7 +1855,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1864,7 +1864,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1873,7 +1873,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1882,7 +1882,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.5_ASCL0.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC0_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1891,7 +1891,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1900,7 +1900,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1909,7 +1909,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -1918,7 +1918,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -1927,7 +1927,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -1936,7 +1936,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -1945,7 +1945,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -1954,7 +1954,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -1963,7 +1963,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -1972,7 +1972,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.5_ASCL0.75_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC75_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -1981,7 +1981,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  0.8"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -1990,7 +1990,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -1999,7 +1999,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -2008,7 +2008,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -2017,7 +2017,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -2026,7 +2026,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -2035,7 +2035,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -2044,7 +2044,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -2053,7 +2053,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -2062,7 +2062,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.5_ASCL1.50_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC150_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -2071,7 +2071,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  1.5"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -2080,7 +2080,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -2089,7 +2089,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -2098,7 +2098,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -2107,7 +2107,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -2116,7 +2116,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -2125,7 +2125,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -2134,7 +2134,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -2143,7 +2143,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -2152,7 +2152,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.5_ASCL2.25_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC225_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
@@ -2161,7 +2161,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  2.3"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S1484.7.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S1484.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS160">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.6"/>
@@ -2170,7 +2170,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S203.2.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S203.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS310">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="3.1"/>
@@ -2179,7 +2179,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 3.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S2582.9.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S2582.9.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS110">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="1.1"/>
@@ -2188,7 +2188,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 1.1 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-359.8.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-359.8.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS540">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="5.4"/>
@@ -2197,7 +2197,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 5.4 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-40.7.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-40.7.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS400">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="4.0"/>
@@ -2206,7 +2206,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 4.0 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S480.1.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S480.1.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS260">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.6"/>
@@ -2215,7 +2215,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 2.6 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-526.4.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-526.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS650">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="6.5"/>
@@ -2224,7 +2224,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 6.5 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-681.3.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-681.3.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS820">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="8.2"/>
@@ -2233,7 +2233,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 8.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-844.2.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S-844.2.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS1120">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="11.2"/>
@@ -2242,7 +2242,7 @@
 				<attribute name="long_name" value="Climate Sensitivity 11.2 Vertical Ocean Diffusivity 0.5 Atmospheric Aerosol Scaling  3.0"/>
 			</variable>
 		</netcdf>
-		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S851.4.nc">
+		<netcdf location="slr_KV0.5_ASCL3.00_LAMBDA_S851.4.nc" enhance="true">
 			<variable orgName="SLR" name="SLR_KV50_ASC300_CS220">
 				<attribute name="units" value="m"/>
 				<attribute name="Climate_Sensitivity" value="2.2"/>
