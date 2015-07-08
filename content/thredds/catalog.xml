@@ -31,11 +31,10 @@
 			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
 			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
 			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed Jan 2012.</documentation>
-			<keyword>Surface Winds Atmosphere</keyword>
-			<keyword>Air Temperature Atmosphere</keyword>
-			<keyword>Precipitation</keyword>
-			<keyword>Rain</keyword>
-			<keyword>Downscaled Climate Projection</keyword>
+			<keyword>wind</keyword>
+			<keyword>air temperature</keyword>
+			<keyword>precipitation</keyword>
+			<keyword>downscaled climate projection</keyword>
 			<creator>
 				<name>PRISM Climate Group</name>
 				<contact url="http://prism.oregonstate.edu/" email="gibson@nacse.org"/>
@@ -70,11 +69,10 @@
 			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
 			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
 			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2014</documentation>
-			<keyword>Surface Winds Atmosphere</keyword>
-			<keyword>Air Temperature Atmosphere</keyword>
-			<keyword>Precipitation</keyword>
-			<keyword>Rain</keyword>
-			<keyword>Downscaled Climate Projection</keyword>
+			<keyword>wind</keyword>
+			<keyword>air temperature</keyword>
+			<keyword>precipitation</keyword>
+			<keyword>downscaled climate projection</keyword>
 			<creator>
 				<name>PRISM Climate Group</name>
 				<contact url="http://prism.oregonstate.edu/" email="gibson@nacse.org"/>
@@ -108,10 +106,9 @@
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">Gridded Meteorological Observations</documentation>
 			<documentation type="Reference">Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United States, J. Climate 15(22), 3237-3251</documentation>
-			<keyword>Surface Winds Atmosphere</keyword>
-			<keyword>Air Temperature Atmosphere</keyword>
-			<keyword>Precipitation</keyword>
-			<keyword>Rain</keyword>
+			<keyword>wind</keyword>
+			<keyword>air temperature</keyword>
+			<keyword>precipitation</keyword>
 			<creator>
 				<name>E. Maurer</name>
 				<contact url="http://www.engr.scu.edu/~emaurer/data.shtml" email="emaurer@engr.scu.edu"/>
@@ -145,10 +142,9 @@
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">Updated Gridded Meteorological Observations 1949-2010</documentation>
 			<documentation type="Reference">Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United States, J. Climate 15(22), 3237-3251</documentation>
-			<keyword>Surface Winds Atmosphere</keyword>
-			<keyword>Air Temperature Atmosphere</keyword>
-			<keyword>Precipitation</keyword>
-			<keyword>Rain</keyword>
+			<keyword>wind</keyword>
+			<keyword>air temperature</keyword>
+			<keyword>precipitation</keyword>
 			<creator>
 				<name>E. Maurer</name>
 				<contact url="http://www.engr.scu.edu/~emaurer/gridded_obs/index_gridded_obs.html" email="emaurer@engr.scu.edu"/>
@@ -182,16 +178,16 @@
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">This archive contains daily surface meteorological (METDATA) data for the Continental United States at 4-km (1/24-deg) resolution. The meteorological variables are maximum/minimum temperature, precipitation amount and duration, maximum/minimum relative humidity,downward shortwave solar radiation, wind speed and direction, and specific humidity. The method utilized here combines desirable spatial attributes of gridded climate data from PRISM and desirable temporal attributes of regional-scale reanalysis and daily gauge-based precipitation from NLDAS-2 to derive a spatially and temporally complete high resolution gridded dataset of surface meteorological variables for the continental US for 1979-2012. Validation of this data suggests that it can serve as a suitable surrogate for landscape-scale ecological modeling across vast unmonitored areas of the US. </documentation>
 			<documentation type="Reference">Abatzoglou J. T. " Development of gridded surface meteorological data for ecological applications and modeling, " International Journal of Climatology. (2013)    doi: 10.1002/joc.3413</documentation>
-			<keyword>daily precipitation</keyword>
-			<keyword>daily precipitation duration</keyword>
-			<keyword>daily maximum temperature</keyword>
-			<keyword>daily minimum temperature</keyword>
-			<keyword>daily downward shortwave solar radiation</keyword>
-			<keyword>daily specific humidity</keyword>
-			<keyword>daily maximum relative humidity</keyword>
-			<keyword>daily minimum relative humidity</keyword>
-			<keyword>daily wind speed</keyword>
-			<keyword>daily wind direction</keyword>
+			<keyword>precipitation</keyword>
+			<keyword>precipitation duration</keyword>
+			<keyword>maximum temperature</keyword>
+			<keyword>minimum temperature</keyword>
+			<keyword>downward shortwave solar radiation</keyword>
+			<keyword>specific humidity</keyword>
+			<keyword>maximum relative humidity</keyword>
+			<keyword>minimum relative humidity</keyword>
+			<keyword>wind speed</keyword>
+			<keyword>wind direction</keyword>
 			<keyword>ClimatologyMeteorologyAtmosphere</keyword>
 			<keyword>Gridded Meteorological Data, EPSCoR Data</keyword>
 			<creator>
@@ -232,8 +228,6 @@
 				<keyword>minimum temperature</keyword>
 				<keyword>land skin temperature</keyword>
 				<keyword>MODIS</keyword>
-				<keyword>kriging</keyword>
-				<keyword>homogenization</keyword>
 				<keyword>gridded meteorological data</keyword>
 				<creator>
 					<name>Jared Oyler</name>
@@ -278,11 +272,10 @@
 				<documentation type="Reference">Hayhoe, K., Stoner, et al., (2013), Development and Dissemination of a High-Resolution National Climate Change Dataset. http://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf</documentation>
 				<documentation type="Reference">Stoner, A. M. K., Hayhoe, K., Yang, X. and Wuebbles, D. J. (2012), An asynchronous regional regression model for statistical downscaling of daily climate variables. Int. J. Climatol.. doi: 10.1002/joc.3603</documentation>
 				<documentation type="Reference">Dalton, M.S., and Jones, S.A., comps., 2010, Southeast Regional Assessment Project for the National Climate Change and Wildlife Science Center, U.S. Geological Survey: U.S. Geological Survey Open-File Report 2010 - 1213, 38 p.</documentation>
-				<keyword>Surface Winds Atmosphere</keyword>
-				<keyword>Air Temperature Atmosphere</keyword>
-				<keyword>Precipitation</keyword>
-				<keyword>Rain</keyword>
-				<keyword>Downscaled Climate Projection</keyword>
+				<keyword>wind</keyword>
+				<keyword>air temperature</keyword>
+				<keyword>precipitation</keyword>
+				<keyword>downscaled climate projection</keyword>
 				<creator>
 					<name>Katharine Hayhoe</name>
 					<contact url="http://www.katharinehayhoe.com/" email="hayhoe@atmosresearch.com"/>
@@ -371,9 +364,9 @@
 				<documentation type="Reference">Reclamation, 2013. 'Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with preceding Information, and Summary of User Needs', prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 47pp.</documentation>
 				<documentation type="Reference">Daily BC method: modified version of Maurer EP, Hidalgo HG, Das T, Dettinger MD, Cayan DR, 2010, Hydrol Earth Syst Sci 14:1125-1138 CA method: Hidalgo HG, Dettinger MD, Cayan DR, 2008, California Energy Commission technical report CEC-500-2007-123</documentation>
 				<documentation type="Reference">Reference period obs: updated version of Maurer EP, Wood AW, Adam JC, Lettenmaier DP, Nijssen B, 2002, J Climate 15(22):3237â€“3251, provided via http://www.engr.scu.edu/~emaurer/gridded_obs/index_gridded_obs.html</documentation>
-				<keyword>Downscaled Climate Projection</keyword>
-				<keyword>Air Temperature Atmosphere</keyword>
-				<keyword>Precipitation</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<keyword>air temperature</keyword>
+				<keyword>precipitation</keyword>
 				<creator>
 					<name>Bridget Thrasher</name>
 					<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
@@ -424,9 +417,9 @@
 				<documentation type="Reference">Reclamation, 2013. 'Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with preceding Information, and Summary of User Needs', prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 47pp.</documentation>
 				<documentation type="Reference">Daily BC method: modified version of Maurer EP, Hidalgo HG, Das T, Dettinger MD, Cayan DR, 2010, Hydrol Earth Syst Sci 14:1125-1138 CA method: Hidalgo HG, Dettinger MD, Cayan DR, 2008, California Energy Commission technical report CEC-500-2007-123</documentation>
 				<documentation type="Reference">Reference period obs: Maurer EP, Wood AW, Adam JC, Lettenmaier DP, Nijssen B, 2002, J Climate 15(22):3237â€“3251, provided via http://www.engr.scu.edu/~emaurer/gridded_obs/index_gridded_obs.html</documentation>
-				<keyword>Downscaled Climate Projection</keyword>
-				<keyword>Air Temperature Atmosphere</keyword>
-				<keyword>Precipitation</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<keyword>air temperature</keyword>
+				<keyword>precipitation</keyword>
 				<creator>
 					<name>Bridget Thrasher</name>
 					<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
@@ -477,11 +470,10 @@
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">This archive contains fine spatial-resolution translations of 112 contemporary climate projections over the contiguous United States. The original projections are from the World Climate Research Programme's (WCRP's) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset, which was referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report.</documentation>
 			<documentation type="Reference">Maurer, E. P., L. Brekke, T. Pruitt, and P. B. Duffy (2007), Fine-resolution climate projections enhance regional climate change impact studies, Eos Trans. AGU, 88(47), 504.</documentation>
-			<keyword>Surface Winds Atmosphere</keyword>
-			<keyword>Air Temperature Atmosphere</keyword>
-			<keyword>Precipitation</keyword>
-			<keyword>Rain</keyword>
-			<keyword>Downscaled Climate Projection</keyword>
+			<keyword>wind</keyword>
+			<keyword>air temperature</keyword>
+			<keyword>precipitation</keyword>
+			<keyword>downscaled climate projection</keyword>
 			<creator>
 				<name>Ed Maurer</name>
 				<contact url="http://www.engr.scu.edu/~emaurer/index.shtml" email="emaurer@engr.scu.edu"/>
@@ -514,9 +506,9 @@
 				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
 				<documentation type="Summary">This archive contains 234 projections of monthly BCSD CMIP5 projections of precipitation and monthly means of daily-average, daily maximum and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ Notice: This dataset contains several collections. Each collection is a unique set of variables (GCM-Scenario-temp/precip combinations) which are available for different date ranges. To access the full ensemble, you must access the data from each of the collections.</documentation>
 				<documentation type="Reference">Wood AW, Maurer EP, Kumar A, Lettenmaier DP, 2002, J Geophys Res 107(D20):4429 and Wood AW, Leung LR, Sridhar V, Lettenmaier DP, 2004, Clim Change 62:189:216</documentation>
-				<keyword>Downscaled Climate Projection</keyword>
-				<keyword>Air Temperature Atmosphere</keyword>
-				<keyword>Precipitation</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<keyword>air temperature</keyword>
+				<keyword>precipitation</keyword>
 				<creator>
 					<name>Bridget Thrasher</name>
 					<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
@@ -655,7 +647,7 @@
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">These files contain spatial fields of simulated yearly thermosteric sea-level anomalies between 1951-2100 (referenced to year 1800) from a perturbed physics ensemble experiment using the University of Victoria Earth System Model (UVic).  Thermosteric sea-level anomalies are derived from changes in density, which are calculated using the model's temperature and salinity fields.  The ensemble varies 3 parameters controlling the model's equilibrium climate sensitivity (CS), background vertical diffusivity in the ocean (KV), and radiative effects of atmospheric sulfate aerosols (ASC).  These parameters are varied over the following ranges: CS-(1.1, 1.6, 2.2, 2.6, 3.1, 4.0, 5.4, 6.5, 8.2, 11.2); KV-(0.1, 0.2, 0.3, 0.4, 0.5); ASC-(0.00, 0.75, 1.50, 2.25, 3.00).  The unique parameter combination for each ensemble member is reflected in the variable name, where we have multiplied the parameter values by 100 to display as integer values.  For the projection phase of the ensemble (2005-2100), we use atmospheric forcings from the RCP8.5 scenario.  These forcings include atmospheric CO2 concentrations, radiative forcings from non-CO2 greenhouse gases, and spatially resolved changes in albedo associated with direct effects of sulfate aerosols.  See Sriver et al., 2012 for complete discussion.</documentation>
 			<documentation type="Reference">Sriver, R.L., Urban, N.M, Olson, R., and Keller, K. (2012), Toward a physically plausible upper bound of sea-level rise projections, Climatic Change, 115:893-902, doi:10.1007/s10584-012-0610-6</documentation>
-			<keyword>Sea Level Rise with Parametric Uncertainty</keyword>
+			<keyword>sea level rise</keyword>
 			<creator>
 				<name>Adam Terando</name>
 				<contact url="http://www.ncsu.edu/" email="ajterand@ncsu.edu"/>
@@ -690,8 +682,7 @@
 			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">National Mosaic of Radar indicated-rain gage verified and corrected precipitation estimate on a ~10km grid. 6 hour temporal resolution. Files are added daily from the latest 7 day dataset.</documentation>
-			<keyword>Precipitation Amount</keyword>
-			<keyword>Rain</keyword>
+			<keyword>precipitation</keyword>
 			<creator>
 				<name>River Forecasting Centers</name>
 				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
@@ -725,8 +716,7 @@
 			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">Radar indicated-rain gage verified and corrected precipitation estimate on the ~4km HRAP grid. 1 hour and 6 hour temporal resolution. Includes only the North Central River Forecasting Center's data.</documentation>
-			<keyword>Precipitation Amount</keyword>
-			<keyword>Rain</keyword>
+			<keyword>precipitation</keyword>
 			<creator>
 				<name>River Forecasting Centers</name>
 				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
@@ -760,8 +750,7 @@
 			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">Radar indicated-rain gage verified and corrected precipitation estimate on the ~4km HRAP grid. 1 hour and 6 hour temporal resolution. Includes only the Ohio River Forecasting Center's data.</documentation>
-			<keyword>Precipitation Amount</keyword>
-			<keyword>Rain</keyword>
+			<keyword>precipitation</keyword>
 			<creator>
 				<name>River Forecasting Centers</name>
 				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
@@ -797,9 +786,9 @@
 				<documentation type="Rights">Freely Available.</documentation>
 				<documentation type="Summary">This archive contains daily statistically downscaled climate projections for the United States and southern Canada east of the Rocky Mountains at 0.1 degree resolution. The downscaled variables are daily precipitation, daily maximum temperature and daily minimum temperature. The downscaling is based on 13 models from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3), a critical source of data to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR4).</documentation>
 				<documentation type="Reference">In Preparation. Earlier version documented in 2011 Notaro, M., D. J. Lorenz, D. Vimont, S. Vavrus, C. Kucharik, and K. Franz "21st century Wisconsin snow projections based on an operational snow model driven by statistically downscaled climate data." International Journal of Climatology, 31, 1615-1633.</documentation>
-				<keyword>daily precipitation</keyword>
-				<keyword>daily maximum temperature</keyword>
-				<keyword>daily minimum temperature</keyword>
+				<keyword>precipitation</keyword>
+				<keyword>maximum temperature</keyword>
+				<keyword>minimum temperature</keyword>
 				<keyword>downscaled climate projection</keyword>
 				<creator>
 					<name>David Lorenz</name>
@@ -887,15 +876,15 @@
 				<documentation type="Rights">Freely Available.</documentation>
 				<documentation type="Summary">This archive contains daily downscaled meteorological and hydrological projections for the Columbia Basin in the United States at 1/16-deg resolution utilizing 6 different downscaling methods. The downscaled meteorological variables are maximum/minimum temperature(tasmax/tasmin), precipitation amount(pr), downward shortwave solar radiation(rsds), wind speed(was), and specific humidity(huss). The downscaling is based on the CCSM3e model from Phase 3 of the Coupled Model Inter-comparison Project (CMIP3) utilizing the historical 20C3M (1971-1999) and future SRESA2(2041-2070) scenarios. The downscaling methods include 3 statistical downscaling methods: Multivariate Adaptive Constructed Analogs (MACAv2) and monthly(and daily) Bias Correction Spatial Dissaggregation (mBCSD,dBCSD); 3 dynamical downscaling methods: interpolations of the outputs from North American Regional Climate Change Assessment Program(sdNARCCAP) regional downscaling utilizing 3 regional models: CRCM,MM5I and WRFG; and 3 hybrid downscaling methods: bias correction of interpolated outputs from NARCCAP regional downscaling using CRCM,MM5I and WRFG(sdbcNARCCAP). All of the methods are used to downscale the entire suite of variables except for mBCSD (which is only used to downscale tmax/tmin/pr and these results are used with MTCLIM(Glassy et al., 1994) to generate rsds/was/huss). Each of the downscaling outputs are run through the Variable Infiltration Capacity (VIC) hydrologic model to generate the hydrological projections.</documentation>
 				<documentation type="Reference">Abatzoglou, J.T, and Brown T.J. (2011), A Comparison of Statistical Downscaling Methods Suited for Wildfire Applications, Int. J. Climatol. [doi: 10.1002/joc.2312]. Livneh B, E.A. Rosenberg, C. Lin, B. Nijssen, V. Mishra, K. Andreadis, E.P. Maurer, and D.P. Lettenmaier, 2013:  A long-term hydrologically based data set of land surface fluxes and states for the conterminous United States: Updates and extensions, Journal of Climate, [doi:10.1175/JCLI-D-12-00508.1.]. Mearns, L.O., et al., 2007, updated 2011. The North American Regional Climate Change Assessment Program dataset, National Center for Atmospheric Research Earth System Grid data portal, Boulder, CO. [doi:10.5065/D6RN35ST]. Data downloaded 2012-12-10. Wood,A. W., L.R. Leung, V. Sridhard, and D. P. Lettenmaier (2004) Hydrologic Implications of Dynamical and Statistical Approaches to Downscaling Climate Model Outputs, Climatic Change, 62,189-216.</documentation>
-				<keyword>daily precipitation</keyword>
-				<keyword>daily maximum temperature</keyword>
-				<keyword>daily minimum temperature</keyword>
-				<keyword>daily downward shortwave solar radiation</keyword>
-				<keyword>daily specific humidity</keyword>
-				<keyword>daily wind speed</keyword>
+				<keyword>precipitation</keyword>
+				<keyword>maximum temperature</keyword>
+				<keyword>minimum temperature</keyword>
+				<keyword>downward shortwave solar radiation</keyword>
+				<keyword>specific humidity</keyword>
+				<keyword>wind speed</keyword>
 				<keyword>CMIP3</keyword>
-				<keyword>Gridded Meteorological Data</keyword>
-				<keyword>Gridded Hydrological Data</keyword>
+				<keyword>gridded meteorological data</keyword>
+				<keyword>gridded hydrological data</keyword>
 				<creator>
 					<name>John Abatzoglou</name>
 					<contact url="https://nccwsc.usgs.gov/display-project/4f8c64d2e4b0546c0c397b46/5006f517e4b0abf7ce733f98" email="jabatzoglou@uidaho.edu"/>
@@ -949,10 +938,9 @@
 				<keyword>statistical downscaling</keyword>
 				<keyword>dynamical downscaling</keyword>
 				<keyword>hydrologic change</keyword>
-				<keyword>extremes</keyword>
-				<keyword>Western U.S.</keyword>
 				<keyword>Western United States</keyword>
-				<keyword>PNW</keyword>
+				<keyword>Western United States</keyword>
+				<keyword>Pacific Northwest</keyword>
 				<keyword>Pacific Northwest</keyword>
 				<creator>
 					<name>Guillaume S. Mauger</name>
@@ -1226,7 +1214,7 @@
 				<documentation type="Summary">This dataset represents the extent of urbanization (for the year indicated) predicted by the model SLEUTH, developed by Dr. Keith C. Clarke, at the University of California, Santa Barbara, Department of Geography and modified by David I. Donato of the United States Geological Survey (USGS) Eastern Geographic Science Center (EGSC). Further model modification and implementation was performed at the Biodiversity and Spatial Information Center at North Carolina State University. Purpose: Urban growth probability extents throughout the 21st century for the Southeast Regional Assessment Project, which encompasses the states of Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee and Virginia and parts of the states of Arkansas, Illinois, Indiana, Louisiana, Maryland, Missouri, Ohio and West Virginia. Credit: Southeast Regional Assessment Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea. Use Limitation: This data set is not intended for site-specific analyses. Interpretations derived from its use are suited for regional and planning purposes only. These data are not intended to be used at scales larger than 1:100,000. Acknowledgment of Biodiversity and Spatial Analysis Center at North Carolina State University is appreciated.</documentation>
 				<documentation type="Reference">Southeast Regional Assessment Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea.</documentation>
 				<keyword>SLEUTH</keyword>
-				<keyword>Urbanization</keyword>
+				<keyword>urbanization</keyword>
 				<keyword>Prediction</keyword>
 				<keyword>Development</keyword>
 				<keyword>Growth</keyword>
@@ -1240,7 +1228,7 @@
 				<documentation type="Summary">This dataset represents the extent of urbanization (for the year indicated) predicted by the model SLEUTH, developed by Dr. Keith C. Clarke, at the University of California, Santa Barbara, Department of Geography and modified by David I. Donato of the United States Geological Survey (USGS) Eastern Geographic Science Center (EGSC). Further model modification and implementation was performed at the Biodiversity and Spatial Information Center at North Carolina State University. Urban growth probability extents throughout the 21st century for the DSL-SAMBI, which encompasses the Atlantic Coastal Plain in the states of Alabama, Florida, Georgia, North Carolina, South Carolina and Virginia. This data set is not intended for site-specific analyses. Interpretations derived from its use are suited for regional and planning purposes only. These data are not intended to be used at scales larger than 1:100,000. Acknowledgment of Biodiversity and Spatial Analysis Center at North Carolina State University is appreciated.</documentation>
 				<documentation type="Reference">Southeast Regional Assessment Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea. Designing Sustainable Landscapes Project; Biodiversity and Spatial Information Center, North Carolina State University, Raleigh, North Carolina 27695, Curtis M. Belyea.</documentation>
 				<keyword>SLEUTH</keyword>
-				<keyword>Urbanization</keyword>
+				<keyword>urbanization</keyword>
 				<keyword>Prediction</keyword>
 				<keyword>Development</keyword>
 				<keyword>Growth</keyword>
@@ -1253,7 +1241,7 @@
 			<metadata>
 				<documentation type="Summary">This dataset is output from the Sea Level Affecting Marshes Model (SLAMM) for the South Atlantic Migratory Bird Initiative (SAMBI) geographic planning region. It represents 10 year increments (ranging from year 2000 - year 2100) for the climate change scenario A1B, A1FI, A2, or B1. The dataset was developed as one component for modeling landscape scale alterations of avian habitats due to climate change. It may also be used as a stand-alone product to illustrate potential changes in marsh and coastal environments due to longterm sea level rise. Model outputs from SLAMM are subject to constraints of the modeling process itself. The Biodiversity and Spatial Information Center (BaSIC) did not create the SLAMM modeling approach and/or algorithims. However, all effort was made to ensure data inputs required by the model are of the highest quality. Certain input parameters may need to be altered to create a more reliable model projection. BaSIC is currently (January 2010) working with cooperators to address such issues. Clough, J. S. 2008. SLAMM 5.0.1. Technical documentation and executable program downloadable from http://www.warrenpinnacle.com/prof/SLAMM/index.html</documentation>
 				<documentation type="Reference">Park, R. A., T. V. Armentano, and C. L. Cloonan. 1986. Predicting the Effects of Sea Level Ris on Coastal Wetlands. Pages 129-152 in J. G. Titus, ed. Effects of Changes in Stratospheric Ozone and Global Climate, Vol. 4: Sea Level Rise. U.S. Environmental Protection Agency, Washington, D.C.</documentation>
-				<keyword>Sea Level Rise</keyword>
+				<keyword>sea level rise</keyword>
 				<keyword>Climate Change</keyword>
 				<keyword>Southeastern United States</keyword>
 				<keyword>SAMBI</keyword>
