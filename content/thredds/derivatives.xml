@@ -12,6 +12,7 @@
 		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
 		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
 		<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+		<service name="wms" serviceType="WMS" base="/thredds/wms/"/>
 		<!--<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>-->
 		<!--<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>-->
 		<!--<service name="iso" serviceType="ISO" base="/thredds/iso/"/>-->
