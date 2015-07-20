@@ -8,20 +8,19 @@
 		<!--<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>-->
 		<service name="iso" serviceType="ISO" base="/thredds/iso/"/>
 	</service>
-	        <service name="Scan_Services" serviceType="Compound" base="">
-                <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
-                <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
-                <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
-                <!--<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>-->
-                <!--<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>-->
-                <!--<service name="iso" serviceType="ISO" base="/thredds/iso/"/>-->
-        </service>
+	<service name="Scan_Services" serviceType="Compound" base="">
+		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+		<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+		<!--<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>-->
+		<!--<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>-->
+		<!--<service name="iso" serviceType="ISO" base="/thredds/iso/"/>-->
+	</service>
 	<dataset name="BCCA Derivatives">
-		<metadata inherited="true">
 		<datasetScan name="Files" ID="cida.usgs.gov/cmip5_bcca/derivatives" path="cmip5_bcca/derivatives" location="/mnt/thredds/bcca/cmip5/data/derivatives/">
-                        <metadata inherited="true">
-                                <serviceName>Scan_Services</serviceName>
-                        </metadata>
-                </datasetScan>
+			<metadata inherited="true">
+				<serviceName>Scan_Services</serviceName>
+			</metadata>
+		</datasetScan>
 	</dataset>
 </catalog>
