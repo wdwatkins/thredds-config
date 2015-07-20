@@ -10,9 +10,9 @@
   of catalogs, you can use catalogRoot elements. Each catalog root config
   catalog is crawled and used in configuring the TDS.
 
-  <catalogRoot>myExtraCatalog.xml</catalogRoot>
-  <catalogRoot>myOtherExtraCatalog.xml</catalogRoot>
-  -->
+  <catalogRoot>myExtraCatalog.xml</catalogRoot>  -->
+  <catalogRoot>derivatives.xml</catalogRoot>
+
 
   <!-- new server information section replaces much of what was in htmlSetup -->
   <serverInformation>
