@@ -23,13 +23,13 @@
 			<name>CIDA</name>
 			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 		</publisher>
-		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States." ID="cida.usgs.gov/prism" serviceName="Services" urlPath="prism">
+		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. January 2012 Shapshot" ID="cida.usgs.gov/prism" serviceName="Services" urlPath="prism">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
 			<documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
 			<documentation xlink:href="ftp://prism.oregonstate.edu/pub/prism/us/grids/" xlink:title="Originating Data Repository"/>
 			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
-			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
+			<documentation type="Summary">NOTE: This version of PRISM, accessed in January of 2012, is no longer available from the official archive. This archived version is being made available for the sake of repeatability of previous modelling runs. This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
 			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed Jan 2012.</documentation>
 			<keyword>wind</keyword>
 			<keyword>air temperature</keyword>
@@ -57,22 +57,21 @@
 			</geospatialCoverage>
 			<timeCoverage>
 				<start>1895-01-01T00:00</start>
-				<end>2011-11-01T00:00</end>
+				<end>2013-02-01T00:00</end>
 				<resolution>1 Month</resolution>
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism/prism_meta.ncml"/>
 		</dataset>
-		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. Accessed October 2014" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
+		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. Accessed August 2015" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
 			<documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
 			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
 			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
-			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2014</documentation>
+			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed August 2015</documentation>
 			<keyword>wind</keyword>
 			<keyword>air temperature</keyword>
 			<keyword>precipitation</keyword>
-			<keyword>downscaled climate projection</keyword>
 			<creator>
 				<name>PRISM Climate Group</name>
 				<contact url="http://prism.oregonstate.edu/" email="gibson@nacse.org"/>
