@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="true">
+	<attribute name="title" type="String" value="BCSD CMIP5 Hydrology Monthly"/>
+	<remove name="file_name" type="attribute"/>
+	<aggregation type="union">
+		<netcdf location="conus_c5.access1-0_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="access1-0_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="access1-0_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="access1-0_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="access1-0_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="access1-0_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="access1-0_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="access1-0_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="access1-0_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="access1-0_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="access1-0_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="access1-0_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="access1-0_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="access1-0_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.bcc-csm1-1-m_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="bcc-csm1-1-m_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="bcc-csm1-1-m_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="bcc-csm1-1-m_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="bcc-csm1-1-m_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="bcc-csm1-1-m_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="bcc-csm1-1-m_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="bcc-csm1-1-m_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="bcc-csm1-1-m_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="bcc-csm1-1-m_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="bcc-csm1-1-m_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="bcc-csm1-1-m_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="bcc-csm1-1-m_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="bcc-csm1-1-m_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.bcc-csm1-1_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="bcc-csm1-1_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="bcc-csm1-1_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="bcc-csm1-1_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="bcc-csm1-1_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="bcc-csm1-1_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="bcc-csm1-1_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="bcc-csm1-1_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="bcc-csm1-1_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="bcc-csm1-1_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="bcc-csm1-1_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="bcc-csm1-1_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="bcc-csm1-1_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="bcc-csm1-1_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.canesm2_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="canesm2_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="canesm2_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="canesm2_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="canesm2_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="canesm2_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="canesm2_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="canesm2_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="canesm2_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="canesm2_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="canesm2_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="canesm2_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="canesm2_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="canesm2_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.ccsm4_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="ccsm4_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="ccsm4_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="ccsm4_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="ccsm4_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="ccsm4_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="ccsm4_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="ccsm4_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="ccsm4_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="ccsm4_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="ccsm4_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="ccsm4_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="ccsm4_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="ccsm4_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.cesm1-bgc_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="cesm1-bgc_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="cesm1-bgc_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="cesm1-bgc_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="cesm1-bgc_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="cesm1-bgc_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="cesm1-bgc_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="cesm1-bgc_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="cesm1-bgc_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="cesm1-bgc_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="cesm1-bgc_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="cesm1-bgc_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="cesm1-bgc_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="cesm1-bgc_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.cesm1-cam5_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="cesm1-cam5_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="cesm1-cam5_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="cesm1-cam5_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="cesm1-cam5_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="cesm1-cam5_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="cesm1-cam5_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="cesm1-cam5_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="cesm1-cam5_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="cesm1-cam5_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="cesm1-cam5_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="cesm1-cam5_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="cesm1-cam5_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="cesm1-cam5_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.cmcc-cm_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="cmcc-cm_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="cmcc-cm_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="cmcc-cm_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="cmcc-cm_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="cmcc-cm_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="cmcc-cm_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="cmcc-cm_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="cmcc-cm_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="cmcc-cm_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="cmcc-cm_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="cmcc-cm_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="cmcc-cm_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="cmcc-cm_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.cnrm-cm5_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="cnrm-cm5_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="cnrm-cm5_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="cnrm-cm5_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="cnrm-cm5_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="cnrm-cm5_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="cnrm-cm5_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="cnrm-cm5_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="cnrm-cm5_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="cnrm-cm5_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="cnrm-cm5_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="cnrm-cm5_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="cnrm-cm5_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="cnrm-cm5_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.csiro-mk3-6-0_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="csiro-mk3-6-0_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="csiro-mk3-6-0_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="csiro-mk3-6-0_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="csiro-mk3-6-0_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="csiro-mk3-6-0_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="csiro-mk3-6-0_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="csiro-mk3-6-0_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="csiro-mk3-6-0_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="csiro-mk3-6-0_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="csiro-mk3-6-0_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="csiro-mk3-6-0_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="csiro-mk3-6-0_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="csiro-mk3-6-0_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.fgoals-g2_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="fgoals-g2_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="fgoals-g2_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="fgoals-g2_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="fgoals-g2_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="fgoals-g2_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="fgoals-g2_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="fgoals-g2_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="fgoals-g2_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="fgoals-g2_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="fgoals-g2_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="fgoals-g2_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="fgoals-g2_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="fgoals-g2_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.fio-esm_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="fio-esm_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="fio-esm_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="fio-esm_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="fio-esm_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="fio-esm_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="fio-esm_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="fio-esm_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="fio-esm_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="fio-esm_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="fio-esm_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="fio-esm_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="fio-esm_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="fio-esm_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.gfdl-cm3_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="gfdl-cm3_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="gfdl-cm3_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="gfdl-cm3_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="gfdl-cm3_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="gfdl-cm3_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="gfdl-cm3_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="gfdl-cm3_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="gfdl-cm3_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="gfdl-cm3_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="gfdl-cm3_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="gfdl-cm3_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="gfdl-cm3_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="gfdl-cm3_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.gfdl-esm2g_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="gfdl-esm2g_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="gfdl-esm2g_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="gfdl-esm2g_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="gfdl-esm2g_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="gfdl-esm2g_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="gfdl-esm2g_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="gfdl-esm2g_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="gfdl-esm2g_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="gfdl-esm2g_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="gfdl-esm2g_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="gfdl-esm2g_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="gfdl-esm2g_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="gfdl-esm2g_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.gfdl-esm2m_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="gfdl-esm2m_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="gfdl-esm2m_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="gfdl-esm2m_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="gfdl-esm2m_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="gfdl-esm2m_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="gfdl-esm2m_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="gfdl-esm2m_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="gfdl-esm2m_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="gfdl-esm2m_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="gfdl-esm2m_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="gfdl-esm2m_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="gfdl-esm2m_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="gfdl-esm2m_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.giss-e2-r_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="giss-e2-r_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="giss-e2-r_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="giss-e2-r_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="giss-e2-r_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="giss-e2-r_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="giss-e2-r_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="giss-e2-r_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="giss-e2-r_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="giss-e2-r_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="giss-e2-r_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="giss-e2-r_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="giss-e2-r_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="giss-e2-r_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.hadgem2-ao_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="hadgem2-ao_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="hadgem2-ao_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="hadgem2-ao_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="hadgem2-ao_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="hadgem2-ao_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="hadgem2-ao_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="hadgem2-ao_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="hadgem2-ao_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="hadgem2-ao_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="hadgem2-ao_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="hadgem2-ao_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="hadgem2-ao_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="hadgem2-ao_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.hadgem2-cc_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="hadgem2-cc_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="hadgem2-cc_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="hadgem2-cc_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="hadgem2-cc_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="hadgem2-cc_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="hadgem2-cc_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="hadgem2-cc_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="hadgem2-cc_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="hadgem2-cc_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="hadgem2-cc_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="hadgem2-cc_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="hadgem2-cc_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="hadgem2-cc_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.hadgem2-es_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="hadgem2-es_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="hadgem2-es_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="hadgem2-es_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="hadgem2-es_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="hadgem2-es_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="hadgem2-es_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="hadgem2-es_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="hadgem2-es_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="hadgem2-es_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="hadgem2-es_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="hadgem2-es_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="hadgem2-es_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="hadgem2-es_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.inmcm4_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="inmcm4_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="inmcm4_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="inmcm4_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="inmcm4_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="inmcm4_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="inmcm4_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="inmcm4_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="inmcm4_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="inmcm4_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="inmcm4_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="inmcm4_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="inmcm4_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="inmcm4_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.ipsl-cm5a-mr_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="ipsl-cm5a-mr_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="ipsl-cm5a-mr_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="ipsl-cm5a-mr_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="ipsl-cm5a-mr_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="ipsl-cm5a-mr_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="ipsl-cm5a-mr_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="ipsl-cm5a-mr_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="ipsl-cm5a-mr_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="ipsl-cm5a-mr_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="ipsl-cm5a-mr_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="ipsl-cm5a-mr_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="ipsl-cm5a-mr_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="ipsl-cm5a-mr_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.ipsl-cm5b-lr_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="ipsl-cm5b-lr_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="ipsl-cm5b-lr_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="ipsl-cm5b-lr_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="ipsl-cm5b-lr_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="ipsl-cm5b-lr_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="ipsl-cm5b-lr_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="ipsl-cm5b-lr_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="ipsl-cm5b-lr_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="ipsl-cm5b-lr_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="ipsl-cm5b-lr_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="ipsl-cm5b-lr_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="ipsl-cm5b-lr_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="ipsl-cm5b-lr_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.miroc5_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="miroc5_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="miroc5_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="miroc5_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="miroc5_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="miroc5_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="miroc5_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="miroc5_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="miroc5_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="miroc5_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="miroc5_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="miroc5_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="miroc5_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="miroc5_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.miroc-esm-chem_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="miroc-esm-chem_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="miroc-esm-chem_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="miroc-esm-chem_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="miroc-esm-chem_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="miroc-esm-chem_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="miroc-esm-chem_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="miroc-esm-chem_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="miroc-esm-chem_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="miroc-esm-chem_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="miroc-esm-chem_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="miroc-esm-chem_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="miroc-esm-chem_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="miroc-esm-chem_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.miroc-esm_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="miroc-esm_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="miroc-esm_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="miroc-esm_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="miroc-esm_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="miroc-esm_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="miroc-esm_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="miroc-esm_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="miroc-esm_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="miroc-esm_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="miroc-esm_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="miroc-esm_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="miroc-esm_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="miroc-esm_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.mpi-esm-lr_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="mpi-esm-lr_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="mpi-esm-lr_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="mpi-esm-lr_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="mpi-esm-lr_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="mpi-esm-lr_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="mpi-esm-lr_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="mpi-esm-lr_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="mpi-esm-lr_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="mpi-esm-lr_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="mpi-esm-lr_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="mpi-esm-lr_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="mpi-esm-lr_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="mpi-esm-lr_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.mpi-esm-mr_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="mpi-esm-mr_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="mpi-esm-mr_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="mpi-esm-mr_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="mpi-esm-mr_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="mpi-esm-mr_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="mpi-esm-mr_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="mpi-esm-mr_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="mpi-esm-mr_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="mpi-esm-mr_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="mpi-esm-mr_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="mpi-esm-mr_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="mpi-esm-mr_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="mpi-esm-mr_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.mri-cgcm3_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="mri-cgcm3_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="mri-cgcm3_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="mri-cgcm3_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="mri-cgcm3_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="mri-cgcm3_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="mri-cgcm3_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="mri-cgcm3_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="mri-cgcm3_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="mri-cgcm3_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="mri-cgcm3_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="mri-cgcm3_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="mri-cgcm3_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="mri-cgcm3_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+		<netcdf location="conus_c5.noresm1-m_rcp85_r1i1p1.monthly.1950-2099.nc">
+			<variable orgName="baseflow" name="noresm1-m_rcp85_r1i1p1_baseflow"/>
+			<variable orgName="et" name="noresm1-m_rcp85_r1i1p1_et"/>
+			<variable orgName="petnatveg" name="noresm1-m_rcp85_r1i1p1_petnatveg"/>
+			<variable orgName="petshort" name="noresm1-m_rcp85_r1i1p1_petshort"/>
+			<variable orgName="pettall" name="noresm1-m_rcp85_r1i1p1_pettall"/>
+			<variable orgName="petvegnocr" name="noresm1-m_rcp85_r1i1p1_petvegnocr"/>
+			<variable orgName="petwater" name="noresm1-m_rcp85_r1i1p1_petwater"/>
+			<variable orgName="rhum" name="noresm1-m_rcp85_r1i1p1_rhum"/>
+			<variable orgName="rnet" name="noresm1-m_rcp85_r1i1p1_rnet"/>
+			<variable orgName="smc" name="noresm1-m_rcp85_r1i1p1_smc"/>
+			<variable orgName="surface_runoff" name="noresm1-m_rcp85_r1i1p1_surface_runoff"/>
+			<variable orgName="swe" name="noresm1-m_rcp85_r1i1p1_swe"/>
+			<variable orgName="total_runoff" name="noresm1-m_rcp85_r1i1p1_total_runoff"/>
+		</netcdf>
+	</aggregation>
+</netcdf>
