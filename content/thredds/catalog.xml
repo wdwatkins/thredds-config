@@ -649,8 +649,7 @@
 				<documentation type="Summary">See: http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#About for more information. 'Downscaled CMIP3 and CMIP5 Hydrology Projections: Release of Hydrology Projections, Comparison with preceding Information, and Summary of User Needs', July 2014 (Report) available at http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/BCSD5HydrologyMemo.pdf; Appendix C figures available at http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/BCSD5HydrologyMemo.AppendixC.Figures.zip. . This Report describes development of the two hydrology projection ensembles available at the Downscaled Climate and Hydrology website. The Report provides users with a data overview, summary of data development, and cursory comparison of new and old hydrology projections information. It also summarizes user needs for understanding these differences.</documentation>
 				<documentation type="Reference">http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/BCSD5HydrologyMemo.pdf</documentation>
 				<keyword>downscaled climate projection</keyword>
-				<keyword>air temperature</keyword>
-				<keyword>precipitation</keyword>
+				<keyword>hydrology</keyword>
 				<publisher>
 					<name>CIDA</name>
 					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
