@@ -646,19 +646,11 @@
 				<dataFormat>NcML</dataFormat>
 				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/" xlink:title="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections"/>
 				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
-				<documentation type="Summary">This archive contains 234 projections of monthly BCSD CMIP5 projections of precipitation and monthly means of daily-average, daily maximum and daily minimum temperature over the contiguous United States. For more information visit http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ Notice: This dataset contains several collections. Each collection is a unique set of variables (GCM-Scenario-temp/precip combinations) which are available for different date ranges. To access the full ensemble, you must access the data from each of the collections.</documentation>
-				<documentation type="Reference">Wood AW, Maurer EP, Kumar A, Lettenmaier DP, 2002, J Geophys Res 107(D20):4429 and Wood AW, Leung LR, Sridhar V, Lettenmaier DP, 2004, Clim Change 62:189:216</documentation>
+				<documentation type="Summary">See: http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#About for more information. 'Downscaled CMIP3 and CMIP5 Hydrology Projections: Release of Hydrology Projections, Comparison with preceding Information, and Summary of User Needs', July 2014 (Report) available at http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/BCSD5HydrologyMemo.pdf; Appendix C figures available at http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/BCSD5HydrologyMemo.AppendixC.Figures.zip. . This Report describes development of the two hydrology projection ensembles available at the Downscaled Climate and Hydrology website. The Report provides users with a data overview, summary of data development, and cursory comparison of new and old hydrology projections information. It also summarizes user needs for understanding these differences.</documentation>
+				<documentation type="Reference">http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/BCSD5HydrologyMemo.pdf</documentation>
 				<keyword>downscaled climate projection</keyword>
 				<keyword>air temperature</keyword>
 				<keyword>precipitation</keyword>
-				<creator>
-					<name>Bridget Thrasher</name>
-					<contact url="http://www.climateanalyticsgroup.org/" email="bridget@climateanalyticsgroup.org"/>
-				</creator>
-				<creator>
-					<name>Ed Maurer</name>
-					<contact url="http://www.engr.scu.edu/~emaurer/" email="emaurer@scu.edu"/>
-				</creator>
 				<publisher>
 					<name>CIDA</name>
 					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
@@ -676,8 +668,8 @@
 					</eastwest>
 				</geospatialCoverage>
 				<timeCoverage>
-					<start>1950-01-01T00:00</start>
-					<end>2100-01-01T00:00</end>
+					<start>1950-01-15T00:00</start>
+					<end>2099-12-15T00:00</end>
 					<resolution>1 Month</resolution>
 				</timeCoverage>
 			</metadata>>
