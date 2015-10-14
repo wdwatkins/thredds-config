@@ -673,6 +673,41 @@
 				</timeCoverage>
 			</metadata>>
 		</dataset>
+		<dataset name="Monthly Gridded Meteorological Observations"  ID="cida.usgs.gov/bcsd_obs" serviceName="Services" urlPath="bcsd_obs">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/maurer/mothly_obs/bcsd_obs_meta.ncml"/>
+			<metadata inherited="true">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/" xlink:title="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections"/>
+				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
+				<documentation type="Summary">These are the monthly observational data used for BCSD downscaling. See: http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#About for more information.</documentation>
+				<documentation type="Reference">http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/</documentation>
+				<keyword>Atmospheric Temperature</keyword>
+				<keyword>Precipitation</keyword>
+				<keyword>Wind</keyword>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>53</start>
+						<size>-29</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>58</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+					<start>1950-01-15T00:00</start>
+					<end>1999-12-15T00:00</end>
+					<resolution>1 Month</resolution>
+				</timeCoverage>
+			</metadata>>
+		</dataset>
 		<dataset name="Thermosteric Sea Level Rise Projections with Parametric Uncertainty" ID="cida.usgs.gov/thredds/slr2d/" serviceName="Services" urlPath="slr2d">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
