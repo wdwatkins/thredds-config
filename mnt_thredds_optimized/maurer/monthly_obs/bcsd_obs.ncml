@@ -2,7 +2,4 @@
         <aggregation type="union">
                 <scan location="./" suffix=".nc"/>
         </aggregation>
-        <variable name="Prcp">
-                <attribute name="_CoordinateAxes" value="time latitude longitude "/>
-        </variable>
 </netcdf>
