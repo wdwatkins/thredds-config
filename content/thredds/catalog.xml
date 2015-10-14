@@ -674,7 +674,7 @@
 			</metadata>>
 		</dataset>
 		<dataset name="Monthly Gridded Meteorological Observations"  ID="cida.usgs.gov/bcsd_obs" serviceName="Services" urlPath="bcsd_obs">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/maurer/mothly_obs/bcsd_obs_meta.ncml"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/maurer/monthly_obs/bcsd_obs_meta.ncml"/>
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
