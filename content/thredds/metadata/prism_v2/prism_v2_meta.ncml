@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/prism_v2/prism.ncml">
 <!-- Global Attributes for Dataset Discovery -->
-    <attribute name="acknowledgment" type="String" value="PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed August 2015."/>
+    <attribute name="acknowledgment" type="String" value="PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2015."/>
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
 	<attribute name="title" type="String" value="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. August 2015 Snapshot"/>
 	<attribute name="summary" type="String" value=" This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data. "/>

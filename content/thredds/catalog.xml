@@ -62,13 +62,13 @@
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism/prism_meta.ncml"/>
 		</dataset>
-		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. August 2015 Snapshot" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
+		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. October 2015 Snapshot" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
 			<documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
 			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
 			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
-			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed August 2015</documentation>
+			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2015</documentation>
 			<keyword>wind</keyword>
 			<keyword>air temperature</keyword>
 			<keyword>precipitation</keyword>
@@ -94,7 +94,7 @@
 			</geospatialCoverage>
 			<timeCoverage>
 				<start>1895-01-01T00:00</start>
-				<end>2013-12-01T00:00</end>
+				<end>2014-12-01T00:00</end>
 				<resolution>1 Month</resolution>
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism_v2/prism_v2_meta.ncml"/>
