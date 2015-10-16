@@ -681,7 +681,7 @@
 				<documentation xlink:href="http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/" xlink:title="Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections"/>
 				<documentation type="Rights">Freely Available. See http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/ for more information on citing this data.</documentation>
 				<documentation type="Summary">These are the monthly observational data used for BCSD downscaling. See: http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#About for more information.</documentation>
-				<documentation type="Reference">http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/</documentation>
+				<documentation type="Reference">Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United States, J. Climate 15(22), 3237-3251</documentation>
 				<keyword>Atmospheric Temperature</keyword>
 				<keyword>Precipitation</keyword>
 				<keyword>Wind</keyword>
