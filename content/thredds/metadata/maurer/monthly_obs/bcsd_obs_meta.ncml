@@ -24,4 +24,5 @@ Daily Temperature"/>
 	<attribute name="time_coverage_end" type="String" value="1999-12-15T00:00"/>
 	<attribute name="time_coverage_resolution" type="String" value="P1M"/>
 	<attribute name="license" type="String" value="Freely available"/>
+	<attribute name="acknowledgment" type="String" value="Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A Long-Term Hydrologically-Based Data Set of Land Surface Fluxes and States for the Conterminous United States, J. Climate 15(22), 3237-3251"/>
 </netcdf>
