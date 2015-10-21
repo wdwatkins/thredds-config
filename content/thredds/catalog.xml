@@ -1326,5 +1326,5 @@
 						</filter>-->
 		</datasetScan>
 	</dataset>
-	<catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="http://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>
+	<!-- Removing for security risk <catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="http://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>-->
 </catalog>
