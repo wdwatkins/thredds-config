@@ -1,0 +1,13 @@
+baseflow
+et
+petnatveg
+petshort
+pettall
+petvegnocr
+petwater
+rhum
+rnet
+smc
+surface_runoff
+swe
+total_runoff
