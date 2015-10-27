@@ -1,17 +1,17 @@
-McKenzie/t2p10/swe/
-McKenzie/t2p10/snowfall/
-McKenzie/t2p10/runoff/
-McKenzie/t2p10/swemelt/
-McKenzie/t2p10/precipitation/
+McKenzie_t2p10_swe
+McKenzie_t2p10_snowfall
+McKenzie_t2p10_runoff
+McKenzie_t2p10_swemelt
+McKenzie_t2p10_precipitation
 
-McKenzie/reference_climate/swe/
-McKenzie/reference_climate/snowfall/
-McKenzie/reference_climate/runoff/
-McKenzie/reference_climate/swemelt/
-McKenzie/reference_climate/precipitation/
+McKenzie_reference_climate_swe
+McKenzie_reference_climate_snowfall
+McKenzie_reference_climate_runoff
+McKenzie_reference_climate_swemelt
+McKenzie_reference_climate_precipitation
 
-McKenzie/t2/swe/
-McKenzie/t2/snowfall/
-McKenzie/t2/runoff/
-McKenzie/t2/swemelt/
-McKenzie/t2/precipitation/
+McKenzie_t2_swe
+McKenzie_t2_snowfall
+McKenzie_t2_runoff
+McKenzie_t2_swemelt
+McKenzie_t2_precipitation
