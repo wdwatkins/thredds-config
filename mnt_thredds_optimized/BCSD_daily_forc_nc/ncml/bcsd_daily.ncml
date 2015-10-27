@@ -1,0 +1,3401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="access1-0_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="access1-0_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="access1-0_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="access1-0_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="access1-0_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="access1-0_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="access1-0_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="access1-0_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="access1-0_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/access1-0_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="access1-0_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="bcc-csm1-1-m_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="bcc-csm1-1-m_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="bcc-csm1-1-m_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="bcc-csm1-1-m_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="bcc-csm1-1-m_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="bcc-csm1-1-m_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="bcc-csm1-1-m_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="bcc-csm1-1-m_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="bcc-csm1-1-m_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1-m_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="bcc-csm1-1-m_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="bcc-csm1-1_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="bcc-csm1-1_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="bcc-csm1-1_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="bcc-csm1-1_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="bcc-csm1-1_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="bcc-csm1-1_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="bcc-csm1-1_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="bcc-csm1-1_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="bcc-csm1-1_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="bcc-csm1-1_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="bcc-csm1-1_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="bcc-csm1-1_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="bcc-csm1-1_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="bcc-csm1-1_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="bcc-csm1-1_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="bcc-csm1-1_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="bcc-csm1-1_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="bcc-csm1-1_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="bcc-csm1-1_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/bcc-csm1-1_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="bcc-csm1-1_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="canesm2_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="canesm2_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="canesm2_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="canesm2_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="canesm2_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="canesm2_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="canesm2_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="canesm2_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="canesm2_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="canesm2_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="canesm2_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="canesm2_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="canesm2_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="canesm2_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/canesm2_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="canesm2_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ccsm4_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ccsm4_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ccsm4_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ccsm4_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ccsm4_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ccsm4_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ccsm4_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ccsm4_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ccsm4_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ccsm4_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ccsm4_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ccsm4_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ccsm4_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ccsm4_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ccsm4_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ccsm4_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ccsm4_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ccsm4_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ccsm4_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ccsm4_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ccsm4_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cesm1-bgc_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cesm1-bgc_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cesm1-bgc_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cesm1-bgc_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cesm1-bgc_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cesm1-bgc_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cesm1-bgc_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cesm1-bgc_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cesm1-bgc_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-bgc_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cesm1-bgc_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cesm1-cam5_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cesm1-cam5_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cesm1-cam5_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cesm1-cam5_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cesm1-cam5_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cesm1-cam5_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cesm1-cam5_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cesm1-cam5_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cesm1-cam5_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cesm1-cam5_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cesm1-cam5_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cesm1-cam5_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cesm1-cam5_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cesm1-cam5_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cesm1-cam5_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cesm1-cam5_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cesm1-cam5_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cesm1-cam5_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cesm1-cam5_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cesm1-cam5_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cesm1-cam5_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cmcc-cm_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cmcc-cm_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cmcc-cm_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cmcc-cm_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cmcc-cm_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cmcc-cm_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cmcc-cm_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cmcc-cm_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cmcc-cm_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cmcc-cm_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cmcc-cm_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cnrm-cm5_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cnrm-cm5_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cnrm-cm5_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cnrm-cm5_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cnrm-cm5_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="cnrm-cm5_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="cnrm-cm5_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="cnrm-cm5_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="cnrm-cm5_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/cnrm-cm5_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="cnrm-cm5_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="csiro-mk3-6-0_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="csiro-mk3-6-0_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="csiro-mk3-6-0_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="csiro-mk3-6-0_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="csiro-mk3-6-0_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="csiro-mk3-6-0_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="csiro-mk3-6-0_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="csiro-mk3-6-0_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="csiro-mk3-6-0_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="csiro-mk3-6-0_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="csiro-mk3-6-0_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="csiro-mk3-6-0_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="csiro-mk3-6-0_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="csiro-mk3-6-0_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="csiro-mk3-6-0_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="csiro-mk3-6-0_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="csiro-mk3-6-0_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="csiro-mk3-6-0_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="csiro-mk3-6-0_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/csiro-mk3-6-0_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="csiro-mk3-6-0_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="fgoals-g2_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="fgoals-g2_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="fgoals-g2_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="fgoals-g2_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="fgoals-g2_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="fgoals-g2_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="fgoals-g2_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="fgoals-g2_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="fgoals-g2_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="fgoals-g2_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="fgoals-g2_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="fgoals-g2_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="fgoals-g2_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="fgoals-g2_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fgoals-g2_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="fgoals-g2_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="fio-esm_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="fio-esm_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="fio-esm_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="fio-esm_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="fio-esm_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="fio-esm_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="fio-esm_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="fio-esm_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="fio-esm_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="fio-esm_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="fio-esm_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="fio-esm_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="fio-esm_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="fio-esm_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="fio-esm_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="fio-esm_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="fio-esm_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="fio-esm_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="fio-esm_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/fio-esm_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="fio-esm_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-cm3_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-cm3_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-cm3_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-cm3_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-cm3_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-cm3_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-cm3_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-cm3_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-cm3_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-cm3_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-cm3_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-cm3_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-cm3_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-cm3_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-cm3_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-cm3_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-cm3_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-cm3_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-cm3_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-cm3_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-cm3_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2g_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2g_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2g_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2g_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2g_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2g_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2g_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2g_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2g_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2g_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2g_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2g_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2g_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2g_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2g_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2g_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2g_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2g_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2g_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2g_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2g_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2m_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2m_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2m_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2m_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2m_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2m_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2m_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2m_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2m_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2m_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2m_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2m_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2m_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2m_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2m_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="gfdl-esm2m_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="gfdl-esm2m_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="gfdl-esm2m_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="gfdl-esm2m_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/gfdl-esm2m_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="gfdl-esm2m_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-h-cc_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="giss-e2-h-cc_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-h-cc_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="giss-e2-h-cc_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-h-cc_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="giss-e2-h-cc_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-h-cc_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="giss-e2-h-cc_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-h-cc_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="giss-e2-h-cc_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r-cc_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="giss-e2-r-cc_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r-cc_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="giss-e2-r-cc_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r-cc_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="giss-e2-r-cc_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r-cc_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="giss-e2-r-cc_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r-cc_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="giss-e2-r-cc_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="giss-e2-r_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="giss-e2-r_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="giss-e2-r_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="giss-e2-r_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="giss-e2-r_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="giss-e2-r_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="giss-e2-r_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="giss-e2-r_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="giss-e2-r_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="giss-e2-r_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="giss-e2-r_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="giss-e2-r_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="giss-e2-r_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="giss-e2-r_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="giss-e2-r_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="giss-e2-r_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="giss-e2-r_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="giss-e2-r_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="giss-e2-r_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/giss-e2-r_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="giss-e2-r_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-ao_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-ao_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-ao_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-ao_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-ao_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-ao_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-ao_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-ao_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-ao_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-ao_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-ao_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-ao_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-ao_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-ao_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-ao_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-ao_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-ao_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-ao_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-ao_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-ao_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-ao_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-cc_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-cc_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-cc_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-cc_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-cc_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-cc_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-cc_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-cc_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-cc_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-cc_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-cc_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-es_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-es_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-es_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-es_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-es_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-es_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-es_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-es_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-es_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-es_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-es_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-es_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-es_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-es_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-es_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="hadgem2-es_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="hadgem2-es_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="hadgem2-es_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="hadgem2-es_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/hadgem2-es_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="hadgem2-es_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="inmcm4_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="inmcm4_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="inmcm4_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="inmcm4_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="inmcm4_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="inmcm4_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="inmcm4_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="inmcm4_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="inmcm4_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/inmcm4_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="inmcm4_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ipsl-cm5a-mr_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ipsl-cm5a-mr_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ipsl-cm5a-mr_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ipsl-cm5a-mr_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ipsl-cm5a-mr_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ipsl-cm5a-mr_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ipsl-cm5a-mr_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ipsl-cm5a-mr_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ipsl-cm5a-mr_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ipsl-cm5a-mr_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ipsl-cm5a-mr_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ipsl-cm5a-mr_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ipsl-cm5a-mr_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ipsl-cm5a-mr_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ipsl-cm5a-mr_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ipsl-cm5a-mr_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ipsl-cm5a-mr_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ipsl-cm5a-mr_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ipsl-cm5a-mr_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5a-mr_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ipsl-cm5a-mr_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ipsl-cm5b-lr_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ipsl-cm5b-lr_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ipsl-cm5b-lr_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ipsl-cm5b-lr_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ipsl-cm5b-lr_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="ipsl-cm5b-lr_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="ipsl-cm5b-lr_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="ipsl-cm5b-lr_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="ipsl-cm5b-lr_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/ipsl-cm5b-lr_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="ipsl-cm5b-lr_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc5_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc5_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc5_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc5_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc5_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc5_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc5_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc5_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc5_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc5_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc5_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc5_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc5_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc5_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc5_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc5_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc5_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc5_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc5_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc5_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc5_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm-chem_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm-chem_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm-chem_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm-chem_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm-chem_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm-chem_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm-chem_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm-chem_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm-chem_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm-chem_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm-chem_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm-chem_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm-chem_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm-chem_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm-chem_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm-chem_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm-chem_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm-chem_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm-chem_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm-chem_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm-chem_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="miroc-esm_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="miroc-esm_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="miroc-esm_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="miroc-esm_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/miroc-esm_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="miroc-esm_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mpi-esm-lr_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mpi-esm-lr_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mpi-esm-lr_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mpi-esm-lr_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mpi-esm-lr_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mpi-esm-lr_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mpi-esm-lr_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mpi-esm-lr_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mpi-esm-lr_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mpi-esm-lr_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mpi-esm-lr_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mpi-esm-lr_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mpi-esm-lr_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mpi-esm-lr_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-lr_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mpi-esm-lr_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mpi-esm-mr_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mpi-esm-mr_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mpi-esm-mr_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mpi-esm-mr_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mpi-esm-mr_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mpi-esm-mr_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mpi-esm-mr_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mpi-esm-mr_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mpi-esm-mr_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mpi-esm-mr_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mpi-esm-mr_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mpi-esm-mr_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mpi-esm-mr_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mpi-esm-mr_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mpi-esm-mr_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mpi-esm-mr_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mri-cgcm3_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mri-cgcm3_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mri-cgcm3_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mri-cgcm3_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mri-cgcm3_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mri-cgcm3_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mri-cgcm3_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mri-cgcm3_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mri-cgcm3_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mri-cgcm3_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="mri-cgcm3_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="mri-cgcm3_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="mri-cgcm3_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="mri-cgcm3_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/mri-cgcm3_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="mri-cgcm3_rcp85_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp26_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="noresm1-m_rcp26_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp26_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="noresm1-m_rcp26_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp26_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="noresm1-m_rcp26_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp26_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="noresm1-m_rcp26_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp26_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="noresm1-m_rcp26_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp45_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="noresm1-m_rcp45_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp45_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="noresm1-m_rcp45_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp45_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="noresm1-m_rcp45_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp45_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="noresm1-m_rcp45_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp45_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="noresm1-m_rcp45_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp60_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="noresm1-m_rcp60_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp60_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="noresm1-m_rcp60_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp60_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="noresm1-m_rcp60_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp60_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="noresm1-m_rcp60_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp60_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="noresm1-m_rcp60_r1i1p1_wind"/>
+		</netcdf>
+				
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp85_r1i1p1" regExp=".*pr\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="pr" name="noresm1-m_rcp85_r1i1p1_pr"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp85_r1i1p1" regExp=".*tas\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tas" name="noresm1-m_rcp85_r1i1p1_tas"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp85_r1i1p1" regExp=".*tasmax\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmax" name="noresm1-m_rcp85_r1i1p1_tasmax"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp85_r1i1p1" regExp=".*tasmin\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="tasmin" name="noresm1-m_rcp85_r1i1p1_tasmin"/>
+		</netcdf>
+
+		<netcdf enhance="true">
+			<aggregation dimName="time" type="joinExisting">
+		    	<scan location="../data/noresm1-m_rcp85_r1i1p1" regExp=".*wind\.[0-9]{4}\.nc$" />
+		  	</aggregation>
+			<variable orgName="wind" name="noresm1-m_rcp85_r1i1p1_wind"/>
+		</netcdf>
+		
+	</aggregation>
+</netcdf>

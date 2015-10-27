@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="title" type="String" value="BCSD CMIP5 Hydrology Monthly"/>
+	<remove name="file_name" type="attribute"/>
+	<aggregation type="union">
+		{{#ncFiles}}
+		<netcdf location="{{fileName}}" enhance="true">
+			{{#vars}}
+			<variable orgName="{{orgName}}" name="{{name}}"/>
+			{{/vars}}
+		</netcdf>
+		{{/ncFiles}}
+	</aggregation>
+</netcdf>
