@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="title" type="String" value="SnowModel Output Upper Deschutes River Basin"/>
+	<remove name="file_name" type="attribute"/>
+	<aggregation type="union">
+		<netcdf location="UpperDeschutes/reference_climate/reference_climate.ncml" enhance="true">
+			<variable orgName="SWE" name="UpperDeschutes_reference_climate_swe"/>
+			<variable orgName="SNOWFALL" name="UpperDeschutes_reference_climate_snowfall"/>
+			<variable orgName="RUNOFF" name="UpperDeschutes_reference_climate_runoff"/>
+			<variable orgName="SWEMELT" name="UpperDeschutes_reference_climate_swemelt"/>
+			<variable orgName="PRECIPITATION" name="UpperDeschutes_reference_climate_precipitation"/>
+		</netcdf>
+		<netcdf location="UpperDeschutes/t4/t4.ncml" enhance="true">
+			<variable orgName="SWE" name="UpperDeschutes_t4_swe"/>
+			<variable orgName="SNOWFALL" name="UpperDeschutes_t4_snowfall"/>
+			<variable orgName="RUNOFF" name="UpperDeschutes_t4_runoff"/>
+			<variable orgName="SWEMELT" name="UpperDeschutes_t4_swemelt"/>
+			<variable orgName="PRECIPITATION" name="UpperDeschutes_t4_precipitation"/>
+		</netcdf>
+		<netcdf location="UpperDeschutes/t2p10/t2p10.ncml" enhance="true">
+			<variable orgName="SWE" name="UpperDeschutes_t2p10_swe"/>
+			<variable orgName="SNOWFALL" name="UpperDeschutes_t2p10_snowfall"/>
+			<variable orgName="RUNOFF" name="UpperDeschutes_t2p10_runoff"/>
+			<variable orgName="SWEMELT" name="UpperDeschutes_t2p10_swemelt"/>
+			<variable orgName="PRECIPITATION" name="UpperDeschutes_t2p10_precipitation"/>
+		</netcdf>
+		<netcdf location="UpperDeschutes/t2/t2.ncml" enhance="true">
+			<variable orgName="SWE" name="UpperDeschutes_t2_swe"/>
+			<variable orgName="SNOWFALL" name="UpperDeschutes_t2_snowfall"/>
+			<variable orgName="RUNOFF" name="UpperDeschutes_t2_runoff"/>
+			<variable orgName="SWEMELT" name="UpperDeschutes_t2_swemelt"/>
+			<variable orgName="PRECIPITATION" name="UpperDeschutes_t2_precipitation"/>
+		</netcdf>
+		<netcdf location="UpperDeschutes/t4p10/t4p10.ncml" enhance="true">
+			<variable orgName="SWE" name="UpperDeschutes_t4p10_swe"/>
+			<variable orgName="SNOWFALL" name="UpperDeschutes_t4p10_snowfall"/>
+			<variable orgName="RUNOFF" name="UpperDeschutes_t4p10_runoff"/>
+			<variable orgName="SWEMELT" name="UpperDeschutes_t4p10_swemelt"/>
+			<variable orgName="PRECIPITATION" name="UpperDeschutes_t4p10_precipitation"/>
+		</netcdf>
+	</aggregation>
+</netcdf>

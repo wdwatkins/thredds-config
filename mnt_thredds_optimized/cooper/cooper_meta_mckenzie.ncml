@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds_workspace/cooper/cooper_union_mckenzie.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="acknowledgment" type="String" value="Oregon State University; College of Earth, Ocean, and Atmospheric Science"/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="SnowModel Output McKenzie River Basin, Cascades, UTM Zone 10N NAD83 (2014)"/>
+	<attribute name="summary" type="String" value="Daily precipitation, runoff (rain + snowmelt), snowfall, snow-water equivalent (SWE), and snowmelt, at a 100m spatial resolution for the period 1989 - 2011 for the Upper Deschutes River Basin (UDRB) study area and for 1989 - 2009 for the McKenzie River Basin (MRB) study area. Each variable is saved as a .tar file with 23 individual .nc (netcdf) files that contain gridded model output of size 781x385x365 for the UDRB and 759x1121x365 for the MRB. For example, the UDRB modeling domain is 781 rows by 385 columns at 100-m grid spacing, and data are stored in 365-day water-year time periods, one for each of the 23 years in the study period. The variable .tar files are further organized into climate-scenario folders for the 'reference_climate'  i.e. historical climate period, 't2' i.e. +2 degrees C added to each historical temperature record used as model forcing, 't2p10' i.e. +2 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing, 't4' i.e +4 degrees C added to each historical temperature record used as model forcing, and 't4p10' i.e. +4 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing."/>
+	<attribute name="keywords" type="String" value="precipitation, runoff, snow-water equivalent, snow melt"/>
+	<attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+	<attribute name="id" type="String" value="cooper/thredds/cida.usgs.gov"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="creator_name" type="String" value="Matthew G. Cooper"/>
+	<attribute name="creator_email" type="String" value="mguycooper@gmail.com"/>
+	<attribute name="publisher_name" type="String" value="Oregon State University"/>
+	<attribute name="publisher_url" type="String" value="http://ceoas.oregonstate.edu/"/>
+	<attribute name="geospatial_lat_min" type="String" value="43.94"/>
+	<attribute name="geospatial_lat_max" type="String" value="44.65"/>
+	<attribute name="geospatial_lon_min" type="String" value="-121.9"/>
+	<attribute name="geospatial_lon_max" type="String" value="-121.4"/>
+	<attribute name="time_coverage_start" type="String" value="1988-10-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2011-09-30T00:00"/>
+	<attribute name="time_coverage_resolution" type="String" value="Daily"/>
+	<attribute name="license" type="String" value="Freely Available: Oregon State University retains rights to ownership of the data and information."/>
+	<attribute name="authors" value="Oregon State University; College of Earth, Ocean, and Atmospheric Science"/>
+	<attribute name="institution" value="Oregon State University"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
