@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<attribute name="title" type="String" value="SnowModel Output McKenzie River Basin"/>
+	<remove name="file_name" type="attribute"/>
+	<aggregation type="union">		
+		<netcdf location="McKenzie/t2p10/t2p10.ncml" enhance="true">
+			<variable orgName="SWE" name="McKenzie_t2p10_swe"/>
+			<variable orgName="SNOWFALL" name="McKenzie_t2p10_snowfall"/>
+			<variable orgName="RUNOFF" name="McKenzie_t2p10_runoff"/>
+			<variable orgName="SWEMELT" name="McKenzie_t2p10_swemelt"/>
+			<variable orgName="PRECIPITATION" name="McKenzie_t2p10_precipitation"/>
+		</netcdf>
+		<netcdf location="McKenzie/t2/t2.ncml" enhance="true">
+			<variable orgName="SWE" name="McKenzie_t2_swe"/>
+			<variable orgName="SNOWFALL" name="McKenzie_t2_snowfall"/>
+			<variable orgName="RUNOFF" name="McKenzie_t2_runoff"/>
+			<variable orgName="SWEMELT" name="McKenzie_t2_swemelt"/>
+			<variable orgName="PRECIPITATION" name="McKenzie_t2_precipitation"/>
+		</netcdf>
+		<netcdf location="McKenzie/reference_climate/reference_climate.ncml" enhance="true">
+			<variable orgName="SWE" name="McKenzie_reference_climate_swe"/>
+			<variable orgName="SNOWFALL" name="McKenzie_reference_climate_snowfall"/>
+			<variable orgName="RUNOFF" name="McKenzie_reference_climate_runoff"/>
+			<variable orgName="SWEMELT" name="McKenzie_reference_climate_swemelt"/>
+			<variable orgName="PRECIPITATION" name="McKenzie_reference_climate_precipitation"/>
+		</netcdf>	
+	</aggregation>
+</netcdf>
