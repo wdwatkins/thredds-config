@@ -10,9 +10,13 @@
 		<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
 		<service name="iso" serviceType="ISO" base="/thredds/iso/"/>
 	</service>
-	<service name="wicci_services" serviceType="Compound" base="">
+	<service name="services_http" serviceType="Compound" base="">
 		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
 		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+		<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/"/>
+		<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+		<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+		<service name="iso" serviceType="ISO" base="/thredds/iso/"/
 	</service>
 	<service name="http" serviceType="Compound" base="">
 		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
@@ -344,7 +348,7 @@
 			</dataset>
 			<datasetScan name="Station Downscaling (beta services)" ID="cida.usgs.gov/dcp/stations" path="dcp/stations" location="/mnt/thredds/hayhoe/archive/final/station_downscaling/">
 				<metadata inherited="true">
-					<serviceName>wicci_services</serviceName>
+					<serviceName>services_http</serviceName>
 				</metadata>
 			</datasetScan>
 			<datasetScan name="Documentation and Files" ID="cida.usgs.gov/dcp/files" path="dcp/files" location="/mnt/thredds/dcp_compressed/documentation_and_files/">
@@ -873,7 +877,7 @@
 					<resolution>1 Year</resolution>
 				</timeCoverage>
 			</metadata>
-			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/R_5model_rcp45" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp45">
+			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/R_5model_rcp45" serviceName="services_http" urlPath="AIEM_permafrost/R_5model_rcp45">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -889,7 +893,7 @@
 				</geospatialCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_metadata.nc"/>
 			</dataset>
-			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/R_5model_rcp85" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp85">
+			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/R_5model_rcp85" serviceName="services_http" urlPath="AIEM_permafrost/R_5model_rcp85">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -905,7 +909,7 @@
 				</geospatialCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_metadata.nc"/>
 			</dataset>
-			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/R_5model_rcp45" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp45">
+			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/R_5model_rcp45" serviceName="services_http" urlPath="AIEM_permafrost/R_5model_rcp45">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -921,7 +925,7 @@
 				</geospatialCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/R_5model_rcp45_metadata.nc"/>
 			</dataset>
-			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/R_5model_rcp85" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp85">
+			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/R_5model_rcp85" serviceName="services_http" urlPath="AIEM_permafrost/R_5model_rcp85">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -1026,7 +1030,7 @@
 			</dataset>
 			<datasetScan name="Files" ID="cida.usgs.gov/cmip3/wicci" path="cmip3/wicci" location="/mnt/thredds/wicci/cmip3/">
 				<metadata inherited="true">
-					<serviceName>wicci_services</serviceName>
+					<serviceName>services_http</serviceName>
 				</metadata>
 			</datasetScan>
 		</dataset>
