@@ -845,6 +845,99 @@
 				<end>present</end>
 			</timeCoverage>
 		</dataset>
+		<dataset name="Simulated permafrost dynamics across the Alaskan North Slope region in the 20th and 21st centuries">
+			<metadata inherited="true">
+				<dataType>Grid</dataType>
+				<documentation xlink:href="http://djlorenz.github.io/downscaling2/main.html" xlink:title="Summary of Projections"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Reference">TBD</documentation>
+				<keyword>Permafrost</keyword>
+				<keyword>active layer</keyword>
+				<keyword>soil temperature</keyword>
+				<keyword>talik</keyword>
+				<creator>
+					<name>Dmitry Nicolsky</name>
+					<contact url="http://permafrost.gi.alaska.edu/" email="djnicolsky@alaska.edu"/>
+				</creator>
+				<creator>
+					<name>Vladimir Romanovsky</name>
+					<contact url="http://permafrost.gi.alaska.edu/" email="veromanovsky@alaska.edu"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<timeCoverage>
+					<start>1901-01-01T00:00</start>
+					<end>2100-12-31T00:00</end>
+					<resolution>1 Year</resolution>
+				</timeCoverage>
+			</metadata>
+			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/R_5model_rcp45" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp45">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>	67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-160.1831</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_metadata.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/R_5model_rcp85" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp85">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>	67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_metadata.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/R_5model_rcp45" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp45">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>66.5767</start>
+						<size>0.099</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-160.1831</start>
+						<size>0.2487</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/R_5model_rcp45_metadata.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/R_5model_rcp85" serviceName="wicci_services" urlPath="AIEM_permafrost/R_5model_rcp85">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>66.5767</start>
+						<size>0.099</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-160.1831</start>
+						<size>0.2487</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/R_5model_rcp85_metadata.nc"/>
+			</dataset>
+		</dataset>
 		<dataset name="Statistically Downscaled Climate Projections for the US and southern Canada east of the Rocky Mountains." ID="wicci">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
