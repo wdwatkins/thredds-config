@@ -1,0 +1,17 @@
+McKenzie/t2p10/swe/
+McKenzie/t2p10/snowfall/
+McKenzie/t2p10/runoff/
+McKenzie/t2p10/swemelt/
+McKenzie/t2p10/precipitation/
+
+McKenzie/reference_climate/swe/
+McKenzie/reference_climate/snowfall/
+McKenzie/reference_climate/runoff/
+McKenzie/reference_climate/swemelt/
+McKenzie/reference_climate/precipitation/
+
+McKenzie/t2/swe/
+McKenzie/t2/snowfall/
+McKenzie/t2/runoff/
+McKenzie/t2/swemelt/
+McKenzie/t2/precipitation/
