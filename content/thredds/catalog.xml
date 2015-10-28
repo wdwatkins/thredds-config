@@ -716,7 +716,7 @@
 				</timeCoverage>
 			</metadata>>
 		</dataset>
-		<dataset name="SnowModel Output, McKenzie and Upper Deschutes River Basins, Cascades, UTM Zone 10N NAD83 (2014)" serviceName="http" urlPath="cooper">
+		<dataset name="SnowModel Output, McKenzie and Upper Deschutes River Basins, Cascades, UTM Zone 10N NAD83 (2014)">
 			<metadata inherited="true">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
@@ -737,7 +737,17 @@
 				<name>CIDA</name>
 				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
-			<geospatialCoverage>
+			<timeCoverage>
+					<start>1988-10-01T00:00</start>
+					<end>2011-09-30T00:00</end>
+					<resolution>1 Day</resolution>
+			</timeCoverage>
+		</dataset>
+		<dataset name="Upper Deschutes" serviceName="Services" urlPath="cooper/data/UpperDeschutes">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_deschutes.ncml">
+					<attribute name="Conventions" value="CF-1.4" />
+				</netcdf>
+				<geospatialCoverage>
 				<northsouth>
 					<start>43.94</start>
 					<size>-0.71</size>
@@ -749,25 +759,9 @@
 					<units>degrees_east</units>
 				</eastwest>
 			</geospatialCoverage>
-			<timeCoverage>
-				<start>1988-10-01T00:00</start>
-				<end>2011-09-30T00:00</end>
-				<resolution>1 Day</resolution>
-			</timeCoverage>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/"/>
-		</dataset>
-		<dataset name="Upper Deschutes" serviceName="Services" urlPath="cooper/data/UpperDeschutes">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/cooper/ncmls/unions/cooper_deschutes_union.ncml">
-					<attribute name="Conventions" value="CF-1.4" />
-				</netcdf>
-				<timeCoverage>
-					<start>1988-10-01T00:00</start>
-					<end>2011-09-30T00:00</end>
-					<resolution>1 Day</resolution>
-				</timeCoverage>
 		</dataset>
 		<dataset name="McKenzie" serviceName="Services" urlPath="cooper/data/McKenzie">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/cooper/unions/ncmls/cooper_mckenzie_union.ncml">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_mckenzie.ncml">
 					<attribute name="Conventions" value="CF-1.4" />
 				</netcdf>
 				<timeCoverage>
@@ -775,12 +769,21 @@
 					<end>2011-09-30T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
+				<geospatialCoverage>
+				<northsouth>
+					<start>44.35</start>
+					<size>-0.68</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-121.73</start>
+					<size>-1.39</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
 		</dataset>
-		<datasetScan name="Direct File Access" ID="cida.usgs.gov/cooper/files" path="cooper/files" location="/mnt/thredds/cooper/">
+		<datasetScan name="Direct File Access" ID="cida.usgs.gov/cooper/files" path="cooper/files" location="/mnt/thredds/cooper/files">
 				<serviceName>http</serviceName>
-				<metadata inherited="true">
-					<serviceName>HTTPServer</serviceName>
-				</metadata>
 		</datasetScan>
 		<dataset name="Thermosteric Sea Level Rise Projections with Parametric Uncertainty" ID="cida.usgs.gov/thredds/slr2d/" serviceName="Services" urlPath="slr2d">
 			<dataType>Grid</dataType>
