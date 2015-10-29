@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds_workspace/cooper/cooper_union_deschutes.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
 <!-- Global Attributes for Dataset Discovery -->
 	<attribute name="acknowledgment" type="String" value="Oregon State University; College of Earth, Ocean, and Atmospheric Science"/>
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -25,4 +25,7 @@
 	<attribute name="authors" value="Oregon State University; College of Earth, Ocean, and Atmospheric Science"/>
 	<attribute name="institution" value="Oregon State University"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
+	<aggregation type="union">
+		<scan location="/mnt/thredds/cooper/data/deschutes" suffix=".nc" subdirs="false" />		
+	</aggregation>
 </netcdf>				
