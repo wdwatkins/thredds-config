@@ -742,45 +742,45 @@
 					<resolution>1 Day</resolution>
 			</timeCoverage>
 			</metadata>
+			<dataset name="Upper Deschutes" serviceName="Services" ID="cida.usgs.gov/cooper/UpperDeschutes" urlPath="cooper/UpperDeschutes">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_deschutes.ncml" />
+				<geospatialCoverage>
+					<northsouth>
+						<start>43.94</start>
+						<size>-0.71</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-121.9</start>
+						<size>0.5</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</dataset>
+			<dataset name="McKenzie" serviceName="Services" ID="cida.usgs.gov/cooper/McKenzie" urlPath="cooper/McKenzie">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_mckenzie.ncml" />
+				<timeCoverage>
+					<start>1988-10-01T00:00</start>
+					<end>2011-09-30T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<geospatialCoverage>
+					<northsouth>
+						<start>44.35</start>
+						<size>-0.68</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-121.73</start>
+						<size>-1.39</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</dataset>
+			<datasetScan name="Direct File Access" ID="cida.usgs.gov/cooper/files" path="cooper/files" location="/mnt/thredds/cooper/files">
+					<serviceName>http</serviceName>
+			</datasetScan>
 		</dataset>
-		<dataset name="Upper Deschutes" serviceName="Services" urlPath="cooper/data/UpperDeschutes">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_deschutes.ncml" />
-			<geospatialCoverage>
-				<northsouth>
-					<start>43.94</start>
-					<size>-0.71</size>
-					<units>degrees_north</units>
-				</northsouth>
-				<eastwest>
-					<start>-121.9</start>
-					<size>0.5</size>
-					<units>degrees_east</units>
-				</eastwest>
-			</geospatialCoverage>
-		</dataset>
-		<dataset name="McKenzie" serviceName="Services" urlPath="cooper/data/McKenzie">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_mckenzie.ncml" />
-			<timeCoverage>
-				<start>1988-10-01T00:00</start>
-				<end>2011-09-30T00:00</end>
-				<resolution>1 Day</resolution>
-			</timeCoverage>
-			<geospatialCoverage>
-				<northsouth>
-					<start>44.35</start>
-					<size>-0.68</size>
-					<units>degrees_north</units>
-				</northsouth>
-				<eastwest>
-					<start>-121.73</start>
-					<size>-1.39</size>
-					<units>degrees_east</units>
-				</eastwest>
-			</geospatialCoverage>
-		</dataset>
-		<datasetScan name="Direct File Access" ID="cida.usgs.gov/cooper/files" path="cooper/files" location="/mnt/thredds/cooper/files">
-				<serviceName>http</serviceName>
-		</datasetScan>
 		<dataset name="Thermosteric Sea Level Rise Projections with Parametric Uncertainty" ID="cida.usgs.gov/thredds/slr2d/" serviceName="Services" urlPath="slr2d">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
