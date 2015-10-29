@@ -741,7 +741,7 @@
 						<resolution>1 Day</resolution>
 				</timeCoverage>
 			</metadata>
-			<dataset name="Upper Deschutes" serviceName="Services" ID="cida.usgs.gov/cooper/UpperDeschutes" urlPath="cooper/UpperDeschutes">
+			<dataset name="Upper Deschutes" serviceName="Services" ID="cida.usgs.gov/cooper/UpperDeschutes" urlPath="UpperDeschutes">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_deschutes.ncml" />
 				<geospatialCoverage>
 					<northsouth>
@@ -756,7 +756,7 @@
 					</eastwest>
 				</geospatialCoverage>
 			</dataset>
-			<dataset name="McKenzie" serviceName="Services" ID="cida.usgs.gov/cooper/McKenzie" urlPath="cooper/McKenzie">
+			<dataset name="McKenzie" serviceName="Services" ID="cida.usgs.gov/cooper/McKenzie" urlPath="McKenzie">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_mckenzie.ncml" />
 				<geospatialCoverage>
 					<northsouth>
