@@ -718,29 +718,28 @@
 		</dataset>
 		<dataset name="SnowModel Output, McKenzie and Upper Deschutes River Basins, Cascades, UTM Zone 10N NAD83 (2014)">
 			<metadata inherited="true">
-			<dataType>Grid</dataType>
-			<dataFormat>NcML</dataFormat>
-			<documentation type="Rights">Freely Available</documentation>
-			<documentation type="Summary">Daily precipitation, runoff (rain + snowmelt), snowfall, snow-water equivalent (SWE), and snowmelt, at a 100m spatial resolution for the period 1989 - 2011 for the Upper Deschutes River Basin (UDRB) study area and for 1989 - 2009 for the McKenzie River Basin (MRB) study area. Each variable is saved as a .tar file with 23 individual .nc (netcdf) files that contain gridded model output of size 781x385x365 for the UDRB and 759x1121x365 for the MRB. For example, the UDRB modeling domain is 781 rows by 385 columns at 100-m grid spacing, and data are stored in 365-day water-year time periods, one for each of the 23 years in the study period. The variable .tar files are further organized into climate-scenario folders for the 'reference_climate'  i.e. historical climate period, 't2' i.e. +2 degrees C added to each historical temperature record used as model forcing, 't2p10' i.e. +2 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing, 't4' i.e +4 degrees C added to each historical temperature record used as model forcing, and 't4p10' i.e. +4 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing.</documentation>
-			<documentation type="Reference"></documentation>
-			<keyword>precipitation</keyword>
-			<keyword>runoff</keyword>
-			<keyword>snow-water equivalent</keyword>
-			<keyword>snow melt</keyword>
-			<keyword>snow fall</keyword>
-			<creator>
-				<name>Matthew G. Cooper</name>
-				<contact>mguycooper@gmail.com</contact>
-			</creator>
-			<publisher>
-				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
-			</publisher>
-			<timeCoverage>
-					<start>1988-10-01T00:00</start>
-					<end>2011-09-30T00:00</end>
-					<resolution>1 Day</resolution>
-			</timeCoverage>
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<documentation type="Rights">Freely Available</documentation>
+				<documentation type="Summary">Daily precipitation, runoff (rain + snowmelt), snowfall, snow-water equivalent (SWE), and snowmelt, at a 100m spatial resolution for the period 1989 - 2011 for the Upper Deschutes River Basin (UDRB) study area and for 1989 - 2009 for the McKenzie River Basin (MRB) study area. Each variable is saved as a .tar file with 23 individual .nc (netcdf) files that contain gridded model output of size 781x385x365 for the UDRB and 759x1121x365 for the MRB. For example, the UDRB modeling domain is 781 rows by 385 columns at 100-m grid spacing, and data are stored in 365-day water-year time periods, one for each of the 23 years in the study period. The variable .tar files are further organized into climate-scenario folders for the 'reference_climate'  i.e. historical climate period, 't2' i.e. +2 degrees C added to each historical temperature record used as model forcing, 't2p10' i.e. +2 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing, 't4' i.e +4 degrees C added to each historical temperature record used as model forcing, and 't4p10' i.e. +4 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing.</documentation>
+				<keyword>precipitation</keyword>
+				<keyword>runoff</keyword>
+				<keyword>snow-water equivalent</keyword>
+				<keyword>snow melt</keyword>
+				<keyword>snow fall</keyword>
+				<creator>
+					<name>Matthew G. Cooper</name>
+					<contact email="mguycooper@gmail.com"/>
+				</creator>
+				<publisher>
+					<name>CIDA</name>
+					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<timeCoverage>
+						<start>1988-10-01T00:00</start>
+						<end>2011-09-30T00:00</end>
+						<resolution>1 Day</resolution>
+				</timeCoverage>
 			</metadata>
 			<dataset name="Upper Deschutes" serviceName="Services" ID="cida.usgs.gov/cooper/UpperDeschutes" urlPath="cooper/UpperDeschutes">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_deschutes.ncml" />
@@ -759,11 +758,6 @@
 			</dataset>
 			<dataset name="McKenzie" serviceName="Services" ID="cida.usgs.gov/cooper/McKenzie" urlPath="cooper/McKenzie">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/cooper/cooper_meta_mckenzie.ncml" />
-				<timeCoverage>
-					<start>1988-10-01T00:00</start>
-					<end>2011-09-30T00:00</end>
-					<resolution>1 Day</resolution>
-				</timeCoverage>
 				<geospatialCoverage>
 					<northsouth>
 						<start>44.35</start>
