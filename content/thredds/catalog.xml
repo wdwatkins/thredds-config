@@ -721,7 +721,9 @@
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
 				<documentation type="Rights">Freely Available</documentation>
+				<documentation xlink:href="http://hdl.handle.net/1957/56058" xlink:title="Further Documentation in Masters Thesis"/>
 				<documentation type="Summary">Daily precipitation, runoff (rain + snowmelt), snowfall, snow-water equivalent (SWE), and snowmelt, at a 100m spatial resolution for the period 1989 - 2011 for the Upper Deschutes River Basin (UDRB) study area and for 1989 - 2009 for the McKenzie River Basin (MRB) study area. Each variable is saved as a .tar file with 23 individual .nc (netcdf) files that contain gridded model output of size 781x385x365 for the UDRB and 759x1121x365 for the MRB. For example, the UDRB modeling domain is 781 rows by 385 columns at 100-m grid spacing, and data are stored in 365-day water-year time periods, one for each of the 23 years in the study period. The variable .tar files are further organized into climate-scenario folders for the 'reference_climate'  i.e. historical climate period, 't2' i.e. +2 degrees C added to each historical temperature record used as model forcing, 't2p10' i.e. +2 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing, 't4' i.e +4 degrees C added to each historical temperature record used as model forcing, and 't4p10' i.e. +4 degrees C added to each historical temperature and +10% precipitation added to each historical precipitation record used as model forcing.</documentation>
+				<documentation type="Reference">Cooper, Matthew Guy, 2015, Modeling Elevation-Dependent Snow Sensitivity to Climate Warming in the Data Sparse Eastern Oregon Cascades, Oregon State Thesis, http://hdl.handle.net/1957/56058</documentation>
 				<keyword>precipitation</keyword>
 				<keyword>runoff</keyword>
 				<keyword>snow-water equivalent</keyword>
