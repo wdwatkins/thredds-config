@@ -12,7 +12,11 @@ completed using the following conversions:
 ['_tasmax_','air_temperature','100','0.01','-99.9'], # -327.68 to 327.67 deg C
 ['_tasmin_','air_temperature','100','0.01','-99.9'], # -327.68 to 327.67 deg C
 ['_was_','wind_speed','100','0.01','-99.9'], #  -327.68 to 327.67 m/s
-['_rsds_','surface_downwelling_shortwave_flux_in_air','10','0.1','-99.9'], # -327.68 to 327.67 W/m^2
+['_vas_','northward_wind','100','0.01','-99.9'], #  -327.68 to 327.67 m/s
+['_uas_','eastward_wind','100','0.01','-99.9'], #  -327.68 to 327.67 m/s
+['_rsds_','surface_downwelling_shortwave_flux_in_air','100','0.01','-99.9'], # -327.68 to 327.67 W/m^2
+['_rhsmin_','relative_humidity','100','0.01','-99.9'], # -327.68 to 327.67 %
+['_rhsmax_','relative_humidity','100','0.01','-99.9'], # -327.68 to 327.67 %
 ['_huss_','specific_humidity','1000000','0.000001','-.00999']] # -0.032768 to 0.032767 kg/kg
 
 Note: This script relies on a bash script, compress.sh in a bin folder that is in the execution directory.
@@ -40,7 +44,7 @@ if __name__ == '__main__':
     parser.add_argument('dest', type=str)
     parser.add_argument('maxProcesses', type=int)
     args = parser.parse_args()
-    src = args.sorceDir
+    src = args.sourceDir
     PROC_DIR = args.procDir
     dest = args.dest
     max_processes = args.maxProcesses
@@ -79,7 +83,11 @@ if __name__ == '__main__':
               ['_tasmax_','air_temperature','100','0.01','-99.9'], # -327.68 to 327.67 deg C
               ['_tasmin_','air_temperature','100','0.01','-99.9'], # -327.68 to 327.67 deg C
               ['_was_','wind_speed','100','0.01','-99.9'], #  -327.68 to 327.67 m/s
-              ['_rsds_','surface_downwelling_shortwave_flux_in_air','10','0.1','-99.9'], # -327.68 to 327.67 W/m^2
+              ['_vas_','northward_wind','100','0.01','-99.9'], #  -327.68 to 327.67 m/s
+              ['_uas_','eastward_wind','100','0.01','-99.9'], #  -327.68 to 327.67 m/s
+              ['_rsds_','surface_downwelling_shortwave_flux_in_air','100','0.01','-99.9'], # -327.68 to 327.67 W/m^2
+              ['_rhsmin_','relative_humidity','100','0.01','-99.9'], # -327.68 to 327.67 %
+              ['_rhsmax_','relative_humidity','100','0.01','-99.9'], # -327.68 to 327.67 %
               ['_huss_','specific_humidity','1000000','0.000001','-.00999']] # -0.032768 to 0.032767 kg/kg
     for srcfile in srcfiles:
         for input_keys in inputs:
