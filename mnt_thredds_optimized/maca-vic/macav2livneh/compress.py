@@ -96,11 +96,11 @@ if __name__ == '__main__':
                 scale=input_keys[2]
                 scale_factor=input_keys[3]
                 missing=input_keys[4]
-        print './bin/compress.sh '+var+' '+scale+' '+scale_factor+' '+missing+' '+srcfile[1]+' '+srcfile[0]+' '+PROC_DIR+srcfile[0][len(src):len(srcfile[0])]+' '+dest+srcfile[0][len(src):len(srcfile[0])]
-        command=shlex.split('./bin/compress.sh '+var+' '+scale+' '+scale_factor+' '+missing+' '+srcfile[1]+' '+srcfile[0]+' '+PROC_DIR+srcfile[0][len(src):len(srcfile[0])]+' '+dest+srcfile[0][len(src):len(srcfile[0])])
+        command_string='./bin/compress.sh '+var+' '+scale+' '+scale_factor+' '+missing+' '+srcfile[1]+' '+srcfile[0]+' '+PROC_DIR+srcfile[0][len(src):len(srcfile[0])]+' '+dest+srcfile[0][len(src):len(srcfile[0])]
+        print command_string
+        command=shlex.split(command_string)
         print str(file_processing)+ ' of ' + str(files_to_process)
         file_processing+=1
-        print command
         processes.append(subprocess.Popen(command))
         if len(processes) < max_processes:
             time.sleep(pause_time)
