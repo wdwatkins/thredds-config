@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+        <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
+                <netcdf location="dods://localhost:8080/thredds/dodsC/stageiv/stageiv_archive.ncml"/>
+                <netcdf location="dods://localhost:8080/thredds/dodsC/stageiv/stageivRT.ncml"/>
+        </aggregation>
+</netcdf>
