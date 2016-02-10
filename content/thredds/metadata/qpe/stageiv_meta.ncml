@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/ncml/stageiv.ncml">
+	<attribute name="Conventions" value="CF-1.4" />
+	<attribute name="history" type="String" value="Aggregated from NCEP Stage IV Analysis by dblodgett@usgs.gov 2016-01-01"/>
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="United States Stage IV Quantitative Precipitation Archive"/>
+	<attribute name="summary" type="String" value="Mosaicked into a national product at NCEP, from the regional hourly multi-sensor (radar+gauges) precipitation analyses produced by the 12 River Forecast Centers over CONUS. Some manual QC done at the RFCs.
+	The Stage II/IV job is run at 33min past the top of each hour. Hourly Stage IV is re-made hourly (if there is new input after valid time for the next 23 hours, then again at 1/3/5/7 days after valid time.
+	Source: http://www.emc.ncep.noaa.gov/mmb/ylin/pcpanl/stage4/"/>
+	<attribute name="keywords" type="String" value="Atmosphere &gt; Precipitation &gt; Precipitation Amount   Atmosphere &gt; Precipitation &gt; Rain"/>
+	<attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
+	<attribute name="id" type="String" value=" stageiv"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="date_created" type="String" value="ongoing"/>
+	<attribute name="institution" type="String" value="National Center for Environmental Prediction"/>
+	<attribute name="project" type="String" value="Various"/>
+	<attribute name="processing_level" type="String" value="Aggregated .grib archive from the NCEP. The original Hydrologic Rainfall Analysis Projection grid cell locations redefined by unprojecting grid cell locations using spherical earth projection algorithms. 
+		The cell lat/lon locations should be interpreted as being on a modern geotetic datum. This transformation is needed because the original grid cell location's lat/lon values were on a geodetic datum but were assumed to be on a spherical datum. 
+		See: http://pubs.usgs.gov/fs/2013/3035/pdf/fs2013-3035.pdf for more information. Note that this publication reverences the National Precipitation Verification Unit.
+		The data represented here are aggregated from the same source as the National Precipitation Verification Unit used prior to being shut down."/>
+	<attribute name="acknowledgement" type="String" value="Data originated at the National Center for Environmental Prediction: http://www.emc.ncep.noaa.gov/mmb/ylin/pcpanl/stage4/"/>
+	<attribute name="geospatial_lat_min" type="String" value="24"/>
+	<attribute name="geospatial_lat_max" type="String" value="53"/>
+	<attribute name="geospatial_lon_min" type="String" value="-125"/>
+	<attribute name="geospatial_lon_max" type="String" value="-66"/>
+	<attribute name="time_coverage_start" type="String" value="2002-01-01T00:00:00Z"/>
+	<attribute name="time_coverage_end" type="String" value="present"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<attribute name="contributor_name" type="String" value="National Center for Environmental Protection"/>
+	<attribute name="contributor_role" type="String" value="Data Collection and Warehousing"/>
+	<attribute name="contributor_name" type="String" value="Center for Integrated Data Analytics"/>
+	<attribute name="contributor_role" type="String" value="Aggregation and Serving via THREDDS"/>
+	<attribute name="geospatial_lat_units" type="String" value="km"/>
+	<attribute name="geospatial_lat_resolution" type="String" value="4"/>
+	<attribute name="geospatial_lon_units" type="String" value="km"/>
+	<attribute name="geospatial_lon_resolution" type="String" value="4"/>
+	<attribute name="geospatial_vertical_units" type="String" value="km"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>

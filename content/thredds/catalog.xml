@@ -812,21 +812,24 @@
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/slr2d/slr2d_meta.ncml"/>
 		</dataset>
-		<dataset name="National RFC QPE Mosaic Archive" ID="cida.usgs.gov/thredds/qpe/anational" serviceName="Services" urlPath="qpe/anational_w_meta.ncml">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/qpe/anational_w_meta.ncml"/>
+		<dataset name="National Stage IV Quantitative Precipitation Estimate Mosaic" ID="cida.usgs.gov/thredds/stageiv" serviceName="Services" urlPath="stageiv">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/qpe/stageiv_meta.ncml"/>
 			<dataFormat>NetCDF-Grid</dataFormat>
-			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
+			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Centers for Environmental Prediction National Stage IV Quantitative Precipitation Estimate Product"/>
 			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
+			<documentation xlink:href="http://pubs.usgs.gov/fs/2013/3035/pdf/fs2013-3035.pdf" xlink:title="USGS Publication Documenting Grid Reprojection."/>
 			<documentation type="Rights">Freely Available.</documentation>
-			<documentation type="Summary">National Mosaic of Radar indicated-rain gage verified and corrected precipitation estimate on a ~10km grid. 6 hour temporal resolution. Files are added daily from the latest 7 day dataset.</documentation>
+			<documentation type="Summary">Mosaicked into a national product at NCEP, from the regional hourly multi-sensor (radar+gauges) precipitation analyses produced by the 12 River Forecast Centers over CONUS. Some manual QC done at the RFCs.
+			The Stage II/IV job is run at 33min past the top of each hour. Hourly Stage IV is re-made hourly (if there is new input after valid time for the next 23 hours, then again at 1/3/5/7 days after valid time.
+			Source: http://www.emc.ncep.noaa.gov/mmb/ylin/pcpanl/stage4/</documentation>
 			<keyword>precipitation</keyword>
 			<creator>
 				<name>River Forecasting Centers</name>
 				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
 			</creator>
-			<contributor role="aggregate and archive">National Precipitation Verification Unit</contributor>
+			<contributor role="aggregate and archive">National Centers for Environmental Prediction</contributor>
 			<publisher>
-				<name>CIDA</name>
+				<name>USGS Office of Water Information Center for Integrated Data Analytics</name>
 				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
@@ -842,75 +845,7 @@
 				</eastwest>
 			</geospatialCoverage>
 			<timeCoverage>
-				<start>2001-04-1T18:00:00Z</start>
-				<end>present</end>
-			</timeCoverage>
-		</dataset>
-		<dataset name="North Central River Forecasting Center QPE Archive" ID="cida.usgs.gov/thredds/qpe/ancrfcqpe" serviceName="Services" urlPath="qpe/ancrfcqpe_w_meta.ncml">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/qpe/ancrfcqpe_w_meta.ncml"/>
-			<dataFormat>NetCDF-Grid</dataFormat>
-			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
-			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
-			<documentation type="Rights">Freely Available.</documentation>
-			<documentation type="Summary">Radar indicated-rain gage verified and corrected precipitation estimate on the ~4km HRAP grid. 1 hour and 6 hour temporal resolution. Includes only the North Central River Forecasting Center's data.</documentation>
-			<keyword>precipitation</keyword>
-			<creator>
-				<name>River Forecasting Centers</name>
-				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
-			</creator>
-			<contributor role="aggregate and archive">National Precipitation Verification Unit</contributor>
-			<publisher>
-				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
-			</publisher>
-			<geospatialCoverage>
-				<northsouth>
-					<start>38</start>
-					<size>13</size>
-					<units>degrees_north</units>
-				</northsouth>
-				<eastwest>
-					<start>-105</start>
-					<size>16</size>
-					<units>degrees_east</units>
-				</eastwest>
-			</geospatialCoverage>
-			<timeCoverage>
-				<start>2000-06-15T00:00</start>
-				<end>2011-11-19T11:00</end>
-			</timeCoverage>
-		</dataset>
-		<dataset name="Ohio River Forecasting Center QPE Archive" ID="cida.usgs.gov/thredds/qpe/aohrfcqpe" serviceName="Services" urlPath="qpe/aohrfcqpe_w_meta.ncml">
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/qpe/aohrfcqpe_w_meta.ncml"/>
-			<dataFormat>NetCDF-Grid</dataFormat>
-			<documentation xlink:href="http://www.hpc.ncep.noaa.gov/npvu/index.shtml" xlink:title="National Precipitation Verification Unit"/>
-			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
-			<documentation type="Rights">Freely Available.</documentation>
-			<documentation type="Summary">Radar indicated-rain gage verified and corrected precipitation estimate on the ~4km HRAP grid. 1 hour and 6 hour temporal resolution. Includes only the Ohio River Forecasting Center's data.</documentation>
-			<keyword>precipitation</keyword>
-			<creator>
-				<name>River Forecasting Centers</name>
-				<contact url="http://water.weather.gov/precip/rfc.php" email=""/>
-			</creator>
-			<contributor role="aggregate and archive">National Precipitation Verification Unit</contributor>
-			<publisher>
-				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
-			</publisher>
-			<geospatialCoverage>
-				<northsouth>
-					<start>35.5</start>
-					<size>10</size>
-					<units>degrees_north</units>
-				</northsouth>
-				<eastwest>
-					<start>-90</start>
-					<size>21.3</size>
-					<units>degrees_east</units>
-				</eastwest>
-			</geospatialCoverage>
-			<timeCoverage>
-				<start>2000-06-26T00:00</start>
+				<start>2002-01-01T00:00:00Z</start>
 				<end>present</end>
 			</timeCoverage>
 		</dataset>
