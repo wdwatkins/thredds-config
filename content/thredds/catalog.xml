@@ -269,7 +269,7 @@
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/topowx_normals.ncml"/>
 			</dataset>
 		</dataset>
-		<dataset name="National Stage IV Quantitative Precipitation Estimate Mosaic" ID="cida.usgs.gov/thredds/stageiv" serviceName="Services" urlPath="ncep_stageiv">
+		<dataset name="National Stage IV Quantitative Precipitation Estimate Mosaic" ID="cida.usgs.gov/thredds/ncep_stageiv" serviceName="Services" urlPath="ncep_stageiv">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/qpe/stageiv_meta.ncml"/>
 			<dataFormat>NetCDF-Grid</dataFormat>
 			<documentation xlink:href="http://www.emc.ncep.noaa.gov/mmb/ylin/pcpanl/stage4/" xlink:title="National Centers for Environmental Prediction National Stage IV Quantitative Precipitation Estimate Product"/>
