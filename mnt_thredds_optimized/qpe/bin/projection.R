@@ -36,4 +36,20 @@ for(i in 1:length(x)) {
 }
 write.table(x = lat, file = 'lat.csv',row.names = FALSE, col.names = FALSE, sep=' ')
 write.table(x = lon, file = 'lon.csv',row.names = FALSE, col.names = FALSE, sep=' ')
-
+shape_out<-matrix(nrow=nrow(lat)*ncol(lat), ncol = 4)
+counter=1
+for(i in 1:nrow(lat)) {
+  for(j in 1:ncol(lat)) {
+   shape_out[counter,1]<-lon[i,j]
+   shape_out[counter,2]<-lat[i,j]
+   shape_out[counter,3]<-i
+   shape_out[counter,4]<-j
+   counter<-counter+1
+  }
+}
+coordin<-data.frame(shape_out[,1:2])
+dataf<-as.data.frame(shape_out[,3:4])
+names(dataf)<-c('x','y')
+projec<-CRS("+proj=longlat +datum=NAD83")
+points_shape<-SpatialPointsDataFrame(coordin,dataf,proj4string = projec)
+writePointsShape(points_shape,'ncep_stiv_cell_points')
