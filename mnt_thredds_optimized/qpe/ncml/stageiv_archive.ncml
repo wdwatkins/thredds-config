@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="true">
         <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
-                <scan location="../archive/stage4" subdirs="false" regExp="stage4_map_.*"/>
+            <scan location="../archive/stage4" subdirs="false" suffix=".nc"/>
         </aggregation>
 </netcdf>
