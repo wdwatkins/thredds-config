@@ -1195,7 +1195,7 @@
 			<datasetScan name="Direct File Access" ID="cida.usgs.gov/thredds/WUS_HSP/files" serviceName="http" path="WUS_HSP/files" location="/mnt/thredds/WUS_HSP/"/>
 		</dataset>
 		<catalogRef xlink:title="California Basin Characterization Model Data" xlink:href="CA-BCM-Catalog.xml" name="California Basin Characterization Model Data"/>
-<!--		<dataset name="Integrated Climate and Land-Use Scenarios v1.3" ID="iclus">
+		<dataset name="Integrated Climate and Land-Use Scenarios v1.3" ID="iclus">
 			<metadata inherited="true">
 				<documentation xlink:href="http://www.epa.gov/ncea/global/iclus" xlink:title="Homepage of the ICLUS Project"/>
 				<documentation type="Rights">Freely Available.</documentation>
@@ -1254,7 +1254,7 @@
 				<serviceName>http</serviceName>
 			</datasetScan>
 		</dataset>
-	</dataset> -->
+	</dataset>
 	<dataset name="Mean Monthly Evaporation Atlas for the Contiguous 48 United States (1956-1970)" ID="cida.usgs.gov/mows/pe" serviceName="Services" urlPath="mows/pe">
 		<dataType>Grid</dataType>
 		<metadata>
