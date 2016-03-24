@@ -11,14 +11,14 @@
                         <collection name="stageiv_01hRT" spec="/mnt/thredds/qpe/ncep/ST4.*01h$"/>
                         <update startup="test" rescan="0 0/15 * * * ? *"/>
                 </featureCollection>
-                <dataset name="archive" ID="cida.usgs.gov/thredds/stageiv_01h_archive/" serviceName="all" urlPath="stageiv/stageiv_archive.ncml">
-                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/ncml/stageiv_archive.ncml"/>
+                <dataset name="archive" ID="cida.usgs.gov/thredds/stageiv_01h_archive/" serviceName="all" urlPath="stageiv/stageiv_archive">
+                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/archive/stageiv_archive.nc"/>
                 </dataset>
                 <dataset name="real time" ID="cida.usgs.gov/thredds/stageiv_01h_RT/" serviceName="all" urlPath="stageiv/stageivRT.ncml">
                         <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/ncml/stageivRT.ncml"/>
                 </dataset>
-                <dataset name="all" ID="cida.usgs.gov/thredds/stageiv_01h/" serviceName="all" urlPath="stageiv/stageiv_archive">
-                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/archive/stageiv_archive.nc"/>
+                <dataset name="all" ID="cida.usgs.gov/thredds/stageiv_01h/" serviceName="all" urlPath="stageiv/stageiv.ncml">
+                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/ncml/stageiv.ncml"/>
                 </dataset>
         </dataset>
 </catalog>
