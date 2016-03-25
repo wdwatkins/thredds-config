@@ -1,24 +1,38 @@
+<?xml version="1.0"?>
 <catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" xmlns:xlink="http://www.w3.org/1999/xlink" name="CIDA THREDDS Server.">
-        <service name="all" base="" serviceType="compound">
-                <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
-        </service>
-        <dataset name="National Stage IV Quantitative Precipitation Estimate Mosaic Real Time" ID="cida.usgs.gov/thredds/stageiv_01hRT/">
-                <featureCollection featureType="GRIB1" name="stageiv_01hRT" path="stageiv/01hRT">
-                        <metadata inherited="true">
-                                <serviceName>all</serviceName>
-                                <dataType>Grid</dataType>
-                        </metadata>
-                        <collection name="stageiv_01hRT" spec="/mnt/thredds/qpe/ncep/ST4.*01h$"/>
-                        <update startup="test" rescan="0 0/15 * * * ? *"/>
-                </featureCollection>
-                <dataset name="archive" ID="cida.usgs.gov/thredds/stageiv_01h_archive/" serviceName="all" urlPath="stageiv/stageiv_archive">
-                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/archive/stageiv_archive.nc"/>
-                </dataset>
-                <dataset name="real time" ID="cida.usgs.gov/thredds/stageiv_01h_RT/" serviceName="all" urlPath="stageiv/stageivRT.ncml">
-                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/opt/tomcat/data/qpe/ncml/stageivRT.ncml"/>
-                </dataset>
-                <dataset name="all" ID="cida.usgs.gov/thredds/stageiv_01h/" serviceName="all" urlPath="stageiv/stageiv_combined">
-                        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/ncml/stageiv.ncml"/>
-                </dataset>
-        </dataset>
+	<service name="all" base="" serviceType="compound">
+		<service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+	</service>
+	<service name="services_http" serviceType="Compound" base="">
+		<service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+		<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/"/>
+		<service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+		<service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+		<service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+	</service>
+	<dataset name="National Stage IV Quantitative Precipitation Estimate Mosaic Real Time" ID="cida.usgs.gov/thredds/stageiv_01hRT/">
+		<featureCollection featureType="GRIB1" name="stageiv_01hRT" path="stageiv/01hRT">
+			<metadata inherited="true">
+				<serviceName>all</serviceName>
+				<dataType>Grid</dataType>
+			</metadata>
+			<collection name="stageiv_01hRT" spec="/opt/tomcat/data/qpe/ncep/ST4.*01h$"/>
+			<update startup="test" rescan="0 0/15 * * * ? *"/>
+		</featureCollection>
+		<dataset name="archive" ID="cida.usgs.gov/thredds/stageiv_01h_archive/" serviceName="all" urlPath="stageiv/stageiv_archive">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/archive/stageiv_archive.nc"/>
+		</dataset>
+		<dataset name="real time" ID="cida.usgs.gov/thredds/stageiv_01h_RT/" serviceName="all" urlPath="stageiv/stageivRT.ncml">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/opt/tomcat/data/qpe/ncml/stageivRT.ncml"/>
+		</dataset>
+		<dataset name="all" ID="cida.usgs.gov/thredds/stageiv_01h/" serviceName="all" urlPath="stageiv/stageiv_combined">
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/ncml/stageiv.ncml"/>
+		</dataset>
+	</dataset>
+	<datasetScan name="Files" ID="stageiv_scan" path="stageiv" location="/opt/tomcat/data/qpe/">
+		<metadata inherited="true">
+			<serviceName>services_http</serviceName>
+		</metadata>
+	</datasetScan>
 </catalog>
