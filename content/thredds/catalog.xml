@@ -395,7 +395,7 @@
 			</dataset>
 			<datasetScan name="Station Downscaling (beta services)" ID="cida.usgs.gov/dcp/stations" path="dcp/stations" location="/mnt/thredds/hayhoe/archive/final/station_downscaling/">
 				<metadata inherited="true">
-					<serviceName>services_http</serviceName>
+					<serviceName>http</serviceName>
 				</metadata>
 			</datasetScan>
 			<datasetScan name="Documentation and Files" ID="cida.usgs.gov/dcp/files" path="dcp/files" location="/mnt/thredds/dcp_compressed/documentation_and_files/">
@@ -948,7 +948,7 @@
 			</dataset>
 			<datasetScan name="Files" ID="cida.usgs.gov/AIEM_permafrost" path="AIEM_permafrost" location="/mnt/thredds/AIEM_permafrost/">
 				<metadata inherited="true">
-					<serviceName>services_http</serviceName>
+					<serviceName>http</serviceName>
 				</metadata>
 			</datasetScan>
 		</dataset>
@@ -1040,7 +1040,7 @@
 			</dataset>
 			<datasetScan name="Files" ID="cida.usgs.gov/cmip3/wicci" path="cmip3/wicci" location="/mnt/thredds/wicci/cmip3/">
 				<metadata inherited="true">
-					<serviceName>services_http</serviceName>
+					<serviceName>http</serviceName>
 				</metadata>
 			</datasetScan>
 		</dataset>
