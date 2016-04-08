@@ -19,6 +19,7 @@
 			</metadata>
 			<collection name="stageiv_01hRT" spec="/opt/tomcat/data/qpe/ncep/ST4.*01h$"/>
 			<update startup="test" rescan="0 0/15 * * * ? *"/>
+			<gribConfig datasetTypes="Best"/>
 		</featureCollection>
 		<dataset name="archive" ID="cida.usgs.gov/thredds/stageiv_01h_archive/" serviceName="all" urlPath="stageiv/stageiv_archive">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/qpe/archive/stageiv_archive.nc"/>
