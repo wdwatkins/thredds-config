@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="true">
+<aggregation type="joinExisting" dimName="time" timeUnitsChange="true" recheckEvery="5 min">
+        <scan location="/mnt/thredds/qpe/archive/stage4/weekly" suffix=".nc"/>
+</aggregation>
+  <remove type="variable" name="x"/>
+  <remove type="variable" name="y"/>
+  <remove type="variable" name="PolarStereographic_Projection"/>
+  <remove type="variable" name="reftime"/>
+  <remove type="variable" name="reftime_ISO"/>
+  <variable name="Total_precipitation_surface_1_Hour_Accumulation">
+        <remove type="attribute" name="_CoordinateAxes"/>
+        <remove type="attribute" name="grid_mapping"/>
+        <attribute name="coordinates" value="time lat lon"/>
+        <remove type="attribute" name="Grib_Statistical_Interval_Type"/>
+        <remove type="attribute" name="Grib_Variable_Id"/>
+        <remove type="attribute" name="Grib1_Center"/>
+        <remove type="attribute" name="Grib1_Subcenter"/>
+        <remove type="attribute" name="Grib1_TableVersion"/>
+        <remove type="attribute" name="Grib1_Parameter"/>
+        <remove type="attribute" name="Grib1_Parameter_Name"/>
+        <remove type="attribute" name="Grib1_Level_Type"/>
+        <remove type="attribute" name="Grib1_Level_Desc"/>
+        <remove type="attribute" name="Grib1_Interval_Type"/>
+        <remove type="attribute" name="Grib1_Interval_Name"/>
+  </variable>
+  <remove type="attribute" name="_CoordSysBuilder"/>
+  <attribute name="history" value="Read using CDM IOSP GribCollection v3 aggregated by dblodgett@usgs.gov"/>
+  <remove type="attribute" name="GRIB_table_version"/>
+  <remove type="attribute" name="file_format"/>
+</netcdf>
