@@ -155,11 +155,11 @@
 
 
   <!--
-  How to choose the template dataset for an aggregation. latest, random, or penultimate
+  How to choose the template dataset for an aggregation. latest, random, or penultimate  -->
   <Aggregation>
-    <typicalDataset>random</typicalDataset>
+    <typicalDataset>first</typicalDataset>
   </Aggregation>
-  -->
+
 
   <NetcdfSubsetService>
     <allow>true</allow>

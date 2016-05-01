@@ -3,7 +3,7 @@
         <aggregation dimName="time" type="joinExisting" timeUnitsChange="true">
                 <netcdf>
                         <aggregation dimName="time" type="joinExisting" timeUnitsChange="true" recheckEvery="15 min">
-                                <scan location="../archive/stage4" subdirs="false" suffix=".nc"/>
+                                <scan location="../archive/stage4" subdirs="true" suffix=".nc"/>
                         </aggregation>
                 </netcdf>
         </aggregation>
