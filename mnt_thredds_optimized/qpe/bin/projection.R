@@ -1,5 +1,5 @@
 library(rgdal)
-setwd('~/temp/stage4/')
+library(maptools)
 xy<-read.csv('xy.csv', header=FALSE)
 x<-as.numeric(xy[1,])
 y<-as.numeric(xy[2,])
@@ -42,8 +42,8 @@ for(i in 1:nrow(lat)) {
   for(j in 1:ncol(lat)) {
    shape_out[counter,1]<-lon[i,j]
    shape_out[counter,2]<-lat[i,j]
-   shape_out[counter,3]<-i
-   shape_out[counter,4]<-j
+   shape_out[counter,3]<-i-1
+   shape_out[counter,4]<-j-1
    counter<-counter+1
   }
 }
