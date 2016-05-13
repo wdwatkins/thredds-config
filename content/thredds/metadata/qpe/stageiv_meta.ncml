@@ -41,6 +41,6 @@
 	<variable name="Total_precipitation_surface_1_Hour_Accumulation">
 		<attribute name="standard_name" value="precipitation_amount"/>
 		<attribute name="_FillValue" value="NaN"/>
-		<attribute name="cell_methods" value="time: sum (interval: 1 hr)"
+		<attribute name="cell_methods" value="time: sum (interval: 1 hr)"/>
 	</variable>
 </netcdf>
