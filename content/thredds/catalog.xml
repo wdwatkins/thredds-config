@@ -352,7 +352,7 @@
 					<end>2099-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_future_daily_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/macav2/macav2_future_daily_meta.ncml"/>
 			</dataset>
 			<dataset name="Daily Historical MACAV2" ID="cida.usgs.gov/macav2_daily_historical" serviceName="Services" urlPath="macav2_daily_historical">
 				<timeCoverage>
@@ -360,7 +360,7 @@
 					<end>2005-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_historical_daily_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/macav2/macav2_historical_daily_meta.ncml"/>
 			</dataset>
 			<dataset name="Monthly Future MACAV2" ID="cida.usgs.gov/macav2_monthly_future" serviceName="Services" urlPath="macav2_monthly_future">
 				<timeCoverage>
@@ -368,7 +368,7 @@
 					<end>2099-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_future_monthly_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/macav2/macav2_future_monthly_meta.ncml"/>
 			</dataset>
 			<dataset name="Monthly Historical MACAV2" ID="cida.usgs.gov/macav2_monthly_historical" serviceName="Services" urlPath="macav2_monthly_historical">
 				<timeCoverage>
@@ -376,7 +376,7 @@
 					<end>2005-12-31T00:00</end>
 					<resolution>1 Day</resolution>
 				</timeCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_historical_monthly_meta.ncml"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/macav2/macav2_historical_monthly_meta.ncml"/>
 			</dataset>
 			<datasetScan name="Files" ID="cida.usgs.gov/macav2" path="macav2" location="/mnt/thredds/macav2/">
 				<metadata inherited="true">
