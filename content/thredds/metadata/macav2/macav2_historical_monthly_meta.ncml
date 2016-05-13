@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/macav2/macav2_historical_monthly.ncml">
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="acknowledgment" type="String" value="Monthly Historical Climate forcings in the MACAv2-LIVNEH were drawn from a statistical downscaling of global climate model (GCM) data from the Coupled Model Intercomparison Project 5 (CMIP5, Taylor et al. 2010) utilizing a modification(Hegewisch, Abatzoglou, in prep.) of the Multivariate Adaptive Constructed Analogs (MACA, Abatzoglou and Brown, 2012) method with the Livneh(Livneh et.al.,2013) observational dataset as training data."/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Statistically Downscaled Data for Coterminous USA"/>
+	<attribute name="summary" type="String" value="This archive contains daily downscaled meteorological and hydrological projections for the Conterminous United States at 1/24-deg resolution utilizing the Multivariate Adaptive Constructed Analogs (MACA, Abatzoglou, 2012) statistical downscaling method with the METDATA (Abatzoglou,2013) training dataset. The downscaled meteorological variables are maximum/minimum temperature(tasmax/tasmin), maximum/minimum relative humidity (rhsmax/rhsmin)precipitation amount(pr), downward shortwave solar radiation(rsds), eastward wind(uas), northward wind(vas), and specific humidity(huss). The downscaling is based on the 365-day model outputs from different global climate models (GCMs) from Phase 5 of the Coupled Model Inter-comparison Project (CMIP3) utlizing the historical (1950-2005) and future RCP4.5/8.5(2006-2099) scenarios. Leap days have been added to the dataset from the average values between Feb 28 and Mar 1 in order to aid modellers. See: http://maca.northwestknowledge.net/ for more information."/>
+	<attribute name="keywords" type="String" value="precipitation, temperature, humidity, radiation, wind"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/macav2"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="publisher_name" type="String" value="Northwest Knowledge Network"/>
+	<attribute name="publisher_url" type="String" value="http://maca.northwestknowledge.net/"/>
+	<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2005-12-31T00:00"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+	<remove name="keywords_vocabulary" type="attribute"/>
+	<attribute name="history" type="String" value="Dataset was deflated and aggregated for publication by the USGS by dblodgett@usgs.gov in April 2016."/>
+	<attribute name="date_modified" type="String" value="2016-04-01"/>
+	<attribute name="date_issued" type="String" value="2016-05-01"/>
+	<attribute name="project" type="String" value="Toward Next Generation Downscaling for Hydrologic Prediction in the Pacific Northwest https://nccwsc.usgs.gov/display-project/4f8c64d2e4b0546c0c397b46/5006f517e4b0abf7ce733f98"/>
+	<attribute name="publisher_name" type="String" value="David Blodgett"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+</netcdf>

@@ -312,6 +312,78 @@
 				<end>present</end>
 			</timeCoverage>
 		</dataset>
+		<dataset name="Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Statistically Downscaled Data for Coterminous USA" ID="wicci">
+			<metadata inherited="true">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<documentation xlink:href="https://nccwsc.usgs.gov/display-project/4f8c64d2e4b0546c0c397b46/5006f517e4b0abf7ce733f98" xlink:title="Project Description"/>
+				<documentation xlink:href="http://maca.northwestknowledge.net/" xlink:title="Summary of Projections"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Summary">This archive contains daily downscaled meteorological and hydrological projections for the Conterminous United States at 1/24-deg resolution utilizing the Multivariate Adaptive Constructed Analogs (MACA, Abatzoglou, 2012) statistical downscaling method with the METDATA (Abatzoglou,2013) training dataset. The downscaled meteorological variables are maximum/minimum temperature(tasmax/tasmin), maximum/minimum relative humidity (rhsmax/rhsmin)precipitation amount(pr), downward shortwave solar radiation(rsds), eastward wind(uas), northward wind(vas), and specific humidity(huss). The downscaling is based on the 365-day model outputs from different global climate models (GCMs) from Phase 5 of the Coupled Model Inter-comparison Project (CMIP3) utlizing the historical (1950-2005) and future RCP4.5/8.5(2006-2099) scenarios. Leap days have been added to the dataset from the average values between Feb 28 and Mar 1 in order to aid modellers. See: http://maca.northwestknowledge.net/ for more information. Achknowledgement: Climate forcings in the MACAv2-LIVNEH were drawn from a statistical downscaling of global climate model (GCM) data from the Coupled Model Intercomparison Project 5 (CMIP5, Taylor et al. 2010) utilizing a modification(Hegewisch, Abatzoglou, in prep.) of the Multivariate Adaptive Constructed Analogs (MACA, Abatzoglou and Brown, 2012) method with the Livneh(Livneh et.al.,2013) observational dataset as training data.</documentation>
+				<documentation type="Reference">Toward Next Generation Downscaling for Hydrologic Prediction in the Pacific Northwest https://nccwsc.usgs.gov/display-project/4f8c64d2e4b0546c0c397b46/5006f517e4b0abf7ce733f98</documentation>
+				<keyword>precipitation</keyword>
+				<keyword>maximum temperature</keyword>
+				<keyword>minimum temperature</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<creator>
+					<name>John Abatzoglou</name>
+					<contact url="http://maca.northwestknowledge.net/" email="jabatzoglou [at] uidaho.edu"/>
+				</creator>
+				<publisher>
+					<name>OWI</name>
+					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>25.0631</start>
+						<size>24.3329</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-124.7722</start>
+						<size>57.7074</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<dataset name="Daily Future MACAV2" ID="cida.usgs.gov/macav2_daily_future" serviceName="Services" urlPath="macav2_daily_future">
+				<timeCoverage>
+					<start>2006-01-01T00:00</start>
+					<end>2099-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_future_daily_meta.ncml"/>
+			</dataset>
+			<dataset name="Daily Historical MACAV2" ID="cida.usgs.gov/macav2_daily_historical" serviceName="Services" urlPath="macav2_daily_historical">
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2005-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_historical_daily_meta.ncml"/>
+			</dataset>
+			<dataset name="Monthly Future MACAV2" ID="cida.usgs.gov/macav2_monthly_future" serviceName="Services" urlPath="macav2_monthly_future">
+				<timeCoverage>
+					<start>2006-01-01T00:00</start>
+					<end>2099-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_future_monthly_meta.ncml"/>
+			</dataset>
+			<dataset name="Monthly Historical MACAV2" ID="cida.usgs.gov/macav2_monthly_historical" serviceName="Services" urlPath="macav2_monthly_historical">
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2005-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../../metadata/macav2/macav2_historical_monthly_meta.ncml"/>
+			</dataset>
+			<datasetScan name="Files" ID="cida.usgs.gov/macav2" path="macav2" location="/mnt/thredds/macav2/">
+				<metadata inherited="true">
+					<serviceName>http</serviceName>
+				</metadata>
+			</datasetScan>
+		</dataset>
 		<dataset name="Statistical Asynchronous Regional Regression Daily Downscaled Climate Projections" ID="dcp">
 			<metadata inherited="true">
 				<documentation xlink:href="http://serap.er.usgs.gov/docs/SerapOFR2010_1213.pdf" xlink:title="Initial Report Describing Data Processing"/>

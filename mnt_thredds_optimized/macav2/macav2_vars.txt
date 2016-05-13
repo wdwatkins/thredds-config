@@ -1,0 +1,10 @@
+pr
+tasmax
+tasmin
+vas
+uas
+rsds
+rhsmin
+rhsmax
+huss
+was
