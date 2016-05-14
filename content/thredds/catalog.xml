@@ -312,7 +312,7 @@
 				<end>present</end>
 			</timeCoverage>
 		</dataset>
-		<dataset name="Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Statistically Downscaled Data for Coterminous USA" ID="wicci">
+<!--		<dataset name="Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Statistically Downscaled Data for Coterminous USA">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
@@ -383,7 +383,7 @@
 					<serviceName>http</serviceName>
 				</metadata>
 			</datasetScan>
-		</dataset>
+		</dataset>-->
 		<dataset name="Statistical Asynchronous Regional Regression Daily Downscaled Climate Projections" ID="dcp">
 			<metadata inherited="true">
 				<documentation xlink:href="http://serap.er.usgs.gov/docs/SerapOFR2010_1213.pdf" xlink:title="Initial Report Describing Data Processing"/>
