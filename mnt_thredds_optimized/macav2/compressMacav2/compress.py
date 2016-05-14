@@ -4,7 +4,7 @@
 Program: compress.py
 
 Synopsis:
-A python script that kicks off a compression script for the macav2Livneh dataset. Compressions are
+A python script that kicks off a compression script for the macav2metdata dataset. Compressions are
 completed using the following conversions:
 
 Note: This script relies on a bash script, compress.sh in a bin folder that is in the execution directory.
