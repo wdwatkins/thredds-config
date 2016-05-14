@@ -11,7 +11,7 @@ templatefun<-function(models,rcps,vars,files,long_vars,outname,searchstring) {
         joinFileList<-list()
         for(k in 1:length(files)) { # Fourth level loop over all files to ensure files exist.
           if(grepl(pattern = paste0(vars[l], "_", models[i], "_r1i1p1_", rcps[j], ".*",searchstring,".*"), x = files[k])) {
-            joinFileList<-append(joinFileList,list(list(fileName=files[k])))
+            joinFileList<-append(joinFileList,list(list(fileName=paste0('../',files[k]))))
             count<-count+1
           }
         }
