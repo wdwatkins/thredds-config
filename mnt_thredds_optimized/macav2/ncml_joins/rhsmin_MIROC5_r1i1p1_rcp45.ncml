@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="true">
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2006_2010_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2011_2015_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2016_2020_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2021_2025_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2026_2030_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2031_2035_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2036_2040_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2041_2045_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2046_2050_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2051_2055_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2056_2060_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2061_2065_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2066_2070_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2071_2075_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2076_2080_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2081_2085_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2086_2090_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2091_2095_CONUS_monthly.nc"/>
+			<netcdf location="MIROC5/macav2metdata_rhsmin_MIROC5_r1i1p1_rcp45_2096_2099_CONUS_monthly.nc"/>
+	</aggregation>
+</netcdf>
