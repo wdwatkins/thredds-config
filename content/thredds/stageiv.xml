@@ -3,6 +3,7 @@
 	<service name="all" base="" serviceType="compound">
 		<service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
 		<service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/"/>
+		<service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
 	</service>
 	<dataset name="National Stage IV Quantitative Precipitation Estimate Mosaic Real Time" ID="cida.usgs.gov/thredds/stageiv_01hRT/">
 		<featureCollection featureType="GRIB1" name="stageiv_01hRT" path="stageiv/01hRT">
@@ -18,4 +19,9 @@
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/opt/tomcat/data/qpe/ncml/stageiv_combined.ncml"/>
 		</dataset>
 	</dataset>
+	<datasetScan name="example" ID="example" path="stageiv" location="/opt/tomcat/data/qpe/">
+		<metadata inherited="true">
+			<serviceName>all</serviceName>
+		</metadata>
+	</datasetScan>
 </catalog>
