@@ -345,7 +345,7 @@
 					</eastwest>
 				</geospatialCoverage>
 			</metadata>
-			<dataset name="Daily Future MACAV2" ID="cida.usgs.gov/macav2_daily_future" serviceName="Services" urlPath="macav2_daily_future">
+			<dataset name="Daily Future MACAv2METDATA" ID="cida.usgs.gov/macav2metdata_daily_future" serviceName="Services" urlPath="macav2metdata_daily_future">
 				<timeCoverage>
 					<start>2006-01-01T00:00</start>
 					<end>2099-12-31T00:00</end>
@@ -353,7 +353,7 @@
 				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/macav2/macav2_future_daily_meta.ncml"/>
 			</dataset>
-			<dataset name="Daily Historical MACAV2" ID="cida.usgs.gov/macav2_daily_historical" serviceName="Services" urlPath="macav2_daily_historical">
+			<dataset name="Daily Historical MACAv2METDATA" ID="cida.usgs.gov/macav2metdata_daily_historical" serviceName="Services" urlPath="macav2metdata_daily_historical">
 				<timeCoverage>
 					<start>1950-01-01T00:00</start>
 					<end>2005-12-31T00:00</end>
@@ -361,7 +361,7 @@
 				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/macav2/macav2_historical_daily_meta.ncml"/>
 			</dataset>
-			<dataset name="Monthly Future MACAV2" ID="cida.usgs.gov/macav2_monthly_future" serviceName="Services" urlPath="macav2_monthly_future">
+			<dataset name="Monthly Future MACAv2METDATA" ID="cida.usgs.gov/macav2metdata_monthly_future" serviceName="Services" urlPath="macav2metdata_monthly_future">
 				<timeCoverage>
 					<start>2006-01-01T00:00</start>
 					<end>2099-12-31T00:00</end>
@@ -369,7 +369,7 @@
 				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/macav2/macav2_future_monthly_meta.ncml"/>
 			</dataset>
-			<dataset name="Monthly Historical MACAV2" ID="cida.usgs.gov/macav2_monthly_historical" serviceName="Services" urlPath="macav2_monthly_historical">
+			<dataset name="Monthly Historical MACAv2METDATA" ID="cida.usgs.gov/macav2metdata_monthly_historical" serviceName="Services" urlPath="macav2metdata_monthly_historical">
 				<timeCoverage>
 					<start>1950-01-01T00:00</start>
 					<end>2005-12-31T00:00</end>
