@@ -55,6 +55,24 @@
     <netcdf location="ncml_joins/tasmin_CanESM2_r1i1p1_rcp85.ncml">
       <variable orgName="tasmin" name="tasmin_CanESM2_r1i1p1_rcp85"/>
     </netcdf>
+    <netcdf location="ncml_joins/pr_CCSM4_r6i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_CCSM4_r6i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_CCSM4_r6i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_CCSM4_r6i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_CCSM4_r6i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_CCSM4_r6i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_CCSM4_r6i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_CCSM4_r6i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_CCSM4_r6i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_CCSM4_r6i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_CCSM4_r6i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_CCSM4_r6i1p1_rcp85"/>
+    </netcdf>
     <netcdf location="ncml_joins/pr_CESM1-BGC_r1i1p1_rcp45.ncml">
       <variable orgName="pr" name="pr_CESM1-BGC_r1i1p1_rcp45"/>
     </netcdf>
@@ -162,6 +180,24 @@
     </netcdf>
     <netcdf location="ncml_joins/tasmin_CSIRO-Mk3-6-0_r1i1p1_rcp85.ncml">
       <variable orgName="tasmin" name="tasmin_CSIRO-Mk3-6-0_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_EC-EARTH_r8i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_EC-EARTH_r8i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_EC-EARTH_r8i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_EC-EARTH_r8i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_EC-EARTH_r8i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_EC-EARTH_r8i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_EC-EARTH_r2i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_EC-EARTH_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_EC-EARTH_r2i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_EC-EARTH_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_EC-EARTH_r2i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_EC-EARTH_r2i1p1_rcp85"/>
     </netcdf>
     <netcdf location="ncml_joins/pr_FGOALS-g2_r1i1p1_rcp45.ncml">
       <variable orgName="pr" name="pr_FGOALS-g2_r1i1p1_rcp45"/>

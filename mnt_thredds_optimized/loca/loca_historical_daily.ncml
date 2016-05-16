@@ -28,6 +28,15 @@
     <netcdf location="ncml_joins/tasmin_CanESM2_r1i1p1_historical.ncml">
       <variable orgName="tasmin" name="tasmin_CanESM2_r1i1p1_historical"/>
     </netcdf>
+    <netcdf location="ncml_joins/pr_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="pr" name="pr_CCSM4_r6i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="tasmax" name="tasmax_CCSM4_r6i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="tasmin" name="tasmin_CCSM4_r6i1p1_historical"/>
+    </netcdf>
     <netcdf location="ncml_joins/pr_CESM1-BGC_r1i1p1_historical.ncml">
       <variable orgName="pr" name="pr_CESM1-BGC_r1i1p1_historical"/>
     </netcdf>
