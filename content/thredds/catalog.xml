@@ -312,6 +312,56 @@
 				<end>present</end>
 			</timeCoverage>
 		</dataset>
+		<dataset name="LOCA Statistical Downscaling (Localized Constructed Analogs) Statistically downscaled CMIP5 climate projections for North America">
+			<metadata inherited="true">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<documentation xlink:href="http://loca.ucsd.edu/" xlink:title="Summary of Projections"/>
+				<documentation type="Rights">Freely Available.</documentation>
+				<documentation type="Summary">LOCA is a statistical downscaling technique that uses past history to add improved fine-scale detail to global climate models. We have used LOCA to downscale 32 global climate models from the CMIP5 archive at a 1/16th degree spatial resolution, covering North America from central Mexico through Southern Canada. The historical period is 1950-2005, and there are two future scenarios available: RCP 4.5 and RCP 8.5 over the period 2006-2100 (although some models stop in 2099). The variables currently available are daily minimum and maximum temperature, and daily precipitation. For more information visit: http://loca.ucsd.edu/</documentation>
+				<documentation type="Reference">Pierce, D. W., D. R. Cayan, and B. L. Thrasher, 2014: Statistical downscaling using Localized Constructed Analogs (LOCA). Journal of Hydrometeorology, volume 15, page 2558-2585.</documentation>
+				<keyword>precipitation</keyword>
+				<keyword>maximum temperature</keyword>
+				<keyword>minimum temperature</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<creator>
+					<name>David Pierce</name>
+					<contact url="http://loca.ucsd.edu/" email="dpierce@ucsd.edu"/>
+				</creator>
+				<publisher>
+					<name>OWI</name>
+					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>24</start>
+						<size>29</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-125</start>
+						<size>58</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<dataset name="Future LOCA" ID="cida.usgs.gov/loca_future" serviceName="Services" urlPath="loca_future">
+				<timeCoverage>
+					<start>2006-01-01T00:00</start>
+					<end>2100-12-31T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/loca/loca_future_meta.ncml"/>
+			</dataset>
+			<dataset name="Historical LOCA" ID="cida.usgs.gov/loca_histocial" serviceName="Services" urlPath="loca_historical">
+				<timeCoverage>
+					<start>1950-01-01T00:00</start>
+					<end>2006-01-01T00:00</end>
+					<resolution>1 Day</resolution>
+				</timeCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/loca/loca_historical_meta.ncml"/>
+			</dataset>
+		</dataset>
 		<dataset name="Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Statistically Downscaled Data for Coterminous USA">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
