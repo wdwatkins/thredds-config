@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
 	<aggregation type="union">
-    <scan location="/mnt/thredds/loca/" suffix=".*historical.*.nc"/> 
+    <scan location="/mnt/thredds/loca/" regExp=".*historical.*"/> 
   </aggregation>
 	<!-- Global Attributes for Dataset Discovery -->
 	<attribute name="acknowledgment" type="String" value="Pierce, D. W., D. R. Cayan, and B. L. Thrasher, 2014: Statistical downscaling using Localized Constructed Analogs (LOCA). Journal of Hydrometeorology, volume 15, page 2558-2585. We acknowledge the World Climate Research Programme's Working Group on Coupled Modeling, which is responsible for CMIP, and we thank the climate modeling groups for producing and making available their model output. For CMIP, the U.S. Department of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of software infrastructure in partnership with the Global Organization for Earth System Science Portals."/>
