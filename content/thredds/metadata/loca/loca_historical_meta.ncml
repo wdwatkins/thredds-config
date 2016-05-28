@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+    <scan location="/mnt/thredds/loca/" suffix=".*historical.*.nc"/> 
+  </aggregation>
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="acknowledgment" type="String" value="Pierce, D. W., D. R. Cayan, and B. L. Thrasher, 2014: Statistical downscaling using Localized Constructed Analogs (LOCA). Journal of Hydrometeorology, volume 15, page 2558-2585. We acknowledge the World Climate Research Programme's Working Group on Coupled Modeling, which is responsible for CMIP, and we thank the climate modeling groups for producing and making available their model output. For CMIP, the U.S. Department of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of software infrastructure in partnership with the Global Organization for Earth System Science Portals."/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Historical LOCA Statistical Downscaling (Localized Constructed Analogs) Statistically downscaled CMIP5 climate projections for North America"/>
+	<attribute name="summary" type="String" value="LOCA is a statistical downscaling technique that uses past history to add improved fine-scale detail to global climate models. We have used LOCA to downscale 32 global climate models from the CMIP5 archive at a 1/16th degree spatial resolution, covering North America from central Mexico through Southern Canada. The historical period is 1950-2005, and there are two future scenarios available: RCP 4.5 and RCP 8.5 over the period 2006-2100 (although some models stop in 2099). The variables currently available are daily minimum and maximum temperature, and daily precipitation. For more information visit: http://loca.ucsd.edu/"/>
+	<attribute name="keywords" type="String" value="precipitation, temperature"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/loca_future"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="publisher_name" type="String" value="Office of Water Information"/>
+	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="creator_name" type="String" value="David Pierce"/>
+	<attribute name="creator_email" type="String" value="dpierce@ucsd.edu"/>
+	<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2005-12-31T00:00"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+	<remove name="keywords_vocabulary" type="attribute"/>
+	<attribute name="history" type="String" value="Dataset was deflated and aggregated for publication by the USGS by dblodgett@usgs.gov in May 2016."/>
+	<attribute name="date_modified" type="String" value="2016-05-27"/>
+	<attribute name="date_issued" type="String" value="2016-06-01"/>
+	<attribute name="project" type="String" value="Comparative Analysis of Downscaled Climate Simulations, Providing Guidance to End Users https://nccwsc.usgs.gov/display-project/4f8c6580e4b0546c0c397b4e/5012a629e4b05140039e02cd"/>
+	<attribute name="publisher_name" type="String" value="David Blodgett"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="geospatial_lat_min" type="String" value="24"/>
+	<attribute name="geospatial_lat_max" type="String" value="53"/>
+	<attribute name="geospatial_lon_min" type="String" value="-125"/>
+	<attribute name="geospatial_lon_max" type="String" value="-67"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<remove name="input1_SIOCRD_netCDF_Version" type="attribute"/>
+	<remove name="input1_title" type="attribute"/>
+	<remove name="input1_history" type="attribute"/>
+	<remove name="input1_institution" type="attribute"/>
+	<remove name="input1_institute_id" type="attribute"/>
+	<remove name="input1_experiment_id" type="attribute"/>
+	<remove name="input1_source" type="attribute"/>
+	<remove name="input1_model_id" type="attribute"/>
+	<remove name="input1_forcing" type="attribute"/>
+	<remove name="input1_parent_experiment_id" type="attribute"/>
+	<remove name="input1_parent_experiment_rip" type="attribute"/>
+	<remove name="input1_branch_time" type="attribute"/>
+	<remove name="input1_contact" type="attribute"/>
+	<remove name="input1_comment" type="attribute"/>
+	<remove name="input1_references" type="attribute"/>
+	<remove name="input1_initialization_method" type="attribute"/>
+	<remove name="input1_physics_version" type="attribute"/>
+	<remove name="input1_tracking_id" type="attribute"/>
+	<remove name="input1_product" type="attribute"/>
+	<remove name="input1_experiment" type="attribute"/>
+	<remove name="input1_frequency" type="attribute"/>
+	<remove name="input1_creation_date" type="attribute"/>
+	<remove name="input1_Conventions" type="attribute"/>
+	<remove name="input1_project_id" type="attribute"/>
+	<remove name="input1_table_id" type="attribute"/>
+	<remove name="input1_parent_experiment" type="attribute"/>
+	<remove name="input1_modeling_realm" type="attribute"/>
+	<remove name="input1_realization" type="attribute"/>
+	<remove name="input1_cmor_version" type="attribute"/>
+	<remove name="input1_loca_version" type="attribute"/>
+	<remove name="input1_ID_loca_routines_module" type="attribute"/>
+	<remove name="input1_SOURCE_loca_routines_module" type="attribute"/>
+	<remove name="input1_opts_var_type" type="attribute"/>
+	<remove name="input1_opts_dscale_using_anoms" type="attribute"/>
+	<remove name="input1_opts_do_exclude" type="attribute"/>
+	<remove name="input1_opts_do_selfcrossval" type="attribute"/>
+	<remove name="input1_opts_pateval" type="attribute"/>
+	<remove name="input1_opts_n_patterns" type="attribute"/>
+	<remove name="input1_opts_time_window_days" type="attribute"/>
+	<remove name="input1_opts_do_min_val_out" type="attribute"/>
+	<remove name="input1_opts_do_max_val_out" type="attribute"/>
+	<remove name="input1_opts_do_min_val_in" type="attribute"/>
+	<remove name="input1_opts_dsclim_method" type="attribute"/>
+	<remove name="input1_opts_gcm_preserve_zero" type="attribute"/>
+	<remove name="input1_opts_ds_preserve_zero" type="attribute"/>
+	<remove name="input1_opts_do_transform" type="attribute"/>
+	<remove name="input1_opts_target_radius" type="attribute"/>
+	<remove name="input1_opts_incore" type="attribute"/>
+	<remove name="input1_floating_anaday_windows" type="attribute"/>
+	<remove name="input1_opts_correlation_mask_threshold" type="attribute"/>
+	<remove name="input1_opts_mempack" type="attribute"/>
+	<remove name="input1_opts_smooth_edges" type="attribute"/>
+	<remove name="input1_opts_scalefact_max" type="attribute"/>
+	<remove name="input1_use_bilinear_interpol" type="attribute"/>
+	<remove name="input1_masklib_n_anapool_pts" type="attribute"/>
+	<remove name="input1_masklib_nseasons" type="attribute"/>
+	<remove name="input1_masklib_anapool_locs_coarse_grid_X" type="attribute"/>
+	<remove name="input1_masklib_anapool_locs_coarse_grid_Y" type="attribute"/>
+	<remove name="input1_fname_fine_obs" type="attribute"/>
+	<remove name="input1_fname_coarse_obs" type="attribute"/>
+	<remove name="input1_fname_gcm_hist" type="attribute"/>
+	<remove name="input1_fname_gcm_in" type="attribute"/>
+	<remove name="input1_loca_post_ds_bc_id" type="attribute"/>
+	<remove name="input1_loca_post_ds_bc_source" type="attribute"/>
+	<remove name="input2_SIOCRD_netCDF_Version" type="attribute"/>
+	<remove name="input2_title" type="attribute"/>
+	<remove name="input2_history" type="attribute"/>
+	<remove name="input2_input1_history" type="attribute"/>
+	<remove name="input2_input1_institution" type="attribute"/>
+	<remove name="input2_input1_institute_id" type="attribute"/>
+	<remove name="input2_input1_experiment_id" type="attribute"/>
+	<remove name="input2_input1_source" type="attribute"/>
+	<remove name="input2_input1_model_id" type="attribute"/>
+	<remove name="input2_input1_forcing" type="attribute"/>
+	<remove name="input2_input1_parent_experiment_id" type="attribute"/>
+	<remove name="input2_input1_parent_experiment_rip" type="attribute"/>
+	<remove name="input2_input1_branch_time" type="attribute"/>
+	<remove name="input2_input1_contact" type="attribute"/>
+	<remove name="input2_input1_comment" type="attribute"/>
+	<remove name="input2_input1_references" type="attribute"/>
+	<remove name="input2_input1_initialization_method" type="attribute"/>
+	<remove name="input2_input1_physics_version" type="attribute"/>
+	<remove name="input2_input1_tracking_id" type="attribute"/>
+	<remove name="input2_input1_product" type="attribute"/>
+	<remove name="input2_input1_experiment" type="attribute"/>
+	<remove name="input2_input1_frequency" type="attribute"/>
+	<remove name="input2_input1_creation_date" type="attribute"/>
+	<remove name="input2_input1_Conventions" type="attribute"/>
+	<remove name="input2_input1_project_id" type="attribute"/>
+	<remove name="input2_input1_table_id" type="attribute"/>
+	<remove name="input2_input1_title" type="attribute"/>
+	<remove name="input2_input1_parent_experiment" type="attribute"/>
+	<remove name="input2_input1_modeling_realm" type="attribute"/>
+	<remove name="input2_input1_realization" type="attribute"/>
+	<remove name="input2_input1_cmor_version" type="attribute"/>
+	<remove name="input2_input2_history" type="attribute"/>
+	<remove name="input2_input2_institution" type="attribute"/>
+	<remove name="input2_input2_institute_id" type="attribute"/>
+	<remove name="input2_input2_experiment_id" type="attribute"/>
+	<remove name="input2_input2_source" type="attribute"/>
+	<remove name="input2_input2_model_id" type="attribute"/>
+	<remove name="input2_input2_forcing" type="attribute"/>
+	<remove name="input2_input2_parent_experiment_id" type="attribute"/>
+	<remove name="input2_input2_parent_experiment_rip" type="attribute"/>
+	<remove name="input2_input2_branch_time" type="attribute"/>
+	<remove name="input2_input2_contact" type="attribute"/>
+	<remove name="input2_input2_comment" type="attribute"/>
+	<remove name="input2_input2_references" type="attribute"/>
+	<remove name="input2_input2_initialization_method" type="attribute"/>
+	<remove name="input2_input2_physics_version" type="attribute"/>
+	<remove name="input2_input2_tracking_id" type="attribute"/>
+	<remove name="input2_input2_product" type="attribute"/>
+	<remove name="input2_input2_experiment" type="attribute"/>
+	<remove name="input2_input2_frequency" type="attribute"/>
+	<remove name="input2_input2_creation_date" type="attribute"/>
+	<remove name="input2_input2_Conventions" type="attribute"/>
+	<remove name="input2_input2_project_id" type="attribute"/>
+	<remove name="input2_input2_table_id" type="attribute"/>
+	<remove name="input2_input2_title" type="attribute"/>
+	<remove name="input2_input2_parent_experiment" type="attribute"/>
+	<remove name="input2_input2_modeling_realm" type="attribute"/>
+	<remove name="input2_input2_realization" type="attribute"/>
+	<remove name="input2_input2_cmor_version" type="attribute"/>
+	<remove name="input2_loca_version" type="attribute"/>
+	<remove name="input2_ID_loca_routines_module" type="attribute"/>
+	<remove name="input2_SOURCE_loca_routines_module" type="attribute"/>
+	<remove name="input2_opts_var_type" type="attribute"/>
+	<remove name="input2_opts_dscale_using_anoms" type="attribute"/>
+	<remove name="input2_opts_do_exclude" type="attribute"/>
+	<remove name="input2_opts_do_selfcrossval" type="attribute"/>
+	<remove name="input2_opts_pateval" type="attribute"/>
+	<remove name="input2_opts_n_patterns" type="attribute"/>
+	<remove name="input2_opts_time_window_days" type="attribute"/>
+	<remove name="input2_opts_do_min_val_out" type="attribute"/>
+	<remove name="input2_opts_do_max_val_out" type="attribute"/>
+	<remove name="input2_opts_do_min_val_in" type="attribute"/>
+	<remove name="input2_opts_dsclim_method" type="attribute"/>
+	<remove name="input2_opts_gcm_preserve_zero" type="attribute"/>
+	<remove name="input2_opts_ds_preserve_zero" type="attribute"/>
+	<remove name="input2_opts_do_transform" type="attribute"/>
+	<remove name="input2_opts_target_radius" type="attribute"/>
+	<remove name="input2_opts_incore" type="attribute"/>
+	<remove name="input2_floating_anaday_windows" type="attribute"/>
+	<remove name="input2_opts_correlation_mask_threshold" type="attribute"/>
+	<remove name="input2_opts_mempack" type="attribute"/>
+	<remove name="input2_opts_smooth_edges" type="attribute"/>
+	<remove name="input2_opts_scalefact_max" type="attribute"/>
+	<remove name="input2_use_bilinear_interpol" type="attribute"/>
+	<remove name="input2_masklib_n_anapool_pts" type="attribute"/>
+	<remove name="input2_masklib_nseasons" type="attribute"/>
+	<remove name="input2_masklib_anapool_locs_coarse_grid_X" type="attribute"/>
+	<remove name="input2_masklib_anapool_locs_coarse_grid_Y" type="attribute"/>
+	<remove name="input2_fname_fine_obs" type="attribute"/>
+	<remove name="input2_fname_coarse_obs" type="attribute"/>
+	<remove name="input2_fname_gcm_hist" type="attribute"/>
+	<remove name="input2_fname_gcm_in" type="attribute"/>
+	<remove name="input2_experiment" type="attribute"/>
+	<remove name="input2_loca_post_ds_bc_id" type="attribute"/>
+	<remove name="input2_loca_post_ds_bc_source" type="attribute"/>
+	<remove name="_CoordSysBuilder" type="attribute"/>
+	<remove name="SIOCRD_netCDF_Version" type="attribute"/>
+	<remove name="institution" type="attribute"/>
+	<remove name="institute_id" type="attribute"/>
+	<remove name="experiment_id" type="attribute"/>
+	<remove name="source" type="attribute"/>
+	<remove name="model_id" type="attribute"/>
+	<remove name="forcing" type="attribute"/>
+	<remove name="parent_experiment_id" type="attribute"/>
+	<remove name="parent_experiment_rip" type="attribute"/>
+	<remove name="branch_time" type="attribute"/>
+	<remove name="contact" type="attribute"/>
+	<remove name="references" type="attribute"/>
+	<remove name="initialization_method" type="attribute"/>
+	<remove name="physics_version" type="attribute"/>
+	<remove name="tracking_id" type="attribute"/>
+	<remove name="version_number" type="attribute"/>
+	<remove name="product" type="attribute"/>
+	<remove name="experiment" type="attribute"/>
+	<remove name="frequency" type="attribute"/>
+	<remove name="project_id" type="attribute"/>
+	<remove name="table_id" type="attribute"/>
+	<remove name="parent_experiment" type="attribute"/>
+	<remove name="modeling_realm" type="attribute"/>
+	<remove name="realization" type="attribute"/>
+	<remove name="cmor_version" type="attribute"/>
+	<remove name="nco_openmp_thread_number" type="attribute"/>
+	<remove name="NCO" type="attribute"/>
+	<remove name="loca_version" type="attribute"/>
+	<remove name="ID_loca_routines_module" type="attribute"/>
+	<remove name="SOURCE_loca_routines_module" type="attribute"/>
+	<remove name="opts_var_type" type="attribute"/>
+	<remove name="opts_dscale_using_anoms" type="attribute"/>
+	<remove name="opts_do_exclude" type="attribute"/>
+	<remove name="opts_do_selfcrossval" type="attribute"/>
+	<remove name="opts_pateval" type="attribute"/>
+	<remove name="opts_n_patterns" type="attribute"/>
+	<remove name="opts_time_window_days" type="attribute"/>
+	<remove name="opts_do_min_val_out" type="attribute"/>
+	<remove name="opts_do_max_val_out" type="attribute"/>
+	<remove name="opts_do_min_val_in" type="attribute"/>
+	<remove name="opts_dsclim_method" type="attribute"/>
+	<remove name="opts_gcm_preserve_zero" type="attribute"/>
+	<remove name="opts_ds_preserve_zero" type="attribute"/>
+	<remove name="opts_do_transform" type="attribute"/>
+	<remove name="opts_target_radius" type="attribute"/>
+	<remove name="opts_incore" type="attribute"/>
+	<remove name="floating_anaday_windows" type="attribute"/>
+	<remove name="opts_correlation_mask_threshold" type="attribute"/>
+	<remove name="opts_mempack" type="attribute"/>
+	<remove name="opts_smooth_edges" type="attribute"/>
+	<remove name="opts_scalefact_max" type="attribute"/>
+	<remove name="use_bilinear_interpol" type="attribute"/>
+	<remove name="masklib_n_anapool_pts" type="attribute"/>
+	<remove name="masklib_nseasons" type="attribute"/>
+	<remove name="masklib_anapool_locs_coarse_grid_X" type="attribute"/>
+	<remove name="masklib_anapool_locs_coarse_grid_Y" type="attribute"/>
+	<remove name="fname_fine_obs" type="attribute"/>
+	<remove name="fname_coarse_obs" type="attribute"/>
+	<remove name="fname_gcm_hist" type="attribute"/>
+	<remove name="fname_gcm_in" type="attribute"/>
+	<remove name="loca_post_ds_bc_id" type="attribute"/>
+	<remove name="loca_post_ds_bc_source" type="attribute"/>
+	<remove name="input1_version_number" type="attribute"/>
+	<remove name="input1_nco_openmp_thread_number" type="attribute"/>
+	<remove name="input1_NCO" type="attribute"/>
+	<remove name="input2_input1_version_number" type="attribute"/>
+	<remove name="input2_input1_nco_openmp_thread_number" type="attribute"/>
+	<remove name="input2_input1_NCO" type="attribute"/>
+	<remove name="input2_input2_version_number" type="attribute"/>
+	<remove name="input2_input2_nco_openmp_thread_number" type="attribute"/>
+	<remove name="input2_input2_NCO" type="attribute"/>
+	<remove name="branch_time_YMDH" type="attribute"/>
+	<remove name="CCCma_runid" type="attribute"/>
+	<remove name="CCCma_parent_runid" type="attribute"/>
+	<remove name="CCCma_data_licence" type="attribute"/>
+	<remove name="input1_branch_time_YMDH" type="attribute"/>
+	<remove name="input1_CCCma_runid" type="attribute"/>
+	<remove name="input1_CCCma_parent_runid" type="attribute"/>
+	<remove name="input1_CCCma_data_licence" type="attribute"/>
+	<remove name="input2_input1_branch_time_YMDH" type="attribute"/>
+	<remove name="input2_input1_CCCma_runid" type="attribute"/>
+	<remove name="input2_input1_CCCma_parent_runid" type="attribute"/>
+	<remove name="input2_input1_CCCma_data_licence" type="attribute"/>
+	<remove name="input2_input2_branch_time_YMDH" type="attribute"/>
+	<remove name="input2_input2_CCCma_runid" type="attribute"/>
+	<remove name="input2_input2_CCCma_parent_runid" type="attribute"/>
+	<remove name="input2_input2_CCCma_data_licence" type="attribute"/>
+	<remove name="comment" type="attribute"/>
+	<remove name="acknowledgements" type="attribute"/>
+	<remove name="cesm_casename" type="attribute"/>
+	<remove name="cesm_repotag" type="attribute"/>
+	<remove name="cesm_compset" type="attribute"/>
+	<remove name="resolution" type="attribute"/>
+	<remove name="forcing_note" type="attribute"/>
+	<remove name="processed_by" type="attribute"/>
+	<remove name="processing_code_information" type="attribute"/>
+	<remove name="input1_acknowledgements" type="attribute"/>
+	<remove name="input1_cesm_casename" type="attribute"/>
+	<remove name="input1_cesm_repotag" type="attribute"/>
+	<remove name="input1_cesm_compset" type="attribute"/>
+	<remove name="input1_resolution" type="attribute"/>
+	<remove name="input1_forcing_note" type="attribute"/>
+	<remove name="input1_processed_by" type="attribute"/>
+	<remove name="input1_processing_code_information" type="attribute"/>
+	<remove name="input2_input1_acknowledgements" type="attribute"/>
+	<remove name="input2_input1_cesm_casename" type="attribute"/>
+	<remove name="input2_input1_cesm_repotag" type="attribute"/>
+	<remove name="input2_input1_cesm_compset" type="attribute"/>
+	<remove name="input2_input1_resolution" type="attribute"/>
+	<remove name="input2_input1_forcing_note" type="attribute"/>
+	<remove name="input2_input1_processed_by" type="attribute"/>
+	<remove name="input2_input1_processing_code_information" type="attribute"/>
+	<remove name="input2_input2_acknowledgements" type="attribute"/>
+	<remove name="input2_input2_cesm_casename" type="attribute"/>
+	<remove name="input2_input2_cesm_repotag" type="attribute"/>
+	<remove name="input2_input2_cesm_compset" type="attribute"/>
+	<remove name="input2_input2_resolution" type="attribute"/>
+	<remove name="input2_input2_forcing_note" type="attribute"/>
+	<remove name="input2_input2_processed_by" type="attribute"/>
+	<remove name="input2_input2_processing_code_information" type="attribute"/>
+	<remove name="CDI" type="attribute"/>
+	<remove name="CDO" type="attribute"/>
+	<remove name="input1_CDI" type="attribute"/>
+	<remove name="input1_CDO" type="attribute"/>
+	<remove name="input2_input1_CDI" type="attribute"/>
+	<remove name="input2_input1_CDO" type="attribute"/>	
+</netcdf>
