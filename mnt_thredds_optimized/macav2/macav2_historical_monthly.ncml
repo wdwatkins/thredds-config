@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="true">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
 	<aggregation type="union">
     <netcdf location="ncml_joins/pr_BNU-ESM_r1i1p1_historical.ncml">
       <variable orgName="precipitation" name="pr_BNU-ESM_r1i1p1_historical"/>
@@ -24,6 +24,24 @@
     </netcdf>
     <netcdf location="ncml_joins/was_BNU-ESM_r1i1p1_historical.ncml">
       <variable orgName="wind_speed" name="was_BNU-ESM_r1i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="precipitation" name="pr_CCSM4_r6i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="air_temperature" name="tasmax_CCSM4_r6i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="air_temperature" name="tasmin_CCSM4_r6i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/rsds_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="surface_downwelling_shortwave_flux_in_air" name="rsds_CCSM4_r6i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/huss_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="specific_humidity" name="huss_CCSM4_r6i1p1_historical"/>
+    </netcdf>
+    <netcdf location="ncml_joins/was_CCSM4_r6i1p1_historical.ncml">
+      <variable orgName="wind_speed" name="was_CCSM4_r6i1p1_historical"/>
     </netcdf>
     <netcdf location="ncml_joins/pr_CNRM-CM5_r1i1p1_historical.ncml">
       <variable orgName="precipitation" name="pr_CNRM-CM5_r1i1p1_historical"/>

@@ -373,7 +373,19 @@
 				<keyword>precipitation</keyword>
 				<keyword>maximum temperature</keyword>
 				<keyword>minimum temperature</keyword>
+				<keyword>maximum relative humidity</keyword>
+				<keyword>minimum  relative humidity</keyword>
+				<keyword>downward shortwave solar radiation</keyword>
+				<keyword>specific humidity</keyword>
+				<keyword>eastward wind</keyword>
+				<keyword>northward wind</keyword>
+				<keyword>wind speed</keyword>
+				<keyword>CMIP5</keyword>
+				<keyword>MACA</keyword>
 				<keyword>downscaled climate projection</keyword>
+				<keyword>rcp45</keyword>
+				<keyword>rcp85</keyword>
+				<keyword>historical</keyword>
 				<creator>
 					<name>John Abatzoglou</name>
 					<contact url="http://maca.northwestknowledge.net/" email="jabatzoglou [at] uidaho.edu"/>

@@ -6,6 +6,7 @@ templatefun<-function(models,rcps,vars,files,outname,searchstring) {
   count<-0
   joinList<-list()
   nccopy_file<-file(paste0(outname,'.sh'),"w")
+  ncatted_file<-file("ncatted_loca.nc","w")
   for (i in 1:length(models)) { # First level loop over 20 models
     for (j in 1:length(rcps)) { # Second level loop over 3 time periods
       varList<-list()
@@ -28,6 +29,7 @@ templatefun<-function(models,rcps,vars,files,outname,searchstring) {
             cat(whisker.render(template, joinData), file=joinFileName, append=FALSE)
             if(is.na(varstring)) {
               varstring<-joinVarName
+              nccopy_outName<-paste0(models[i], runs[r], rcps[j])
             } else {
               varstring<-paste0(varstring,',',joinVarName)
             }
@@ -37,7 +39,6 @@ templatefun<-function(models,rcps,vars,files,outname,searchstring) {
       nccopy_base<-"nccopy -k nc7 -d 1 -c time/1,lat/40,lon/40 -u "
       nccopy_url<-"http://localhost:8080/thredds/dodsC/thredds/loca/"
       nccopy_dataset<-paste0(outname,'?')
-      nccopy_outName<-paste0(models[i], runs[r], rcps[j])
       nccopy_line<-paste0(nccopy_base,nccopy_url,nccopy_dataset,varstring,
                           ',lat,lon,time,lat_bnds,lon_bnds,time_bnds ',
                           nccopy_outName,'.nc')
