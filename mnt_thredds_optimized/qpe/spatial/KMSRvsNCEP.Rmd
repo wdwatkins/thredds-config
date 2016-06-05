@@ -1,0 +1,68 @@
+## Comparison of North Central RFC and NCEP Mosaic Precipitation Products.
+### Location and dates used in report below are for:
+#### Hika Park Bay
+```{r}
+lat<--87.7236
+lon<-43.9162
+startDate<-'2014-05-01'
+endDate<-'2014-07-01'
+```  
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(geoknife)
+library(ggplot2)
+library(ggmap)
+#### Point Beach State Forest Concession Stand Beach:
+# lat<--87.5073
+# lon<-44.2236
+map <- get_map(c(lat-.1,lon-.1,lat+.1,lon+.1),maptype="hybrid",filename="map.png")
+latLon<-data.frame(lat,lon)
+ggmap(map) + geom_point(aes(x = lat, y = lon), data = latLon, color="red", size = 3)
+stencil <- simplegeom(c(lat, lon))
+fabric <- webdata(list(
+  times = as.POSIXct(c(startDate,endDate)),
+  url = 'http://cida.usgs.gov/thredds/rfc_qpe/dodsC/RFC/QPE/KMSR',
+  variables = '1-hour_Quantitative_Precip_Estimate_surface_1_Hour_Accumulation'))
+job.KMSR <- geoknife(stencil, fabric, wait = TRUE)
+
+fabric <- webdata(list(
+  times = as.POSIXct(c(startDate,endDate)),
+  url = 'http://cida-eros-netcdfdev.er.usgs.gov:8080/thredds/dodsC/thredds/qpe/stageiv_archive.nc',
+  variables = 'Total_precipitation_surface_1_Hour_Accumulation'))
+job.ncep <- geoknife(stencil, fabric, wait = TRUE)
+KMSR<-result(job.KMSR)
+ncep<-result(job.ncep)
+KMSR$CS<-cumsum(KMSR$bufferedPoint)
+ncep$CS<-cumsum(ncep$bufferedPoint)
+KMSR$dif<-KMSR$bufferedPoint-ncep$bufferedPoint[1:length(KMSR$bufferedPoint)]
+KMSR$absdif<-KMSR$bufferedPoint-ncep$bufferedPoint[1:length(KMSR$bufferedPoint)]
+```
+
+Note: The plots below use the Geo Data Portal to grab precipitation at the lat/lon location shown, buffered by 0.0001 degrees to emulate a point.
+
+### Results
+First we will plot the raw hourly responses to see how the hourlies align by event magnitude.  
+
+```{r echo=FALSE}
+ggplot() + geom_point(data=KMSR, aes(DateTime,bufferedPoint,colour="NCRFC")) +
+           geom_point(data=ncep, aes(DateTime,bufferedPoint,colour="NCEP")) +
+           xlab("") +ylab("prcp (mm)") + ggtitle('Comparison of NCEP Mosaic and NCRFC Regional Precipitation') +
+           scale_colour_manual(values=c("blue", "red"), name="Data Source") + 
+           theme(legend.justification=c(1,1), legend.position=c(1,1), 
+                 plot.title = element_text(lineheight=.7))
+```
+
+Next we can plot the cumulative sum of the results to see how they align quantitatively. 
+
+```{r echo=FALSE}
+ggplot() + geom_point(data=KMSR, aes(DateTime,CS,colour="NCRFC")) +
+           geom_point(data=ncep, aes(DateTime,CS,colour="NCEP")) +
+           xlab("") +ylab("prcp (mm)") + ggtitle('Comparison of Accumulated NCEP Mosaic and NCRFC Regional Precipitation') +
+           scale_colour_manual(values=c("blue", "red"), name="Data Source") + 
+           theme(legend.justification=c(1,0), legend.position=c(1,0), 
+                 plot.title = element_text(lineheight=.7))
+```  
+
+Finally, lets look at some basic statistics of the difference between the two datasets. These were derived by subtracting each time step from the other then calculating summary statistics.  
+```{r echo=FALSE}
+summary(KMSR$dif,digits = 3)
+```
