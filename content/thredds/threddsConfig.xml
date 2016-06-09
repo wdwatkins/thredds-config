@@ -236,4 +236,10 @@
   </Logging>
   -->
 
+  <Netcdf4Clibrary>
+    <libraryPath>/usr/local/lib64</libraryPath>
+    <libraryName>netcdf</libraryName>
+    <useForReading>true</useForReading>
+  </Netcdf4Clibrary>
+
 </threddsConfig>
