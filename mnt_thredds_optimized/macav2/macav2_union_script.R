@@ -19,7 +19,7 @@ templatefun<-function(models,rcps,vars,files,long_vars,outname,searchstring) {
           }
           if(length(joinFileList)>0) { # Create join ncml
             joinVarName<-paste0(vars[l], "_", models[i],  "_",r,"_", rcps[j])
-            joinFileName<-paste0('ncml_joins/',joinVarName,'.ncml')
+            joinFileName<-paste0('ncml_joins/',joinVarName, "_", searchstring,'.ncml')
             joinList<-append(joinList,list(list(joinName=joinFileName,orgName=long_vars[vars[l]], name=joinVarName)))
             joinData<-list(joinFiles=joinFileList)
             template<-readLines("./macav2_template_join.ncml")
