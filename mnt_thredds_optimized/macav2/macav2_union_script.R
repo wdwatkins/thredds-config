@@ -26,12 +26,13 @@ templatefun<-function(models,rcps,vars,files,long_vars,outname,searchstring) {
             cat(whisker.render(template, joinData), file=joinFileName, append=FALSE)
             varstring<-joinVarName
             nccopy_outName<-paste0(outname,vars[l],'_',models[i],'_', r, '_', rcps[j])
-            nccopy_base<-"nccopy -k nc7 -d 1 -c time/1,lat/44,lon/107 -u "
+            nccopy_base<-"nccopy -k nc7 -m 100M -d 1 -c time/1,lat/44,lon/107 -u "
             nccopy_url<-"http://localhost:8080/thredds/dodsC/thredds/macav2/"
             nccopy_dataset<-paste0(outname,'?')
             nccopy_line<-paste0(nccopy_base,nccopy_url,nccopy_dataset,varstring,
                                 ',lat,lon,time,crs ',
                                 nccopy_outName,'.nc')
+            writeLines(paste('echo',nccopy_outName),nccopy_file)
             writeLines(nccopy_line,nccopy_file)
           }
         }

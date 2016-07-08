@@ -225,7 +225,7 @@
 				<!-- THREDDS catalog metadata as documented here:  -->
 				<documentation xlink:href="http://www.ntsg.umt.edu/project/TopoWx" xlink:title="Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature"/>
 				<documentation type="Rights">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/).</documentation>
-				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (http://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The interpolation model is open source and information on obtaining model code can be found at http://www.ntsg.umt.edu/project/TopoWx. The following data are available in this archive: 1948-2014 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2014 version.</documentation>
+				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (http://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The following data are available in this archive: 1948-2014 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2014 version.</documentation>
 				<documentation type="Reference">Oyler JW, Ballantyne A, Jencso K, Sweet M, Running S. Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature. International Journal of Climatology. http://dx.doi.org/10.1002/joc.4127</documentation>
 				<keyword>maximum temperature</keyword>
 				<keyword>minimum temperature</keyword>
@@ -234,7 +234,7 @@
 				<keyword>gridded meteorological data</keyword>
 				<creator>
 					<name>Jared Oyler</name>
-					<contact url="http://www.ntsg.umt.edu/" email="jared.oyler@ntsg.umt.edu"/>
+					<contact url="http://www.scrimhub.org" email="jared.oyler@psu.edu"/>
 				</creator>
 				<publisher>
 					<name>Center for Integrated Data Analytics</name>
@@ -255,7 +255,7 @@
 			</metadata>
 			<timeCoverage>
 				<start>1948-01-01T00:00:00</start>
-				<end>2014-12-31T00:00:00</end>
+				<end>2015-12-31T00:00:00</end>
 				<resolution>Daily</resolution>
 			</timeCoverage>
 			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx" serviceName="Services" urlPath="topowx">
@@ -263,7 +263,6 @@
 			</dataset>
 			<dataset name="TopoWx: Topoclimatic Monthly Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx_monthly" serviceName="Services" urlPath="topowx_monthly">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/topowx_monthly_meta.ncml"/>
-				<documentation type="Comment">Monthly aggregation of the daily TopoWx product.The TopoWx ('Topography Weather') gridded dataset contains daily 30-arcsec resolution (~800-m resolution; WGS84) interpolations of minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (http://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas).</documentation>
 			</dataset>
 			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx_normals" serviceName="Services" urlPath="topowx_normals">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/topowx_normals.ncml"/>
@@ -312,13 +311,13 @@
 				<end>present</end>
 			</timeCoverage>
 		</dataset>
-		<dataset name="LOCA Statistical Downscaling (Localized Constructed Analogs) Statistically downscaled CMIP5 climate projections for North America">
+		<!--<dataset name="LOCA Statistical Downscaling (Localized Constructed Analogs) Statistically downscaled CMIP5 climate projections for North America">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
-				<documentation xlink:href="http://loca.ucsd.edu/" xlink:title="Summary of Projections"/>
+				<documentation xlink:href="http://loca.ucsd.edu/" xlink:title="Summary of Projections and Additional Documentation"/>
 				<documentation type="Rights">Freely Available.</documentation>
-				<documentation type="Summary">LOCA is a statistical downscaling technique that uses past history to add improved fine-scale detail to global climate models. We have used LOCA to downscale 32 global climate models from the CMIP5 archive at a 1/16th degree spatial resolution, covering North America from central Mexico through Southern Canada. The historical period is 1950-2005, and there are two future scenarios available: RCP 4.5 and RCP 8.5 over the period 2006-2100 (although some models stop in 2099). The variables currently available are daily minimum and maximum temperature, and daily precipitation. For more information visit: http://loca.ucsd.edu/</documentation>
+				<documentation type="Summary">LOCA is a statistical downscaling technique that uses past history to add improved fine-scale detail to global climate models. We have used LOCA to downscale 32 global climate models from the CMIP5 archive at a 1/16th degree spatial resolution, covering North America from central Mexico through Southern Canada. The historical period is 1950-2005, and there are two future scenarios available: RCP 4.5 and RCP 8.5 over the period 2006-2100 (although some models stop in 2099). The variables currently available are daily minimum and maximum temperature, and daily precipitation. For more information visit: http://loca.ucsd.edu/ The LOCA data is available due to generous support from the following agencies: The California Energy Commission (CEC), USACE Climate Preparedness and Resilience Program and US Bureau of Reclamation, US Department of Interior/USGS via the Southwest Climate Science Center, NOAA RISA program through the California Nevada Applications Program (CNAP), NASA through the NASA Earth Exchange and Advanced Supercomputing (NAS) Division</documentation>
 				<documentation type="Reference">Pierce, D. W., D. R. Cayan, and B. L. Thrasher, 2014: Statistical downscaling using Localized Constructed Analogs (LOCA). Journal of Hydrometeorology, volume 15, page 2558-2585.</documentation>
 				<keyword>precipitation</keyword>
 				<keyword>maximum temperature</keyword>
@@ -361,7 +360,7 @@
 				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/loca/loca_historical_meta.ncml"/>
 			</dataset>
-		</dataset>
+		</dataset>-->
 		<dataset name="Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Statistically Downscaled Data for Coterminous USA">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>

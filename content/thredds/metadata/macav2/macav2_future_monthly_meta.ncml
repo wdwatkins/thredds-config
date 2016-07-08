@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/macav2/macav2_future_monthly.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+	<aggregation type="union">
+		<scan location="/mnt/morethredds/macav2/monthly/future/" suffix=".nc" subdirs="false" />		
+	</aggregation>
 	<!-- Global Attributes for Dataset Discovery -->
 	<attribute name="acknowledgment" type="String" value="The dataset MACAv2-METDATA was produced with funding from the Regional Approaches to Climate Change (REACCH) project and the SouthEast Climate Science Center(SECSC). We acknowledge the World Climate Research Programme's Working Group on Coupled Modeling, which is responsible for CMIP, and we thank the climate modeling groups for producing and making available their model output. For CMIP, the U.S. Department of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of software infrastructure in partnership with the Global Organization for Earth System Science Portals."/>
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
