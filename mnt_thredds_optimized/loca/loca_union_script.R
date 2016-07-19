@@ -2,7 +2,7 @@ library(stringr)
 library(whisker)
 
 templatefun<-function(models,rcps,vars,files,outname,searchstring) {
-  runs<-c('_r1i1p1_','_r2i1p1_','_r6i1p1_','_r8i1p1_')
+  runs<-c('_r1i1p1_','_r2i1p1_','_r6i1p1_','_r8i1p1_','_r6i1p3_')
   count<-0
   joinList<-list()
   nccopy_file<-file(paste0(outname,'.sh'),"w")
