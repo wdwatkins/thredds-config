@@ -27,7 +27,7 @@
 	<attribute name="time_coverage_start" type="String" value="1948-01-01T00:00:00"/>
 	<attribute name="time_coverage_end" type="String" value="2015-12-31T00:00:00"/>
 	<attribute name="time_coverage_resolution" type="String" value="P1M"/>
-	<attribute name="license" type="String" value="This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/)."/>
+	<attribute name="license" type="String" value="This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)."/>
 	<attribute name="history" value="Dataset version 2015.1"/>
 	<!-- end - Global Attributes for Dataset Discovery -->	
 </netcdf>
