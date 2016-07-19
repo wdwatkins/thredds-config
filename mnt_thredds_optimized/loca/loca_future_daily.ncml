@@ -37,24 +37,6 @@
     <netcdf location="ncml_joins/tasmin_ACCESS1-3_r1i1p1_rcp85.ncml">
       <variable orgName="tasmin" name="tasmin_ACCESS1-3_r1i1p1_rcp85"/>
     </netcdf>
-    <netcdf location="ncml_joins/pr_CanESM2_r1i1p1_rcp45.ncml">
-      <variable orgName="pr" name="pr_CanESM2_r1i1p1_rcp45"/>
-    </netcdf>
-    <netcdf location="ncml_joins/tasmax_CanESM2_r1i1p1_rcp45.ncml">
-      <variable orgName="tasmax" name="tasmax_CanESM2_r1i1p1_rcp45"/>
-    </netcdf>
-    <netcdf location="ncml_joins/tasmin_CanESM2_r1i1p1_rcp45.ncml">
-      <variable orgName="tasmin" name="tasmin_CanESM2_r1i1p1_rcp45"/>
-    </netcdf>
-    <netcdf location="ncml_joins/pr_CanESM2_r1i1p1_rcp85.ncml">
-      <variable orgName="pr" name="pr_CanESM2_r1i1p1_rcp85"/>
-    </netcdf>
-    <netcdf location="ncml_joins/tasmax_CanESM2_r1i1p1_rcp85.ncml">
-      <variable orgName="tasmax" name="tasmax_CanESM2_r1i1p1_rcp85"/>
-    </netcdf>
-    <netcdf location="ncml_joins/tasmin_CanESM2_r1i1p1_rcp85.ncml">
-      <variable orgName="tasmin" name="tasmin_CanESM2_r1i1p1_rcp85"/>
-    </netcdf>
     <netcdf location="ncml_joins/pr_CCSM4_r6i1p1_rcp45.ncml">
       <variable orgName="pr" name="pr_CCSM4_r6i1p1_rcp45"/>
     </netcdf>
@@ -181,6 +163,24 @@
     <netcdf location="ncml_joins/tasmin_CSIRO-Mk3-6-0_r1i1p1_rcp85.ncml">
       <variable orgName="tasmin" name="tasmin_CSIRO-Mk3-6-0_r1i1p1_rcp85"/>
     </netcdf>
+    <netcdf location="ncml_joins/pr_CanESM2_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_CanESM2_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_CanESM2_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_CanESM2_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_CanESM2_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_CanESM2_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_CanESM2_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_CanESM2_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_CanESM2_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_CanESM2_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_CanESM2_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_CanESM2_r1i1p1_rcp85"/>
+    </netcdf>
     <netcdf location="ncml_joins/pr_EC-EARTH_r8i1p1_rcp45.ncml">
       <variable orgName="pr" name="pr_EC-EARTH_r8i1p1_rcp45"/>
     </netcdf>
@@ -216,6 +216,366 @@
     </netcdf>
     <netcdf location="ncml_joins/tasmin_FGOALS-g2_r1i1p1_rcp85.ncml">
       <variable orgName="tasmin" name="tasmin_FGOALS-g2_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GFDL-CM3_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_GFDL-CM3_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GFDL-CM3_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_GFDL-CM3_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GFDL-CM3_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_GFDL-CM3_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GFDL-CM3_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_GFDL-CM3_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GFDL-CM3_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_GFDL-CM3_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GFDL-CM3_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_GFDL-CM3_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GFDL-ESM2G_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_GFDL-ESM2G_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GFDL-ESM2G_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_GFDL-ESM2G_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GFDL-ESM2G_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_GFDL-ESM2G_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GFDL-ESM2G_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_GFDL-ESM2G_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GFDL-ESM2G_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_GFDL-ESM2G_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GFDL-ESM2G_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_GFDL-ESM2G_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GFDL-ESM2M_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_GFDL-ESM2M_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GFDL-ESM2M_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_GFDL-ESM2M_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GFDL-ESM2M_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_GFDL-ESM2M_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GFDL-ESM2M_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_GFDL-ESM2M_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GFDL-ESM2M_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_GFDL-ESM2M_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GFDL-ESM2M_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_GFDL-ESM2M_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GISS-E2-H_r6i1p3_rcp45.ncml">
+      <variable orgName="pr" name="pr_GISS-E2-H_r6i1p3_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GISS-E2-H_r6i1p3_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_GISS-E2-H_r6i1p3_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GISS-E2-H_r6i1p3_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_GISS-E2-H_r6i1p3_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GISS-E2-H_r2i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_GISS-E2-H_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GISS-E2-H_r2i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_GISS-E2-H_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GISS-E2-H_r2i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_GISS-E2-H_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GISS-E2-R_r6i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_GISS-E2-R_r6i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GISS-E2-R_r6i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_GISS-E2-R_r6i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GISS-E2-R_r6i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_GISS-E2-R_r6i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_GISS-E2-R_r2i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_GISS-E2-R_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_GISS-E2-R_r2i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_GISS-E2-R_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_GISS-E2-R_r2i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_GISS-E2-R_r2i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_HadGEM2-AO_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_HadGEM2-AO_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_HadGEM2-AO_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_HadGEM2-AO_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_HadGEM2-AO_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_HadGEM2-AO_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_HadGEM2-AO_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_HadGEM2-AO_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_HadGEM2-AO_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_HadGEM2-AO_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_HadGEM2-AO_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_HadGEM2-AO_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_HadGEM2-CC_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_HadGEM2-CC_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_HadGEM2-CC_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_HadGEM2-CC_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_HadGEM2-CC_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_HadGEM2-CC_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_HadGEM2-CC_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_HadGEM2-CC_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_HadGEM2-CC_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_HadGEM2-CC_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_HadGEM2-CC_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_HadGEM2-CC_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_HadGEM2-ES_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_HadGEM2-ES_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_HadGEM2-ES_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_HadGEM2-ES_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_HadGEM2-ES_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_HadGEM2-ES_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_HadGEM2-ES_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_HadGEM2-ES_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_HadGEM2-ES_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_HadGEM2-ES_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_HadGEM2-ES_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_HadGEM2-ES_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_IPSL-CM5A-LR_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_IPSL-CM5A-LR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_IPSL-CM5A-LR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_IPSL-CM5A-LR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_IPSL-CM5A-LR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_IPSL-CM5A-LR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_IPSL-CM5A-LR_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_IPSL-CM5A-LR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_IPSL-CM5A-LR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_IPSL-CM5A-LR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_IPSL-CM5A-LR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_IPSL-CM5A-LR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_IPSL-CM5A-MR_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_IPSL-CM5A-MR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_IPSL-CM5A-MR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_IPSL-CM5A-MR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_IPSL-CM5A-MR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_IPSL-CM5A-MR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_IPSL-CM5A-MR_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_IPSL-CM5A-MR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_IPSL-CM5A-MR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_IPSL-CM5A-MR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_IPSL-CM5A-MR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_IPSL-CM5A-MR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MIROC-ESM_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_MIROC-ESM_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MIROC-ESM_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_MIROC-ESM_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MIROC-ESM_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_MIROC-ESM_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MIROC-ESM_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_MIROC-ESM_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MIROC-ESM_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_MIROC-ESM_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MIROC-ESM_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_MIROC-ESM_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MIROC-ESM-CHEM_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_MIROC-ESM-CHEM_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MIROC-ESM-CHEM_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_MIROC-ESM-CHEM_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MIROC-ESM-CHEM_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_MIROC-ESM-CHEM_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MIROC-ESM-CHEM_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_MIROC-ESM-CHEM_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MIROC-ESM-CHEM_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_MIROC-ESM-CHEM_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MIROC-ESM-CHEM_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_MIROC-ESM-CHEM_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MIROC5_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_MIROC5_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MIROC5_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_MIROC5_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MIROC5_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_MIROC5_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MIROC5_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_MIROC5_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MIROC5_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_MIROC5_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MIROC5_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_MIROC5_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MPI-ESM-LR_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_MPI-ESM-LR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MPI-ESM-LR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_MPI-ESM-LR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MPI-ESM-LR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_MPI-ESM-LR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MPI-ESM-LR_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_MPI-ESM-LR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MPI-ESM-LR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_MPI-ESM-LR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MPI-ESM-LR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_MPI-ESM-LR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MPI-ESM-MR_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_MPI-ESM-MR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MPI-ESM-MR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_MPI-ESM-MR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MPI-ESM-MR_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_MPI-ESM-MR_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MPI-ESM-MR_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_MPI-ESM-MR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MPI-ESM-MR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_MPI-ESM-MR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MPI-ESM-MR_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_MPI-ESM-MR_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MRI-CGCM3_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_MRI-CGCM3_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MRI-CGCM3_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_MRI-CGCM3_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MRI-CGCM3_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_MRI-CGCM3_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_MRI-CGCM3_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_MRI-CGCM3_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_MRI-CGCM3_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_MRI-CGCM3_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_MRI-CGCM3_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_MRI-CGCM3_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_NorESM1-M_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_NorESM1-M_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_NorESM1-M_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_NorESM1-M_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_NorESM1-M_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_NorESM1-M_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_NorESM1-M_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_NorESM1-M_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_NorESM1-M_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_NorESM1-M_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_NorESM1-M_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_NorESM1-M_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_bcc-csm1-1_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_bcc-csm1-1_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_bcc-csm1-1_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_bcc-csm1-1_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_bcc-csm1-1_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_bcc-csm1-1_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_bcc-csm1-1_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_bcc-csm1-1_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_bcc-csm1-1_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_bcc-csm1-1_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_bcc-csm1-1_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_bcc-csm1-1_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_bcc-csm1-1-m_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_bcc-csm1-1-m_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_bcc-csm1-1-m_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_bcc-csm1-1-m_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_bcc-csm1-1-m_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_bcc-csm1-1-m_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_bcc-csm1-1-m_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_bcc-csm1-1-m_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_bcc-csm1-1-m_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_bcc-csm1-1-m_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_bcc-csm1-1-m_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_bcc-csm1-1-m_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_inmcm4_r1i1p1_rcp45.ncml">
+      <variable orgName="pr" name="pr_inmcm4_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_inmcm4_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmax" name="tasmax_inmcm4_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_inmcm4_r1i1p1_rcp45.ncml">
+      <variable orgName="tasmin" name="tasmin_inmcm4_r1i1p1_rcp45"/>
+    </netcdf>
+    <netcdf location="ncml_joins/pr_inmcm4_r1i1p1_rcp85.ncml">
+      <variable orgName="pr" name="pr_inmcm4_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmax_inmcm4_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmax" name="tasmax_inmcm4_r1i1p1_rcp85"/>
+    </netcdf>
+    <netcdf location="ncml_joins/tasmin_inmcm4_r1i1p1_rcp85.ncml">
+      <variable orgName="tasmin" name="tasmin_inmcm4_r1i1p1_rcp85"/>
     </netcdf>
 	</aggregation>
 	<remove name="input1_SIOCRD_netCDF_Version" type="attribute"/>

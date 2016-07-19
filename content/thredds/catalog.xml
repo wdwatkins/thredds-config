@@ -66,13 +66,13 @@
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism/prism_meta.ncml"/>
 		</dataset>
-		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. October 2015 Snapshot" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
+		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. July 2016 Snapshot" ID="cida.usgs.gov/prism_v2" serviceName="Services" urlPath="prism_v2">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
 			<documentation xlink:href="http://prism.oregonstate.edu/" xlink:title="PRISM Home"/>
 			<documentation type="Rights">Freely Available: The PRISM Climate Group, Oregon State University retains rights to ownership of the data and information.</documentation>
 			<documentation type="Summary">This dataset was created using the PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate mapping system, developed by Dr. Christopher Daly, PRISM Climate Group director. PRISM is a unique knowledge-based system that uses point measurements of precipitation, temperature, and other climatic factors to produce continuous, digital grid estimates of monthly, yearly, and event-based climatic parameters. Continuously updated, this unique analytical tool incorporates point data, a digital elevation model, and expert knowledge of complex climatic extremes, including rain shadows, coastal effects, and temperature inversions. PRISM data sets are recognized world-wide as the highest-quality spatial climate data sets currently available. PRISM is the USDA's official climatological data.</documentation>
-			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed October 2015</documentation>
+			<documentation type="Reference">PRISM Climate Group, Oregon State University, http://prism.oregonstate.edu, Accessed July 2016</documentation>
 			<keyword>wind</keyword>
 			<keyword>air temperature</keyword>
 			<keyword>precipitation</keyword>
@@ -98,7 +98,7 @@
 			</geospatialCoverage>
 			<timeCoverage>
 				<start>1895-01-01T00:00</start>
-				<end>2014-12-01T00:00</end>
+				<end>2015-12-01T00:00</end>
 				<resolution>1 Month</resolution>
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/prism_v2/prism_v2_meta.ncml"/>
@@ -224,7 +224,7 @@
 			<metadata inherited="true">
 				<!-- THREDDS catalog metadata as documented here:  -->
 				<documentation xlink:href="http://www.ntsg.umt.edu/project/TopoWx" xlink:title="Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature"/>
-				<documentation type="Rights">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/).</documentation>
+				<documentation type="Rights">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/).</documentation>
 				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (http://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The following data are available in this archive: 1948-2015 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2015 version.</documentation>
 				<documentation type="Reference">Oyler JW, Ballantyne A, Jencso K, Sweet M, Running S. Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature. International Journal of Climatology. http://dx.doi.org/10.1002/joc.4127</documentation>
 				<keyword>maximum temperature</keyword>
