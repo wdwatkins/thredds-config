@@ -19,7 +19,14 @@
 	<attribute name="time_coverage_start" type="String" value="1950-01-01T00:00"/>
 	<attribute name="time_coverage_end" type="String" value="2005-12-31T00:00"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
-	<remove name="keywords_vocabulary" type="attribute"/>
+	<remove type="attribute" name="gfdl_experiment_name"/>
+	<remove type="attribute" name="input1_gfdl_experiment_name"/>
+	<remove type="attribute" name="input2_input1_gfdl_experiment_name"/>
+	<remove type="attribute" name="input2_input2_gfdl_experiment_name"/>
+	<remove type="attribute" name="mo_runid"/>
+	<remove type="attribute" name="input1_mo_runid"/>
+	<remove type="attribute" name="input2_input1_mo_runid"/>
+	<remove type="attribute" name="input2_input2_mo_runid"/>
 	<attribute name="history" type="String" value="Dataset was deflated and aggregated for publication by the USGS by dblodgett@usgs.gov in May 2016."/>
 	<attribute name="date_modified" type="String" value="2016-05-27"/>
 	<attribute name="date_issued" type="String" value="2016-06-01"/>
