@@ -311,7 +311,7 @@
 				<end>present</end>
 			</timeCoverage>
 		</dataset>
-		<!--<dataset name="LOCA Statistical Downscaling (Localized Constructed Analogs) Statistically downscaled CMIP5 climate projections for North America">
+		<dataset name="LOCA Statistical Downscaling (Localized Constructed Analogs) Statistically downscaled CMIP5 climate projections for North America">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
@@ -360,7 +360,7 @@
 				</timeCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/loca/loca_historical_meta.ncml"/>
 			</dataset>
-		</dataset>-->
+		</dataset>
 		<dataset name="Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Statistically Downscaled Data for Coterminous USA">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
