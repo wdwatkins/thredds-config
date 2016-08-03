@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/ssebopeta/monthlyETa/modis_monthly_ET.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/ssebopeta/07-2016/m.modisSSEBopET.nc">
 <!-- Global Attributes for Dataset Discovery -->
     <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
     <attribute name="Conventions" type="String" value="CF-1.5" />
@@ -31,12 +31,7 @@
     <attribute name="geospatial_lat_max" type="String" value="49.5"/>
     <attribute name="geospatial_lon_min" type="String" value="-126"/>
     <attribute name="geospatial_lon_max" type="String" value="-66.5"/>
-    <attribute name="time_coverage_start" type="String" value="2007-06-16T12:00"/>
-    <attribute name="time_coverage_end" type="String" value="2011-06-16T12:00"/>
     <attribute name="time_coverage_resolution" type="String" value="P1Y"/> <!--P1M for Monthly -->
     <attribute name="license" type="String" value="Freely available"/>
     <!-- end - Global Attributes for Dataset Discovery -->
-	<variable name="et">
-		<attribute name="long_name" type="String" value="Actual Evapotranspiration"/>
-	</variable>
 </netcdf>	
