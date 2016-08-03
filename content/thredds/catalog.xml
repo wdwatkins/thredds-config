@@ -1494,12 +1494,12 @@
 		<dataset name="Monthly Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data" ID="cida.usgs.gov/ssebopeta/monthly" serviceName="Services" urlPath="ssebopeta/monthly">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/ssebopeta/ssebopeta_monthly.nc"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/ssebopeta/modis_monthly_ET_meta.ncml"/>
 		</dataset>
 		<dataset name="Annual Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data" ID="cida.usgs.gov/ssebopeta/yearly" serviceName="Services" urlPath="ssebopeta/yearly">
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/ssebopeta/ssebopeta_yearly.nc"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/ssebopeta/modis_ET_meta.ncml"/>
 		</dataset>
 		<datasetScan name="Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Files" ID="cida.usgs.gov/ssebopeta/files" serviceName="http" path="ssebopeta/files" location="/mnt/thredds/ssebopeta/">
 		</datasetScan>
