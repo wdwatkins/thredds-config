@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/RedRiver/Red_River_future.ncml">
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="acknowledgment" type="String" value="Please include the following DOIs when citing the use of the dataset or its components:
+	Statistically downscaled time series for the Red River Basin (South Central U.S.A.) DOI: 10.15763/DBS.SCCSC.RR (2016)
+	a) 1/10th of a degree observation based dataset. DOI:10.15763/DBS.SCCSC.RR.0001
+	b) Downscaled climate variables from the CCSM4 GCM. DOI: 10.15763/DBS.SCCSC.RR.0002
+	c) Downscaled climate variables from MIROC5 GCM. DOI: 10.15763/DBS.SCCSC.RR.0003
+	d) Downscaled climate variables from MPI-ESM-LR GCM. DOI: 10.15763/DBS.SCCSC.RR.0004"/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value="Statistcally downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)"/>
+	<attribute name="summary" type="String" value="This collection contains three statistically downscaled time series (datasets) for the Red River Basin (South Central U.S.), and one dataset used as historical observations. In particular, three different Global Climate Models (MPI-ESM-LR, CCSM4 and MIROC5) were downscaled using three different quantile mapping methods (CDFt, EDQM and BCQM).
+
+	We do not recommend the use of the BCQM method, as the CDFt method is considered an improvement of it. The datasets created using the BCQM method are published as a demonstration of the risks of using flawed methods.
+
+	The variables of interest are: daily maximum and minimum temperature, and daily precipitation. The spatial resolution of the datasets in the collection is 1/10th of a degree (~ 11 km). The statistically downscaled datasets include local climate projections of three different Representative Concentration Pathways (RCPs - 2.6, 4.5 and 8.5) for the 21st century (2006 – 2099), and for the historical (1961-2005) period. The project was funded by the USGS – South Central Climate Science Center."/>
+	<attribute name="keywords" type="String" value="precipitation,maximum temperature,minimum temperature,CMIP5,downscaled climate projection,rcp45,rcp85,historical"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/RedRiver_future"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="creator_name" type="String" value="Carlos Gaitan"/>
+	<attribute name="creator_email" type="String" value="carlos.gaitan@ou.edu"/>
+	<attribute name="time_coverage_start" type="String" value="2006-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2099-12-31T00:00"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+	<remove name="keywords_vocabulary" type="attribute"/>
+	<attribute name="history" type="String" value="Dataset downloaded from: http://data.cybercommons.org/en/dataset/downscaling-red-river-basin was aggregated for publication by the USGS by dblodgett@usgs.gov in July 2016."/>
+	<attribute name="date_modified" type="String" value="2016-07-01"/>
+	<attribute name="date_issued" type="String" value="2016-02-01"/>
+	<attribute name="project" type="String" value="Impacts of Climate Change on Flows in the Red River Basin https://nccwsc.usgs.gov/display-project/4f8c652fe4b0546c0c397b4a/521cf67ce4b01458f7858040"/>
+	<attribute name="publisher_name" type="String" value="David Blodgett"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="geospatial_lat_min" type="String" value="26.05"/>
+	<attribute name="geospatial_lat_max" type="String" value="39.95"/>
+	<attribute name="geospatial_lon_min" type="String" value="-104"/>
+	<attribute name="geospatial_lon_max" type="String" value="-90.05"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<remove type="attribute" name="comment"/>
+	<remove type="attribute" name="references"/>
+	<remove type="attribute" name="NCO"/>
+	<remove type="attribute" name="references"/>
+	<remove type="attribute" name="contact"/>
+	<remove type="attribute" name="Institute_id"/>
+	<remove type="attribute" name="Institution"/>
+	<remove type="attribute" name="gfdl_experiment_name"/>
+	<remove type="attribute" name="predictand_calibration_dataset"/>
+	<remove type="attribute" name="downscaled_data_version"/>
+	<remove type="attribute" name="downscaling_model_type"/>
+	<remove type="attribute" name="frequency"/>
+	<remove type="attribute" name="region_id"/>
+	<remove type="attribute" name="resolution"/>
+	<remove type="attribute" name="Unlimited_Dimension"/>
+	<variable name="lon">
+		<values>
+			-108.95 -108.85 -108.75 -108.65 -108.55 -108.45 -108.35 -108.25 -108.15 -108.05 -107.95 -107.85 -107.75 -107.65 -107.55 -107.45 -107.35 -107.25 -107.15 -107.05 -106.95 -106.85 -106.75 -106.65 -106.55 -106.45 -106.35 -106.25 -106.15 -106.05 -105.95 -105.85 -105.75 -105.65 -105.55 -105.45 -105.35 -105.25 -105.15 -105.05 -104.95 -104.85 -104.75 -104.65 -104.55 -104.45 -104.35 -104.25 -104.15 -104.05 -103.95 -103.85 -103.75 -103.65 -103.55 -103.45 -103.35 -103.25 -103.15 -103.05 -102.95 -102.85 -102.75 -102.65 -102.55 -102.45 -102.35 -102.25 -102.15 -102.05 -101.95 -101.85 -101.75 -101.65 -101.55 -101.45 -101.35 -101.25 -101.15 -101.05 -100.95 -100.85 -100.75 -100.65 -100.55 -100.45 -100.35 -100.25 -100.15 -100.05 -99.95 -99.85 -99.75 -99.65 -99.55 -99.45 -99.35 -99.25 -99.15 -99.05 -98.95 -98.85 -98.75 -98.65 -98.55 -98.45 -98.35 -98.25 -98.15 -98.05 -97.95 -97.85 -97.75 -97.65 -97.55 -97.45 -97.35 -97.25 -97.15 -97.05 -96.95 -96.85 -96.75 -96.65 -96.55 -96.45 -96.35 -96.25 -96.15 -96.05 -95.95 -95.85 -95.75 -95.65 -95.55 -95.45 -95.35 -95.25 -95.15 -95.05 -94.95 -94.85 -94.75 -94.65 -94.55 -94.45 -94.35 -94.25 -94.15 -94.05 -93.95 -93.85 -93.75 -93.65 -93.55 -93.45 -93.35 -93.25 -93.15 -93.05 -92.95 -92.85 -92.75 -92.65 -92.55 -92.45 -92.35 -92.25 -92.15 -92.05 -91.95 -91.85 -91.75 -91.65 -91.55 -91.45 -91.35 -91.25 -91.15 -91.05 -90.95 -90.85 -90.75 -90.65 -90.55 -90.45 -90.35 -90.25 -90.15 -90.05
+		</values>
+	</variable>
+</netcdf>
