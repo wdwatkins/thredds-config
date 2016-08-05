@@ -1,0 +1,2 @@
+nccopy -k nc7 -m 100M -d 1 -c time/1,lat/44,lon/107 -u http://localhost:8080/thredds/dodsC/thredds/macav2/macav2_historical_daily.ncml?pr_NorESM1-M_r1i1p1_historical,lat,lon,time,crs macav2_historical_daily.ncmlpr_NorESM1-M_r1i1p1_historical.nc
+nccopy -k nc7 -m 100M -d 1 -c time/1,lat/44,lon/107 -u http://localhost:8080/thredds/dodsC/thredds/macav2/macav2_historical_daily.ncml?vas_inmcm4_r1i1p1_historical,lat,lon,time,crs macav2_historical_daily.ncmlvas_inmcm4_r1i1p1_historical.nc
