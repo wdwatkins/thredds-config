@@ -179,7 +179,7 @@
 			<dataFormat>NcML</dataFormat>
 			<documentation xlink:href="http://nimbus.cos.uidaho.edu/METDATA/" xlink:title="UofI METDATA"/>
 			<documentation type="Rights">Freely Available.</documentation>
-			<documentation type="Summary">This archive contains daily surface meteorological (METDATA) data for the Continental United States at 4-km (1/24-deg) resolution. The meteorological variables are maximum/minimum temperature, precipitation amount and duration, maximum/minimum relative humidity,downward shortwave solar radiation, wind speed and direction, and specific humidity. The method utilized here combines desirable spatial attributes of gridded climate data from PRISM and desirable temporal attributes of regional-scale reanalysis and daily gauge-based precipitation from NLDAS-2 to derive a spatially and temporally complete high resolution gridded dataset of surface meteorological variables for the continental US for 1979-2012. Validation of this data suggests that it can serve as a suitable surrogate for landscape-scale ecological modeling across vast unmonitored areas of the US. </documentation>
+			<documentation type="Summary">This archive contains daily surface meteorological (METDATA) data for the Continental United States at 4-km (1/24-deg) resolution. The meteorological variables are maximum/minimum temperature, precipitation amount and duration, maximum/minimum relative humidity,downward shortwave solar radiation, wind speed and direction, and specific humidity. The method utilized here combines desirable spatial attributes of gridded climate data from PRISM and desirable temporal attributes of regional-scale reanalysis and daily gauge-based precipitation from NLDAS-2 to derive a spatially and temporally complete high resolution gridded dataset of surface meteorological variables for the continental US for 1979-present. Validation of this data suggests that it can serve as a suitable surrogate for landscape-scale ecological modeling across vast unmonitored areas of the US. </documentation>
 			<documentation type="Reference">Abatzoglou J. T. " Development of gridded surface meteorological data for ecological applications and modeling, " International Journal of Climatology. (2013)    doi: 10.1002/joc.3413</documentation>
 			<keyword>precipitation</keyword>
 			<keyword>precipitation duration</keyword>
@@ -215,7 +215,7 @@
 			</geospatialCoverage>
 			<timeCoverage>
 				<start>1979-01-01T00:00</start>
-				<end>2014-12-31T00:00</end>
+				<end>Present</end>
 				<resolution>1 Year</resolution>
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/gridmet/gridmet_meta.ncml"/>
