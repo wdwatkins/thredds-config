@@ -13,6 +13,7 @@
   <catalogRoot>myExtraCatalog.xml</catalogRoot>  -->
   <catalogRoot>derivatives.xml</catalogRoot>
   <catalogRoot>stageiv.xml</catalogRoot>
+  <catalogRoot>demo.xml</catalogRoot>
 
   <!-- new server information section replaces much of what was in htmlSetup -->
   <serverInformation>
