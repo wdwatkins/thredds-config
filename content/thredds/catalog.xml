@@ -891,6 +891,82 @@
 				</timeCoverage>
 			</metadata>
 		</dataset>
+		<dataset name="Statistcally downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
+			<metadata inherited="true">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<documentation type="Rights">Freely Available</documentation>
+				<documentation xlink:href="" xlink:title=""/>
+				<documentation type="Summary">This collection contains three statistically downscaled time series (datasets) for the Red River Basin (South Central U.S.), and one dataset used as historical observations. In particular, three different Global Climate Models (MPI-ESM-LR, CCSM4 and MIROC5) were downscaled using three different quantile mapping methods (CDFt, EDQM and BCQM).
+
+	We do not recommend the use of the BCQM method, as the CDFt method is considered an improvement of it. The datasets created using the BCQM method are published as a demonstration of the risks of using flawed methods.
+
+	The variables of interest are: daily maximum and minimum temperature, and daily precipitation. The spatial resolution of the datasets in the collection is 1/10th of a degree (~ 11 km). The statistically downscaled datasets include local climate projections of three different Representative Concentration Pathways (RCPs - 2.6, 4.5 and 8.5) for the 21st century (2006 – 2099), and for the historical (1961-2005) period. The project was funded by the USGS – South Central Climate Science Center.
+
+    Please include the following DOIs when citing the use of the dataset or its components:
+    	Statistically downscaled time series for the Red River Basin (South Central U.S.A.) DOI: 10.15763/DBS.SCCSC.RR (2016)
+    	a) 1/10th of a degree observation based dataset. DOI:10.15763/DBS.SCCSC.RR.0001
+    	b) Downscaled climate variables from the CCSM4 GCM. DOI: 10.15763/DBS.SCCSC.RR.0002
+    	c) Downscaled climate variables from MIROC5 GCM. DOI: 10.15763/DBS.SCCSC.RR.0003
+    	d) Downscaled climate variables from MPI-ESM-LR GCM. DOI: 10.15763/DBS.SCCSC.RR.0004
+                </documentation>
+				<documentation type="Reference">Statistically downscaled time series for the Red River Basin (South Central U.S.A.) DOI: 10.15763/DBS.SCCSC.RR (2016)</documentation>
+				<keyword>precipitation</keyword>
+				<keyword>maximum temperature</keyword>
+				<keyword>minimum temperature</keyword>
+				<keyword>CMIP5</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<keyword>rcp45</keyword>
+				<keyword>rcp85</keyword>
+				<creator>
+					<name>Carlos Gaitan</name>
+					<contact url="http://orcid.org/0000-0003-3592-5196" email="carlos.gaitan@ou.edu"/>
+				</creator>
+				<publisher>
+					<name>OWI</name>
+					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>26.05</start>
+						<size>13.9</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>90.05</start>
+						<size>-13.95</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<dataset name="Historical GCM Experiment" serviceName="Services" ID="cida.usgs.gov/RedRiver_historical" urlPath="RedRiver_historical">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/RedRiver/Red_River_historical_meta.ncml" />
+				<timeCoverage>
+						<start>1961-01-01T00:00</start>
+						<end>2011-12-31T00:00</end>
+						<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="Future GCM Experiment" serviceName="Services" ID="cida.usgs.gov/RedRiver_future" urlPath="RedRiver_future">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/RedRiver/Red_River_future_meta.ncml" />
+				<timeCoverage>
+						<start>1961-01-01T00:00</start>
+						<end>2011-12-31T00:00</end>
+						<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<dataset name="Historical Observations" serviceName="Services" ID="cida.usgs.gov/RedRiver_obs" urlPath="RedRiver_obs">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/RedRiver/Red_River_obs_meta.ncml" />
+				<timeCoverage>
+						<start>1961-01-01T00:00</start>
+						<end>2011-12-31T00:00</end>
+						<resolution>1 Day</resolution>
+				</timeCoverage>
+			</dataset>
+			<datasetScan name="Direct File Access" ID="cida.usgs.gov/RedRiver/files" path="RedRiver/files" location="/mnt/thredds/RedRiver">
+					<serviceName>http</serviceName>
+			</datasetScan>
+		</dataset>
 		<dataset name="SnowModel Output, McKenzie and Upper Deschutes River Basins, Cascades, UTM Zone 10N NAD83 (2014)">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>

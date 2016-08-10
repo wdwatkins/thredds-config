@@ -3,19 +3,16 @@
 import glob
 from collections import OrderedDict
 
-models = ['CCSM4', 'MIROC5', 'MPI-ESM-LR', 'historical']
+#models = ['historical', 'CCSM4', 'MIROC5', 'MPI-ESM-LR']
+models = ['historical']
+#models = ['CCSM4', 'MIROC5', 'MPI-ESM-LR']
 #scenarios = ['historical', 'rcp26', 'rcp45', 'rcp85']
-scenarios = ['rcp26', 'rcp45', 'rcp85']
+#scenarios = ['rcp26', 'rcp45', 'rcp85']
+scenarios = ['historical']
 stats = ['BCQM', 'CDFt', 'EDQM']
 
 variables = OrderedDict([('pr', 'RRprp1'), ('tasmin', 'RRtnp1'), ('tasmax', 'RRtxp1'),
                          ('pr_qcmask', 'RRprp1'), ('tasmin_qcmask', 'RRtnp1'), ('tasmax_qcmask', 'RRtxp1')])
-# variables = {'pr': 'RRprp1', 
-#              'pr_qcmask': 'RRprp1',
-#              'tasmin': 'RRtnp1', 
-#              'tasmin_qcmask': 'RRtnp1',
-#              'tasmax': 'RRtxp1',
-#              'tasmax_qcmask': 'RRtxp1'}
 
 # Sample filenames
 # pr_day_RRprp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc
