@@ -896,7 +896,7 @@
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
 				<documentation type="Rights">Freely Available</documentation>
-				<documentation xlink:href="" xlink:title=""/>
+				<documentation xlink:href="http://dx.doi.org/10.15763/DBS.SCCSC.RR" xlink:title="More Information and Downloads"/>
 				<documentation type="Summary">This collection contains three statistically downscaled time series (datasets) for the Red River Basin (South Central U.S.), and one dataset used as historical observations. In particular, three different Global Climate Models (MPI-ESM-LR, CCSM4 and MIROC5) were downscaled using three different quantile mapping methods (CDFt, EDQM and BCQM).
 
 	We do not recommend the use of the BCQM method, as the CDFt method is considered an improvement of it. The datasets created using the BCQM method are published as a demonstration of the risks of using flawed methods.
