@@ -2,308 +2,308 @@
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
        <attribute name="title" type="String" value="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)"/>
     <aggregation type="union">
-        <netcdf location="CCSM4/historical/pr_day_RRprp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/pr_day_RRprp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-BCQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/pr_day_RRprp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/pr_day_RRprp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-BCQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/pr_day_RRprp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/pr_day_RRprp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-BCQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/pr_day_RRprp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/pr_day_RRprp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-CDFt_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/pr_day_RRprp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/pr_day_RRprp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-CDFt_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/pr_day_RRprp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/pr_day_RRprp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-CDFt_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/pr_day_RRprp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/pr_day_RRprp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-EDQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/pr_day_RRprp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/pr_day_RRprp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-EDQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/pr_day_RRprp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/pr_day_RRprp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr" name="pr-EDQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmin_day_RRtnp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmin_day_RRtnp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-BCQM_CCSM4_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmin_day_RRtnp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmin_day_RRtnp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-BCQM_MIROC5_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmin_day_RRtnp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmin_day_RRtnp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-BCQM_MPI-ESM-LR_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmin_day_RRtnp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmin_day_RRtnp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-CDFt_CCSM4_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmin_day_RRtnp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmin_day_RRtnp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-CDFt_MIROC5_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmin_day_RRtnp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmin_day_RRtnp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-CDFt_MPI-ESM-LR_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmin_day_RRtnp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmin_day_RRtnp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-EDQM_CCSM4_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmin_day_RRtnp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmin_day_RRtnp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-EDQM_MIROC5_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmin_day_RRtnp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmin_day_RRtnp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin" name="tasmin-EDQM_MPI-ESM-LR_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmax_day_RRtxp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmax_day_RRtxp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-BCQM_CCSM4_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmax_day_RRtxp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmax_day_RRtxp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-BCQM_MIROC5_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmax_day_RRtxp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmax_day_RRtxp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-BCQM_MPI-ESM-LR_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmax_day_RRtxp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmax_day_RRtxp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-CDFt_CCSM4_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmax_day_RRtxp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmax_day_RRtxp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-CDFt_MIROC5_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmax_day_RRtxp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmax_day_RRtxp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-CDFt_MPI-ESM-LR_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmax_day_RRtxp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmax_day_RRtxp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-EDQM_CCSM4_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmax_day_RRtxp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmax_day_RRtxp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-EDQM_MIROC5_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmax_day_RRtxp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmax_day_RRtxp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax" name="tasmax-EDQM_MPI-ESM-LR_historical"/>
                 <remove name="coordinates" type="attribute"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
                 <remove name="height" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/pr_qcmask_day_RRprp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/pr_qcmask_day_RRprp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-BCQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/pr_qcmask_day_RRprp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/pr_qcmask_day_RRprp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-BCQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/pr_qcmask_day_RRprp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/pr_qcmask_day_RRprp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-BCQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/pr_qcmask_day_RRprp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/pr_qcmask_day_RRprp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-CDFt_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/pr_qcmask_day_RRprp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/pr_qcmask_day_RRprp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-CDFt_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/pr_qcmask_day_RRprp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/pr_qcmask_day_RRprp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-CDFt_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/pr_qcmask_day_RRprp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/pr_qcmask_day_RRprp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-EDQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/pr_qcmask_day_RRprp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/pr_qcmask_day_RRprp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-EDQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/pr_qcmask_day_RRprp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/pr_qcmask_day_RRprp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="pr_qcmask" name="pr_qcmask-EDQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmin_qcmask_day_RRtnp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmin_qcmask_day_RRtnp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-BCQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmin_qcmask_day_RRtnp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmin_qcmask_day_RRtnp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-BCQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmin_qcmask_day_RRtnp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmin_qcmask_day_RRtnp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-BCQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmin_qcmask_day_RRtnp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmin_qcmask_day_RRtnp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-CDFt_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmin_qcmask_day_RRtnp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmin_qcmask_day_RRtnp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-CDFt_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmin_qcmask_day_RRtnp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmin_qcmask_day_RRtnp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-CDFt_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmin_qcmask_day_RRtnp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmin_qcmask_day_RRtnp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-EDQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmin_qcmask_day_RRtnp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmin_qcmask_day_RRtnp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-EDQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmin_qcmask_day_RRtnp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmin_qcmask_day_RRtnp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmin_qcmask" name="tasmin_qcmask-EDQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmax_qcmask_day_RRtxp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmax_qcmask_day_RRtxp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-BCQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmax_qcmask_day_RRtxp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmax_qcmask_day_RRtxp1-BCQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-BCQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmax_qcmask_day_RRtxp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmax_qcmask_day_RRtxp1-BCQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-BCQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmax_qcmask_day_RRtxp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmax_qcmask_day_RRtxp1-CDFt-B10acL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-CDFt_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmax_qcmask_day_RRtxp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmax_qcmask_day_RRtxp1-CDFt-B20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-CDFt_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmax_qcmask_day_RRtxp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmax_qcmask_day_RRtxp1-CDFt-B30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-CDFt_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="CCSM4/historical/tasmax_qcmask_day_RRtxp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="CCSM4/historical/tasmax_qcmask_day_RRtxp1-EDQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-EDQM_CCSM4_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MIROC5/historical/tasmax_qcmask_day_RRtxp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MIROC5/historical/tasmax_qcmask_day_RRtxp1-EDQM-A20aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-EDQM_MIROC5_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
         </netcdf>
-        <netcdf location="MPI-ESM-LR/historical/tasmax_qcmask_day_RRtxp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc" enhance="true">
+        <netcdf location="MPI-ESM-LR/historical/tasmax_qcmask_day_RRtxp1-EDQM-A30aaL01K00_historical_r1i1p1_RR_19610101-20051231.nc">
                 <variable orgName="tasmax_qcmask" name="tasmax_qcmask-EDQM_MPI-ESM-LR_historical"/>
                 <remove name="i_offset" type="variable"/>
                 <remove name="j_offset" type="variable"/>
