@@ -8,7 +8,7 @@
 	c) Downscaled climate variables from MIROC5 GCM. DOI: 10.15763/DBS.SCCSC.RR.0003
 	d) Downscaled climate variables from MPI-ESM-LR GCM. DOI: 10.15763/DBS.SCCSC.RR.0004"/>
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
-	<attribute name="title" type="String" value="Statistcally downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A) Downscaled Future Projections"/>
+	<attribute name="title" type="String" value="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A) Downscaled Future Projections"/>
 	<attribute name="summary" type="String" value="This collection contains three statistically downscaled time series (datasets) for the Red River Basin (South Central U.S.), and one dataset used as historical observations. In particular, three different Global Climate Models (MPI-ESM-LR, CCSM4 and MIROC5) were downscaled using three different quantile mapping methods (CDFt, EDQM and BCQM).
 
 	We do not recommend the use of the BCQM method, as the CDFt method is considered an improvement of it. The datasets created using the BCQM method are published as a demonstration of the risks of using flawed methods.

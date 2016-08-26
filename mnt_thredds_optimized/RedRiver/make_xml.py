@@ -26,7 +26,7 @@ variables = OrderedDict([('pr', 'RRprp1'), ('tasmin', 'RRtnp1'), ('tasmax', 'RRt
 # tasmin_day_livneh_historical_r0i0p1_SCCSC0p1_19610101-20111231.nc
 
 # Parts of the ncml xml file
-xml_head = '<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">\n       <attribute name="title" type="String" value="Statistcally downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)"/>\n    <aggregation type="union">\n'
+xml_head = '<?xml version="1.0" encoding="UTF-8"?>\n<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">\n       <attribute name="title" type="String" value="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)"/>\n    <aggregation type="union">\n'
 xml_entry_pr = '        <netcdf location="{2}" enhance="true">\n                <variable orgName="{3}" name="{3}-{4}_{0}_{1}"/>\n                <remove name="i_offset" type="variable"/>\n                <remove name="j_offset" type="variable"/>\n        </netcdf>\n'
 xml_entry_tas = '        <netcdf location="{2}" enhance="true">\n                <variable orgName="{3}" name="{3}-{4}_{0}_{1}"/>\n                <remove name="coordinates" type="attribute"/>\n                <remove name="i_offset" type="variable"/>\n                <remove name="j_offset" type="variable"/>\n                <remove name="height" type="variable"/>\n        </netcdf>\n'
 xml_entry_livneh = '        <netcdf location="{2}" enhance="true">\n                <variable orgName="{3}" name="{3}-{0}_{1}"/>\n                <remove name="i_offset" type="variable"/>\n                <remove name="j_offset" type="variable"/>\n        </netcdf>\n'

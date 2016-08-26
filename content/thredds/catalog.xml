@@ -891,7 +891,7 @@
 				</timeCoverage>
 			</metadata>
 		</dataset>
-		<dataset name="Statistcally downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
+		<dataset name="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>

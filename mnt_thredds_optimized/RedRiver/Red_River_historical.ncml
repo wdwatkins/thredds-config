@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <attribute name="title" type="String" value="Statistcally downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)"/>
+       <attribute name="title" type="String" value="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)"/>
     <aggregation type="union">
         <netcdf location="CCSM4/historical/pr_day_RRprp1-BCQM-A10aaL01K00_historical_r6i1p1_RR_19610101-20051231.nc" enhance="true">
                 <variable orgName="pr" name="pr-BCQM_CCSM4_historical"/>
