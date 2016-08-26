@@ -13,7 +13,7 @@
 
 	We do not recommend the use of the BCQM method, as the CDFt method is considered an improvement of it. The datasets created using the BCQM method are published as a demonstration of the risks of using flawed methods.
 
-	The variables of interest are: daily maximum and minimum temperature, and daily precipitation. The spatial resolution of the datasets in the collection is 1/10th of a degree (~ 11 km). The statistically downscaled datasets include local climate projections of three different Representative Concentration Pathways (RCPs - 2.6, 4.5 and 8.5) for the 21st century (2006 – 2099), and for the historical (1961-2005) period. The project was funded by the USGS – South Central Climate Science Center."/>
+	The variables of interest are: daily maximum and minimum temperature, and daily precipitation. The spatial resolution of the datasets in the collection is 1/10th of a degree (~ 11 km). The statistically downscaled datasets include local climate projections of three different Representative Concentration Pathways (RCPs - 2.6, 4.5 and 8.5) for the 21st century (2006 - 2099), and for the historical (1961-2005) period. The project was funded by the USGS - South Central Climate Science Center."/>
 	<attribute name="keywords" type="String" value="precipitation,maximum temperature,minimum temperature,CMIP5,downscaled climate projection,rcp45,rcp85,historical"/>
 	<attribute name="id" type="String" value="cida.usgs.gov/RedRiver_historical"/>
 	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
