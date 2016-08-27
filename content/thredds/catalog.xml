@@ -891,7 +891,7 @@
 				</timeCoverage>
 			</metadata>
 		</dataset>
-		<!--<dataset name="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
+		<dataset name="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
@@ -950,8 +950,8 @@
 			<dataset name="Future GCM Experiment" serviceName="Services" ID="cida.usgs.gov/RedRiver_future" urlPath="RedRiver_future">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/RedRiver/Red_River_future_meta.ncml" />
 				<timeCoverage>
-						<start>1961-01-01T00:00</start>
-						<end>2011-12-31T00:00</end>
+						<start>2006-01-01T00:00</start>
+						<end>2099-12-31T00:00</end>
 						<resolution>1 Day</resolution>
 				</timeCoverage>
 			</dataset>
@@ -966,7 +966,7 @@
 			<datasetScan name="Direct File Access" ID="cida.usgs.gov/RedRiver/files" path="RedRiver/files" location="/mnt/thredds/RedRiver">
 					<serviceName>http</serviceName>
 			</datasetScan>
-		</dataset>-->
+		</dataset>
 		<dataset name="SnowModel Output, McKenzie and Upper Deschutes River Basins, Cascades, UTM Zone 10N NAD83 (2014)">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
