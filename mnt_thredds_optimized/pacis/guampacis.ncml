@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+	<aggregation type="union">
+    <netcdf location="guam/processed_hourly/guam_hourly_present_ACLHF_1990-2009.nc">
+      <variable orgName="ACLHF" name="ACLHF_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_ALBBCK_1990-2009.nc">
+      <variable orgName="ALBBCK" name="ALBBCK_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_ALBEDO_1990-2009.nc">
+      <variable orgName="ALBEDO" name="ALBEDO_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_GLW_1990-2009.nc">
+      <variable orgName="GLW" name="GLW_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_HFX_1990-2009.nc">
+      <variable orgName="HFX" name="HFX_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_LH_1990-2009.nc">
+      <variable orgName="LH" name="LH_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_OLR_1990-2009.nc">
+      <variable orgName="OLR" name="OLR_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_PSFC_1990-2009.nc">
+      <variable orgName="PSFC" name="PSFC_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_Q2_1990-2009.nc">
+      <variable orgName="Q2" name="Q2_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_QFX_1990-2009.nc">
+      <variable orgName="QFX" name="QFX_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_RAIN_1990-2009.nc">
+      <variable orgName="RAIN" name="RAIN_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_RAINNC_1990-2009.nc">
+      <variable orgName="RAINNC" name="RAINNC_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_SFROFF_1990-2009.nc">
+      <variable orgName="SFROFF" name="SFROFF_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_SMOIS_1990-2009.nc">
+      <variable orgName="SMOIS" name="SMOIS_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_SNOW_1990-2009.nc">
+      <variable orgName="SNOW" name="SNOW_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_SNOWH_1990-2009.nc">
+      <variable orgName="SNOWH" name="SNOWH_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_T2_1990-2009.nc">
+      <variable orgName="T2" name="T2_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_TH2_1990-2009.nc">
+      <variable orgName="TH2" name="TH2_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_Times_1990-2009.nc">
+      <variable orgName="Times" name="Times_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_TSLB_1990-2009.nc">
+      <variable orgName="TSLB" name="TSLB_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_U10_1990-2009.nc">
+      <variable orgName="U10" name="U10_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_UDROFF_1990-2009.nc">
+      <variable orgName="UDROFF" name="UDROFF_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_V10_1990-2009.nc">
+      <variable orgName="V10" name="V10_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_present_VEGFRA_1990-2009.nc">
+      <variable orgName="VEGFRA" name="VEGFRA_present"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_ACLHF_1990-2009.nc">
+      <variable orgName="ACLHF" name="ACLHF_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_ALBBCK_1990-2009.nc">
+      <variable orgName="ALBBCK" name="ALBBCK_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_ALBEDO_1990-2009.nc">
+      <variable orgName="ALBEDO" name="ALBEDO_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_GLW_1990-2009.nc">
+      <variable orgName="GLW" name="GLW_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_HFX_1990-2009.nc">
+      <variable orgName="HFX" name="HFX_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_LH_1990-2009.nc">
+      <variable orgName="LH" name="LH_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_OLR_1990-2009.nc">
+      <variable orgName="OLR" name="OLR_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_PSFC_1990-2009.nc">
+      <variable orgName="PSFC" name="PSFC_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_Q2_1990-2009.nc">
+      <variable orgName="Q2" name="Q2_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_QFX_1990-2009.nc">
+      <variable orgName="QFX" name="QFX_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_RAIN_1990-2009.nc">
+      <variable orgName="RAIN" name="RAIN_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_RAINNC_1990-2009.nc">
+      <variable orgName="RAINNC" name="RAINNC_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_SFROFF_1990-2009.nc">
+      <variable orgName="SFROFF" name="SFROFF_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_SMOIS_1990-2009.nc">
+      <variable orgName="SMOIS" name="SMOIS_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_SNOW_1990-2009.nc">
+      <variable orgName="SNOW" name="SNOW_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_SNOWH_1990-2009.nc">
+      <variable orgName="SNOWH" name="SNOWH_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_T2_1990-2009.nc">
+      <variable orgName="T2" name="T2_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_TH2_1990-2009.nc">
+      <variable orgName="TH2" name="TH2_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_Times_1990-2009.nc">
+      <variable orgName="Times" name="Times_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_TSLB_1990-2009.nc">
+      <variable orgName="TSLB" name="TSLB_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_U10_1990-2009.nc">
+      <variable orgName="U10" name="U10_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_UDROFF_1990-2009.nc">
+      <variable orgName="UDROFF" name="UDROFF_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_V10_1990-2009.nc">
+      <variable orgName="V10" name="V10_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp45_VEGFRA_1990-2009.nc">
+      <variable orgName="VEGFRA" name="VEGFRA_rcp45"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_ACLHF_1990-2009.nc">
+      <variable orgName="ACLHF" name="ACLHF_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_ALBBCK_1990-2009.nc">
+      <variable orgName="ALBBCK" name="ALBBCK_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_ALBEDO_1990-2009.nc">
+      <variable orgName="ALBEDO" name="ALBEDO_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_GLW_1990-2009.nc">
+      <variable orgName="GLW" name="GLW_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_HFX_1990-2009.nc">
+      <variable orgName="HFX" name="HFX_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_LH_1990-2009.nc">
+      <variable orgName="LH" name="LH_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_OLR_1990-2009.nc">
+      <variable orgName="OLR" name="OLR_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_PSFC_1990-2009.nc">
+      <variable orgName="PSFC" name="PSFC_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_Q2_1990-2009.nc">
+      <variable orgName="Q2" name="Q2_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_QFX_1990-2009.nc">
+      <variable orgName="QFX" name="QFX_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_RAIN_1990-2009.nc">
+      <variable orgName="RAIN" name="RAIN_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_RAINNC_1990-2009.nc">
+      <variable orgName="RAINNC" name="RAINNC_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_SFROFF_1990-2009.nc">
+      <variable orgName="SFROFF" name="SFROFF_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_SMOIS_1990-2009.nc">
+      <variable orgName="SMOIS" name="SMOIS_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_SNOW_1990-2009.nc">
+      <variable orgName="SNOW" name="SNOW_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_SNOWH_1990-2009.nc">
+      <variable orgName="SNOWH" name="SNOWH_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_T2_1990-2009.nc">
+      <variable orgName="T2" name="T2_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_TH2_1990-2009.nc">
+      <variable orgName="TH2" name="TH2_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_Times_1990-2009.nc">
+      <variable orgName="Times" name="Times_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_TSLB_1990-2009.nc">
+      <variable orgName="TSLB" name="TSLB_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_U10_1990-2009.nc">
+      <variable orgName="U10" name="U10_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_UDROFF_1990-2009.nc">
+      <variable orgName="UDROFF" name="UDROFF_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_V10_1990-2009.nc">
+      <variable orgName="V10" name="V10_rcp85"/>
+    </netcdf>
+    <netcdf location="guam/processed_hourly/guam_hourly_rcp85_VEGFRA_1990-2009.nc">
+      <variable orgName="VEGFRA" name="VEGFRA_rcp85"/>
+    </netcdf>
+	</aggregation>
+</netcdf>
