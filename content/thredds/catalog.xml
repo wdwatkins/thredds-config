@@ -891,6 +891,99 @@
 				</timeCoverage>
 			</metadata>
 		</dataset>
+		<dataset name="Pacific Islands WRF Downscaling">
+			<metadata inherited="true">
+				<dataType>Grid</dataType>
+				<dataFormat>NcML</dataFormat>
+				<documentation type="Rights">Freely Available</documentation>
+				<documentation xlink:href="https://nccwsc.usgs.gov/display-project/4f8c650ae4b0546c0c397b48/52165f17e4b0b45d6ba394fb" xlink:title="More Information"/>
+				<documentation type="Summary">Insert Summary Here</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/display-project/4f8c650ae4b0546c0c397b48/52165f17e4b0b45d6ba394fb</documentation>
+				<keyword>precipitation</keyword>
+				<keyword>maximum temperature</keyword>
+				<keyword>minimum temperature</keyword>
+				<keyword>CMIP5</keyword>
+				<keyword>downscaled climate projection</keyword>
+				<keyword>rcp45</keyword>
+				<keyword>rcp85</keyword>
+				<creator>
+					<name>Chunxi Zhang</name>
+					<contact url="http://iprc.soest.hawaii.edu/people/zhang_c.php" email="chunxi@hawaii.edu"/>
+				</creator>
+				<publisher>
+					<name>OWI</name>
+					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+				</publisher>
+				<timeCoverage>
+						<start>1990-01-01T00:00</start>
+						<end>2009-12-31T00:00</end>
+						<resolution>1 Day</resolution>
+				</timeCoverage>
+			</metadata>
+			<dataset name="American Samoa" serviceName="Services" ID="cida.usgs.gov/samoa" urlPath="samoa">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/pacis/samoa.ncml" />
+				<geospatialCoverage>
+					<northsouth>
+						<start>14.27</start>
+						<size>0.18</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-170.77</start>
+						<size>0.36</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</dataset>
+			<dataset name="Guam" serviceName="Services" ID="cida.usgs.gov/guam" urlPath="guam">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/pacis/guam.ncml" />
+				<geospatialCoverage>
+					<northsouth>
+						<start>13.18</start>
+						<size>0.48</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>140.64</start>
+						<size>4.44</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</dataset>
+			<dataset name="Kauai" serviceName="Services" ID="cida.usgs.gov/kauai" urlPath="kauai">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/pacis/kauai.ncml" />
+				<geospatialCoverage>
+					<northsouth>
+						<start>21.53</start>
+						<size>0.43</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-154.98</start>
+						<size>0.59</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</dataset>
+			<dataset name="Oahu" serviceName="Services" ID="cida.usgs.gov/oahu" urlPath="oahu">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/pacis/oahu.ncml" />
+				<geospatialCoverage>
+					<northsouth>
+						<start>21.49</start>
+						<size>0.5</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-159.03</start>
+						<size>0.3</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</dataset>
+			<datasetScan name="Direct File Access" ID="cida.usgs.gov/RedRiver/files" path="pacis/files" location="/mnt/thredds/pacis">
+					<serviceName>http</serviceName>
+			</datasetScan>
+		</dataset>
 		<dataset name="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
