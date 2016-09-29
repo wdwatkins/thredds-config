@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/pacis/samoapacis.ncml">
+	<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="acknowledgment" type="String" value=""/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="title" type="String" value=""/>
+	<attribute name="keywords" type="String" value=""/>
+	<attribute name="id" type="String" value="cida.usgs.gov/samoa"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="publisher_name" type="String" value="Office of Water Information"/>
+	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="creator_name" type="String" value=""/>
+	<attribute name="creator_email" type="String" value=""/>
+	<attribute name="time_coverage_start" type="String" value="1990-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2009-12-31T00:00"/>
+	<attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by pnorton@usgs.gov and dblodgett@usgs.gov in September 2016."/>
+	<attribute name="date_modified" type="String" value="2016-10-01"/>
+	<attribute name="date_issued" type="String" value="2016-10-01"/>
+	<attribute name="project" type="String" value="Very Fine Resolution Dynamical Downscaling of Past and Future Climates for Assessment of Climate Change Impacts on the Islands of O`ahu and Kaua`i https://nccwsc.usgs.gov/display-project/4f8c650ae4b0546c0c397b48/52165f17e4b0b45d6ba394fb"/>
+	<attribute name="publisher_name" type="String" value="David Blodgett"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="geospatial_lat_min" type="String" value="14.27"/>
+	<attribute name="geospatial_lat_max" type="String" value="14.45"/>
+	<attribute name="geospatial_lon_min" type="String" value="-170.77"/>
+	<attribute name="geospatial_lon_max" type="String" value="-170.41"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>
