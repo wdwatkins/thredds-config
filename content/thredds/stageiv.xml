@@ -19,17 +19,17 @@
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/opt/tomcat/data/qpe/ncml/stageiv_combined.ncml"/>
 		</dataset>
 	</dataset>
-	<dataset name="National Precipitation Analysis of Record" ID="cida.usgs.gov/thredds/AORC/">
-		<featureCollection featureType="GRIB1" name="AORC_grb" path="AORC_grb">
+	<dataset name="Sample National Precipitation Analysis of Record" ID="cida.usgs.gov/thredds/AORC_sample_hrap/">
+		<featureCollection featureType="GRIB1" name="Sample AORC with HRAP Coordinates" path="AORC_sample_hrap">
 			<metadata inherited="true">
 				<serviceName>all</serviceName>
 				<dataType>Grid</dataType>
 			</metadata>
-			<collection name="AORC_grb" spec="/mnt/thredds/AORC/grb/AORC.*$"/>
+			<collection name="AORC_sample_hrap" spec="/mnt/thredds/AORC/grb/AORC.*$"/>
 			<update startup="test" rescan="0 0/5 * * * ? *"/>
 			<gribConfig datasetTypes="Best"/>
 		</featureCollection>
-		<dataset name="corrected_grb" ID="cida.usgs.gov/thredds/AORC_RT" serviceName="all" urlPath="corrected_grb">
+		<dataset name="Sample AORC with Lat Lon Cooridinates" ID="cida.usgs.gov/thredds/AORC_sample_latlon" serviceName="all" urlPath="AORC_sample_latlon">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AORC/ncml/corrected_grb.ncml"/>
 		</dataset>
 	</dataset>
