@@ -274,6 +274,7 @@
 			<documentation xlink:href="http://www.emc.ncep.noaa.gov/mmb/ylin/pcpanl/stage4/" xlink:title="National Centers for Environmental Prediction National Stage IV Quantitative Precipitation Estimate Product"/>
 			<documentation xlink:href="http://water.weather.gov/precip/about.php" xlink:title="NWS Advanced Hydrologic Prediction Service About Page"/>
 			<documentation xlink:href="http://pubs.usgs.gov/fs/2013/3035/pdf/fs2013-3035.pdf" xlink:title="USGS Publication Documenting Grid Reprojection."/>
+			<documentation xlink:href="http://dx.doi.org/10.1175/WAF-D-14-00112.1" xlink:title="Publication Documenting Data Production and Usefulness."/>
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">Mosaicked into a national product at NCEP, from the regional hourly multi-sensor (radar+gauges) precipitation analyses produced by the 12 River Forecast Centers over CONUS. Some manual QC done at the RFCs.
 			The Stage II/IV job is run at 33min past the top of each hour. Hourly Stage IV is re-made hourly (if there is new input after valid time for the next 23 hours, then again at 1/3/5/7 days after valid time.
@@ -891,7 +892,7 @@
 				</timeCoverage>
 			</metadata>
 		</dataset>
-		<dataset name="Pacific Islands WRF Downscaling">
+		<!--<dataset name="Pacific Islands WRF Downscaling">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
@@ -983,7 +984,7 @@
 			<datasetScan name="Direct File Access" ID="cida.usgs.gov/RedRiver/files" path="pacis/files" location="/mnt/thredds/pacis">
 					<serviceName>http</serviceName>
 			</datasetScan>
-		</dataset>
+		</dataset>-->
 		<dataset name="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
