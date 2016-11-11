@@ -892,7 +892,7 @@
 				</timeCoverage>
 			</metadata>
 		</dataset>
-		<!--<dataset name="Pacific Islands WRF Downscaling">
+		<dataset name="Pacific Islands WRF Downscaling">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
@@ -984,7 +984,7 @@
 			<datasetScan name="Direct File Access" ID="cida.usgs.gov/RedRiver/files" path="pacis/files" location="/mnt/thredds/pacis">
 					<serviceName>http</serviceName>
 			</datasetScan>
-		</dataset>-->
+		</dataset>
 		<dataset name="Statistically downscaled estimates of precipitation and temperature for the Red River basin (South Central U.S.A)">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
