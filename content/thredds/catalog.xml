@@ -892,13 +892,29 @@
 				</timeCoverage>
 			</metadata>
 		</dataset>
-		<dataset name="Pacific Islands WRF Downscaling">
+		<dataset name="Dynamical Downscaled and Projected Climate for the Pacific Islands">
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<dataFormat>NcML</dataFormat>
 				<documentation type="Rights">Freely Available</documentation>
 				<documentation xlink:href="https://nccwsc.usgs.gov/display-project/4f8c650ae4b0546c0c397b48/52165f17e4b0b45d6ba394fb" xlink:title="More Information"/>
-				<documentation type="Summary">Insert Summary Here</documentation>
+				<documentation type="Summary">-- Methods --
+The Weather Research and Forecast model (WRF) is applied to construct triply-nested meshes. The outermost domain (20-km horizontal resolution) is large enough to cover almost the whole tropical and subtropical areas from the central Pacific to the western Pacific. The intermediate domain has 4-km horizontal resolution, and the innermost domain of each individual island has a horizontal resolution of 0.8 km. The driving fields for the atmosphere are the NASA Modern-Era Retrospective Analysis for Research and Applications reanalysis, and the sea surface temperature (SST) is from NOAA. Variables in the driving fields include temperature, wind, geopotential height, water vapor, etc. For the future runs, the global warming signals are added to the present-day driving fields. This method is called the Pseudo-Global-Warming method which is currently used in various applications. The global warming signals are from 12 CIMP5 models.
+-- Datasets --
+There are three runs. The present-day run starts on January 1st 1990 and ends on December 31st 2009. The purpose of the present-day run is twofold, e.g., to retrieve the present-day climate and to provide the downscaled high-resolution climate data. The future runs include two scenarios, one for RCP4.5 and the other one for RCP8.5. The future runs represent the time period from January 1st 2080 to December 31st 2099 although the date stamps used for projections are the same as those for the present-day run. The dynamical downscaling provides hourly atmospheric and land surface variables, such as rainfall, surface sensible heat fluxes and evaporation, radiative fluxes, wind, and temperature.
+-- More Documentation -- 
+Zhang, C., and Y. Wang, 2016: Projected future changes of tropical cyclone activity over the Western North and South Pacific in a 20-km-mesh regional climate model. Submitted to J. Climate. (In revisions)
+-- 
+Zhang, C., K. Hamilton, and Y. Wang, 2016: Monitoring and Projecting Snow on Hawaii Island. Submitted to Earth Future. 
+-- 
+Zhang, C., Y. Wang, A. Lauer, and K. Hamilton, 2012: Configuration and evaluation of the WRF model for the study of the Hawaii regional climate. Mon. Wea. Rev., 140, 3259–3277. 
+-- 
+Lauer, A., C. Zhang, O. Elison Timm, Y. Wang, and K. Hamilton, 2013: Downscaling of climate change in the Hawaii region using CMIP5 results: On the choice of the forcing fields. J. Climate, 26, 10 006–10 030.
+-- 
+Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016a: Dynamical downscaling of the climate for the Hawaiian Islands. Part I: Present day. J. Climate, 29, 3027–3048.
+-- 
+Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of the climate for the Hawaiian Islands. Part II: Projection for the late twenty-first century. J. Climate, 29, 8333–8354.
+</documentation>
 				<documentation type="Reference">https://nccwsc.usgs.gov/display-project/4f8c650ae4b0546c0c397b48/52165f17e4b0b45d6ba394fb</documentation>
 				<keyword>precipitation</keyword>
 				<keyword>maximum temperature</keyword>
@@ -917,7 +933,7 @@
 				</publisher>
 				<timeCoverage>
 						<start>1990-01-01T00:00</start>
-						<end>2009-12-31T00:00</end>
+						<end>2099-12-31T00:00</end>
 						<resolution>1 Day</resolution>
 				</timeCoverage>
 			</metadata>
@@ -925,8 +941,8 @@
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/pacis/samoa.ncml" />
 				<geospatialCoverage>
 					<northsouth>
-						<start>14.27</start>
-						<size>0.18</size>
+						<start>-14.27</start>
+						<size>-0.18</size>
 						<units>degrees_north</units>
 					</northsouth>
 					<eastwest>
