@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/pacis/samoapacis.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/pacis/guampacis.ncml">
 	<!-- Global Attributes for Dataset Discovery -->
-	<attribute name="acknowledgment" type="String" value=""/>
+	<attribute name="acknowledgment" type="String" value="https://nccwsc.usgs.gov/display-project/4f8c650ae4b0546c0c397b48/52165f17e4b0b45d6ba394fb"/>
 	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
-	<attribute name="title" type="String" value=""/>
-	<attribute name="keywords" type="String" value=""/>
+	<attribute name="summary" type="String" value="-- Methods --
+The Weather Research and Forecast model (WRF) is applied to construct triply-nested meshes. The outermost domain (20-km horizontal resolution) is large enough to cover almost the whole tropical and subtropical areas from the central Pacific to the western Pacific. The intermediate domain has 4-km horizontal resolution, and the innermost domain of each individual island has a horizontal resolution of 0.8 km. The driving fields for the atmosphere are the NASA Modern-Era Retrospective Analysis for Research and Applications reanalysis, and the sea surface temperature (SST) is from NOAA. Variables in the driving fields include temperature, wind, geopotential height, water vapor, etc. For the future runs, the global warming signals are added to the present-day driving fields. This method is called the Pseudo-Global-Warming method which is currently used in various applications. The global warming signals are from 12 CIMP5 models.
+-- Datasets --
+There are three runs. The present-day run starts on January 1st 1990 and ends on December 31st 2009. The purpose of the present-day run is twofold, e.g., to retrieve the present-day climate and to provide the downscaled high-resolution climate data. The future runs include two scenarios, one for RCP4.5 and the other one for RCP8.5. The future runs represent the time period from January 1st 2080 to December 31st 2099 although the date stamps used for projections are the same as those for the present-day run. The dynamical downscaling provides hourly atmospheric and land surface variables, such as rainfall, surface sensible heat fluxes and evaporation, radiative fluxes, wind, and temperature."/>
+	<attribute name="title" type="String" value="Dynamical Downscaled and Projected Climate for the Pacific Islands - Guam"/>
 	<attribute name="id" type="String" value="cida.usgs.gov/samoa"/>
 	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
 	<attribute name="cdm_data_type" type="String" value="Grid"/>
 	<attribute name="publisher_name" type="String" value="Office of Water Information"/>
 	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
-	<attribute name="creator_name" type="String" value=""/>
-	<attribute name="creator_email" type="String" value=""/>
+	<attribute name="creator_name" type="String" value="Chunxi Zhang"/>
+	<attribute name="creator_email" type="String" value="chunxi@hawaii.edu"/>
 	<attribute name="time_coverage_start" type="String" value="1990-01-01T00:00"/>
 	<attribute name="time_coverage_end" type="String" value="2009-12-31T00:00"/>
 	<attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by pnorton@usgs.gov and dblodgett@usgs.gov in September 2016."/>
