@@ -13,7 +13,7 @@
 	<attribute name="creator_url" type="String" value="http://ca.water.usgs.gov/index.html"/>
 	<attribute name="creator_email" type="String" value="lflint@usgs.gov"/>
 	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	<attribute name="publisher_url" type="String" value="http://cida-usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://cida-usgs.gov/"/>
 	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
 	<attribute name="institution" type="String" value="USGS"/>
 	<attribute name="date_issued" type="String" value="2013-10-1"/>

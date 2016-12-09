@@ -12,7 +12,7 @@
 	<attribute name="creator_url" type="String" value="http://www.basic.ncsu.edu/"/>
 	<attribute name="creator_email" type="String" value="cbelyea@ncsu.edu"/>
 	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://www.cida.usgs.gov/"/>
 	<attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
 	<attribute name="institution" type="String" value="ncsu"/>
 	<attribute name="date_issued" type="String" value="2012-03-01"/>
@@ -27,5 +27,5 @@
 	<attribute name="time_coverage_end" type="String" value="2100-01-01T00:00"/>
 	<attribute name="time_coverage_resolution" type="String" value="P10Y"/>
 	<attribute name="license" type="String" value="Freely available"/>
-	<attribute name="history" value="Original ArcGIS grids were converted to NetCDF with gdaltranslate. The data were then changed to make them appropriate for aerial summary statistics calculation; that is, noData was set to zero in the domain of the dataset, a noData mask was applied outside the SERAP domain, and the original urbanization extent (which was represented as 1) was set to 100%. For information preceding this modification, see the metadata in the original ArcGIS formatted data here: http://cida.usgs.gov/thredds/serap/catalog.html"/>
+	<attribute name="history" value="Original ArcGIS grids were converted to NetCDF with gdaltranslate. The data were then changed to make them appropriate for aerial summary statistics calculation; that is, noData was set to zero in the domain of the dataset, a noData mask was applied outside the SERAP domain, and the original urbanization extent (which was represented as 1) was set to 100%. For information preceding this modification, see the metadata in the original ArcGIS formatted data here: https://cida.usgs.gov/thredds/serap/catalog.html"/>
 </netcdf>	

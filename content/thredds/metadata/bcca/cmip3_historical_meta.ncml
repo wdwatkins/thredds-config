@@ -12,7 +12,7 @@
 	<attribute name="creator_url" type="String" value="http://www.climateanalyticsgroup.org/"/>
 	<attribute name="creator_email" type="String" value="bridget@climateanalyticsgroup.org"/>
 	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://www.cida.usgs.gov/"/>
 	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
 	<attribute name="institution" type="String" value="Varies, see http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
 	<remove name="institute_id" type="attribute"/>

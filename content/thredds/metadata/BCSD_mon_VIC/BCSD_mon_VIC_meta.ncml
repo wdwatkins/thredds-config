@@ -9,7 +9,7 @@
 	<attribute name="cdm_data_type" type="String" value="Grid"/>
 	<attribute name="date_created" type="String" value="2014"/>
 	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://www.cida.usgs.gov/"/>
 	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
 	<attribute name="institution" type="String" value="Varies, see http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/"/>
 	<attribute name="date_issued" type="String" value="2015-11-01"/>

@@ -13,7 +13,7 @@
 	        <attribute name="creator_url" type="String" value="http://www.ncsu.edu/"/>
 	        <attribute name="creator_email" type="String" value="rsriver@illinois.edu"/>
 	        <attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	        <attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	        <attribute name="publisher_url" type="String" value="https://www.cida.usgs.gov/"/>
 	        <attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
 	        <attribute name="institution" type="String" value="Developed at Penn State"/>
 	        <attribute name="date_issued" type="String" value="2012-04-12"/>

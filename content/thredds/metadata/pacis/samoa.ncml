@@ -12,7 +12,7 @@ There are three runs. The present-day run starts on January 1st 1990 and ends on
 	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
 	<attribute name="cdm_data_type" type="String" value="Grid"/>
 	<attribute name="publisher_name" type="String" value="Office of Water Information"/>
-	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
 	<attribute name="creator_name" type="String" value="Chunxi Zhang"/>
 	<attribute name="creator_email" type="String" value="chunxi@hawaii.edu"/>
 	<attribute name="time_coverage_start" type="String" value="1990-01-01T00:00"/>
@@ -23,7 +23,7 @@ There are three runs. The present-day run starts on January 1st 1990 and ends on
 	<attribute name="project" type="String" value="Very Fine Resolution Dynamical Downscaling of Past and Future Climates for Assessment of Climate Change Impacts on the Islands of O`ahu and Kaua`i https://nccwsc.usgs.gov/display-project/4f8c650ae4b0546c0c397b48/52165f17e4b0b45d6ba394fb"/>
 	<attribute name="publisher_name" type="String" value="David Blodgett"/>
 	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
-	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
 	<attribute name="geospatial_lat_min" type="String" value="-14.27"/>
 	<attribute name="geospatial_lat_max" type="String" value="-14.45"/>
 	<attribute name="geospatial_lon_min" type="String" value="-170.77"/>

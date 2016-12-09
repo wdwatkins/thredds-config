@@ -12,7 +12,7 @@
 	<attribute name="creator_url" type="String" value="http://ccr.aos.wisc.edu/about/Personnel/faculty_staff/lorenz_david.php"/>
 	<attribute name="creator_email" type="String" value="dlorenz@wisc.edu"/>
 	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://www.cida.usgs.gov/"/>
 	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
 	<attribute name="institution" type="String" value="Center for Climatic Research, University of Wisconsin-Madison"/>
 	<attribute name="date_issued" type="String" value="2012-01-01"/>

@@ -18,7 +18,7 @@
   <!-- new server information section replaces much of what was in htmlSetup -->
   <serverInformation>
     <name>CIDA USGS THREDDS</name>
-    <logoUrl>http://cida.usgs.gov/images/logo/cida_logo_4c-300_notext.jpg</logoUrl>
+    <logoUrl>https://cida.usgs.gov/images/logo/cida_logo_4c-300_notext.jpg</logoUrl>
     <logoAltText>CIDA USGS THREDDS</logoAltText>
 
     <abstract>
@@ -34,8 +34,8 @@
     </contact>
     <hostInstitution>
       <name>Center for Integrated Data Analytics</name>
-      <website>http://cida.usgs.gov/</website>
-      <logoUrl>http://cida.usgs.gov/images/logo/cida_logo_4c-300_notext.jpg</logoUrl>
+      <website>https://cida.usgs.gov/</website>
+      <logoUrl>https://cida.usgs.gov/images/logo/cida_logo_4c-300_notext.jpg</logoUrl>
       <logoAltText>CIDA Center for Integrated Data Analytics</logoAltText>
     </hostInstitution>
   </serverInformation>

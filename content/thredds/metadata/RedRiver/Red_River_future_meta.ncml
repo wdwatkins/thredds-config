@@ -24,13 +24,13 @@
 	<attribute name="time_coverage_end" type="String" value="2099-12-31T00:00"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
 	<remove name="keywords_vocabulary" type="attribute"/>
-	<attribute name="history" type="String" value="Dataset downloaded from: http://dx.doi.org/10.15763/DBS.SCCSC.RR was aggregated for publication by the USGS by dblodgett@usgs.gov in July 2016."/>
+	<attribute name="history" type="String" value="Dataset downloaded from: https://dx.doi.org/10.15763/DBS.SCCSC.RR was aggregated for publication by the USGS by dblodgett@usgs.gov in July 2016."/>
 	<attribute name="date_modified" type="String" value="2016-07-01"/>
 	<attribute name="date_issued" type="String" value="2016-02-01"/>
 	<attribute name="project" type="String" value="Impacts of Climate Change on Flows in the Red River Basin https://nccwsc.usgs.gov/display-project/4f8c652fe4b0546c0c397b4a/521cf67ce4b01458f7858040"/>
 	<attribute name="publisher_name" type="String" value="David Blodgett"/>
 	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
-	<attribute name="publisher_url" type="String" value="http://owi.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
 	<attribute name="geospatial_lat_min" type="String" value="26.05"/>
 	<attribute name="geospatial_lat_max" type="String" value="39.95"/>
 	<attribute name="geospatial_lon_min" type="String" value="-104"/>
