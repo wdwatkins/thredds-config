@@ -8,12 +8,12 @@
 	<attribute name="summary" type="String" value="Radar indicated-rain gage verified and corrected precipitation estimates for the continental United States. Updated weekly from NPVU archive."/>
 	<attribute name="keywords" type="String" value="Atmosphere &gt; Precipitation &gt; Precipitation Amount   Atmosphere &gt; Precipitation &gt; Rain"/>
 	<attribute name="keywords_vocabulary" type="String" value="GCMD Science Keywords"/>
-	<attribute name="id" type="String" value=" http://internal.cida.usgs.gov/thredds/qpe/rfcqpe.ncml"/>
+	<attribute name="id" type="String" value=" https://internal.cida.usgs.gov/thredds/qpe/rfcqpe.ncml"/>
 	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
 	<attribute name="cdm_data_type" type="String" value="Grid"/>
 	<attribute name="date_created" type="String" value="ongoing"/>
 	<attribute name="creator_name" type="String" value="CIDA/dblodgett"/>
-	<attribute name="creator_url" type="String" value="http://cida.usgs.gov/"/>
+	<attribute name="creator_url" type="String" value="https://cida.usgs.gov/"/>
 	<attribute name="creator_email" type="String" value="dblodgett@usgs.gov"/>
 	<attribute name="institution" type="String" value="USGS Center for Integrated Data Analytics"/>
 	<attribute name="project" type="String" value="Various"/>

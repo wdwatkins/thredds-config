@@ -13,13 +13,13 @@
     <attribute name="date_created" type="String" value="February, 2013"/>
     <attribute name="date_modified" type="String" value="February, 2013"/>
     <attribute name="creator_name" type="String" value="Gabriel Senay"/>
-    <attribute name="creator_url" type="String" value="http://eros.usgs.gov/"/>
+    <attribute name="creator_url" type="String" value="https://eros.usgs.gov/"/>
     <attribute name="creator_email" type="String" value="senay@usgs.gov"/>
 	<attribute name="creator_name" type="String" value="Stefanie Bohms"/>
-    <attribute name="creator_url" type="String" value="http://eros.usgs.gov/"/>
+    <attribute name="creator_url" type="String" value="https://eros.usgs.gov/"/>
     <attribute name="creator_email" type="String" value="sbohms@usgs.gov"/>
     <attribute name="publisher_name" type="String" value="David Blodgett"/>
-    <attribute name="publisher_url" type="String" value="http://cida.usgs.gov/"/>
+    <attribute name="publisher_url" type="String" value="https://cida.usgs.gov/"/>
     <attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
     <attribute name="institution" type="String" value="U.S. Geological Survey"/>
     <attribute name="date_issued" type="String" value="February, 2013"/>
