@@ -13,4 +13,5 @@
 		<attribute name="standard_name" value="time"/>
 		<attribute name="_CoordinateAxisType" value="Time"/>
 	</variable> 
+	<remove type="variable" name="wind_from_direction"/>
 </netcdf>
