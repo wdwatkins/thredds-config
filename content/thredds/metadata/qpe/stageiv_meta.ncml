@@ -18,7 +18,7 @@
 	<attribute name="project" type="String" value="Various"/>
 	<attribute name="processing_level" type="String" value="Aggregated .grib archive from the NCEP. The original Hydrologic Rainfall Analysis Projection grid cell locations redefined by unprojecting grid cell locations using spherical earth projection algorithms. 
 		The cell lat/lon locations should be interpreted as being on a modern geotetic datum. This transformation is needed because the original grid cell location's lat/lon values were on a geodetic datum but were assumed to be on a spherical datum. 
-		See: http://pubs.usgs.gov/fs/2013/3035/pdf/fs2013-3035.pdf for more information. Note that this publication reverences the National Precipitation Verification Unit.
+		See: https://pubs.usgs.gov/fs/2013/3035/pdf/fs2013-3035.pdf for more information. Note that this publication reverences the National Precipitation Verification Unit.
 		The data represented here are aggregated from the same source as the National Precipitation Verification Unit used prior to being shut down. Data processing notes can be found here: http://www.emc.ncep.noaa.gov/mmb/ylin/pcpanl/"/>
 	<attribute name="acknowledgement" type="String" value="Data originated at the National Center for Environmental Prediction: http://www.emc.ncep.noaa.gov/mmb/ylin/pcpanl/stage4/"/>
 	<attribute name="geospatial_lat_min" type="String" value="24"/>

@@ -16,7 +16,7 @@ Daily Temperature"/>
 	<attribute name="creator_name" type="String" value="Ed Maurer"/>
 	<attribute name="creator_email" type="String" value="emaurer@scu.edu"/>
 	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://www.cida.usgs.gov/"/>
 	<attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
 	<attribute name="date_issued" type="String" value="2011-07-20"/>
 	<attribute name="project" type="String" value=""/>

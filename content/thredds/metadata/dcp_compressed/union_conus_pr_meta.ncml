@@ -15,7 +15,7 @@
 	<attribute name="creator_url" type="String" value="http://www.katharinehayhoe.com/"/>
 	<attribute name="creator_email" type="String" value="hayhoe@atmosresearch.com"/>
 	<attribute name="publisher_name" type="String" value="Center for Integrated Data Analytics"/>
-	<attribute name="publisher_url" type="String" value="http://www.cida.usgs.gov/"/>
+	<attribute name="publisher_url" type="String" value="https://www.cida.usgs.gov/"/>
 	<attribute name="publisher_email" type="String" value="cida@usgs.gov"/>
 	<attribute name="institution" type="String" value="Texas Tech University"/>
 	<attribute name="date_issued" type="String" value="2013-06-14"/>

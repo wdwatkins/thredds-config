@@ -25,7 +25,7 @@
 		<documentation type="Summary">Datasets held by the Center for Integrated Data Analytics for access via TDS.</documentation>
 		<publisher>
 			<name>CIDA</name>
-			<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+			<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 		</publisher>
 		<dataset name="Parameter-elevation Regressions on Independent Slopes Model Monthly Climate Data for the Continental United States. January 2012 Shapshot" ID="cida.usgs.gov/prism" serviceName="Services" urlPath="prism">
 			<dataType>Grid</dataType>
@@ -45,7 +45,7 @@
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -82,7 +82,7 @@
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -118,7 +118,7 @@
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -154,7 +154,7 @@
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -199,7 +199,7 @@
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -225,7 +225,7 @@
 				<!-- THREDDS catalog metadata as documented here:  -->
 				<documentation xlink:href="http://www.ntsg.umt.edu/project/TopoWx" xlink:title="Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature"/>
 				<documentation type="Rights">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/).</documentation>
-				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (http://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The following data are available in this archive: 1948-2015 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2015 version.</documentation>
+				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (https://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The following data are available in this archive: 1948-2015 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2015 version.</documentation>
 				<documentation type="Reference">Oyler JW, Ballantyne A, Jencso K, Sweet M, Running S. Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature. International Journal of Climatology. http://dx.doi.org/10.1002/joc.4127</documentation>
 				<keyword>maximum temperature</keyword>
 				<keyword>minimum temperature</keyword>
@@ -238,7 +238,7 @@
 				</creator>
 				<publisher>
 					<name>Center for Integrated Data Analytics</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -293,7 +293,7 @@
 			<contributor role="aggregate and archive">National Centers for Environmental Prediction</contributor>
 			<publisher>
 				<name>USGS Office of Water Information Center for Integrated Data Analytics</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -330,7 +330,7 @@
 				</creator>
 				<publisher>
 					<name>OWI</name>
-					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://owi.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -392,7 +392,7 @@
 				</creator>
 				<publisher>
 					<name>OWI</name>
-					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://owi.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -449,10 +449,10 @@
 			<metadata inherited="true">
 				<documentation xlink:href="http://serap.er.usgs.gov/docs/SerapOFR2010_1213.pdf" xlink:title="Initial Report Describing Data Processing"/>
 				<documentation xlink:href="http://dx.doi.org/10.1002/joc.3603" xlink:title="Report Describing Data Processing Methodology. The third, full piecewise downscaling method was used to produce these data."/>
-				<documentation xlink:href="http://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf" xlink:title="Final Report Describing Data Processing and Quality Control"/>
+				<documentation xlink:href="https://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf" xlink:title="Final Report Describing Data Processing and Quality Control"/>
 				<documentation type="Rights">Freely Available.</documentation>
 				<documentation type="Summary">In this project, we used an advanced statistical downscaling method that combines high-resolution observations with outputs from 16 different global climate models based on 4 future emission scenarios to generate the most comprehensive dataset of daily temperature and precipitation projections available for climate change impacts in the U.S. The gridded dataset covers the continental United States, southern Canada and northern Mexico at one-eighth degree resolution and Alaska at one-half degree resolution. The high-resolution projections produced by this work have been rigorously quality-controlled for both errors and biases in the global climate and statistical downscaling models. We also calculated projected future changes in a broad range of impact-relevant indicators, from seasonal temperature to extreme precipitation days. The results of the error and bias tests and the indicator calculations are made available as part of this database. Note that the CONUS temperature and precipitation data were split into two sub datasets in January 2015. This was done because the precipitation data uses a slightly different longitude axis than the temperature data.</documentation>
-				<documentation type="Reference">Hayhoe, K., Stoner, et al., (2013), Development and Dissemination of a High-Resolution National Climate Change Dataset. http://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf</documentation>
+				<documentation type="Reference">Hayhoe, K., Stoner, et al., (2013), Development and Dissemination of a High-Resolution National Climate Change Dataset. https://cida.usgs.gov/thredds/fileServer/dcp/files/Hayhoe_USGS_downscaled_database_final_report.pdf</documentation>
 				<documentation type="Reference">Stoner, A. M. K., Hayhoe, K., Yang, X. and Wuebbles, D. J. (2012), An asynchronous regional regression model for statistical downscaling of daily climate variables. Int. J. Climatol.. doi: 10.1002/joc.3603</documentation>
 				<documentation type="Reference">Dalton, M.S., and Jones, S.A., comps., 2010, Southeast Regional Assessment Project for the National Climate Change and Wildlife Science Center, U.S. Geological Survey: U.S. Geological Survey Open-File Report 2010 - 1213, 38 p.</documentation>
 				<keyword>wind</keyword>
@@ -465,7 +465,7 @@
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 			</metadata>
 			<dataset name="1/8 degree-CONUS Daily Downscaled Climate Projections Minimum and Maximum Temperature" ID="cida.usgs.gov/thredds/dcp/conus_t" serviceName="Services" urlPath="dcp/conus_t">
@@ -560,7 +560,7 @@
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -613,7 +613,7 @@
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -663,7 +663,7 @@
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -702,7 +702,7 @@
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -836,7 +836,7 @@
 				<keyword>hydrology</keyword>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -871,7 +871,7 @@
 				<keyword>Wind</keyword>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -929,7 +929,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</creator>
 				<publisher>
 					<name>OWI</name>
-					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://owi.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<timeCoverage>
 						<start>1990-01-01T00:00</start>
@@ -1034,7 +1034,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</creator>
 				<publisher>
 					<name>OWI</name>
-					<contact url="http://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://owi.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -1096,7 +1096,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<timeCoverage>
 						<start>1988-10-01T00:00</start>
@@ -1152,7 +1152,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -1192,7 +1192,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<timeCoverage>
 					<start>1901-01-01T00:00</start>
@@ -1289,7 +1289,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -1305,7 +1305,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</geospatialCoverage>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 			</metadata>
 			<dataset name="1961-2000 - Daily" ID="cida.usgs.gov/wicci/cmip3/20c3m" serviceName="Services" urlPath="wicci/cmip3/20c3m">
@@ -1384,7 +1384,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -1449,7 +1449,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<geospatialCoverage>
 					<northsouth>
@@ -1515,7 +1515,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		<catalogRef xlink:title="California Basin Characterization Model Data" xlink:href="CA-BCM-Catalog.xml" name="California Basin Characterization Model Data"/>
 		<dataset name="Integrated Climate and Land-Use Scenarios v1.3" ID="iclus">
 			<metadata inherited="true">
-				<documentation xlink:href="http://www.epa.gov/ncea/global/iclus" xlink:title="Homepage of the ICLUS Project"/>
+				<documentation xlink:href="https://www.epa.gov/ncea/global/iclus" xlink:title="Homepage of the ICLUS Project"/>
 				<documentation type="Rights">Freely Available.</documentation>
 				<documentation type="Summary">Climate and land-use change are major components of global environmental change with feedbacks between these components. The consequences of these interactions show that land use may exacerbate or alleviate climate change effects. Based on these findings it is important to use land-use scenarios that are consistent with the specific assumptions underlying climate-change scenarios. The Integrated Climate and Land-Use Scenarios (ICLUS) project developed land-use outputs that are based on a downscaled version of the Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) social, economic, and demographic storylines. ICLUS outputs are derived from a pair of models. A demographic model generates county-level population estimates that are distributed by a spatial allocation model (SERGoM v3) as housing density across the landscape. Land-use outputs were developed for the four main SRES storylines and a baseline ('base case'). The model is run for the conterminous USA and output is semi-decadally for each scenario to 2100. In addition to housing density at a 1 hectare spatial resolution, this project also generated estimates of impervious surface at a resolution of 1 square kilometer.</documentation>
 				<documentation type="Reference">U.S. Environmental Protection Agency (EPA). 2010. ICLUS v1.3 User's Manual: ArcGIS Tools and Datasets for Modeling US Housing Density Growth. Global Change Research Program, National Center for Environmental Assessment, Washington, DC; EPA/600/R-09/143F.</documentation>
@@ -1527,15 +1527,15 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				<keyword>Impervious Surface</keyword>
 				<creator>
 					<name>Philip Morefield</name>
-					<contact url="http://www.epa.gov/ncea/global/iclus" email="morefield.philip@epa.gov"/>
+					<contact url="https://www.epa.gov/ncea/global/iclus" email="morefield.philip@epa.gov"/>
 				</creator>
 				<creator>
 					<name>Britta Bierwagen</name>
-					<contact url="http://www.epa.gov/ncea/global/iclus" email="bierwagen.britta@epa.gov"/>
+					<contact url="https://www.epa.gov/ncea/global/iclus" email="bierwagen.britta@epa.gov"/>
 				</creator>
 				<publisher>
 					<name>CIDA</name>
-					<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 				</publisher>
 				<serviceName>HTTPServer</serviceName>
 			</metadata>
@@ -1584,7 +1584,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<documentation type="Reference">Farnsworth, R.K. and Thompson, E.S., 1982, Mean monthly, seasonal, and annual pan evaporation for the United States, NOAA Technical Report NWS 34, National Oceanic and Atmospheric Administration, Washington, DC, p. 85.</documentation>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -1622,7 +1622,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<documentation type="Reference">Perez, R., P. Ineichen, K. Moore, M.Kmiecik, C. Chain, R. George and F. Vignola (2002): A New Operational Satellite-to-Irradiance Model. Solar Energy</documentation>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 			<geospatialCoverage>
 				<northsouth>
@@ -1653,7 +1653,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 	<dataset name="Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data">
 		<metadata inherited="true">
 			<documentation xlink:href="http://dx.doi.org/10.1111/jawr.12057" xlink:title="Information on the model used to create this dataset."/>
-			<documentation xlink:href="http://pubs.er.usgs.gov/publication/70048035" xlink:title="Information on validation of the dataset."/>
+			<documentation xlink:href="https://pubs.er.usgs.gov/publication/70048035" xlink:title="Information on validation of the dataset."/>
 			<documentation type="Rights">Freely Available.</documentation>
 			<documentation type="Summary">Actual ET (ETa) is produced using the operational Simplified Surface Energy Balance (SSEBop) model (Senay and others, 2013) for the period 2000 to present. The SSEBop setup is based on the Simplified Surface Energy Balance (SSEB) approach (Senay and others, 2007, 2011) with unique parameterization for operational applications. It combines ET fractions generated from remotely sensed MODIS thermal imagery, acquired every 8 days, with reference ET using a thermal index approach. The unique feature of the SSEBop parameterization is that it uses pre-defined, seasonally dynamic, boundary conditions that are unique to each pixel for the hot/dry and cold/wet reference points.</documentation>
 			<documentation type="Reference">Senay, G. B., Bohms, S., Singh, R. K., Gowda, P. H., Velpuri, N. M., Alemu, H., et al. (2013). Operational evapotranspirationmapping using remote sensing andweather datasets: A new parameterization for the SSEB approach. Journal of the American Water Resources Association, 1-15, http://dx.doi.org/10.1111/jawr.12057.</documentation>
@@ -1666,15 +1666,15 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<keyword>ETa</keyword>
 			<creator>
 				<name>Stefanie Bohms</name>
-				<contact url="http://eros.usgs.gov/" email="sbohms@usgs.gov"/>
+				<contact url="https://eros.usgs.gov/" email="sbohms@usgs.gov"/>
 			</creator>
 			<creator>
 				<name>Gabriel Senay</name>
-				<contact url="http://eros.usgs.gov/" email="senay@usgs.gov"/>
+				<contact url="https://eros.usgs.gov/" email="senay@usgs.gov"/>
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 		</metadata>
 		<dataset name="Monthly Operational Simplified Surface Energy Balance Conterminous U.S. Actual Evapotranspiration Data" ID="cida.usgs.gov/ssebopeta/monthly" serviceName="Services" urlPath="ssebopeta/monthly">
@@ -1699,7 +1699,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			</creator>
 			<publisher>
 				<name>CIDA</name>
-				<contact url="http://cida.usgs.gov" email="dblodgett@usgs.gov"/>
+				<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
 		</metadata>
 		<dataset name="Urban Growth Projection for Southeast Regional Assessment Project" ID="cida.usgs.gov/serap/serap_urb" serviceName="Services" urlPath="serap/serap_urb">
@@ -1751,5 +1751,5 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 						</filter>-->
 		</datasetScan>
 	</dataset>
-	<!-- Removing for security risk <catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="http://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>-->
+	<!-- Removing for security risk <catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="https://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>-->
 </catalog>
