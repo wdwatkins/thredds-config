@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+	<attribute name="Conventions" value="CF-1.6"/>
 	<aggregation type="union">
     <netcdf location="samoa/processed_hourly/samoa_hourly_present_ACLHF_1990-2009.nc">
       <variable orgName="ACLHF" name="ACLHF_present"/>
