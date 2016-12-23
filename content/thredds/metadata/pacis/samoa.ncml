@@ -30,4 +30,236 @@ There are three runs. The present-day run starts on January 1st 1990 and ends on
 	<attribute name="geospatial_lon_max" type="String" value="-170.41"/>
 	<attribute name="license" type="String" value="Freely available"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
+	<attribute name="Conventions" value="CF-1.6"/>
+	<variable name="ACLHF_present">
+		<attribute name="long_name" value="ACCUMULATED UPWARD LATENT HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="XLAT">
+		<attribute name="long_name" value="LATITUDE, SOUTH IS NEGATIVE"/>
+	</variable>
+	<variable name="XLONG">
+		<attribute name="long_name" value="LONGITUDE, WEST IS NEGATIVE"/>
+	</variable>
+	<variable name="Time">
+		<attribute name="long_name" value="minutes since 1989-12-01 00:00:00"/>
+	</variable>
+	<variable name="Times">
+		<attribute name="long_name" value="Datetime string"/>
+	</variable>
+	<variable name="time_bnds">
+		<attribute name="long_name" value="Time interval endpoints"/>
+	</variable>
+	<variable name="ALBBCK_present">
+		<attribute name="long_name" value="BACKGROUND ALBEDO"/>
+	</variable>
+	<variable name="ALBEDO_present">
+		<attribute name="long_name" value="ALBEDO"/>
+	</variable>
+	<variable name="GLW_present">
+		<attribute name="long_name" value="DOWNWARD LONG WAVE FLUX AT GROUND SURFACE"/>
+	</variable>
+	<variable name="HFX_present">
+		<attribute name="long_name" value="UPWARD HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="LH_present">
+		<attribute name="long_name" value="LATENT HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="OLR_present">
+		<attribute name="long_name" value="TOA OUTGOING LONG WAVE"/>
+	</variable>
+	<variable name="PSFC_present">
+		<attribute name="long_name" value="SFC PRESSURE"/>
+	</variable>
+	<variable name="Q2_present">
+		<attribute name="long_name" value="QV at 2 M"/>
+	</variable>
+	<variable name="QFX_present">
+		<attribute name="long_name" value="UPWARD MOISTURE FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="RAIN_present">
+		<attribute name="long_name" value="BUCKET FOR RAINNC"/>
+	</variable>
+	<variable name="I_RAINNC">
+		<attribute name="long_name" value="BUCKET FOR RAINNC"/>
+	</variable>
+	<variable name="RAINNC_present">
+		<attribute name="long_name" value="ACCUMULATED TOTAL GRID SCALE PRECIPITATION"/>
+	</variable>
+	<variable name="SFROFF_present">
+		<attribute name="long_name" value="SURFACE RUNOFF"/>
+	</variable>
+	<variable name="SMOIS_present">
+		<attribute name="long_name" value="SOIL MOISTURE"/>
+	</variable>
+	<variable name="DZS">
+		<attribute name="long_name" value="THICKNESSES OF SOIL LAYERS"/>
+	</variable>
+	<variable name="SNOW_present">
+		<attribute name="long_name" value="SNOW WATER EQUIVALENT"/>
+	</variable>
+	<variable name="SNOWH_present">
+		<attribute name="long_name" value="PHYSICAL SNOW DEPTH"/>
+	</variable>
+	<variable name="T2_present">
+		<attribute name="long_name" value="TEMP at 2 M"/>
+	</variable>
+	<variable name="TH2_present">
+		<attribute name="long_name" value="POT TEMP at 2 M"/>
+	</variable>
+	<variable name="XTIME">
+		<attribute name="long_name" value="minutes since 1989-12-01 00:00:00"/>
+	</variable>
+	<variable name="TSLB_present">
+		<attribute name="long_name" value="SOIL TEMPERATURE"/>
+	</variable>
+	<variable name="U10_present">
+		<attribute name="long_name" value="U at 10 M"/>
+	</variable>
+	<variable name="UDROFF_present">
+		<attribute name="long_name" value="UNDERGROUND RUNOFF"/>
+	</variable>
+	<variable name="V10_present">
+		<attribute name="long_name" value="V at 10 M"/>
+	</variable>
+	<variable name="VEGFRA_present">
+		<attribute name="long_name" value="VEGETATION FRACTION"/>
+	</variable>
+	<variable name="ACLHF_rcp45">
+		<attribute name="long_name" value="ACCUMULATED UPWARD LATENT HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="ALBBCK_rcp45">
+		<attribute name="long_name" value="BACKGROUND ALBEDO"/>
+	</variable>
+	<variable name="ALBEDO_rcp45">
+		<attribute name="long_name" value="ALBEDO"/>
+	</variable>
+	<variable name="GLW_rcp45">
+		<attribute name="long_name" value="DOWNWARD LONG WAVE FLUX AT GROUND SURFACE"/>
+	</variable>
+	<variable name="HFX_rcp45">
+		<attribute name="long_name" value="UPWARD HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="LH_rcp45">
+		<attribute name="long_name" value="LATENT HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="OLR_rcp45">
+		<attribute name="long_name" value="TOA OUTGOING LONG WAVE"/>
+	</variable>
+	<variable name="PSFC_rcp45">
+		<attribute name="long_name" value="SFC PRESSURE"/>
+	</variable>
+	<variable name="Q2_rcp45">
+		<attribute name="long_name" value="QV at 2 M"/>
+	</variable>
+	<variable name="QFX_rcp45">
+		<attribute name="long_name" value="UPWARD MOISTURE FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="RAIN_rcp45">
+		<attribute name="long_name" value="BUCKET FOR RAINNC"/>
+	</variable>
+	<variable name="RAINNC_rcp45">
+		<attribute name="long_name" value="ACCUMULATED TOTAL GRID SCALE PRECIPITATION"/>
+	</variable>
+	<variable name="SFROFF_rcp45">
+		<attribute name="long_name" value="SURFACE RUNOFF"/>
+	</variable>
+	<variable name="SMOIS_rcp45">
+		<attribute name="long_name" value="SOIL MOISTURE"/>
+	</variable>
+	<variable name="SNOW_rcp45">
+		<attribute name="long_name" value="SNOW WATER EQUIVALENT"/>
+	</variable>
+	<variable name="SNOWH_rcp45">
+		<attribute name="long_name" value="PHYSICAL SNOW DEPTH"/>
+	</variable>
+	<variable name="T2_rcp45">
+		<attribute name="long_name" value="TEMP at 2 M"/>
+	</variable>
+	<variable name="TH2_rcp45">
+		<attribute name="long_name" value="POT TEMP at 2 M"/>
+	</variable>
+	<variable name="TSLB_rcp45">
+		<attribute name="long_name" value="SOIL TEMPERATURE"/>
+	</variable>
+	<variable name="U10_rcp45">
+		<attribute name="long_name" value="U at 10 M"/>
+	</variable>
+	<variable name="UDROFF_rcp45">
+		<attribute name="long_name" value="UNDERGROUND RUNOFF"/>
+	</variable>
+	<variable name="V10_rcp45">
+		<attribute name="long_name" value="V at 10 M"/>
+	</variable>
+	<variable name="VEGFRA_rcp45">
+		<attribute name="long_name" value="VEGETATION FRACTION"/>
+	</variable>
+	<variable name="ACLHF_rcp85">
+		<attribute name="long_name" value="ACCUMULATED UPWARD LATENT HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="ALBBCK_rcp85">
+		<attribute name="long_name" value="BACKGROUND ALBEDO"/>
+	</variable>
+	<variable name="ALBEDO_rcp85">
+		<attribute name="long_name" value="ALBEDO"/>
+	</variable>
+	<variable name="GLW_rcp85">
+		<attribute name="long_name" value="DOWNWARD LONG WAVE FLUX AT GROUND SURFACE"/>
+	</variable>
+	<variable name="HFX_rcp85">
+		<attribute name="long_name" value="UPWARD HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="LH_rcp85">
+		<attribute name="long_name" value="LATENT HEAT FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="OLR_rcp85">
+		<attribute name="long_name" value="TOA OUTGOING LONG WAVE"/>
+	</variable>
+	<variable name="PSFC_rcp85">
+		<attribute name="long_name" value="SFC PRESSURE"/>
+	</variable>
+	<variable name="Q2_rcp85">
+		<attribute name="long_name" value="QV at 2 M"/>
+	</variable>
+	<variable name="QFX_rcp85">
+		<attribute name="long_name" value="UPWARD MOISTURE FLUX AT THE SURFACE"/>
+	</variable>
+	<variable name="RAIN_rcp85">
+		<attribute name="long_name" value="BUCKET FOR RAINNC"/>
+	</variable>
+	<variable name="RAINNC_rcp85">
+		<attribute name="long_name" value="ACCUMULATED TOTAL GRID SCALE PRECIPITATION"/>
+	</variable>
+	<variable name="SFROFF_rcp85">
+		<attribute name="long_name" value="SURFACE RUNOFF"/>
+	</variable>
+	<variable name="SMOIS_rcp85">
+		<attribute name="long_name" value="SOIL MOISTURE"/>
+	</variable>
+	<variable name="SNOW_rcp85">
+		<attribute name="long_name" value="SNOW WATER EQUIVALENT"/>
+	</variable>
+	<variable name="SNOWH_rcp85">
+		<attribute name="long_name" value="PHYSICAL SNOW DEPTH"/>
+	</variable>
+	<variable name="T2_rcp85">
+		<attribute name="long_name" value="TEMP at 2 M"/>
+	</variable>
+	<variable name="TH2_rcp85">
+		<attribute name="long_name" value="POT TEMP at 2 M"/>
+	</variable>
+	<variable name="TSLB_rcp85">
+		<attribute name="long_name" value="SOIL TEMPERATURE"/>
+	</variable>
+	<variable name="U10_rcp85">
+		<attribute name="long_name" value="U at 10 M"/>
+	</variable>
+	<variable name="UDROFF_rcp85">
+		<attribute name="long_name" value="UNDERGROUND RUNOFF"/>
+	</variable>
+	<variable name="V10_rcp85">
+		<attribute name="long_name" value="V at 10 M"/>
+	</variable>
+	<variable name="VEGFRA_rcp85">
+		<attribute name="long_name" value="VEGETATION FRACTION"/>
+	</variable>
 </netcdf>
