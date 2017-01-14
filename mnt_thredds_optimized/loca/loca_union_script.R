@@ -49,7 +49,8 @@ templatefun<-function(models,rcps,vars,files,outname,searchstring) {
   data<-list(joins=joinList)
   template<-readLines("./loca_template.ncml")
   cat(whisker.render(template, data), file=paste0(outname), append=FALSE)
-  return(paste('Put',count,'files into ncml file',outname))}
+  return(paste('Put',count,'files into ncml file',outname))
+}
 
 files <- read.csv("./loca_files.csv",stringsAsFactors = FALSE)$x
 vars <- readLines("./loca_vars.txt")

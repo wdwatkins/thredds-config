@@ -23,10 +23,10 @@ for(d in domains) {
       #now create join ncml
       #create join names
       joinName <- paste(d, t, m, sep = "_")
-      joinFileList <- list(joinFiles = list(fileName = paste0("../", modelFiles)))
+      joinFiles <- paste0("../", modelFiles)
     
       #render
-      cat(whisker.render(template, joinFileList), 
+      cat(whisker.render(template), 
           file=paste0("ncml_joins/",joinName,".ncml"), append=FALSE)  
     }
   }
