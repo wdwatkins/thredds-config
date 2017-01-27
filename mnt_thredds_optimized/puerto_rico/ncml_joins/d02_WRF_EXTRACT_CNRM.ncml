@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
-	<aggregation type="joinExisting" dimName="time">
+	<aggregation type="joinExisting" dimName="Time">
 			<netcdf location="../WRF_EXTRACT/KFmods_inner_CNRM/1985/wrfextr_d02_1985-01"/>
 			<netcdf location="../WRF_EXTRACT/KFmods_inner_CNRM/1985/wrfextr_d02_1985-02"/>
 			<netcdf location="../WRF_EXTRACT/KFmods_inner_CNRM/1985/wrfextr_d02_1985-03"/>
