@@ -212,4 +212,30 @@
       <variable orgName="DX32" name="DX32_d03_monthly_CNRM"/>
     </netcdf>
 	</aggregation>
+	<remove name="SIMULATION_START_DATE" type="attribute"/>
+	<remove name="WEST-EAST_GRID_DIMENSION" type="attribute"/>
+	<remove name="SOUTH-NORTH_GRID_DIMENSION" type="attribute"/>
+	<remove name="BOTTOM-TOP_GRID_DIMENSION" type="attribute"/>
+	<remove name="GRIDTYPE" type="attribute"/>
+	<remove name="DX" type="attribute"/>
+	<remove name="DY" type="attribute"/>
+	<remove name="CEN_LAT" type="attribute"/>
+	<remove name="CEN_LON" type="attribute"/>
+	<remove name="TRUELAT1" type="attribute"/>
+	<remove name="TRUELAT2" type="attribute"/>
+	<remove name="MOAD_CEN_LAT" type="attribute"/>
+	<remove name="STAND_LON" type="attribute"/>
+	<remove name="MAP_PROJ" type="attribute"/>
+	<remove name="MP_PHYSICS" type="attribute"/>
+	<remove name="RA_LW_PHYSICS" type="attribute"/>
+	<remove name="RA_SW_PHYSICS" type="attribute"/>
+	<remove name="SF_SFCLAY_PHYSICS" type="attribute"/>
+	<remove name="SF_SURFACE_PHYSICS" type="attribute"/>
+	<remove name="BL_PBL_PHYSICS" type="attribute"/>
+	<remove name="CU_PHYSICS" type="attribute"/>
+	<remove name="GRID_FDDA" type="attribute"/>
+	<remove name="GUV" type="attribute"/>
+	<remove name="GT" type="attribute"/>
+	<remove name="GQ" type="attribute"/>
+	<remove name="GPH" type="attribute"/>
 </netcdf>

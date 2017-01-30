@@ -9,4 +9,7 @@
     </netcdf>
   {{/joins}}
 	</aggregation>
+	{{#globalVars}}
+	<remove name="{{ var }}" type="attribute"/>
+	{{/globalVars}}
 </netcdf>

@@ -43,6 +43,11 @@ for(t in tempRes) {
     vars <- scan('wrfEx_vars.txt', what = "character")
   }
   
+  #get list structure right for whisker
+  #use iterateList!!
+  globalVars <- scan('global_vars.txt', what = "character")
+  globalVars <- iteratelist(globalVars, value = "var")
+  
   #find matching joins
   matchingJoins <- list.files("./ncml_joins", pattern = t, full.names = TRUE)
   pairs <- list()
@@ -57,7 +62,9 @@ for(t in tempRes) {
     joins[[j]] <- list(joinName = matchingJoins[j], pairs = pairs)
   }
   
-  cat(whisker.render(template = unionTemplate, list(joins = joins)), file = paste0(t, ".ncml"))
+  cat(whisker.render(template = unionTemplate, list(joins = joins, 
+                                                    globalVars = globalVars)), 
+                                                    file = paste0(t, ".ncml"))
 }
 
 
