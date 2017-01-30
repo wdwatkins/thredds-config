@@ -38,10 +38,13 @@ unionTemplate <- readLines('puertoRico_rename_template.ncml')
 for(t in tempRes) {
   if(t == "monthly") {
     vars <- scan('monthlyVars.txt', what = "character")
+    shellFile <- "monthly.sh"
   }
   if(t == "WRF_EXTRACT") {
     vars <- scan('wrfEx_vars.txt', what = "character")
+    shellFile <- "WRF_EX.sh"
   }
+  file.remove(shellFile) #will be appending later
   
   #get list structure right for whisker
   #use iterateList!!
@@ -58,6 +61,21 @@ for(t in tempRes) {
                          newName = paste(vars[v], 
                         file_path_sans_ext(basename(matchingJoins[j])),
                         sep = "_"))
+      
+      #write line of shell script
+      #one variable/file for now
+      #can the URL reference a specific variable inside a join?
+      command <- "nccopy -k nc7 -d 1 -c time/1,lat/40,lon/40 -u"
+      baseURL <- paste0("http://localhost:8080/thredds/dodsC/thredds/puertoRico/",
+                        file = paste0(t, ".ncml"))
+      appendURL <-  paste0("?", vars[v],"_",
+                           file_path_sans_ext(basename(matchingJoins[j])),
+                           ",Time,west_east,south_north")
+      outFile <- paste(vars[v],basename(matchingJoins[j]), sep = "_")
+      outFile <- gsub(pattern = "ncml", replacement = "nc", x = outFile)
+      allURL <- paste0(baseURL, appendURL)
+      scriptLine <- paste(command, allURL, outFile, "\n")
+      cat(scriptLine, file = shellFile, append = TRUE)
     }
     joins[[j]] <- list(joinName = matchingJoins[j], pairs = pairs)
   }
