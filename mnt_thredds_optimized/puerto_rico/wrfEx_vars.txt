@@ -1,4 +1,3 @@
-Times
 TLML
 QLML
 Q850

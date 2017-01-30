@@ -1,4 +1,5 @@
 library(whisker)
+library(tools)
 
 domains <- c("d01","d02","d03")
 models <- c("CNRM", "CESM")
@@ -43,20 +44,20 @@ for(t in tempRes) {
   }
   
   #find matching joins
-  matchingJoins <- list.files("./ncml_joins", pattern = t)
+  matchingJoins <- list.files("./ncml_joins", pattern = t, full.names = TRUE)
   pairs <- list()
   joins <- list()
   for(j in 1:length(matchingJoins)) {
     for(v in 1:length(vars)) {
-      pairs[[v]] <- list(origName = vars[v], newName = paste(vars[v], matchingJoins[j], sep = "_"))
+      pairs[[v]] <- list(origName = vars[v], 
+                         newName = paste(vars[v], 
+                        file_path_sans_ext(basename(matchingJoins[j])),
+                        sep = "_"))
     }
     joins[[j]] <- list(joinName = matchingJoins[j], pairs = pairs)
   }
   
   cat(whisker.render(template = unionTemplate, list(joins = joins)), file = paste0(t, ".ncml"))
-  
-  
-  
 }
 
 
