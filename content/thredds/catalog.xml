@@ -1752,4 +1752,40 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</datasetScan>
 	</dataset>
 	<!-- Removing for security risk <catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="https://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>-->
+	<dataset name="Developing Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean">
+		<metadata inherited="true">
+			<documentation type="Rights">Freely Available.</documentation>
+			<creator>
+				<name>Adam Terando</name>
+				<contact url="https://www.usgs.gov/staff-profiles/adam-terando" email="aterando@usgs.gov"/>
+			</creator>
+			<publisher>
+				<name>OWI</name>
+				<contact url="https://owi.usgs.gov" email="dblodgett@usgs.gov"/>
+			</publisher>
+			<geospatialCoverage>
+				<northsouth>
+					<start>9.314</start>
+					<size>20.694</size>
+					<units>degrees_north</units>
+				</northsouth>
+				<eastwest>
+					<start>-85.540</start>
+					<size>35.08</size>
+					<units>degrees_east</units>
+				</eastwest>
+			</geospatialCoverage>
+		</metadata>
+		<dataset name="" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
+			<metadata>
+				<documentation type="Summary"><documentation/>
+				<documentation type="Reference"><documentation/>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d01_monthly_meta.ncml"/>
+		</dataset>
+	</dataset>
 </catalog>
