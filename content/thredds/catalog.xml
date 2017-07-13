@@ -1775,7 +1775,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</eastwest>
 			</geospatialCoverage>
 		</metadata>
-		<dataset name="" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
+		<dataset name="Monthly models, domain 1" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
 			<metadata>
 				<documentation type="Summary"></documentation>
 				<documentation type="Reference"></documentation>
