@@ -1572,7 +1572,6 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				<serviceName>http</serviceName>
 			</datasetScan>
 		</dataset>
-	</dataset>
 	<dataset name="Mean Monthly Evaporation Atlas for the Contiguous 48 United States (1956-1970)" ID="cida.usgs.gov/mows/pe" serviceName="Services" urlPath="mows/pe">
 		<dataType>Grid</dataType>
 		<metadata>
@@ -1778,8 +1777,8 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</metadata>
 		<dataset name="" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
 			<metadata>
-				<documentation type="Summary"><documentation/>
-				<documentation type="Reference"><documentation/>
+				<documentation type="Summary"></documentation>
+				<documentation type="Reference"></documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
 			</metadata>
@@ -1787,5 +1786,6 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<dataFormat>NcML</dataFormat>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d01_monthly_meta.ncml"/>
 		</dataset>
+	</dataset>
 	</dataset>
 </catalog>
