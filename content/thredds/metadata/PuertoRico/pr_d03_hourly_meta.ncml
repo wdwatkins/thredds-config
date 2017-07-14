@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/PuertoRico/d03_hourly.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="summary" type="String" value="TODO"/>
+        <attribute name="title" type="String" value="Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean"/>
+        <attribute name="id" type="String" value="cida.usgs.gov/PuertoRico"/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="Grid"/>
+        <attribute name="publisher_name" type="String" value="Office of Water Information"/>
+        <attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Adam Terando"/>
+        <attribute name="creator_email" type="String" value="aterando@usgs.gov"/>
+        <attribute name="time_coverage_start" type="String" value="1985-01-01T00:00"/>
+        <attribute name="time_coverage_end" type="String" value="2060-12-31T00:00"/>
+        <attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by wwatkins@usgs.gov and dblodgett@usgs.gov in March 2017."/>
+        <attribute name="date_modified" type="String" value="2017-03-06"/>
+        <attribute name="date_issued" type="String" value="2017-10-01"/>
+        <attribute name="project" type="String" value="Developing Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
+        <attribute name="publisher_name" type="String" value="David Blodgett"/>
+        <attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="17.238579"/>
+        <attribute name="geospatial_lat_max" type="String" value="19.101532"/>
+        <attribute name="geospatial_lon_min" type="String" value="-68.755547"/>
+        <attribute name="geospatial_lon_max" type="String" value="-64.006386"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
