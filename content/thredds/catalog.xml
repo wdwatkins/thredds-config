@@ -1775,7 +1775,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</eastwest>
 			</geospatialCoverage>
 		</metadata>
-		<dataset name="Monthly models, domain 1" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
+		<dataset name="Monthly models, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
 			<metadata>
 				<documentation type="Summary"></documentation>
 				<documentation type="Reference"></documentation>
@@ -1785,6 +1785,61 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d01_monthly_meta.ncml"/>
+		</dataset>
+		<dataset name="Monthly models, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_monthly_d02" serviceName="Services" urlPath="PuertoRico/pr_monthly_d02">
+			<metadata>
+				<documentation type="Summary"></documentation>
+				<documentation type="Reference"></documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d02_monthly_meta.ncml"/>
+		</dataset>
+		<dataset name="Monthly models, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_monthly_d03" serviceName="Services" urlPath="PuertoRico/pr_monthly_d03">
+			<metadata>
+				<documentation type="Summary"></documentation>
+				<documentation type="Reference"></documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d03_monthly_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly models, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_hourly_d03" serviceName="Services" urlPath="PuertoRico/pr_hourly_d03">
+			<metadata>
+				<documentation type="Summary"></documentation>
+				<documentation type="Reference"></documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d03_hourly_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly models, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_hourly_d02" serviceName="Services" urlPath="PuertoRico/pr_hourly_d02">
+			<metadata>
+				<documentation type="Summary"></documentation>
+				<documentation type="Reference"></documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d02_hourly_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly models, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_hourly_d01" serviceName="Services" urlPath="PuertoRico/pr_hourly_d01">
+			<metadata>
+				<documentation type="Summary"></documentation>
+				<documentation type="Reference"></documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d01_hourly_meta.ncml"/>
 		</dataset>
 	</dataset>
 	</dataset>
