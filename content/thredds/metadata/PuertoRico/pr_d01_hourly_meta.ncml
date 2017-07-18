@@ -12,8 +12,8 @@
         <attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
         <attribute name="creator_name" type="String" value="Adam Terando"/>
         <attribute name="creator_email" type="String" value="aterando@usgs.gov"/>
-        <attribute name="time_coverage_start" type="String" value="1985-01-01T00:00"/>
-        <attribute name="time_coverage_end" type="String" value="2060-12-31T00:00"/>
+        <attribute name="time_coverage_start" type="String" value="1985-01-01T00:00:00Z"/>
+        <attribute name="time_coverage_end" type="String" value="2060-12-31T00:00:00Z"/>
         <attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by wwatkins@usgs.gov and dblodgett@usgs.gov in March 2017."/>
         <attribute name="date_modified" type="String" value="2017-03-06"/>
         <attribute name="date_issued" type="String" value="2017-10-01"/>
