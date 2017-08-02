@@ -1880,13 +1880,13 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				<end>2016-12-31T00:00:00</end>
 				<resolution>Daily</resolution>
 			</timeCoverage>
-			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx2017" serviceName="Services" urlPath="topowx">
+			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx2017" serviceName="Services" urlPath="topowx2017">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx2017/topowx_meta.ncml"/>
 			</dataset>
-			<dataset name="TopoWx: Topoclimatic Monthly Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx2017_monthly" serviceName="Services" urlPath="topowx_monthly">
+			<dataset name="TopoWx: Topoclimatic Monthly Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx2017_monthly" serviceName="Services" urlPath="topowx2017_monthly">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx2017/topowx_monthly_meta.ncml"/>
 			</dataset>
-			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx2017_normals" serviceName="Services" urlPath="topowx_normals">
+			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx2017_normals" serviceName="Services" urlPath="topowx_normals2017">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx2017/topowx_normals.ncml"/>
 			</dataset>
 		</dataset>
