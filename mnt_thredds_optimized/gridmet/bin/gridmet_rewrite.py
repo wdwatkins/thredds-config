@@ -2,6 +2,13 @@ import os
 import subprocess
 import time
 import shlex
+# This script expects the big source files to be at "src" 
+# the temporary processing files will be written to "PROC_DIR" 
+# and the final compressed files will be in "dest".
+# set "max_processes" to the number of cores you want to use.
+# Paurse time is best set to how long (seconds) it takes to read one source file from disk.
+max_processes = 5
+pause_time=10
 src="../temp"
 PROC_DIR="./"
 dest="../gridmet"
@@ -25,8 +32,7 @@ for dirname, dirnames, filenames in os.walk(src):
 
 files_to_process = len(srcfiles)
 processes = []
-max_processes = 5
-pause_time=10
+
 file_processing = 1
 for srcfile in srcfiles:
     inputs = [['pdur','precipitation_duration_hours','10','-999','0.1'],['pr','precipitation_amount','10','-999','0.1'],['rmax','relative_humidity','10','-999','0.1'],['rmin','relative_humidity','10','-999','0.1'],['sph','specific_humidity','1000','-999','0.001'],['srad','surface_downwelling_shortwave_flux_in_air','10','-999','0.1'],['th','wind_from_direction','10','-999','0.1'],['tmmn','air_temperature','10','-999','0.1'],['tmmx','air_temperature','10','-999','0.1'],['vs','wind_speed','10','-999','0.1']]
