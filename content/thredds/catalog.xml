@@ -220,54 +220,6 @@
 			</timeCoverage>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/gridmet/gridmet_meta.ncml"/>
 		</dataset>
-		<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States">
-			<metadata inherited="true">
-				<!-- THREDDS catalog metadata as documented here:  -->
-				<documentation xlink:href="http://www.ntsg.umt.edu/project/TopoWx" xlink:title="Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature"/>
-				<documentation type="Rights">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/).</documentation>
-				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (https://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The following data are available in this archive: 1948-2015 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2015 version.</documentation>
-				<documentation type="Reference">Oyler JW, Ballantyne A, Jencso K, Sweet M, Running S. Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature. International Journal of Climatology. http://dx.doi.org/10.1002/joc.4127</documentation>
-				<keyword>maximum temperature</keyword>
-				<keyword>minimum temperature</keyword>
-				<keyword>land skin temperature</keyword>
-				<keyword>MODIS</keyword>
-				<keyword>gridded meteorological data</keyword>
-				<creator>
-					<name>Jared Oyler</name>
-					<contact url="http://www.scrimhub.org" email="jared.oyler@psu.edu"/>
-				</creator>
-				<publisher>
-					<name>Center for Integrated Data Analytics</name>
-					<contact url="https://cida.usgs.gov" email="dblodgett@usgs.gov"/>
-				</publisher>
-				<geospatialCoverage>
-					<northsouth>
-						<start>24</start>
-						<size>26</size>
-						<units>degrees_north</units>
-					</northsouth>
-					<eastwest>
-						<start>-125</start>
-						<size>59</size>
-						<units>degrees_east</units>
-					</eastwest>
-				</geospatialCoverage>
-			</metadata>
-			<timeCoverage>
-				<start>1948-01-01T00:00:00</start>
-				<end>2015-12-31T00:00:00</end>
-				<resolution>Daily</resolution>
-			</timeCoverage>
-			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx" serviceName="Services" urlPath="topowx">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/topowx_meta.ncml"/>
-			</dataset>
-			<dataset name="TopoWx: Topoclimatic Monthly Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx_monthly" serviceName="Services" urlPath="topowx_monthly">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/topowx_monthly_meta.ncml"/>
-			</dataset>
-			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx_normals" serviceName="Services" urlPath="topowx_normals">
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx/topowx_normals.ncml"/>
-			</dataset>
-		</dataset>
 		<dataset name="National Stage IV Quantitative Precipitation Estimate Mosaic" ID="cida.usgs.gov/thredds/stageiv_combined/" serviceName="Services" urlPath="stageiv_combined">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/qpe/stageiv_meta.ncml"/>
 			<dataFormat>NetCDF-Grid</dataFormat>
@@ -855,7 +807,7 @@
 					<end>2099-12-15T00:00</end>
 					<resolution>1 Month</resolution>
 				</timeCoverage>
-			</metadata>>
+			</metadata>
 		</dataset>
 		<dataset name="Monthly Gridded Meteorological Observations"  ID="cida.usgs.gov/bcsd_obs" serviceName="Services" urlPath="bcsd_obs">
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/maurer/monthly_obs/bcsd_obs_meta.ncml"/>
@@ -1751,12 +1703,12 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</datasetScan>
 	</dataset>
 	<!-- Removing for security risk <catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="https://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>-->
-	<dataset name="Developing Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean">
+	<dataset name="Weather Research and Forecasting (WRF): Puerto Rico &amp; USVI Dynamical Downscaled Climate Change Projections">
 		<metadata inherited="true">
 			<documentation type="Rights">Freely Available.</documentation>
 			<creator>
-				<name>Adam Terando</name>
-				<contact url="https://www.usgs.gov/staff-profiles/adam-terando" email="aterando@usgs.gov"/>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
 			</creator>
 			<publisher>
 				<name>OWI</name>
@@ -1777,8 +1729,8 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</metadata>
 		<dataset name="Monthly models, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
 			<metadata>
-				<documentation type="Summary"></documentation>
-				<documentation type="Reference"></documentation>
+				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
 			</metadata>
@@ -1788,8 +1740,8 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</dataset>
 		<dataset name="Monthly models, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_monthly_d02" serviceName="Services" urlPath="PuertoRico/pr_monthly_d02">
 			<metadata>
-				<documentation type="Summary"></documentation>
-				<documentation type="Reference"></documentation>
+				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true. </documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
 			</metadata>
@@ -1799,8 +1751,8 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</dataset>
 		<dataset name="Monthly models, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_monthly_d03" serviceName="Services" urlPath="PuertoRico/pr_monthly_d03">
 			<metadata>
-				<documentation type="Summary"></documentation>
-				<documentation type="Reference"></documentation>
+				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
 			</metadata>
@@ -1810,8 +1762,8 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</dataset>
 		<dataset name="Hourly models, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_hourly_d03" serviceName="Services" urlPath="PuertoRico/pr_hourly_d03">
 			<metadata>
-				<documentation type="Summary"></documentation>
-				<documentation type="Reference"></documentation>
+				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
 			</metadata>
@@ -1821,8 +1773,8 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</dataset>
 		<dataset name="Hourly models, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_hourly_d02" serviceName="Services" urlPath="PuertoRico/pr_hourly_d02">
 			<metadata>
-				<documentation type="Summary"></documentation>
-				<documentation type="Reference"></documentation>
+				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
 			</metadata>
@@ -1832,8 +1784,8 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</dataset>
 		<dataset name="Hourly models, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_hourly_d01" serviceName="Services" urlPath="PuertoRico/pr_hourly_d01">
 			<metadata>
-				<documentation type="Summary"></documentation>
-				<documentation type="Reference"></documentation>
+				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
 			</metadata>
@@ -1847,7 +1799,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				<!-- THREDDS catalog metadata as documented here:  -->
 				<documentation xlink:href="http://www.ntsg.umt.edu/project/TopoWx" xlink:title="Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature"/>
 				<documentation type="Rights">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/).</documentation>
-				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (https://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The following data are available in this archive: 1948-2015 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2015 version.</documentation>
+				<documentation type="Summary">The TopoWx ("Topography Weather") dataset contains historical 30-arcsec resolution (~800-m) interpolations of daily minimum and maximum topoclimatic air temperature for the conterminous U.S. Using both DEM-based variables and MODIS land skin temperature as predictors of air temperature, interpolation procedures include moving window regression kriging and geographically weighted regression. To avoid artificial climate trends, all input station data are homogenized using the GHCN/USHCN Pairwise Homogenization Algorithm (https://www.ncdc.noaa.gov/oa/climate/research/ushcn/#phas). The following data are available in this archive: 1948-2016 daily minimum and maximum temperature, and 1981-2010 monthly normals for minimum and maximum temperature with corresponding uncertainty (kriging prediction error). Ongoing annual updates will regenerate the entire dataset incorporating both new observations and model enhancements. This will result in a continuously improved dataset. However, different versions of TopoWx will be incompatible. For instance, data from the original 1948-2012 version should not be mixed with data from the new 1948-2016 version.</documentation>
 				<documentation type="Reference">Oyler JW, Ballantyne A, Jencso K, Sweet M, Running S. Creating a Topoclimatic Daily Air Temperature Dataset for the Conterminous United States using Homogenized Station Data and Remotely Sensed Land Skin Temperature. International Journal of Climatology. http://dx.doi.org/10.1002/joc.4127</documentation>
 				<keyword>maximum temperature</keyword>
 				<keyword>minimum temperature</keyword>
@@ -1880,13 +1832,13 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				<end>2016-12-31T00:00:00</end>
 				<resolution>Daily</resolution>
 			</timeCoverage>
-			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx2017" serviceName="Services" urlPath="topowx2017">
+			<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx" serviceName="Services" urlPath="topowx">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx2017/topowx_meta.ncml"/>
 			</dataset>
-			<dataset name="TopoWx: Topoclimatic Monthly Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx2017_monthly" serviceName="Services" urlPath="topowx2017_monthly">
+			<dataset name="TopoWx: Topoclimatic Monthly Air Temperature Dataset for the Conterminous United States" ID="cida.usgs.gov/topowx_monthly" serviceName="Services" urlPath="topowx_monthly">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx2017/topowx_monthly_meta.ncml"/>
 			</dataset>
-			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx2017_normals" serviceName="Services" urlPath="topowx_normals2017">
+			<dataset name="TopoWx: Interpolated 1981-2010 Monthly Normals for Topoclimatic Temperature" ID="cida.usgs.gov/topowx_normals" serviceName="Services" urlPath="topowx_normals">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx2017/topowx_normals.ncml"/>
 			</dataset>
 		</dataset>
