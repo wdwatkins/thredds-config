@@ -1827,7 +1827,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			</metadata>
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/nhm_hourly_meta.ncml"/>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/nhm_monthly_meta.ncml"/>
 		</dataset>
 	</dataset>
 		<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States">
