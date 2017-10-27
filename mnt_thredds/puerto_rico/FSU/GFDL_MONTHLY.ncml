@@ -3,87 +3,87 @@
 	<aggregation type="union">
 		<scan location="." suffix=".nc" subdirs="false" />
 	</aggregation>
-	<variable orgName="cla" name="GFDL_MONTHLY_CLA">
+	<variable orgName="cla" name="NHM_GFDL_MONTHLY_CLA">
 		<attribute name="description" value="Total cloud cover"/>
 		<attribute name="long_name" value="Total cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="clh" name="GFDL_MONTHLY_CLH">
+	<variable orgName="clh" name="NHM_GFDL_MONTHLY_CLH">
 		<attribute name="description" value="Upper cloud cover"/>
 		<attribute name="long_name" value="Upper cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="cll" name="GFDL_MONTHLY_CLL">
+	<variable orgName="cll" name="NHM_GFDL_MONTHLY_CLL">
 		<attribute name="description" value="Lower cloud cover"/>
 		<attribute name="long_name" value="Lower cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="clm" name="GFDL_MONTHLY_CLM">
+	<variable orgName="clm" name="NHM_GFDL_MONTHLY_CLM">
 		<attribute name="description" value="Middle cloud cover"/>
 		<attribute name="long_name" value="Middle cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="psea" name="GFDL_MONTHLY_PSEA">
+	<variable orgName="psea" name="NHM_GFDL_MONTHLY_PSEA">
 		<attribute name="description" value="Sea level correction pressure"/>
 		<attribute name="long_name" value="Sea level correction pressure"/>
 		<attribute name="units" type="String" value="hPa"/>
 	</variable>
-	<variable orgName="psrf" name="GFDL_MONTHLY_PSRF">
+	<variable orgName="psrf" name="NHM_GFDL_MONTHLY_PSRF">
 		<attribute name="description" value="Surface pressure"/>
 		<attribute name="long_name" value="Surface pressure"/>
 		<attribute name="units" type="String" value="hPa"/>
 	</variable>
-	<variable orgName="smqg" name="GFDL_MONTHLY_SMQG">
+	<variable orgName="smqg" name="NHM_GFDL_MONTHLY_SMQG">
 		<attribute name="description" value="Accumulated precipitation of graupel"/>
 		<attribute name="long_name" value="Accumulated precipitation of graupel"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqh" name="GFDL_MONTHLY_SMQH">
+	<variable orgName="smqh" name="NHM_GFDL_MONTHLY_SMQH">
 		<attribute name="description" value="Accumulated precipitation of hail"/>
 		<attribute name="long_name" value="Accumulated precipitation of hail"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqi" name="GFDL_MONTHLY_SMQI">
+	<variable orgName="smqi" name="NHM_GFDL_MONTHLY_SMQI">
 		<attribute name="description" value="Accumulated precipitation of (cloud) ice"/>
 		<attribute name="long_name" value="Accumulated precipitation of (cloud) ice"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqr" name="GFDL_MONTHLY_SMQR">
+	<variable orgName="smqr" name="NHM_GFDL_MONTHLY_SMQR">
 		<attribute name="description" value="Accumulated precipitation of rain"/>
 		<attribute name="long_name" value="Accumulated precipitation of rain"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqs" name="GFDL_MONTHLY_SMQS">
+	<variable orgName="smqs" name="NHM_GFDL_MONTHLY_SMQS">
 		<attribute name="description" value="Accumulated precipitation of snow"/>
 		<attribute name="long_name" value="Accumulated precipitation of snow"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="tpw" name="GFDL_MONTHLY_TPW">
+	<variable orgName="tpw" name="NHM_GFDL_MONTHLY_TPW">
 		<attribute name="description" value="Total precipitable water"/>
 		<attribute name="long_name" value="Total precipitable water"/>
 		<attribute name="units" type="String" value="kg/m^2"/>
 	</variable>
-	<variable orgName="ttdsrf" name="GFDL_MONTHLY_TTDSRF">
+	<variable orgName="ttdsrf" name="NHM_GFDL_MONTHLY_TTDSRF">
 		<attribute name="description" value="Surface humidity"/>
 		<attribute name="long_name" value="Surface humidity"/>
 		<attribute name="units" type="String" value="kg/kg"/>
 	</variable>
-	<variable orgName="tsrf" name="GFDL_MONTHLY_TSRF">
+	<variable orgName="tsrf" name="NHM_GFDL_MONTHLY_TSRF">
 		<attribute name="description" value="Surface temperature"/>
 		<attribute name="long_name" value="Surface temperature"/>
 		<attribute name="units" type="String" value="Kelvin"/>
 	</variable>
-	<variable orgName="usrf" name="GFDL_MONTHLY_USRF">
+	<variable orgName="usrf" name="NHM_GFDL_MONTHLY_USRF">
 		<attribute name="description" value="U-surface winds"/>
 		<attribute name="long_name" value="U-surface winds"/>
 		<attribute name="units" type="String" value="m/s"/>
 	</variable>
-	<variable orgName="vsrf" name="GFDL_MONTHLY_VSRF">
+	<variable orgName="vsrf" name="NHM_GFDL_MONTHLY_VSRF">
 		<attribute name="description" value="V-surface winds"/>
 		<attribute name="long_name" value="V-surface winds"/>
 		<attribute name="units" type="String" value="m/s"/>
 	</variable>
-	<variable orgName="pcp" name="GFDL_MONTHLY_PCP">
+	<variable orgName="pcp" name="NHM_GFDL_MONTHLY_PCP">
 		<attribute name="description" value="Accumulated precipitation"/>
 		<attribute name="long_name" value="Accumulated precipitation"/>
 		<attribute name="units" type="String" value="mm/hr"/>

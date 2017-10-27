@@ -3,87 +3,87 @@
 	<aggregation type="union">
 		<scan location="." suffix=".nc" subdirs="false" />
 	</aggregation>
-	<variable orgName="cla" name="CCSM4_DAILY_CLA">
+	<variable orgName="cla" name="NHM_CCSM4_DAILY_CLA">
 		<attribute name="description" value="Total cloud cover"/>
 		<attribute name="long_name" value="Total cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="clh" name="CCSM4_DAILY_CLH">
+	<variable orgName="clh" name="NHM_CCSM4_DAILY_CLH">
 		<attribute name="description" value="Upper cloud cover"/>
 		<attribute name="long_name" value="Upper cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="cll" name="CCSM4_DAILY_CLL">
+	<variable orgName="cll" name="NHM_CCSM4_DAILY_CLL">
 		<attribute name="description" value="Lower cloud cover"/>
 		<attribute name="long_name" value="Lower cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="clm" name="CCSM4_DAILY_CLM">
+	<variable orgName="clm" name="NHM_CCSM4_DAILY_CLM">
 		<attribute name="description" value="Middle cloud cover"/>
 		<attribute name="long_name" value="Middle cloud cover"/>
 		<attribute name="units" type="String" value="percent"/>
 	</variable>
-	<variable orgName="psea" name="CCSM4_DAILY_PSEA">
+	<variable orgName="psea" name="NHM_CCSM4_DAILY_PSEA">
 		<attribute name="description" value="Sea level correction pressure"/>
 		<attribute name="long_name" value="Sea level correction pressure"/>
 		<attribute name="units" type="String" value="hPa"/>
 	</variable>
-	<variable orgName="psrf" name="CCSM4_DAILY_PSRF">
+	<variable orgName="psrf" name="NHM_CCSM4_DAILY_PSRF">
 		<attribute name="description" value="Surface pressure"/>
 		<attribute name="long_name" value="Surface pressure"/>
 		<attribute name="units" type="String" value="hPa"/>
 	</variable>
-	<variable orgName="smqg" name="CCSM4_DAILY_SMQG">
+	<variable orgName="smqg" name="NHM_CCSM4_DAILY_SMQG">
 		<attribute name="description" value="Accumulated precipitation of graupel"/>
 		<attribute name="long_name" value="Accumulated precipitation of graupel"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqh" name="CCSM4_DAILY_SMQH">
+	<variable orgName="smqh" name="NHM_CCSM4_DAILY_SMQH">
 		<attribute name="description" value="Accumulated precipitation of hail"/>
 		<attribute name="long_name" value="Accumulated precipitation of hail"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqi" name="CCSM4_DAILY_SMQI">
+	<variable orgName="smqi" name="NHM_CCSM4_DAILY_SMQI">
 		<attribute name="description" value="Accumulated precipitation of (cloud) ice"/>
 		<attribute name="long_name" value="Accumulated precipitation of (cloud) ice"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqr" name="CCSM4_DAILY_SMQR">
+	<variable orgName="smqr" name="NHM_CCSM4_DAILY_SMQR">
 		<attribute name="description" value="Accumulated precipitation of rain"/>
 		<attribute name="long_name" value="Accumulated precipitation of rain"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="smqs" name="CCSM4_DAILY_SMQS">
+	<variable orgName="smqs" name="NHM_CCSM4_DAILY_SMQS">
 		<attribute name="description" value="Accumulated precipitation of snow"/>
 		<attribute name="long_name" value="Accumulated precipitation of snow"/>
 		<attribute name="units" type="String" value="mm"/>
 	</variable>
-	<variable orgName="tpw" name="CCSM4_DAILY_TPW">
+	<variable orgName="tpw" name="NHM_CCSM4_DAILY_TPW">
 		<attribute name="description" value="Total precipitable water"/>
 		<attribute name="long_name" value="Total precipitable water"/>
 		<attribute name="units" type="String" value="kg/m^2"/>
 	</variable>
-	<variable orgName="ttdsrf" name="CCSM4_DAILY_TTDSRF">
+	<variable orgName="ttdsrf" name="NHM_CCSM4_DAILY_TTDSRF">
 		<attribute name="description" value="Surface humidity"/>
 		<attribute name="long_name" value="Surface humidity"/>
 		<attribute name="units" type="String" value="kg/kg"/>
 	</variable>
-	<variable orgName="tsrf" name="CCSM4_DAILY_TSRF">
+	<variable orgName="tsrf" name="NHM_CCSM4_DAILY_TSRF">
 		<attribute name="description" value="Surface temperature"/>
 		<attribute name="long_name" value="Surface temperature"/>
 		<attribute name="units" type="String" value="Kelvin"/>
 	</variable>
-	<variable orgName="usrf" name="CCSM4_DAILY_USRF">
+	<variable orgName="usrf" name="NHM_CCSM4_DAILY_USRF">
 		<attribute name="description" value="U-surface winds"/>
 		<attribute name="long_name" value="U-surface winds"/>
 		<attribute name="units" type="String" value="m/s"/>
 	</variable>
-	<variable orgName="vsrf" name="CCSM4_DAILY_VSRF">
+	<variable orgName="vsrf" name="NHM_CCSM4_DAILY_VSRF">
 		<attribute name="description" value="V-surface winds"/>
 		<attribute name="long_name" value="V-surface winds"/>
 		<attribute name="units" type="String" value="m/s"/>
 	</variable>
-	<variable orgName="pcp" name="CCSM4_DAILY_PCP">
+	<variable orgName="pcp" name="NHM_CCSM4_DAILY_PCP">
 		<attribute name="description" value="Accumulated precipitation"/>
 		<attribute name="long_name" value="Accumulated precipitation"/>
 		<attribute name="units" type="String" value="mm/hr"/>
