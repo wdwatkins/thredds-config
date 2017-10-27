@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/PuertoRico_FSU/daily.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/PuertoRico/FSU/nhm_daily.ncml">
 <!-- Global Attributes for Dataset Discovery -->
 <attribute name="acknowledgment" type="String" value="https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
         <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
