@@ -10,20 +10,20 @@
         <attribute name="cdm_data_type" type="String" value="Grid"/>
         <attribute name="publisher_name" type="String" value="Office of Water Information"/>
         <attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
-        <attribute name="creator_name" type="String" value="Jared Bowden"/>
-        <attribute name="creator_email" type="String" value="jhbowden@ncsu.edu"/>
+        <attribute name="creator_name" type="String" value="Amit Bhardwaj"/>
+        <attribute name="creator_email" type="String" value="abhardwaj@fsu.edu"/>
         <attribute name="time_coverage_start" type="String" value="1985-01-01T00:00:00Z"/>
         <attribute name="time_coverage_end" type="String" value="2060-12-31T00:00:00Z"/>
         <attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by wwatkins@usgs.gov and dblodgett@usgs.gov in March 2017."/>
         <attribute name="date_issued" type="String" value="2017-10-01"/>
         <attribute name="summary" type="String" value="The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true"/>
-        <attribute name="publisher_name" type="String" value="David Blodgett"/>
-        <attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
         <attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
+        <attribute name="license" type="String" value="Freely available"/>
         <attribute name="geospatial_lat_min" type="String" value="9.314285"/>
         <attribute name="geospatial_lat_max" type="String" value="30.00818"/>
         <attribute name="geospatial_lon_min" type="String" value="-85.53952"/>
         <attribute name="geospatial_lon_max" type="String" value="-50.46048"/>
-        <attribute name="license" type="String" value="Freely available"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
 </netcdf>				
