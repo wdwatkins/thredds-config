@@ -1411,6 +1411,22 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				</geospatialCoverage>
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_G1.8SW_S0.15_wMeta.nc"/>
 			</dataset>
+			<dataset name="Thaw Settlement RCP45" ID="cida.usgs.gov/northslope_thaw_settlement_rcp45" serviceName="Services" urlPath="AIEM_permafrost/northslope_thaw_settlement_RCP45">
+				<documentation type="Summary"></documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/Thaw_settlement_rcp45_2090-2000.tif"/>
+			</dataset>
 			<datasetScan name="Files" ID="cida.usgs.gov/AIEM_permafrost" path="AIEM_permafrost" location="/mnt/thredds/AIEM_permafrost/">
 				<metadata inherited="true">
 					<serviceName>http</serviceName>
