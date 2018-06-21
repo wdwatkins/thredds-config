@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+<aggregation type="union">
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_evspsbl_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_evspsbl_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_hfss_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_hfss_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_mrso_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_mrso_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_pr_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_pr_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_ps_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_ps_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_qas_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_qas_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_rsds_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_rsds_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_rsns_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_rsns_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_snv_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_snv_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_sund_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_sund_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_tas_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_tas_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_uas_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_uas_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+	<netcdf>
+	<aggregation type="joinExisting" dimName="time">
+			<netcdf location="REGCM4_IPSL_vas_2040to2049.nc"/>
+			<netcdf location="REGCM4_IPSL_vas_2050to2059.nc"/>
+	</aggregation>
+	</netcdf>
+</aggregation>	
+</netcdf>
