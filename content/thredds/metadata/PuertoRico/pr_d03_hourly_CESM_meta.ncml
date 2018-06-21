@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/PuertoRico/d02_hourly.ncml">
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/PuertoRico/d03_wrfextr_CESM.ncml">
 <!-- Global Attributes for Dataset Discovery -->
 <attribute name="acknowledgment" type="String" value="https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
         <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
@@ -17,14 +17,14 @@
         <attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by wwatkins@usgs.gov and dblodgett@usgs.gov in March 2017."/>
         <attribute name="date_modified" type="String" value="2017-03-06"/>
         <attribute name="date_issued" type="String" value="2017-10-01"/>
-        <attribute name="project" type="String" value="Modeling Future Temperature and Precipitation for Puerto Rico and the U.S. Caribbean"/>
+        <attribute name="project" type="String" value="Developing Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
         <attribute name="publisher_name" type="String" value="David Blodgett"/>
         <attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
         <attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
-        <attribute name="geospatial_lat_min" type="String" value="16.066643"/>
-        <attribute name="geospatial_lat_max" type="String" value="21.094879"/>
-        <attribute name="geospatial_lon_min" type="String" value="-69.708977"/>
-        <attribute name="geospatial_lon_max" type="String" value="-61.973595"/>
+        <attribute name="geospatial_lat_min" type="String" value="17.238579"/>
+        <attribute name="geospatial_lat_max" type="String" value="19.101532"/>
+        <attribute name="geospatial_lon_min" type="String" value="-68.755547"/>
+        <attribute name="geospatial_lon_max" type="String" value="-64.006386"/>
         <attribute name="license" type="String" value="Freely available"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
 </netcdf>				

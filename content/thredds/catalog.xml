@@ -1132,7 +1132,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<metadata inherited="true">
 				<dataType>Grid</dataType>
 				<documentation type="Rights">Freely Available.</documentation>
-				<documentation type="Reference">Nicolsky, D.J., V. Romanovsky, S. Panda, R. Muskett, Applicability of the ecosystem type approach to model permafrost and temperature dynamics across the Alaska North Slope, in preparation.</documentation>
+				<documentation type="Reference">Nicolsky, D. J., V. E. Romanovsky, S. K. Panda, S. S. Marchenko, and R. R. Muskett (2017), Applicability of the ecosystem type approach to model permafrost dynamics across the Alaska North Slope, J. Geophys. Res. Earth Surf., 122, 50–75, doi:10.1002/2016JF003852</documentation>
 				<keyword>Permafrost</keyword>
 				<keyword>active layer</keyword>
 				<keyword>soil temperature</keyword>
@@ -1155,7 +1155,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 					<resolution>1 Year</resolution>
 				</timeCoverage>
 			</metadata>
-			<dataset name="Selawik RCP4.5" ID="cida.usgs.gov/selawik_5m_rcp45" serviceName="Services" urlPath="AIEM_permafrost/selawik_5m_rcp45">
+			<dataset name="Selawik RCP4.5" ID="cida.usgs.gov/selawik_rcp45" serviceName="Services" urlPath="AIEM_permafrost/selawik_rcp45">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -1169,9 +1169,9 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 						<units>degrees_east</units>
 					</eastwest>
 				</geospatialCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_metadata.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/selawik_rcp45_metadata.nc"/>
 			</dataset>
-			<dataset name="Selawik RCP8.5" ID="cida.usgs.gov/selawik_5m_rcp85" serviceName="Services" urlPath="AIEM_permafrost/selawik_5m_rcp85">
+			<dataset name="Selawik RCP8.5" ID="cida.usgs.gov/selawik_rcp85" serviceName="Services" urlPath="AIEM_permafrost/selawik_rcp85">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -1185,9 +1185,9 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 						<units>degrees_east</units>
 					</eastwest>
 				</geospatialCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_metadata.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/selawik_rcp85_metadata.nc"/>
 			</dataset>
-			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/northslope_R_5model_rcp45" serviceName="Services" urlPath="AIEM_permafrost/northslope_R_5model_rcp45">
+			<dataset name="North Slope RCP4.5" ID="cida.usgs.gov/northslope_rcp45" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp45">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -1201,9 +1201,9 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 						<units>degrees_east</units>
 					</eastwest>
 				</geospatialCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/R_5model_rcp45_metadata.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/northslope_rcp45_metadata.nc"/>
 			</dataset>
-			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/northslope_R_5model_rcp85" serviceName="Services" urlPath="AIEM_permafrost/northslope_R_5model_rcp85">
+			<dataset name="North Slope RCP8.5" ID="cida.usgs.gov/northslope_rcp85" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp85">
 				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in natural conditions, a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered.</documentation>
 				<geospatialCoverage>
 					<northsouth>
@@ -1217,7 +1217,233 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 						<units>degrees_east</units>
 					</eastwest>
 				</geospatialCoverage>
-				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/R_5model_rcp85_metadata.nc"/>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/northslope_rcp85_metadata.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP4.5 0.6m gravel layer" ID="cida.usgs.gov/northslope_rcp45_gravel0.6m" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp45_gravel0.6m">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 0.6-m thick gravel layer is added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_G0.6SW_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP4.5 1.2m gravel layer" ID="cida.usgs.gov/northslope_rcp45_gravel1.2m" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp45_gravel1.2m">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.2-m thick gravel layer is added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_G1.2SW_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP4.5 1.8m gravel layer" ID="cida.usgs.gov/northslope_rcp45_gravel1.8m" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp45_gravel1.8m">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.8-m thick gravel layer is added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_G1.8SW_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP4.5 0.6m gravel layer 0.15m styrofoam layer" ID="cida.usgs.gov/northslope_rcp45_gravel0.6m_styrofoam" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp45_gravel0.6m_styrofoam">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 0.6-m thick gravel and 0.15-m thick styrofoam layers are added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. The thermal conductivity and volumetric heatcapacity of styrofoam was assumed to be 0.033 W/m/K and 65,000 J/m^3/K, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_G0.6SW_S0.15m_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP4.5 1.2m gravel layer 0.15m styrofoam layer" ID="cida.usgs.gov/northslope_rcp45_gravel1.2m_styrofoam" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp45_gravel1.2m_styrofoam">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.2-m thick gravel and 0.15-m thick styrofoam layers are added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. The thermal conductivity and volumetric heatcapacity of styrofoam was assumed to be 0.033 W/m/K and 65,000 J/m^3/K, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_G1.2SW_S0.15m_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP4.5 1.8m gravel layer 0.15m styrofoam layer" ID="cida.usgs.gov/northslope_rcp45_gravel1.8m_styrofoam" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp45_gravel1.8m_styrofoam">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.8-m thick gravel and 0.15-m thick styrofoam layers are added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. The thermal conductivity and volumetric heatcapacity of styrofoam was assumed to be 0.033 W/m/K and 65,000 J/m^3/K, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp45_G1.8SW_S0.15m_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5 0.6m gravel layer" ID="cida.usgs.gov/northslope_rcp85_gravel0.6m" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp85_gravel0.6m">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 0.6-m thick gravel layer is added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_G0.6SW_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5 1.2m gravel layer" ID="cida.usgs.gov/northslope_rcp85_gravel1.2m" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp85_gravel1.2m">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.2-m thick gravel layer is added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_G1.2SW_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5 1.8m gravel layer" ID="cida.usgs.gov/northslope_rcp85_gravel1.8m" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp85_gravel1.8m">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.8-m thick gravel layer is added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 4.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_G1.8SW_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5 0.6m gravel layer 0.15m styrofoam layer" ID="cida.usgs.gov/northslope_rcp85_gravel0.6m_styrofoam" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp85_gravel0.6m_styrofoam">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 0.6-m thick gravel and 0.15-m thick styrofoam layers are added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. The thermal conductivity and volumetric heatcapacity of styrofoam was assumed to be 0.033 W/m/K and 65,000 J/m^3/K, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_G0.6SW_S0.15m_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5 1.2m gravel layer 0.15m styrofoam layer" ID="cida.usgs.gov/northslope_rcp85_gravel1.2m_styrofoam" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp85_gravel1.2m_styrofoam">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.2-m thick gravel and 0.15-m thick styrofoam layers are added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. The thermal conductivity and volumetric heatcapacity of styrofoam was assumed to be 0.033 W/m/K and 65,000 J/m^3/K, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_G1.2SW_S0.15m_wMeta.nc"/>
+			</dataset>
+			<dataset name="North Slope RCP8.5 1.8m gravel layer 0.15m styrofoam layer" ID="cida.usgs.gov/northslope_rcp85_gravel1.8m_styrofoam" serviceName="Services" urlPath="AIEM_permafrost/northslope_rcp85_gravel1.8m_styrofoam">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) is used to establish high spatial resolution scenario of changes in permafrost characteristics in the Alaskan Arctic in response to projected climate change. Retrospective modeling was performed for the 1901-2009 period using the high resolution CRU TS3.1 climate forcing from the Scenario Network for Alaska Planning (SNAP). To predict future changes in permafrost in disturbed conditions (a 1.8-m thick gravel and 0.15-m thick styrofoam layers are added in July, 2015), a five model composite climate forcing (2006-2100) under the Representative Concentration Pathways (RCP) 8.5 scenario is utilized. In particular, the temperature and precipitation of models (NCAR-CCSM4, GFDL-CM3, GISS-E2R, IPSL-CM5A-LR, and MRI-CGCM3) are considered. Thermal conductivity of the gravel is 1.45 and 1.95 W/m/K for thawed and frozen conditions, respectively. Volumetric heat capacity of the gravel is 2,600,000 and 2,100,000 J/m^3/K for thawed and frozen conditions, respectively. The thermal conductivity and volumetric heatcapacity of styrofoam was assumed to be 0.033 W/m/K and 65,000 J/m^3/K, respectively. Due to an increased absorption of the shortwave radiation, the gravel surface temperature is assumed to be 50% higher than the air temperature in the snow free days. The volumetric porosity of gravel is 0.18 m^3/m^3. Further information related to the modeling approach could be found at http://dx.doi.org/10.1002/2016JF003852.</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/5m_rcp85_G1.8SW_S0.15m_wMeta.nc"/>
+			</dataset>
+			<dataset name="Simulated thaw subsidence across the Alaskan North Slope region by the end of the 21st century/North Slope RCP4.5" ID="cida.usgs.gov/northslope_thaw_settlement_rcp45" serviceName="Services" urlPath="AIEM_permafrost/northslope_thaw_settlement_RCP45">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) was used to establish high spatial resolution scenario of thaw subsidence in the Alaskan Arctic in response to projected permafrost degradation under the Representative Concentration Pathways (RCP) 4.5 scenario using a 5 model composite GCM [Reference]. First, a mean active layer depth (MALD) was computed by averaging ALD variables in [Reference] for 2000-2010 and 2090-2100 years. These quantities are denoted by MALD_2000 and MALD_2090, respectively. Second, a mean talik thickness (MTTH) was computed for the same time periods by averaging TTH variables in [Reference]. These quantities are similarly denoted by MTTH_2000 and MTTH_2090, respectively as well. The potential subsidence (PS) is consequently estimated by the following formula: PS = (MALD_2090 + MTTH_2090) – (MALD_2000 + MTTH_2000) * (ICEC)/100&#39; by &#39;PS = [(MALD_2090 + MTTH_2090) – (MALD_2000 + MTTH_2000)] * (ICEC)/100.  Here, the quantity ICEC stands for the percentage of ice content in the ground and its spatial distribution was taken from &quot;Permafrost Database Development, Characterization and Mapping for Northern Alaska (Jorgenson and others, Massive ice layer, Fig. 14, 2014)&quot; Reference: https://cida.usgs.gov/thredds/catalog.html?dataset=cida.usgs.gov/northslope_rcp45</documentation>
+				<documentation type="Process Description">First, a mean decadal active layer depth (MALD) was computed by averaging ALD variables in [Reference] for 2000-2010 and 2090-2100 years. These quantities are denoted by MALD_2000 and MALD_2090, respectively. Second, a mean decadal talik thickness (MTTH) was computed by averaging TTH variables in [Reference] for the same time periods. These quantities are denoted by MTTH_2000 and MTTH_2090, respectively as well. The potential subsidence, PS, is consequently estimated by the following formula. PS = (MALD_2090 + MTTH_2090) – (MALD_2000 + MTTH_2000) * (ICEC) / 100. Here, ICEC stands for the ice content percentage in the ground and its spatial distribution is taken from &quot;Permafrost Database Development, Characterization and Mapping for Northern Alaska (Jorgenson and others, Massive ice layer, Fig. 14, 2014)&quot;</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/thaw_settlement_rcp45.ncml"/>
+			</dataset>
+			<dataset name="Simulated thaw subsidence across the Alaskan North Slope region by the end of the 21st century/North Slope RCP8.5" ID="cida.usgs.gov/northslope_thaw_settlement_rcp85" serviceName="Services" urlPath="AIEM_permafrost/northslope_thaw_settlement_RCP85">
+				<documentation type="Summary">The permafrost module of the Alaska Integrated Ecosystem Model (AIEM) was used to establish high spatial resolution scenario of thaw subsidence in the Alaskan Arctic in response to projected permafrost degradation under the Representative Concentration Pathways (RCP) 4.5 scenario using a 5 model composite GCM [Reference]. First, a mean active layer depth (MALD) was computed by averaging ALD variables in [Reference] for 2000-2010 and 2090-2100 years. These quantities are denoted by MALD_2000 and MALD_2090, respectively. Second, a mean talik thickness (MTTH) was computed for the same time periods by averaging TTH variables in [Reference]. These quantities are similarly denoted by MTTH_2000 and MTTH_2090, respectively as well. The potential subsidence (PS) is consequently estimated by the following formula: PS = (MALD_2090 + MTTH_2090) – (MALD_2000 + MTTH_2000) * (ICEC)/100&#39; by &#39;PS = [(MALD_2090 + MTTH_2090) – (MALD_2000 + MTTH_2000)] * (ICEC)/100.  Here, the quantity ICEC stands for the percentage of ice content in the ground and its spatial distribution was taken from &quot;Permafrost Database Development, Characterization and Mapping for Northern Alaska (Jorgenson and others, Massive ice layer, Fig. 14, 2014)&quot; Reference: https://cida.usgs.gov/thredds/catalog.html?dataset=cida.usgs.gov/northslope_rcp45</documentation>
+				<documentation type="Process Description">First, a mean decadal active layer depth (MALD) was computed by averaging ALD variables in [Reference] for 2000-2010 and 2090-2100 years. These quantities are denoted by MALD_2000 and MALD_2090, respectively. Second, a mean decadal talik thickness (MTTH) was computed by averaging TTH variables in [Reference] for the same time periods. These quantities are denoted by MTTH_2000 and MTTH_2090, respectively as well. The potential subsidence, PS, is consequently estimated by the following formula. PS = (MALD_2090 + MTTH_2090) – (MALD_2000 + MTTH_2000) * (ICEC) / 100. Here, ICEC stands for the ice content percentage in the ground and its spatial distribution is taken from &quot;Permafrost Database Development, Characterization and Mapping for Northern Alaska (Jorgenson and others, Massive ice layer, Fig. 14, 2014)&quot;</documentation>
+				<geospatialCoverage>
+					<northsouth>
+						<start>67.8316</start>
+						<size>3.5422</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-163.9521</start>
+						<size>23.9544</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/AIEM_permafrost/thaw_settlement_rcp85.ncml"/>
 			</dataset>
 			<datasetScan name="Files" ID="cida.usgs.gov/AIEM_permafrost" path="AIEM_permafrost" location="/mnt/thredds/AIEM_permafrost/">
 				<metadata inherited="true">
@@ -1706,36 +1932,114 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</datasetScan>
 	</dataset>
 	<!-- Removing for security risk <catalogRef xlink:title="River Forecasting Center Quantitative Precipitation Estimate Radar Indicated Rainfall Catalog" xlink:href="https://cida.usgs.gov/thredds/rfc_qpe/catalog.xml"/>-->
-	<dataset name="Weather Research and Forecasting (WRF): Puerto Rico &amp; USVI Dynamical Downscaled Climate Change Projections">
+	<dataset name="Weather Research and Forecasting (WRF): Puerto Rico &amp; US Virgin Islands Dynamical Downscaled Climate Change Projections">
 		<metadata inherited="true">
 			<documentation type="Rights">Freely Available.</documentation>
-			<creator>
-				<name>"Jared Bowden"</name>
-				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
-			</creator>
 			<publisher>
 				<name>OWI</name>
 				<contact url="https://owi.usgs.gov" email="dblodgett@usgs.gov"/>
 			</publisher>
-			<geospatialCoverage>
-				<northsouth>
-					<start>9.314</start>
-					<size>20.694</size>
-					<units>degrees_north</units>
-				</northsouth>
-				<eastwest>
-					<start>-85.540</start>
-					<size>35.08</size>
-					<units>degrees_east</units>
-				</eastwest>
-			</geospatialCoverage>
 		</metadata>
-		<dataset name="Monthly models, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
+		<dataset name="Hourly CESM, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_hourly_CESM_d03" serviceName="Services" urlPath="PuertoRico/pr_hourly_CESM_d03">
 			<metadata>
-				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
 				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d03_hourly_CESM_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly CNRM, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_hourly_CNRM_d03" serviceName="Services" urlPath="PuertoRico/pr_hourly_CNRM_d03">
+			<metadata>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d03_hourly_CNRM_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly CESM, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_hourly_CESM_d02" serviceName="Services" urlPath="PuertoRico/pr_hourly_CESM_d02">
+			<metadata>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d02_hourly_CESM_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly CNRM, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_hourly_CNRM_d02" serviceName="Services" urlPath="PuertoRico/pr_hourly_CNRM_d02">
+			<metadata>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d02_hourly_CNRM_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly CESM, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_hourly_CESM_d01" serviceName="Services" urlPath="PuertoRico/pr_hourly_CESM_d01">
+			<metadata>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d01_hourly_CESM_meta.ncml"/>
+		</dataset>
+		<dataset name="Hourly CNRM, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_hourly_CNRM_d01" serviceName="Services" urlPath="PuertoRico/pr_hourly_CNRM_d01">
+			<metadata>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
+			</metadata>
+			<dataType>Grid</dataType>
+			<dataFormat>NcML</dataFormat>
+			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d01_hourly_CNRM_meta.ncml"/>
+		</dataset>
+		<dataset name="Monthly models, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_monthly_d01" serviceName="Services" urlPath="PuertoRico/pr_monthly_d01">
+			<metadata>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
+				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
+				<keyword>climate</keyword>
+				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
 			</metadata>
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
@@ -1743,10 +2047,14 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</dataset>
 		<dataset name="Monthly models, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_monthly_d02" serviceName="Services" urlPath="PuertoRico/pr_monthly_d02">
 			<metadata>
-				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true. </documentation>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
 				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
 			</metadata>
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
@@ -1754,47 +2062,18 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 		</dataset>
 		<dataset name="Monthly models, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_monthly_d03" serviceName="Services" urlPath="PuertoRico/pr_monthly_d03">
 			<metadata>
-				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
+				<documentation type="Summary">The Weather Research and Forecasting (WRF) model was used to downscale select general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). WRF was used to produce output at a 2-km horizontal resolution for Puerto Rico and the US Virgin Islands by applying a 30-km/10- km/2-km one-way nest. Data from each nest was archived. Two twenty-year time slices from two CMIP5 GCMs were dynamically downscaled using WRF, a historical time slice (1985-2005) and a future time slice (2040-2060). The CMIP5 GCMs downscaled included the Community Climate System Model (CCSM4) and the Centre National de Recherches Meteorologiques-CERFACS (CNRM). The high Greenhouse Gas Emission Scenario, RCP8.5, was downscaled for the future time slice. The output parameters saved were in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists.</documentation>
 				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
 				<keyword>climate</keyword>
 				<keyword>Puerto Rico</keyword>
+			<creator>
+				<name>"Jared Bowden"</name>
+				<contact email="jhbowden@ncsu.edu" organization="North Carolina State University"/>
+			</creator>
 			</metadata>
 			<dataType>Grid</dataType>
 			<dataFormat>NcML</dataFormat>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d03_monthly_meta.ncml"/>
-		</dataset>
-		<dataset name="Hourly models, spatial domain 3" ID="cida.usgs.gov/PuertoRico/pr_hourly_d03" serviceName="Services" urlPath="PuertoRico/pr_hourly_d03">
-			<metadata>
-				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
-				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
-				<keyword>climate</keyword>
-				<keyword>Puerto Rico</keyword>
-			</metadata>
-			<dataType>Grid</dataType>
-			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d03_hourly_meta.ncml"/>
-		</dataset>
-		<dataset name="Hourly models, spatial domain 2" ID="cida.usgs.gov/PuertoRico/pr_hourly_d02" serviceName="Services" urlPath="PuertoRico/pr_hourly_d02">
-			<metadata>
-				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
-				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
-				<keyword>climate</keyword>
-				<keyword>Puerto Rico</keyword>
-			</metadata>
-			<dataType>Grid</dataType>
-			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d02_hourly_meta.ncml"/>
-		</dataset>
-		<dataset name="Hourly models, spatial domain 1" ID="cida.usgs.gov/PuertoRico/pr_hourly_d01" serviceName="Services" urlPath="PuertoRico/pr_hourly_d01">
-			<metadata>
-				<documentation type="Summary">The Weather Research and Forecast model (version 3.6.1) was used to generate downscaled regional climate change projections for two general circulation models (GCMs) that participated in the Coupled Model Intercomparison Project (CMIP5). The downscaled regional climate change projections were developed for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario, RCP8.5. These climate change projections were developed to provide information about climate change for various climate change applications within Puerto Rico and the US Virgin Islands. In particular, the model output parameters were saved in response to the needs of physical scientists and other stakeholders within the islands, including ecologists, biologists, and hydrologists. The simulations are nested one-way from the GCMs with a 36-12-2km nest, see figure at https://www.sciencebase.gov/catalog/file/get/5977b95de4b0ec1a4888e493?f=__disk__7f%2Ff3%2F14%2F7ff3140adf4452744a76f90f0a2c3dee6aac5861&amp;allowOpen=true.</documentation>
-				<documentation type="Reference">https://nccwsc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e</documentation>
-				<keyword>climate</keyword>
-				<keyword>Puerto Rico</keyword>
-			</metadata>
-			<dataType>Grid</dataType>
-			<dataFormat>NcML</dataFormat>
-			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d01_hourly_meta.ncml"/>
 		</dataset>
 	</dataset>
 		<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States">
