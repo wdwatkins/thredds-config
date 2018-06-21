@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+	<aggregation type="union">
+		<scan location="wrfextr/d02" suffix="CNRM.nc"/>
+	</aggregation>
+  <variable name="Time" orgName="time_int">
+      <attribute name="standard_name" type="String" value="time"/>
+  </variable>
+	<variable name="CICELO_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="CLDFLO_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="CLDFRA700_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="CLDFRA850_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="CLIQLO_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="HFX_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="KE_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="LH_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="LWDNB_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="LWDNBC_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="LWDNT_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="LWUPB_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="LWUPT_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="LWUPTC_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="PBLH_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="PSFC_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="PWAT_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="Q2_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="Q700_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="Q850_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="QLML_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="RC_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="RN_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SLP_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SMBOT_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SMTOP_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="STBOT_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="STTOP_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SWDNB_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SWDNBC_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SWDNT_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SWUPB_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SWUPBC_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SWUPT_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="SWUPTC_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="T2_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="T700_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="T850_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="TLML_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="TSK_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="UE10_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="UE700_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="UE850_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="VE10_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="VE700_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="VE850_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="W700_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="W850_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="Z700_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+	<variable name="Z850_d02_wrfextr_CNRM">
+       <attribute name="coordinates" type="String" value="Time XLAT XLONG"/>
+  </variable>
+		<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="featureType" value="GRID"/>
+  <attribute name="Conventions" value="CF-1.4"/>
+	<attribute name="acknowledgment" type="String" value="https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="summary" type="String" value="TODO"/>
+	<attribute name="title" type="String" value="Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/PuertoRico"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="publisher_name" type="String" value="Office of Water Information"/>
+	<attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
+	<attribute name="creator_name" type="String" value="Adam Terando"/>
+	<attribute name="creator_email" type="String" value="aterando@usgs.gov"/>
+	<attribute name="time_coverage_start" type="String" value="1985-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2060-12-31T00:00"/>
+	<attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by wwatkins@usgs.gov and dblodgett@usgs.gov in March 2017."/>
+	<attribute name="date_issued" type="String" value="2018-06-30"/>
+	<attribute name="project" type="String" value="Developing Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
+	<attribute name="publisher_name" type="String" value="David Blodgett"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
+	<attribute name="geospatial_lat_min" type="String" value="9.314285"/>
+	<attribute name="geospatial_lat_max" type="String" value="30.00818"/>
+	<attribute name="geospatial_lon_min" type="String" value="-85.53952"/>
+	<attribute name="geospatial_lon_max" type="String" value="-50.46048"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>
