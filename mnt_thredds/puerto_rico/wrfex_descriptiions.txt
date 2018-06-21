@@ -1,0 +1,50 @@
+cloud ice (low) sfc-700 hPa
+cloud fraction (low) sfc-700 hPa
+700 hPa cloud fraction
+850 hPa cloud fraction
+cloud liquid water (low) sfc-700 hPa
+sensible heat flux
+total kinetic energy
+latent heat flux
+instantaneous longwave downwelling at bottom
+inst longwave downwelling at bottom (clear sky
+instantaneous longwave downwelling at top
+instantaneous longwave upwelling at bottom
+instantaneous longwave upwelling at top
+inst longwave upwelling at top (clear sky)
+planetary boundary layer height
+surface pressure
+precipitable water
+2-m mixing ratio
+700 hPa mixing ratio
+850 hPa mixing ratio
+mixing ratio in lowest model layer
+convective precipitation in time increment
+non-convective precipitation in time increment
+sea-level pressure
+soil moisture in bottom layers
+soil moisture in top layer
+soil temperature in bottom layers
+soil temperature in top layer
+instantaneous shortwave downwelling at bottom
+inst shortwave downwelling at bottom (clear sk
+instantaneous shortwave downwelling at top
+instantaneous shortwave upwelling at bottom
+inst shortwave upwelling at bottom (clear sky)
+instantaneous shortwave upwelling at top
+inst shortwave upwelling at top (clear sky)
+2-m temperature
+700 hPa temperature
+850 hPa temperature
+temperature in lowest model layer
+skin temperature
+10-m zonal wind
+700 hPa zonal wind
+850 hPa zonal wind
+10-m meridional wind
+700 hPa meridional wind
+850 hPa meridional wind
+700 hPa vertical wind
+850 hPa vertical wind
+700 hPa geopotential height
+850 hPa geopotential height

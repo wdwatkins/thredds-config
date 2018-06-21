@@ -1,0 +1,5 @@
+"varOnly"	"varInFile"	"min"	"max"	"absMax"	"scale"	"scale.factorAtt"
+"CLIQLO"	"CLIQLO_d03_wrfextr_CESM"	0	3654.559814	3654.559814	"100000"	"0.00001"
+"CLIQLO"	"CLIQLO_d03_wrfextr_CNRM"	0	3841.193848	3841.193848	"100000"	"0.00001"
+"KE"	"KE_d03_wrfextr_CESM"	23379.611328	7223625	7223625	"100"	"0.01"
+"KE"	"KE_d03_wrfextr_CNRM"	10808.698242	6872543	6872543	"100"	"0.01"
