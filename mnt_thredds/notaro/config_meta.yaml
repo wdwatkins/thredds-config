@@ -1,10 +1,18 @@
 location: 
-acknowledgement: https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php
-title: Dynamical Downscaling for the Midwest and Great Lakes Basin
+acknowledgement: &acknowledgement 
+  - https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php
+link: *acknowledgement
+title: &title 
+  - Dynamical Downscaling for the Midwest and Great Lakes Basin
+link_title: *title
 project: University of Wisconsin-Madison Dynamical Downscaling
 id: 
 creator_name: Michael Notaro
 creator_email: mnotaro@wisc.edu
+creator_org: University of Wisconsin-Madison
+creator_url: https://nelson.wisc.edu/
+publication_date:
+creation_date: 2018-01-25
 summary: >- 
   Six global climate models (GCMs) from the Coupled Model Intercomparison Project Phase Five (CMIP5) were
   dynamically downscaled to 25-km grid spacing according to the representative concentration pathway 8.5 (RCP8.5) 
@@ -14,7 +22,23 @@ summary: >-
   Version Five-Medium Resolution (IPSL-CM5-MR), the Meteorological Research Institute Coupled Global Climate Model Version 
   Three (MRI-CGCM3), the Centre for Australian Weather and Climate Research, Australia GCM (ACCESS1-0), and the National 
   Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory model (GFDL-ESM2M).
+
 lat_min: 31.077085
 lat_max: 54.030327
 lon_min: -100.042442
 lon_max: -60.740917
+resolution: hourly
+keywords:
+  - "downscaling"
+  - "Great Lakes"
+references: 
+  - > 
+    Notaro, M., Y. Zhong, S. Vavrus, M. Schummer, L. Van Den Elsen, J. Coluccy, and C. Hoving, 2016: Projected 
+    influences of changes in weather severity on autumn-winter distributions of dabbling ducks in the Mississippi and 
+    Atlantic Flyways during the twenty-first century. Plos One, 11(12), e0167506.
+  - >
+    Notaro, M., V. Bennington, and S. Vavrus, 2015a: Dynamically downscaled projections of lake-effect snow in the
+    Great Lakes Basin. Journal of Climate, 28, 1661-1684.
+sciencebase_id: "5b2d6121e4b040769c124c0c"
+start_time: "1980-01-01"
+end_time: "2099-12-31"
