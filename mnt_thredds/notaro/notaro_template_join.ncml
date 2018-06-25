@@ -10,5 +10,14 @@
 	</aggregation>
 	</netcdf>
 	{{/joins}}
+	<variable name="time">
+      <attribute name="_CoordinateAxisType" type="String" value="Time"/>
+  </variable>
+  <variable name="xlat">
+      <attribute name="_CoordinateAxisType" type="String" value="Lat"/>
+  </variable>
+  <variable name="xlon">
+      <attribute name="_CoordinateAxisType" type="String" value="Lon"/>
+  </variable>
 </aggregation>	
 </netcdf>
