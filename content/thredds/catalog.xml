@@ -2124,5 +2124,46 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TopoWx2017/topowx_normals.ncml"/>
 			</dataset>
 		</dataset>
+		<dataset name="Dynamical Downscaling for the Midwest and Great Lakes Basin">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php" xlink:title="Dynamical Downscaling for the Midwest and Great Lakes Basin"/>
+				<documentation type="Summary">Six global climate models (GCMs) from the Coupled Model Intercomparison Project Phase Five (CMIP5) were dynamically downscaled to 25-km grid spacing according to the representative concentration pathway 8.5 (RCP8.5)  scenario using the International Centre for Theoretical Physics (ICTP) Regional Climate Model Version Four (RegCM4).  These GCMs include the Centre National de Recherches Meteorologiques Coupled Global Climate Model Version Five (CNRM-CM5),  the Model for Interdisciplinary Research on Climate Version Five (MIROC5), the Institut Pierre Simon Laplace Coupled Model  Version Five-Medium Resolution (IPSL-CM5-MR), the Meteorological Research Institute Coupled Global Climate Model Version  Three (MRI-CGCM3), the Centre for Australian Weather and Climate Research, Australia GCM (ACCESS1-0), and the National  Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory model (GFDL-ESM2M).</documentation>
+				<documentation type="Reference">Notaro, M., Y. Zhong, S. Vavrus, M. Schummer, L. Van Den Elsen, J. Coluccy, and C. Hoving, 2016: Projected  influences of changes in weather severity on autumn-winter distributions of dabbling ducks in the Mississippi and  Atlantic Flyways during the twenty-first century. Plos One, 11(12), e0167506.</documentation>
+				<documentation type="Reference">Notaro, M., V. Bennington, and S. Vavrus, 2015a: Dynamically downscaled projections of lake-effect snow in the Great Lakes Basin. Journal of Climate, 28, 1661-1684.</documentation>
+				
+				<keyword>downscaling</keyword>
+
+				<keyword>Great Lakes</keyword>
+				<creator>
+					<name>Michael Notaro</name>
+					<contact url="" email="mnotaro@wisc.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>31.077085</start>
+						<size>22.953242</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-100.042442</start>
+						<size>39.301525</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start></start>
+				<end></end>
+				<resolution>hourly</resolution>
+			</timeCoverage>
+			<dataset name="CNRM 1980-2000" ID="cida.usgs.gov/notaro_CNRM_1980_2000" serviceName="Services" urlPath="notaro_CNRM_1980_2000">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_CNRM_1980.ncml"/>
+			</dataset>
+		</dataset>
 	</dataset>
 </catalog>
