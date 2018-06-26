@@ -1,0 +1,3 @@
+*.nc
+lat_lon/*
+geotiffs/*
