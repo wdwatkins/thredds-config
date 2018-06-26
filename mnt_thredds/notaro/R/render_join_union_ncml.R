@@ -1,5 +1,6 @@
 library(whisker)
 library(stringr)
+library(magrittr)
 files <- list.files('/Volumes/RAID0/notaro/USGS/', pattern = ".nc$")
 
 gcms <- str_extract(pattern = "_(.*?)_", string = files) %>% 
@@ -21,8 +22,12 @@ for(g in gcms) {
       joins[[i]] <- list(files = var_files)
     }
     #render
+    filename <- paste0("ncml_joins/join_union_", g, "_", sub("\\|", "_", year_block),".ncml") %>% 
+      sub(pattern = "1990", replacement = "1999") %>% 
+      sub(pattern  = "2050", replacement = "2059") %>% 
+      sub(pattern = "2090", replacement = "2099")
     out <- whisker.render(template = template, data = list(joins=joins)) 
-    cat(out, file = paste0("join_union_", g, "_", sub("\\|", "_", year_block),".ncml"))
+    cat(out, file = filename)
   }
   
 }
