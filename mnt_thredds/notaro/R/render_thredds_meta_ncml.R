@@ -17,19 +17,19 @@ for(g in gcms) {
                                 paste0(y_underscores, '.ncml'), sep = "_")
     out <- whisker::whisker.render(ncml_template, meta)
     first_year <- strsplit(y, "-")[[1]][1]
-    ncml_path <- file=paste0("~/Documents/nonR/thredds-config/content/thredds/metadata/notaro_2018/",
+    ncml_path <- paste0("~/Documents/nonR/thredds-config/content/thredds/metadata/notaro_2018/",
                              "notaro_2018_", g, "_", y_underscores, ".ncml")
     cat(out, file=ncml_path)
     #add to meta for catalog.xml section
+    dataset_url_path <-  paste("notaro", g, y_underscores, sep = "_")
     datasets[[i]] <- list(
       dataset_name = paste(g, y),
-      dataset_url_path = paste("notaro", g, y_underscores, sep = "_"),
+      dataset_url_path = dataset_url_path,
       dataset_id = file.path("cida.usgs.gov", dataset_url_path),
       dataset_meta_location = file.path("metadata/notaro_2018", basename(ncml_path)))
     i <- i + 1
   }
 }
-meta[[datasets]] <- datasets
-
+meta[['datasets']] <- datasets
 catalog_out <- whisker::whisker.render(catalog_template, meta)
 cat(catalog_out, file = "notaro_catalog_section.xml")
