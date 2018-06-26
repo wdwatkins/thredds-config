@@ -1,0 +1,43 @@
+		<dataset name="{{title}}">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="{{link}}" xlink:title="{{link_title}}"/>
+				<documentation type="Summary">{{summary}}</documentation>
+				{{#references}}
+				<documentation type="Reference">{{.}}</documentation>
+				{{/references}}
+				{{#keywords}}
+				<keyword>{{.}}</keyword>
+				{{/keywords}}
+				<creator>
+					<name>{{creator_name}}</name>
+					<contact url="{{creator_url}}" email="{{creator_email}}"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>{{lat_min}}</start>
+						<size>{{lat_size}}</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>{{lon_min}}</start>
+						<size>{{lon_size}}</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start>{{time_start}}</start>
+				<end>{{time_end}}</end>
+				<resolution>{{resolution}}</resolution>
+			</timeCoverage>
+			{{#datasets}}
+			<dataset name="{{dataset_name}}" ID="{{dataset_id}}" serviceName="Services" urlPath="{{dataset_url_path}}">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="{{dataset_meta_location}}"/>
+			</dataset>
+			{{/datasets}}
+		</dataset>
