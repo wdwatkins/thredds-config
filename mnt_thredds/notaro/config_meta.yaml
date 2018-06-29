@@ -1,6 +1,6 @@
 location: 
 acknowledgement: &acknowledgement 
-  - https://nelson.wisc.edu/ccr
+  - https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php
 link: *acknowledgement
 title: &title 
   - Dynamical Downscaling for the Midwest and Great Lakes Basin
@@ -10,7 +10,7 @@ id:
 creator_name: Michael Notaro
 creator_email: mnotaro@wisc.edu
 creator_org: University of Wisconsin-Madison
-creator_url: https://nelson.wisc.edu/
+creator_url: https://nelson.wisc.edu/ccr
 publication_date:
 creation_date: 2018-01-25
 summary: >- 

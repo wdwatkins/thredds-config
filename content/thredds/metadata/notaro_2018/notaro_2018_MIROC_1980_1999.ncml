@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/notaro_2018/join_union_MIROC_1980_1999.ncml">
 <!-- Global Attributes for Dataset Discovery -->
-<attribute name="acknowledgment" type="String" value="https://nelson.wisc.edu/ccr"/>
+<attribute name="acknowledgment" type="String" value="https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php"/>
         <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
         <attribute name="project" type="String" value="University of Wisconsin-Madison Dynamical Downscaling"/>
         <attribute name="title" type="String" value="Dynamical Downscaling for the Midwest and Great Lakes Basin"/>
