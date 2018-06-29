@@ -1,3 +1,4 @@
+library(whisker)
 rm(list=ls())
 template <- readLines('iso_template.xml')
 meta <- yaml::read_yaml('config_meta.yaml')
@@ -14,7 +15,7 @@ for(g in gcms) {
     service_id <- paste("OPeNDAP", g, y_underscores, sep = "_")
     start_time <- paste0(strsplit(y, "-")[[1]][1], "-01-01")
     end_time <- paste0(strsplit(y, "-")[[1]][2], "-12-31")
-    thredds_url <- paste("https://cida-test.er.usgs.gov/thredds/dodsC/notaro",
+    thredds_url <- paste("https://cida.usgs.gov/thredds/dodsC/notaro",
                           g, y_underscores,
                           sep = "_")
     datasets[[i]] <- list(dataset_title = dataset_title,
@@ -28,5 +29,3 @@ for(g in gcms) {
 meta$datasets <- datasets
 out <- whisker.render(template, meta)
 cat(out, file = paste0(meta$sciencebase_id, ".xml"))
-#others: lineage? ddx description, ddx url, opendap url,
-#overall start end times
