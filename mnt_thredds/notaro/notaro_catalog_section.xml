@@ -8,6 +8,11 @@ The complete downscaling dataset is roughly 30 TB in size, stored on University 
 </documentation>
 				<documentation type="Reference">Notaro, M., V. Bennington, and S. Vavrus, 2015a: Dynamically downscaled projections of lake-effect snow in the Great Lakes Basin. Journal of Climate, 28, 1661-1684.
 </documentation>
+				<documentation type="Reference">The downscaling was funded by grants and contracts from the National Oceanic and Atmospheric Administration (NOAA)/Climate  Change Data and Detection, NOAA Great Lakes Environmental Research Laboratory [Environmental Protection Agency (EPA) grant],  Michigan Department of Natural Resources (EPA grant), Northeast Climate Science Center (CSC), and National Science Foundation (NSF).
+We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP,  and we thank the climate modeling groups for producing and makign available their model output. For CMIP, the U.S. Department  of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of  software infrastructure in partnership with the Global Organization for Earth System Science Portals. 
+Computational resources were provided through the National Center for Atmospheric Research (NCAR) and the Teragrid from the  University of Texas at Austin and the University of Illinois at Urbana-Champaign.
+The dynamical downscaling of climate projections was performed by Drs. Val Bennington, Yafang Zhong, and Michael Notaro.
+</documentation>
 				
 				<keyword>downscaling</keyword>
 
