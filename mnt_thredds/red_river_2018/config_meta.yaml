@@ -1,0 +1,63 @@
+location: /mnt/thredds/red_river_2018/red_river.ncml
+acknowledgement: &acknowledgement 
+  - http://www.caps.ou.edu/micronet/temp/files/CSC-CAPS-final-report-2018Feb_xhu.pdf
+link: *acknowledgement
+title: &title 
+  - "Very High-Resolution Dynamic Downscaling of Regional Climate for Use in Long-term Hydrologic Planning along the Red River Valley System"
+link_title: *title
+project: Informing	Hydrologic	Planning	in	the	Red	River	Valley	through	Improved Regional	Climate	Projections
+id: cida.usgs.gov/red_river_2018
+creator_name: Xiaoming Hu
+creator_email: xhu@ou.edu
+creator_org: University of Oklahoma
+creator_url: http://www.caps.ou.edu/
+publication_date: 
+creation_date: 2018-02-01
+summary: >-  
+  The U.S. Great Plains is known for frequent hazardous convective weather and climate extremes.
+  Across this region, climate change is expected to cause more severe droughts, more intense
+  heavy rainfall events, and subsequently more flooding episodes. These potential changes in
+  climate will adversely affect habitats, ecosystems, and landscapes as well as the fish and wildlife
+  they support. Better understanding and simulation of regional precipitation can help natural
+  resource managers mitigate and adapt to these adverse impacts.
+  In this project, we aim to achieve a better precipitation downscaling in the Great Plains with the
+  Weather Research and Forecast (WRF) model and use the high quality dynamic downscaling
+  results (with a 4km horizontal resolution) to investigate the precipitation variability near the
+  Edwards Plateau and Balcones Escarpment in Texas, an area prone to heavy rain and devastating
+  flood events.
+  To this end, WRF simulations with different physics schemes and nudging strategies are first
+  conducted for a representative warm season. Results show that simply choosing different
+  physics schemes is not enough to alleviate the dry bias over the southern Great Plains, which is  
+  related to an anticyclonic circulation anomaly over the central and western parts of continental 
+  U.S. in the simulations. Spectral nudging emerges as an effective solution for alleviating the
+  precipitation bias. As a result, a better precipitation downscaling is achieved. With the carefully
+  designed configurations, WRF downscaling is conducted for 1980-2015. The downscaling
+  captures well the spatial distribution of monthly climatology precipitation and the
+  monthly/yearly variability, showing improvement over at least two previously published
+  precipitation downscaling studies. With the improved precipitation downscaling, a better
+  hydrological simulation over the trans-state Oologah watershed is also achieved. In addition,
+  analyzing the high-resolution (4 km) downscaling outputs leads to a better understanding
+  regarding the precipitation variability in Texas. 
+  
+lat_min: 20.994766
+lat_max: 52.848969
+lon_min: -133.011215
+lon_max: -65.226807
+resolution: hourly
+keywords:
+  - "downscaling"
+  - "Red River"
+references: 
+  - > 
+    Hu, X.-M., M. Xue, R. A. McPherson, E. Martin, D. H. Rosendahl, and L. Qiao (2018), Precipitation dynamical downscaling over the Great Plains, J. Adv. Modeling Earth Systems,10.1002/2017MS001154 
+sciencebase_id: '5b43b0bbe4b060350a127214'
+start_time: &start
+  - "1980-01-01"
+time_start: *start
+end_time: &end
+  - "2015-12-31"
+time_end: *end
+attribute_description:
+    - ddx_url: https://cida.usgs.gov/thredds/dodsC/red_river_2018.ddx
+    - ddx_description: "OPeNDAP description"
+opendap_url: https://cida.usgs.gov/thredds/dodsC/red_river_2018
