@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/red_river_2018/red_river.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="http://www.caps.ou.edu/micronet/temp/files/CSC-CAPS-final-report-2018Feb_xhu.pdf"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="project" type="String" value="Informing	Hydrologic	Planning	in	the	Red	River	Valley	through	Improved Regional	Climate	Projections"/>
+        <attribute name="title" type="String" value="Very High-Resolution Dynamic Downscaling of Regional Climate for Use in Long-term Hydrologic Planning along the Red River Valley System"/>
+        <attribute name="id" type="String" value="cida.usgs.gov/red_river_2018"/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="Grid"/>
+        <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Xiaoming Hu"/>
+        <attribute name="creator_email" type="String" value="xhu@ou.edu"/>
+        <attribute name="time_coverage_start" type="String" value="1980-01-01"/>
+        <attribute name="time_coverage_end" type="String" value="2015-12-31"/>
+        <attribute name="history" type="String" value=""/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="summary" type="String" value="The U.S. Great Plains is known for frequent hazardous convective weather and climate extremes. Across this region, climate change is expected to cause more severe droughts, more intense heavy rainfall events, and subsequently more flooding episodes. These potential changes in climate will adversely affect habitats, ecosystems, and landscapes as well as the fish and wildlife they support. Better understanding and simulation of regional precipitation can help natural resource managers mitigate and adapt to these adverse impacts. In this project, we aim to achieve a better precipitation downscaling in the Great Plains with the Weather Research and Forecast (WRF) model and use the high quality dynamic downscaling results (with a 4km horizontal resolution) to investigate the precipitation variability near the Edwards Plateau and Balcones Escarpment in Texas, an area prone to heavy rain and devastating flood events. To this end, WRF simulations with different physics schemes and nudging strategies are first conducted for a representative warm season. Results show that simply choosing different physics schemes is not enough to alleviate the dry bias over the southern Great Plains, which is   related to an anticyclonic circulation anomaly over the central and western parts of continental  U.S. in the simulations. Spectral nudging emerges as an effective solution for alleviating the precipitation bias. As a result, a better precipitation downscaling is achieved. With the carefully designed configurations, WRF downscaling is conducted for 1980-2015. The downscaling captures well the spatial distribution of monthly climatology precipitation and the monthly/yearly variability, showing improvement over at least two previously published precipitation downscaling studies. With the improved precipitation downscaling, a better hydrological simulation over the trans-state Oologah watershed is also achieved. In addition, analyzing the high-resolution (4 km) downscaling outputs leads to a better understanding regarding the precipitation variability in Texas. "/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="20.994766"/>
+        <attribute name="geospatial_lat_max" type="String" value="52.848969"/>
+        <attribute name="geospatial_lon_min" type="String" value="-133.011215"/>
+        <attribute name="geospatial_lon_max" type="String" value="-65.226807"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
