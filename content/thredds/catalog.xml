@@ -2128,10 +2128,16 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<metadata inherited="true">
 				<!-- THREDDS catalog metadata as documented here:  -->
 				<documentation xlink:href="https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php" xlink:title="Dynamical Downscaling for the Midwest and Great Lakes Basin"/>
-				<documentation type="Summary">Six global climate models (GCMs) from the Coupled Model Intercomparison Project Phase Five (CMIP5) were dynamically downscaled to 25-km grid spacing according to the representative concentration pathway 8.5 (RCP8.5)  scenario using the International Centre for Theoretical Physics (ICTP) Regional Climate Model Version Four (RegCM4).  These GCMs include the Centre National de Recherches Meteorologiques Coupled Global Climate Model Version Five (CNRM-CM5),  the Model for Interdisciplinary Research on Climate Version Five (MIROC5), the Institut Pierre Simon Laplace Coupled Model  Version Five-Medium Resolution (IPSL-CM5-MR), the Meteorological Research Institute Coupled Global Climate Model Version  Three (MRI-CGCM3), the Centre for Australian Weather and Climate Research, Australia GCM (ACCESS1-0), and the National  Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory model (GFDL-ESM2M).</documentation>
+				<documentation type="Summary">Six global climate models (GCMs) from the Coupled Model Intercomparison Project Phase Five (CMIP5) were dynamically downscaled to 25-km grid spacing according to the representative concentration pathway 8.5 (RCP8.5)  scenario using the International Centre for Theoretical Physics (ICTP) Regional Climate Model Version Four (RegCM4),  interactively coupled to a 1D lake model to represent the Great Lakes. These GCMs include the Centre National de Recherches  Meteorologiques Coupled Global Climate Model Version Five (CNRM-CM5),  the Model for Interdisciplinary Research on Climate Version Five (MIROC5), the Institut Pierre Simon Laplace Coupled Model  Version Five-Medium Resolution (IPSL-CM5-MR), the Meteorological Research Institute Coupled Global Climate Model Version  Three (MRI-CGCM3), the Centre for Australian Weather and Climate Research, Australia GCM (ACCESS1-0), and the National  Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory model (GFDL-ESM2M).
+The complete downscaling dataset is roughly 30 TB in size, stored on University of Wisconsin-Madison servers.   Here, we extracted a sub-region over the Northeast Climate Science Center domain for select surface variables alone. Only 20-year time chunks for 1980-1999, 2040-2059, and 2080-2099 are provided here. Contact Michael Notaro if you wish to access additional variables and/or regions.</documentation>
 				<documentation type="Reference">Notaro, M., Y. Zhong, S. Vavrus, M. Schummer, L. Van Den Elsen, J. Coluccy, and C. Hoving, 2016: Projected  influences of changes in weather severity on autumn-winter distributions of dabbling ducks in the Mississippi and  Atlantic Flyways during the twenty-first century. Plos One, 11(12), e0167506.
 </documentation>
 				<documentation type="Reference">Notaro, M., V. Bennington, and S. Vavrus, 2015a: Dynamically downscaled projections of lake-effect snow in the Great Lakes Basin. Journal of Climate, 28, 1661-1684.
+</documentation>
+				<documentation type="Reference">The downscaling was funded by grants and contracts from the National Oceanic and Atmospheric Administration (NOAA)/Climate  Change Data and Detection, NOAA Great Lakes Environmental Research Laboratory [Environmental Protection Agency (EPA) grant],  Michigan Department of Natural Resources (EPA grant), Northeast Climate Science Center (CSC), and National Science Foundation (NSF).
+We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP,  and we thank the climate modeling groups for producing and makign available their model output. For CMIP, the U.S. Department  of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of  software infrastructure in partnership with the Global Organization for Earth System Science Portals. 
+Computational resources were provided through the National Center for Atmospheric Research (NCAR) and the Teragrid from the  University of Texas at Austin and the University of Illinois at Urbana-Champaign.
+The dynamical downscaling of climate projections was performed by Drs. Val Bennington, Yafang Zhong, and Michael Notaro.
 </documentation>
 				
 				<keyword>downscaling</keyword>
@@ -2139,7 +2145,7 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 				<keyword>Great Lakes</keyword>
 				<creator>
 					<name>Michael Notaro</name>
-					<contact url="https://nelson.wisc.edu/" email="mnotaro@wisc.edu"/>
+					<contact url="https://nelson.wisc.edu/ccr" email="mnotaro@wisc.edu"/>
 				</creator>
 				<publisher>
 					<name>Integrated Information Dissemination Division</name>
@@ -2216,6 +2222,47 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			</dataset>
 			<dataset name="MRI 2080-2099" ID="cida.usgs.gov/notaro_MRI_2080_2099" serviceName="Services" urlPath="notaro_MRI_2080_2099">
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_MRI_2080_2099.ncml"/>
+			</dataset>
+		</dataset>
+		<dataset name="Very High-Resolution Dynamic Downscaling of Regional Climate for Use in Long-term Hydrologic Planning along the Red River Valley System">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="http://www.caps.ou.edu/micronet/temp/files/CSC-CAPS-final-report-2018Feb_xhu.pdf" xlink:title="Very High-Resolution Dynamic Downscaling of Regional Climate for Use in Long-term Hydrologic Planning along the Red River Valley System"/>
+				<documentation type="Summary">The U.S. Great Plains is known for frequent hazardous convective weather and climate extremes. Across this region, climate change is expected to cause more severe droughts, more intense heavy rainfall events, and subsequently more flooding episodes. These potential changes in climate will adversely affect habitats, ecosystems, and landscapes as well as the fish and wildlife they support. Better understanding and simulation of regional precipitation can help natural resource managers mitigate and adapt to these adverse impacts. In this project, we aim to achieve a better precipitation downscaling in the Great Plains with the Weather Research and Forecast (WRF) model and use the high quality dynamic downscaling results (with a 4km horizontal resolution) to investigate the precipitation variability near the Edwards Plateau and Balcones Escarpment in Texas, an area prone to heavy rain and devastating flood events. To this end, WRF simulations with different physics schemes and nudging strategies are first conducted for a representative warm season. Results show that simply choosing different physics schemes is not enough to alleviate the dry bias over the southern Great Plains, which is   related to an anticyclonic circulation anomaly over the central and western parts of continental  U.S. in the simulations. Spectral nudging emerges as an effective solution for alleviating the precipitation bias. As a result, a better precipitation downscaling is achieved. With the carefully designed configurations, WRF downscaling is conducted for 1980-2015. The downscaling captures well the spatial distribution of monthly climatology precipitation and the monthly/yearly variability, showing improvement over at least two previously published precipitation downscaling studies. With the improved precipitation downscaling, a better hydrological simulation over the trans-state Oologah watershed is also achieved. In addition, analyzing the high-resolution (4 km) downscaling outputs leads to a better understanding regarding the precipitation variability in Texas. </documentation>
+				<documentation type="Reference">Hu, X.-M., M. Xue, R. A. McPherson, E. Martin, D. H. Rosendahl, and L. Qiao (2018), Precipitation dynamical downscaling over the Great Plains, J. Adv. Modeling Earth Systems,10.1002/2017MS001154 
+</documentation>
+				
+				<keyword>downscaling</keyword>
+
+				<keyword>Red River</keyword>
+				<creator>
+					<name>Xiaoming Hu</name>
+					<contact url="http://www.caps.ou.edu/" email="xhu@ou.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>20.994766</start>
+						<size>31.854203</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-133.011215</start>
+						<size>67.784408</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start>1980-01-01</start>
+				<end>2015-12-31</end>
+				<resolution>hourly</resolution>
+			</timeCoverage>
+			<dataset name="Very High-Resolution Dynamic Downscaling of Regional Climate for Use in Long-term Hydrologic Planning along the Red River Valley System" ID="cida.usgs.gov/red_river_2018" serviceName="Services" urlPath="red_river_2018">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/red_river_2018/red_river.ncml"/>
 			</dataset>
 		</dataset>
 	</dataset>
