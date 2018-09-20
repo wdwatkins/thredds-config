@@ -1,0 +1,39 @@
+<variable name="HFX">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="LH">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="PBLH">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="Q2">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="RAINC">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="RAINNC">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="SWDOWN">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="T2">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="U10">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="V10">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="XLONG">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="XLAT">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="Time">
+  <attribute name="long_name" value="time"/>
+</variable>
