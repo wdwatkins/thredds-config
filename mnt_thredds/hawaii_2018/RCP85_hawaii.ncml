@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+<aggregation type="union">
+	<netcdf location="hawaii_static_vars.nc"/>
+	<netcdf>
+	<aggregation type="joinExisting"  dimName="Time">
+		<scan location="RCP85/hawaii" suffix=".nc"/>
+	</aggregation>
+	</netcdf>
+</aggregation>
+<!--- global atts -->
+<attribute name="conventions" value="CF-1.7.3"/>
+</netcdf>

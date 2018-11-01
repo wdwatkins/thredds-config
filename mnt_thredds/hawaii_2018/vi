@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#from inside RCP45/time_no_latlon directory
+ncks -vHGT,LANDMASK 1990/wrfout_maui_hourly_1990-01-01.nc maui_mask_topo.nc
+ncks -vHGT,LANDMASK 1990/wrfout_hawaii_hourly_1990-01-01.nc hawaii_mask_topo.nc
+ncwa -aTime maui_mask_topo.nc maui_mask_topo_ncwa.nc
+ncwa -aTime hawaii_mask_topo.nc hawaii_mask_topo_ncwa.nc
+
+
