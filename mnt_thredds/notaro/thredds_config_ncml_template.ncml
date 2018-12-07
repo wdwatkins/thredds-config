@@ -12,8 +12,8 @@
         <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
         <attribute name="creator_name" type="String" value="{{creator_name}}"/>
         <attribute name="creator_email" type="String" value="{{creator_email}}"/>
-        <attribute name="time_coverage_start" type="String" value="{{time_start}}"/>
-        <attribute name="time_coverage_end" type="String" value="{{time_end}}"/>
+        <attribute name="time_coverage_start" type="String" value="{{start_time}}"/>
+        <attribute name="time_coverage_end" type="String" value="{{end_time}}"/>
         <attribute name="history" type="String" value="{{history}}"/>
         <attribute name="date_issued" type="String" value="{{date_issued}}"/>
         <attribute name="summary" type="String" value="{{summary}}"/>
