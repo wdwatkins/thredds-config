@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/PuertoRico/FSU/pr_NHM_CCSM4_daily.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="https://casc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="project" type="String" value="Modeling Future Temperature and Precipitation for Puerto Rico and the U.S. Caribbean"/>
+        <attribute name="title" type="String" value="Puerto Rico &amp; US Virgin Islands Dynamical Downscaled Climate Change Projections"/>
+        <attribute name="id" type="String" value="cida.usgs.gov/PuertoRico"/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="Grid"/>
+        <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Amit Bhardwaj"/>
+        <attribute name="creator_email" type="String" value="abhardwaj@fsu.edu"/>
+        <attribute name="time_coverage_start" type="String" value="1985-01-01"/>
+        <attribute name="time_coverage_end" type="String" value="2060-12-31"/>
+        <attribute name="history" type="String" value=""/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="summary" type="String" value="The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU."/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="17.307"/>
+        <attribute name="geospatial_lat_max" type="String" value="19.088"/>
+        <attribute name="geospatial_lon_min" type="String" value="-78.557"/>
+        <attribute name="geospatial_lon_max" type="String" value="-73.286"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
