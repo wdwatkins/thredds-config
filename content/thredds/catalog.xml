@@ -2075,6 +2075,222 @@ Zhang, C., Y. Wang, K. Hamilton, and A. Lauer, 2016b: Dynamical downscaling of t
 			<dataFormat>NcML</dataFormat>
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="../metadata/PuertoRico/pr_d03_monthly_meta.ncml"/>
 		</dataset>
+		<dataset name="NHM CCSM4 hourly" ID="cida.usgs.gov/puerto_rico_NHM_CCSM4_hourly" serviceName="Services" urlPath="puerto_rico_NHM_CCSM4_hourly">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/NHM_CCSM4_hourly.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
+			<dataset name="NHM GFDL hourly" ID="cida.usgs.gov/puerto_rico_NHM_GFDL_hourly" serviceName="Services" urlPath="puerto_rico_NHM_GFDL_hourly">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/NHM_GFDL_hourly.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
+			<dataset name="NHM CCSM4 daily" ID="cida.usgs.gov/puerto_rico_NHM_CCSM4_daily" serviceName="Services" urlPath="puerto_rico_NHM_CCSM4_daily">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/NHM_CCSM4_daily.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
+			<dataset name="NHM GFDL daily" ID="cida.usgs.gov/puerto_rico_NHM_GFDL_daily" serviceName="Services" urlPath="puerto_rico_NHM_GFDL_daily">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/NHM_GFDL_daily.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
+			<dataset name="NHM CCSM4 monthly" ID="cida.usgs.gov/puerto_rico_NHM_CCSM4_monthly" serviceName="Services" urlPath="puerto_rico_NHM_CCSM4_monthly">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/NHM_CCSM4_monthly.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
+			<dataset name="NHM GFDL monthly" ID="cida.usgs.gov/puerto_rico_NHM_GFDL_monthly" serviceName="Services" urlPath="puerto_rico_NHM_GFDL_monthly">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/NHM_GFDL_monthly.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
+			<dataset name="RSM CCSM4 daily" ID="cida.usgs.gov/puerto_rico_RSM_CCSM4_daily" serviceName="Services" urlPath="puerto_rico_RSM_CCSM4_daily">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/RSM_CCSM4_daily.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
+			<dataset name="RSM GFDL daily" ID="cida.usgs.gov/puerto_rico_RSM_GFDL_daily" serviceName="Services" urlPath="puerto_rico_RSM_GFDL_daily">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/PuertoRico/RSM_GFDL_daily.ncml"/>
+			  	<metadata>
+			  	<documentation type="Summary">The Japanese Meteorological Agency Non-Hydrostatic Model (NHM)  is nested  inside the Regional Spectral Model (RSM) at 10 km grid resolution which in  turn is forced at the lateral boundaries to dynamically downscale two general  circulation models (GCMs) that participated in the Coupled Model Intercomparison  Project (CMIP5). The downscaled regional climate change projections were developed  for two twenty-year timeslices for the high Greenhouse Gas Emission Scenario,  RCP8.5. These climate change projections were developed to provide information  about climate change for various climate change applications within Puerto Rico  and the US Virgin Islands. In particular, the model output parameters were saved  in response to the needs of physical scientists and other stakeholders within the  islands, including ecologists, biologists, and hydrologists. The simulations are  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at  https://go.usa.gov/xnDJU.</documentation>  
+			  	<creator>
+					<name>Amit Bhardwaj</name>
+					<contact url="https://www.coaps.fsu.edu/" email="abhardwaj@fsu.edu"/>
+				</creator>
+				<geospatialCoverage>
+					<northsouth>
+						<start>17.307</start>
+						<size>1.781</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-78.557</start>
+						<size>5.271</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+				<timeCoverage>
+				<start>1985-01-01</start>
+				<end>2060-12-31</end>
+				<resolution></resolution>
+			</timeCoverage>
+			</metadata>
+			</dataset>
 	</dataset>
 		<dataset name="TopoWx: Topoclimatic Daily Air Temperature Dataset for the Conterminous United States">
 			<metadata inherited="true">
