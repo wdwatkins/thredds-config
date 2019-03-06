@@ -1,0 +1,36 @@
+location: 
+acknowledgement: &acknowledgement 
+  - https://www.sciencebase.gov/catalog/item/5a2710b6e4b03852bafb5b21
+link: *acknowledgement
+title: &title 
+  - Very fine resolution dynamically downscaled climate data for Hawaii
+link_title: *title
+project: "Mapping Current and Future Exchange of Water Between Clouds and Vegetation in Hawai'i's Mountains"
+id: cida.usgs.gov/hawaii_2018
+creator_name: Chunxi Zhang
+creator_email: czhang@ou.edu
+creator_org: University of Oklahoma
+creator_url: http://www.ou.edu/
+publication_date:
+creation_date: 2018-11-01
+summary: >- 
+  Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.
+  
+
+lat_min: 18.906525
+lat_max: 21.244751
+lon_min: -157.334305
+lon_max: -154.794220
+resolution: hourly
+keywords:
+  - "Hawaii"
+  - "Maui"
+  - "climate"
+  - "downscaling"
+references: 
+sciencebase_id: "5a2710b6e4b03852bafb5b21"
+start_time: "1990-01-01"
+end_time: "2009-12-31"
+attribute_description:
+  - ddx_url: 'https://cida.usgs.gov/thredds/dodsC/Hawaii_RCP45.ddx'
+opendap_url: 'https://cida.usgs.gov/thredds/dodsC/Hawaii_RCP45.html'
