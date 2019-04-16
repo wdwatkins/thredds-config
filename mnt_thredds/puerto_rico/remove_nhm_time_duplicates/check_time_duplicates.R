@@ -2,7 +2,7 @@
 ###for GFDL -- CCSM4 is different
 library(ncdf4)
 library(tidyverse)
-nc <- nc_open('~/Downloads/pr_duplicate_dates/CLA_hrly_ccsm4.nc') 
+nc <- nc_open('~/Downloads/pr_duplicate_dates/CLA_removed_2_1999_at_end.nc') 
 time <- ncvar_get(nc, "time")
 #check for duplicates with fromLast=TRUE
 time_df <- tibble(time_hrs = time, dateTime = as.POSIXct(time*3600, origin="1986-01-01 00:00", tz = "UTC"))
