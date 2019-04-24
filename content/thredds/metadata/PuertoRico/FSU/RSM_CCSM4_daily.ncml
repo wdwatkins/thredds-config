@@ -4,7 +4,7 @@
 <attribute name="acknowledgment" type="String" value="https://casc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
         <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
         <attribute name="project" type="String" value="Modeling Future Temperature and Precipitation for Puerto Rico and the U.S. Caribbean"/>
-        <attribute name="title" type="String" value="Puerto Rico &amp; US Virgin Islands Dynamical Downscaled Climate Change Projections"/>
+        <attribute name="title" type="String" value="JMA Non-Hydrostatic Model (NHM): Puerto Rico and US Virgin Islands Dynamical Downscaled Climate Change Projections"/>
         <attribute name="id" type="String" value="cida.usgs.gov/PuertoRico"/>
         <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
         <attribute name="cdm_data_type" type="String" value="Grid"/>
@@ -22,8 +22,8 @@
         <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
         <attribute name="geospatial_lat_min" type="String" value="17.307"/>
         <attribute name="geospatial_lat_max" type="String" value="19.088"/>
-        <attribute name="geospatial_lon_min" type="String" value="-78.557"/>
-        <attribute name="geospatial_lon_max" type="String" value="-73.286"/>
+        <attribute name="geospatial_lon_min" type="String" value="-68.557"/>
+        <attribute name="geospatial_lon_max" type="String" value="-63.826"/>
         <attribute name="license" type="String" value="Freely available"/>
 	<!-- end - Global Attributes for Dataset Discovery -->
 </netcdf>				
