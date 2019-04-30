@@ -12,7 +12,7 @@
         <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
         <attribute name="creator_name" type="String" value="Amit Bhardwaj"/>
         <attribute name="creator_email" type="String" value="abhardwaj@fsu.edu"/>
-        <attribute name="time_coverage_start" type="String" value="1985-01-01"/>
+        <attribute name="time_coverage_start" type="String" value="1986-01-01"/>
         <attribute name="time_coverage_end" type="String" value="2060-12-31"/>
         <attribute name="history" type="String" value=""/>
         <attribute name="date_issued" type="String" value=""/>

@@ -3,7 +3,7 @@ acknowledgement: &acknowledgement
   - "https://casc.usgs.gov/projects/#/project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"
 link: *acknowledgement
 title: &title 
-  - "Puerto Rico & US Virgin Islands Dynamical Downscaled Climate Change Projections"
+  - "JMA Non-Hydrostatic Model (NHM): Puerto Rico and US Virgin Islands Dynamical Downscaled Climate Change Projections"
 link_title: *title
 project: "Modeling Future Temperature and Precipitation for Puerto Rico and the U.S. Caribbean"
 id: cida.usgs.gov/PuertoRico
@@ -30,8 +30,8 @@ summary: >-
 
 lat_min: 17.307
 lat_max: 19.088
-lon_min: -78.557
-lon_max: -73.286
+lon_min: -68.557
+lon_max: -63.826
 resolution: 
 keywords:
   - "climate"
@@ -39,9 +39,9 @@ keywords:
   - "Virgin Islands"
 references: 
  
-sciencebase_id: "5977b95de4b0ec1a4888e493"
+sciencebase_id: "5cba5abce4b0c3b0066185cc"
 start_time: &start
-  - "1985-01-01"
+  - "1986-01-01"
 time_start: *start
 end_time: &end
   - "2060-12-31"
@@ -50,3 +50,39 @@ time_end: *end
 attribute_description:
   - ddx_url: 'https://cida.usgs.gov/thredds/dodsC/PuertoRico/XXXXX.ddx'
 opendap_url: 'https://cida.usgs.gov/thredds/dodsC/PuertoRico/XXXXXX'
+
+### added for new sciencebase xml
+contacts:
+  -
+    name: Amit Bhardwaj
+    email: abhardwaj@fsu.edu
+    organization: Florida State University
+  -
+    name: Adam Terando
+    email: aterando@usgs.gov
+    organization: U.S. Geological Survey
+    
+purpose: >
+  CMIP5 models are barely able to resolve the island (Puerto Rico). 
+  Dynamical downscaling of the two CMIP5 models (CCSM4 and GFDL) to 2 
+  kilometers of resolution provide useful information in understanding the 
+  behavior small scale features for Puerto Rico. With the advancement of 
+  computational resources and gaining more skills in modeling simulations, 
+  it is possible to study the climatic features at very fine scales that 
+  take into regard the gradients in local topography and land use. 
+  
+credit:  Bhardwaj, A., Misra, V., Mishra, A., Wootten, A., Boyles, R., Bowden, J. H., & Terando, A. J. (2018). Downscaling future climate change projections over Puerto Rico using a non-hydrostatic atmospheric model. Climatic Change, 147(1-2), 133-147.
+
+evaluationMethodDescription: > 
+  1. NHM Model: The Japanese Meteorological Agency Non-Hydrostatic Model (NHM) operating at a 2-km grid resolution. \n 
+  2. RSM Models: The Regional Spectral Model (RSM) at 10 km grid resolution. NHM is nested inside RSM. Details of both models and data are available in the paper Bhardwaj et al 2018. 
+
+process_steps:
+  - 
+    step_id: downscaling
+    description: > 
+      Regional climate models were used to downscale the CMIP5 runs from their native global model resolution to 
+      10km and subsequently to 2km centered over Puerto Rico. The data from the regional climate model output that 
+      resolves the island of Puerto Rico the best is provided. This data is processed internally by the regional 
+      climate model from a long-term integration that spans a 20 year period of the current (1986-2005) and 
+      future (2041-2060) time period.

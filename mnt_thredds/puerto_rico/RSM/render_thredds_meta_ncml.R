@@ -1,8 +1,9 @@
 rm(list=ls())
-meta <- yaml::read_yaml('config_meta.yaml')
+meta <- yaml::read_yaml('RSM/config_meta.yaml')
 meta <- meta[!unlist(lapply(meta, is.null))]
-ncml_template <- readLines('thredds_config_ncml_template.ncml')
-catalog_template <- readLines('catalog_dataset_template.xml')
+ncml_template <- readLines('RSM/thredds_config_ncml_template.ncml')
+catalog_template <- readLines('RSM/catalog_dataset_template.xml')
+iso_template <- readLines('pr_iso_template.xml')
 meta[['lat_size']] <- meta$lat_max - meta$lat_min
 meta[['lon_size']] <- meta$lon_max - meta$lon_min
 
@@ -13,10 +14,10 @@ i <- 1
 for(m in models) {
   if(m == "NHM") {
     resolutions <- c("hourly", "daily", "monthly")
-    data_ncml_template <- readLines('nhm_data_template.ncml')
+    data_ncml_template <- readLines('RSM/nhm_data_template.ncml')
   } else if(m == "RSM") {
     resolutions <- c("daily")
-    data_ncml_template <- readLines('rsm_data_template.ncml')
+    data_ncml_template <- readLines('RSM/rsm_data_template.ncml')
   }
   for(res in resolutions) {
     for(g in gcms) {
@@ -35,7 +36,12 @@ for(m in models) {
       dataset_url_path <-  paste("puerto_rico", m,g,res, sep = "_")
       datasets[[i]] <- list(
         dataset_name = paste(m,g,res),
+        dataset_title = paste(m,g,res),
         dataset_url_path = dataset_url_path,
+        thredds_url = dataset_url_path,
+        opendap_url = file.path("https://cida-test.er.usgs.gov/thredds/dodsC",
+                                dataset_url_path),
+        service_id = paste("OPeNDAP", m, g, res, sep = "_"),
         dataset_id = file.path("cida.usgs.gov", dataset_url_path),
         dataset_meta_location = file.path("metadata/PuertoRico/FSU", basename(ncml_path)))
       i <- i + 1
@@ -49,3 +55,6 @@ for(m in models) {
 meta[['datasets']] <- datasets
 catalog_out <- whisker::whisker.render(catalog_template, meta)
 cat(catalog_out, file = "fsu_pr_catalog_section.xml")
+
+iso_service_out <- whisker::whisker.render(iso_template, meta)
+cat(iso_service_out, file = paste0(meta$sciencebase_id, ".xml"))
