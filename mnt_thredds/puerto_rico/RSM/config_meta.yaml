@@ -25,9 +25,8 @@ summary: >-
   and the US Virgin Islands. In particular, the model output parameters were saved 
   in response to the needs of physical scientists and other stakeholders within the 
   islands, including ecologists, biologists, and hydrologists. The simulations are 
-  nested one-way from the GCMs with a 138.75-10-2km nest, see figure at 
-  https://go.usa.gov/xnDJU.
-
+  nested one-way from the GCMs with a 138.75-10-2km nest.
+  
 lat_min: 17.307
 lat_max: 19.088
 lon_min: -68.557
