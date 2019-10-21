@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/TTU_2019/rcp45_gridded_annual_data/union.ncml/rcp85_gridded_annual_data/union.ncml/rcp45_time_slices/union.ncml/rcp85_time_slices/union.ncml/rcp45_station_data/union.ncml/rcp85_station_data/union.ncml/rcp85_station_data/union.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="NULL"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="project" type="String" value="Quantifying Future Precipitation in the South Central U.S. for Water Resources Planning"/>
+        <attribute name="title" type="String" value="Quantifying Future Precipitation in the South Central U.S. for Water Resources Plannin: Translating Precipitation Projections into Stakeholder-Relevant Information"/>
+        <attribute name="id" type="String" value="cida.usgs.gov/RCP85 Station Data"/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="point"/>
+        <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Jung-Hee Ryu"/>
+        <attribute name="creator_email" type="String" value="Jung-Hee.Ryu@ttu.edu"/>
+        <attribute name="time_coverage_start" type="String" value="1950-07-01"/>
+        <attribute name="time_coverage_end" type="String" value="2100-07-01"/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="summary" type="String" value=""/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="25.1563"/>
+        <attribute name="geospatial_lat_max" type="String" value="37.4688"/>
+        <attribute name="geospatial_lon_min" type="String" value="-109.03"/>
+        <attribute name="geospatial_lon_max" type="String" value="-88.03"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
