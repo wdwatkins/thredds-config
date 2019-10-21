@@ -2555,5 +2555,58 @@ The dynamical downscaling of climate projections was performed by Drs. Val Benni
 				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/hawaii_2018/Maui_RCP85.ncml"/>
 			</dataset>
 		</dataset>
+		<dataset name="Quantifying Future Precipitation in the South Central U.S. for Water Resources Plannin: Translating Precipitation Projections into Stakeholder-Relevant Information">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="NULL" xlink:title="Quantifying Future Precipitation in the South Central U.S. for Water Resources Plannin: Translating Precipitation Projections into Stakeholder-Relevant Information"/>
+				<documentation type="Summary"></documentation>
+				<documentation type="Reference"></documentation>
+				
+				<keyword></keyword>
+				<creator>
+					<name>Jung-Hee Ryu</name>
+					<contact url="https://www.depts.ttu.edu/csc/people.php" email="Jung-Hee.Ryu@ttu.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>25.1563</start>
+						<size>12.3125</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-109.03</start>
+						<size>21</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start>1950-07-01</start>
+				<end>2100-07-01</end>
+				<resolution>annual</resolution>
+			</timeCoverage>
+			<dataset name="RCP45 Gridded Annual Data" ID="cida.usgs.gov/TTU_2019/rcp45_gridded_annual_data" serviceName="Services" urlPath="rcp45_gridded_annual_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp45_gridded_annual_data.ncml"/>
+			</dataset>
+			<dataset name="RCP85 Gridded Annual Data" ID="cida.usgs.gov/TTU_2019/rcp85_gridded_annual_data" serviceName="Services" urlPath="rcp85_gridded_annual_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp85_gridded_annual_data.ncml"/>
+			</dataset>
+			<dataset name="RCP45 Time Slices" ID="cida.usgs.gov/TTU_2019/rcp45_time_slices" serviceName="Services" urlPath="rcp45_time_slices">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp45_time_slices.ncml"/>
+			</dataset>
+			<dataset name="RCP85 Time Slices" ID="cida.usgs.gov/TTU_2019/rcp85_time_slices" serviceName="Services" urlPath="rcp85_time_slices">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp85_time_slices.ncml"/>
+			</dataset>
+			<dataset name="RCP45 Station Data" ID="cida.usgs.gov/TTU_2019/rcp45_station_data" serviceName="Services" urlPath="rcp45_station_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp45_station_data.ncml"/>
+			</dataset>
+			<dataset name="RCP85 Station Data" ID="cida.usgs.gov/TTU_2019/rcp85_station_data" serviceName="Services" urlPath="rcp85_station_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp85_station_data.ncml"/>
+			</dataset>
+		</dataset>
 	</dataset>
 </catalog>
