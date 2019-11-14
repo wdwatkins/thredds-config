@@ -8,6 +8,12 @@
 	</aggregation>
 	</netcdf>
 </aggregation>
+<!--- rename description to long_name for all vars -->
+{{#variables}}
+<variable name="{{.}}">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+{{/variables}}
 <!--- global atts -->
 <attribute name="conventions" value="CF-1.7.3"/>
 </netcdf>
