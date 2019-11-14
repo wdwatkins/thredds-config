@@ -6,9 +6,10 @@ catalog_template <- readLines('../notaro/catalog_dataset_template.xml')
 iso_template <- readLines('../notaro/iso_template.xml')
 meta[['lat_size']] <- meta$lat_max - meta$lat_min
 meta[['lon_size']] <- meta$lon_max - meta$lon_min
-
+meta[['data_type']] <- "Grid"
 islands <- c("Hawaii", "Maui")
 gcms <- c("Present", "RCP45", "RCP85")
+
 datasets <- list()
 i <- 1
 for(g in gcms) {
@@ -35,7 +36,8 @@ for(g in gcms) {
       start_time = meta$start_time,
       end_time = meta$end_time,
       thredds_url = thredds_url,
-      service_id = service_id)
+      service_id = service_id,
+      data_type = "Grid")
     i <- i + 1
   }
 }
