@@ -1,0 +1,4 @@
+*.Rproj
+.Rhistory
+ncml_joins/*
+

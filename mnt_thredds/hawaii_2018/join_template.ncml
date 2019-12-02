@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+<aggregation type="union">
+	<netcdf location="{{island}}_static_vars.nc"/>
+	<netcdf>
+	<aggregation type="joinExisting"  dimName="Time">
+		<scan location="{{scenario}}/{{island}}" suffix=".nc"/>
+	</aggregation>
+	</netcdf>
+</aggregation>
+<!--- rename description to long_name for all vars -->
+{{#variables}}
+<variable name="{{.}}">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+{{/variables}}
+<!--- global atts -->
+<attribute name="conventions" value="CF-1.7.3"/>
+</netcdf>

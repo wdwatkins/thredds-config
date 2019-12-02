@@ -1,75 +1,50 @@
-TLML	 "temperature in lowest model layer" 
-QLML	 "mixing ratio in lowest model layer" 
-Q850	 "850 hPa mixing ratio" 
-T850	 "850 hPa temperature" 
-UE850	 "850 hPa zonal wind" 
-VE850	 "850 hPa meridional wind" 
-W850	 "850 hPa vertical wind" 
-Z850	 "850 hPa geopotential height" 
-CLDFRA850	 "850 hPa cloud fraction" 
-Q700	 "700 hPa mixing ratio" 
-T700	 "700 hPa temperature" 
-UE700	 "700 hPa zonal wind" 
-VE700	 "700 hPa meridional wind" 
-W700	 "700 hPa vertical wind" 
-Z700	 "700 hPa geopotential height" 
-CLDFRA700	 "700 hPa cloud fraction" 
-Q500	 "500 hPa mixing ratio" 
-T500	 "500 hPa temperature" 
-UE500	 "500 hPa zonal wind" 
-VE500	 "500 hPa meridional wind" 
-W500	 "500 hPa vertical wind" 
-Z500	 "500 hPa geopotential height" 
-CLDFRA500	 "500 hPa cloud fraction" 
-Q250	 "250 hPa mixing ratio" 
-T250	 "250 hPa temperature" 
-UE250	 "250 hPa zonal wind" 
-VE250	 "250 hPa meridional" 
-W250	 "250 hPa vertical wind" 
-Z250	 "250 hPa geopotential height" 
-CLDFRA250	 "250 hPa cloud fraction" 
-T2	 "2-m temperature" 
-Q2	 "2-m mixing ratio" 
-UE10	 "10-m zonal wind" 
-VE10	 "10-m meridional wind" 
-RC	 "convective precipitation in time increment" 
-RN	 "non-convective precipitation in time increment" 
-PSFC	 "surface pressure" 
-SLP	 "sea-level pressure" 
-STTOP	 "soil temperature in top layer" 
-STBOT	 "soil temperature in bottom layers" 
-SMTOP	 "soil moisture in top layer" 
-SMBOT	 "soil moisture in bottom layers" 
-SNOW	 "snow water equivalent" 
-TSK	 "skin temperature" 
-UST	 "friction velocity" 
-PBLH	 "planetary boundary layer height" 
-HFX	 "sensible heat flux" 
-LH	 "latent heat flux" 
-SWUPT	 "instantaneous shortwave upwelling at top" 
-SWDNT	 "instantaneous shortwave downwelling at top" 
-SWUPB	 "instantaneous shortwave upwelling at bottom" 
-SWDNB	 "instantaneous shortwave downwelling at bottom" 
-LWUPT	 "instantaneous longwave upwelling at top" 
-LWDNT	 "instantaneous longwave downwelling at top" 
-LWUPB	 "instantaneous longwave upwelling at bottom" 
-LWDNB	 "instantaneous longwave downwelling at bottom" 
-KE	 "total kinetic energy" 
-PWAT	 "precipitable water" 
-CLDFLO	 "cloud fraction (low) sfc-700 hPa" 
-CLDFMI	 "cloud fraction (middle) 700-500 hPa" 
-CLDFHI	 "cloud fraction (high) 500-300 hPa" 
-CLDFVH	 "cloud fraction (very high) 300-top hPa" 
-CLIQLO	 "cloud liquid water (low) sfc-700 hPa" 
-CLIQMI	 "cloud liquid water (middle) 700-500 hPa" 
-CLIQHI	 "cloud liquid water (high) 500-300 hPa" 
-CLIQVH	 "cloud liquid water (very high) 300-top hPa" 
-CICELO	 "cloud ice (low) sfc-700 hPa" 
-CICEMI	 "cloud ice (middle) 700-500 hPa" 
-CICEHI	 "cloud ice (high) 500-300 hPa" 
-CICEVH	 "cloud ice (very high) 300-top hPa" 
-SWUPTC	 "inst shortwave upwelling at top (clear sky)" 
-SWUPBC	 "inst shortwave upwelling at bottom (clear sky)" 
-SWDNBC	 "inst shortwave downwelling at bottom (clear sk" 
-LWUPTC	 "inst longwave upwelling at top (clear sky)" 
-LWDNBC	 "inst longwave downwelling at bottom (clear sky" 
+CICELO	cloud ice (low) sfc-700 hPa
+CLDFLO	cloud fraction (low) sfc-700 hPa
+CLDFRA700	700 hPa cloud fraction
+CLDFRA850	850 hPa cloud fraction
+CLIQLO	cloud liquid water (low) sfc-700 hPa
+HFX	sensible heat flux
+KE	total kinetic energy
+LH	latent heat flux
+LWDNB	instantaneous longwave downwelling at bottom
+LWDNBC	inst longwave downwelling at bottom (clear sky
+LWDNT	instantaneous longwave downwelling at top
+LWUPB	instantaneous longwave upwelling at bottom
+LWUPT	instantaneous longwave upwelling at top
+LWUPTC	inst longwave upwelling at top (clear sky)
+PBLH	planetary boundary layer height
+PSFC	surface pressure
+PWAT	precipitable water
+Q2	2-m mixing ratio
+Q700	700 hPa mixing ratio
+Q850	850 hPa mixing ratio
+QLML	mixing ratio in lowest model layer
+RC	convective precipitation in time increment
+RN	non-convective precipitation in time increment
+SLP	sea-level pressure
+SMBOT	soil moisture in bottom layers
+SMTOP	soil moisture in top layer
+STBOT	soil temperature in bottom layers
+STTOP	soil temperature in top layer
+SWDNB	instantaneous shortwave downwelling at bottom
+SWDNBC	inst shortwave downwelling at bottom (clear sk
+SWDNT	instantaneous shortwave downwelling at top
+SWUPB	instantaneous shortwave upwelling at bottom
+SWUPBC	inst shortwave upwelling at bottom (clear sky)
+SWUPT	instantaneous shortwave upwelling at top
+SWUPTC	inst shortwave upwelling at top (clear sky)
+T2	2-m temperature
+T700	700 hPa temperature
+T850	850 hPa temperature
+TLML	temperature in lowest model layer
+TSK	skin temperature
+UE10	10-m zonal wind
+UE700	700 hPa zonal wind
+UE850	850 hPa zonal wind
+VE10	10-m meridional wind
+VE700	700 hPa meridional wind
+VE850	850 hPa meridional wind
+W700	700 hPa vertical wind
+W850	850 hPa vertical wind
+Z700	700 hPa geopotential height
+Z850	850 hPa geopotential height

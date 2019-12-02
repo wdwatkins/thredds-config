@@ -1,0 +1,100 @@
+		<dataset name="Dynamical Downscaling for the Midwest and Great Lakes Basin">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php" xlink:title="Dynamical Downscaling for the Midwest and Great Lakes Basin"/>
+				<documentation type="Summary">Six global climate models (GCMs) from the Coupled Model Intercomparison Project Phase Five (CMIP5) were dynamically downscaled to 25-km grid spacing according to the representative concentration pathway 8.5 (RCP8.5)  scenario using the International Centre for Theoretical Physics (ICTP) Regional Climate Model Version Four (RegCM4),  interactively coupled to a 1D lake model to represent the Great Lakes. These GCMs include the Centre National de Recherches  Meteorologiques Coupled Global Climate Model Version Five (CNRM-CM5),  the Model for Interdisciplinary Research on Climate Version Five (MIROC5), the Institut Pierre Simon Laplace Coupled Model  Version Five-Medium Resolution (IPSL-CM5-MR), the Meteorological Research Institute Coupled Global Climate Model Version  Three (MRI-CGCM3), the Centre for Australian Weather and Climate Research, Australia GCM (ACCESS1-0), and the National  Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory model (GFDL-ESM2M).
+The complete downscaling dataset is roughly 30 TB in size, stored on University of Wisconsin-Madison servers.   Here, we extracted a sub-region over the Northeast Climate Science Center domain for select surface variables alone. Only 20-year time chunks for 1980-1999, 2040-2059, and 2080-2099 are provided here. Contact Michael Notaro if you wish to access additional variables and/or regions.</documentation>
+				<documentation type="Reference">Notaro, M., Y. Zhong, S. Vavrus, M. Schummer, L. Van Den Elsen, J. Coluccy, and C. Hoving, 2016: Projected  influences of changes in weather severity on autumn-winter distributions of dabbling ducks in the Mississippi and  Atlantic Flyways during the twenty-first century. Plos One, 11(12), e0167506.
+</documentation>
+				<documentation type="Reference">Notaro, M., V. Bennington, and S. Vavrus, 2015a: Dynamically downscaled projections of lake-effect snow in the Great Lakes Basin. Journal of Climate, 28, 1661-1684.
+</documentation>
+				<documentation type="Reference">The downscaling was funded by grants and contracts from the National Oceanic and Atmospheric Administration (NOAA)/Climate  Change Data and Detection, NOAA Great Lakes Environmental Research Laboratory [Environmental Protection Agency (EPA) grant],  Michigan Department of Natural Resources (EPA grant), Northeast Climate Science Center (CSC), and National Science Foundation (NSF).
+We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP,  and we thank the climate modeling groups for producing and makign available their model output. For CMIP, the U.S. Department  of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of  software infrastructure in partnership with the Global Organization for Earth System Science Portals. 
+Computational resources were provided through the National Center for Atmospheric Research (NCAR) and the Teragrid from the  University of Texas at Austin and the University of Illinois at Urbana-Champaign.
+The dynamical downscaling of climate projections was performed by Drs. Val Bennington, Yafang Zhong, and Michael Notaro.
+</documentation>
+				
+				<keyword>downscaling</keyword>
+
+				<keyword>Great Lakes</keyword>
+				<creator>
+					<name>Michael Notaro</name>
+					<contact url="https://nelson.wisc.edu/ccr" email="mnotaro@wisc.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>31.077085</start>
+						<size>22.953242</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-100.042442</start>
+						<size>39.301525</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start></start>
+				<end></end>
+				<resolution>hourly</resolution>
+			</timeCoverage>
+			<dataset name="ACCESS 1980-1999" ID="cida.usgs.gov/notaro_ACCESS_1980_1999" serviceName="Services" urlPath="notaro_ACCESS_1980_1999">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_ACCESS_1980_1999.ncml"/>
+			</dataset>
+			<dataset name="ACCESS 2040-2059" ID="cida.usgs.gov/notaro_ACCESS_2040_2059" serviceName="Services" urlPath="notaro_ACCESS_2040_2059">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_ACCESS_2040_2059.ncml"/>
+			</dataset>
+			<dataset name="ACCESS 2080-2099" ID="cida.usgs.gov/notaro_ACCESS_2080_2099" serviceName="Services" urlPath="notaro_ACCESS_2080_2099">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_ACCESS_2080_2099.ncml"/>
+			</dataset>
+			<dataset name="CNRM 1980-1999" ID="cida.usgs.gov/notaro_CNRM_1980_1999" serviceName="Services" urlPath="notaro_CNRM_1980_1999">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_CNRM_1980_1999.ncml"/>
+			</dataset>
+			<dataset name="CNRM 2040-2059" ID="cida.usgs.gov/notaro_CNRM_2040_2059" serviceName="Services" urlPath="notaro_CNRM_2040_2059">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_CNRM_2040_2059.ncml"/>
+			</dataset>
+			<dataset name="CNRM 2080-2099" ID="cida.usgs.gov/notaro_CNRM_2080_2099" serviceName="Services" urlPath="notaro_CNRM_2080_2099">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_CNRM_2080_2099.ncml"/>
+			</dataset>
+			<dataset name="GFDL 1980-1999" ID="cida.usgs.gov/notaro_GFDL_1980_1999" serviceName="Services" urlPath="notaro_GFDL_1980_1999">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_GFDL_1980_1999.ncml"/>
+			</dataset>
+			<dataset name="GFDL 2040-2059" ID="cida.usgs.gov/notaro_GFDL_2040_2059" serviceName="Services" urlPath="notaro_GFDL_2040_2059">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_GFDL_2040_2059.ncml"/>
+			</dataset>
+			<dataset name="GFDL 2080-2099" ID="cida.usgs.gov/notaro_GFDL_2080_2099" serviceName="Services" urlPath="notaro_GFDL_2080_2099">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_GFDL_2080_2099.ncml"/>
+			</dataset>
+			<dataset name="IPSL 1980-1999" ID="cida.usgs.gov/notaro_IPSL_1980_1999" serviceName="Services" urlPath="notaro_IPSL_1980_1999">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_IPSL_1980_1999.ncml"/>
+			</dataset>
+			<dataset name="IPSL 2040-2059" ID="cida.usgs.gov/notaro_IPSL_2040_2059" serviceName="Services" urlPath="notaro_IPSL_2040_2059">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_IPSL_2040_2059.ncml"/>
+			</dataset>
+			<dataset name="IPSL 2080-2099" ID="cida.usgs.gov/notaro_IPSL_2080_2099" serviceName="Services" urlPath="notaro_IPSL_2080_2099">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_IPSL_2080_2099.ncml"/>
+			</dataset>
+			<dataset name="MIROC 1980-1999" ID="cida.usgs.gov/notaro_MIROC_1980_1999" serviceName="Services" urlPath="notaro_MIROC_1980_1999">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_MIROC_1980_1999.ncml"/>
+			</dataset>
+			<dataset name="MIROC 2040-2059" ID="cida.usgs.gov/notaro_MIROC_2040_2059" serviceName="Services" urlPath="notaro_MIROC_2040_2059">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_MIROC_2040_2059.ncml"/>
+			</dataset>
+			<dataset name="MIROC 2080-2099" ID="cida.usgs.gov/notaro_MIROC_2080_2099" serviceName="Services" urlPath="notaro_MIROC_2080_2099">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_MIROC_2080_2099.ncml"/>
+			</dataset>
+			<dataset name="MRI 1980-1999" ID="cida.usgs.gov/notaro_MRI_1980_1999" serviceName="Services" urlPath="notaro_MRI_1980_1999">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_MRI_1980_1999.ncml"/>
+			</dataset>
+			<dataset name="MRI 2040-2059" ID="cida.usgs.gov/notaro_MRI_2040_2059" serviceName="Services" urlPath="notaro_MRI_2040_2059">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_MRI_2040_2059.ncml"/>
+			</dataset>
+			<dataset name="MRI 2080-2099" ID="cida.usgs.gov/notaro_MRI_2080_2099" serviceName="Services" urlPath="notaro_MRI_2080_2099">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/notaro_2018/notaro_2018_MRI_2080_2099.ncml"/>
+			</dataset>
+		</dataset>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+	<aggregation type="union">
+	  <netcdf location="./lat_lon/d01_latlon_noTime.nc"/>
+	  <netcdf location="times_WRF_EXTRACT_CNRM.nc"/>
+    <netcdf location="ncml_joins/d01_wrfextr_CNRM.ncml">
+      <variable orgName="CICELO" name="CICELO_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="cloud ice (low) sfc-700 hPa"/>
+      </variable>
+      <variable orgName="CLDFLO" name="CLDFLO_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="cloud fraction (low) sfc-700 hPa"/>
+      </variable>
+      <variable orgName="CLDFRA700" name="CLDFRA700_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="700 hPa cloud fraction"/>
+      </variable>
+      <variable orgName="CLDFRA850" name="CLDFRA850_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="850 hPa cloud fraction"/>
+      </variable>
+      <variable orgName="CLIQLO" name="CLIQLO_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="cloud liquid water (low) sfc-700 hPa"/>
+      </variable>
+      <variable orgName="HFX" name="HFX_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="sensible heat flux"/>
+      </variable>
+      <variable orgName="KE" name="KE_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="total kinetic energy"/>
+      </variable>
+      <variable orgName="LH" name="LH_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="latent heat flux"/>
+      </variable>
+      <variable orgName="LWDNB" name="LWDNB_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous longwave downwelling at bottom"/>
+      </variable>
+      <variable orgName="LWDNBC" name="LWDNBC_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="inst longwave downwelling at bottom (clear sky"/>
+      </variable>
+      <variable orgName="LWDNT" name="LWDNT_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous longwave downwelling at top"/>
+      </variable>
+      <variable orgName="LWUPB" name="LWUPB_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous longwave upwelling at bottom"/>
+      </variable>
+      <variable orgName="LWUPT" name="LWUPT_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous longwave upwelling at top"/>
+      </variable>
+      <variable orgName="LWUPTC" name="LWUPTC_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="inst longwave upwelling at top (clear sky)"/>
+      </variable>
+      <variable orgName="PBLH" name="PBLH_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="planetary boundary layer height"/>
+      </variable>
+      <variable orgName="PSFC" name="PSFC_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="surface pressure"/>
+      </variable>
+      <variable orgName="PWAT" name="PWAT_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="precipitable water"/>
+      </variable>
+      <variable orgName="Q2" name="Q2_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="2-m mixing ratio"/>
+      </variable>
+      <variable orgName="Q700" name="Q700_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="700 hPa mixing ratio"/>
+      </variable>
+      <variable orgName="Q850" name="Q850_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="850 hPa mixing ratio"/>
+      </variable>
+      <variable orgName="QLML" name="QLML_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="mixing ratio in lowest model layer"/>
+      </variable>
+      <variable orgName="RC" name="RC_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="convective precipitation in time increment"/>
+      </variable>
+      <variable orgName="RN" name="RN_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="non-convective precipitation in time increment"/>
+      </variable>
+      <variable orgName="SLP" name="SLP_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="sea-level pressure"/>
+      </variable>
+      <variable orgName="SMBOT" name="SMBOT_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="soil moisture in bottom layers"/>
+      </variable>
+      <variable orgName="SMTOP" name="SMTOP_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="soil moisture in top layer"/>
+      </variable>
+      <variable orgName="STBOT" name="STBOT_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="soil temperature in bottom layers"/>
+      </variable>
+      <variable orgName="STTOP" name="STTOP_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="soil temperature in top layer"/>
+      </variable>
+      <variable orgName="SWDNB" name="SWDNB_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous shortwave downwelling at bottom"/>
+      </variable>
+      <variable orgName="SWDNBC" name="SWDNBC_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="inst shortwave downwelling at bottom (clear sk"/>
+      </variable>
+      <variable orgName="SWDNT" name="SWDNT_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous shortwave downwelling at top"/>
+      </variable>
+      <variable orgName="SWUPB" name="SWUPB_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous shortwave upwelling at bottom"/>
+      </variable>
+      <variable orgName="SWUPBC" name="SWUPBC_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="inst shortwave upwelling at bottom (clear sky)"/>
+      </variable>
+      <variable orgName="SWUPT" name="SWUPT_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="instantaneous shortwave upwelling at top"/>
+      </variable>
+      <variable orgName="SWUPTC" name="SWUPTC_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="inst shortwave upwelling at top (clear sky)"/>
+      </variable>
+      <variable orgName="T2" name="T2_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="2-m temperature"/>
+      </variable>
+      <variable orgName="T700" name="T700_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="700 hPa temperature"/>
+      </variable>
+      <variable orgName="T850" name="T850_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="850 hPa temperature"/>
+      </variable>
+      <variable orgName="TLML" name="TLML_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="temperature in lowest model layer"/>
+      </variable>
+      <variable orgName="TSK" name="TSK_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="skin temperature"/>
+      </variable>
+      <variable orgName="UE10" name="UE10_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="10-m zonal wind"/>
+      </variable>
+      <variable orgName="UE700" name="UE700_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="700 hPa zonal wind"/>
+      </variable>
+      <variable orgName="UE850" name="UE850_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="850 hPa zonal wind"/>
+      </variable>
+      <variable orgName="VE10" name="VE10_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="10-m meridional wind"/>
+      </variable>
+      <variable orgName="VE700" name="VE700_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="700 hPa meridional wind"/>
+      </variable>
+      <variable orgName="VE850" name="VE850_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="850 hPa meridional wind"/>
+      </variable>
+      <variable orgName="W700" name="W700_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="700 hPa vertical wind"/>
+      </variable>
+      <variable orgName="W850" name="W850_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="850 hPa vertical wind"/>
+      </variable>
+      <variable orgName="Z700" name="Z700_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="700 hPa geopotential height"/>
+      </variable>
+      <variable orgName="Z850" name="Z850_d01_wrfextr_CNRM">
+        <attribute name="long_name" value="850 hPa geopotential height"/>
+      </variable>
+    </netcdf>
+	</aggregation>
+		<!-- Global Attributes for Dataset Discovery -->
+	<attribute name="acknowledgment" type="String" value="https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
+	<attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+	<attribute name="summary" type="String" value="TODO"/>
+	<attribute name="title" type="String" value="Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean"/>
+	<attribute name="id" type="String" value="cida.usgs.gov/PuertoRico"/>
+	<attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+	<attribute name="cdm_data_type" type="String" value="Grid"/>
+	<attribute name="publisher_name" type="String" value="Office of Water Information"/>
+	<attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
+	<attribute name="creator_name" type="String" value="Adam Terando"/>
+	<attribute name="creator_email" type="String" value="aterando@usgs.gov"/>
+	<attribute name="time_coverage_start" type="String" value="1985-01-01T00:00"/>
+	<attribute name="time_coverage_end" type="String" value="2060-12-31T00:00"/>
+	<attribute name="history" type="String" value="Dataset was processed from WRF output format into NetCDF-CF conformant format by wwatkins@usgs.gov and dblodgett@usgs.gov in March 2017."/>
+	<attribute name="date_modified" type="String" value="2017-03-06"/>
+	<attribute name="date_issued" type="String" value="2017-10-01"/>
+	<attribute name="project" type="String" value="Developing Multi-Model Ensemble Projections of Ecologically Relevant Climate Variables for Puerto Rico and the U.S. Caribbean https://nccwsc.usgs.gov/display-project/4f8c6557e4b0546c0c397b4c/526eb46ee4b044919baefe0e"/>
+	<attribute name="publisher_name" type="String" value="David Blodgett"/>
+	<attribute name="publisher_email" type="String" value="dblodgett@usgs.gov"/>
+	<attribute name="publisher_url" type="String" value="https://owi.usgs.gov/"/>
+	<attribute name="geospatial_lat_min" type="String" value="9.314285"/>
+	<attribute name="geospatial_lat_max" type="String" value="30.00818"/>
+	<attribute name="geospatial_lon_min" type="String" value="-85.53952"/>
+	<attribute name="geospatial_lon_max" type="String" value="-50.46048"/>
+	<attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+	<remove name="SIMULATION_START_DATE" type="attribute"/>
+	<remove name="WEST-EAST_GRID_DIMENSION" type="attribute"/>
+	<remove name="SOUTH-NORTH_GRID_DIMENSION" type="attribute"/>
+	<remove name="BOTTOM-TOP_GRID_DIMENSION" type="attribute"/>
+	<remove name="GRIDTYPE" type="attribute"/>
+	<remove name="DX" type="attribute"/>
+	<remove name="DY" type="attribute"/>
+	<remove name="CEN_LAT" type="attribute"/>
+	<remove name="CEN_LON" type="attribute"/>
+	<remove name="TRUELAT1" type="attribute"/>
+	<remove name="TRUELAT2" type="attribute"/>
+	<remove name="MOAD_CEN_LAT" type="attribute"/>
+	<remove name="STAND_LON" type="attribute"/>
+	<remove name="MAP_PROJ" type="attribute"/>
+	<remove name="MP_PHYSICS" type="attribute"/>
+	<remove name="RA_LW_PHYSICS" type="attribute"/>
+	<remove name="RA_SW_PHYSICS" type="attribute"/>
+	<remove name="SF_SFCLAY_PHYSICS" type="attribute"/>
+	<remove name="SF_SURFACE_PHYSICS" type="attribute"/>
+	<remove name="BL_PBL_PHYSICS" type="attribute"/>
+	<remove name="CU_PHYSICS" type="attribute"/>
+	<remove name="GRID_FDDA" type="attribute"/>
+	<remove name="GUV" type="attribute"/>
+	<remove name="GT" type="attribute"/>
+	<remove name="GQ" type="attribute"/>
+	<remove name="GPH" type="attribute"/>
+</netcdf>

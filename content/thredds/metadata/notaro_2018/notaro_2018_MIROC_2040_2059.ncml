@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/notaro_2018/join_union_MIROC_2040_2059.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="https://nelson.wisc.edu/ccr/resources/dynamical-downscaling/index.php"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="project" type="String" value="University of Wisconsin-Madison Dynamical Downscaling"/>
+        <attribute name="title" type="String" value="Dynamical Downscaling for the Midwest and Great Lakes Basin"/>
+        <attribute name="id" type="String" value=""/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="Grid"/>
+        <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Michael Notaro"/>
+        <attribute name="creator_email" type="String" value="mnotaro@wisc.edu"/>
+        <attribute name="time_coverage_start" type="String" value=""/>
+        <attribute name="time_coverage_end" type="String" value=""/>
+        <attribute name="history" type="String" value=""/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="summary" type="String" value="Six global climate models (GCMs) from the Coupled Model Intercomparison Project Phase Five (CMIP5) were dynamically downscaled to 25-km grid spacing according to the representative concentration pathway 8.5 (RCP8.5)  scenario using the International Centre for Theoretical Physics (ICTP) Regional Climate Model Version Four (RegCM4),  interactively coupled to a 1D lake model to represent the Great Lakes. These GCMs include the Centre National de Recherches  Meteorologiques Coupled Global Climate Model Version Five (CNRM-CM5),  the Model for Interdisciplinary Research on Climate Version Five (MIROC5), the Institut Pierre Simon Laplace Coupled Model  Version Five-Medium Resolution (IPSL-CM5-MR), the Meteorological Research Institute Coupled Global Climate Model Version  Three (MRI-CGCM3), the Centre for Australian Weather and Climate Research, Australia GCM (ACCESS1-0), and the National  Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory model (GFDL-ESM2M).
+The complete downscaling dataset is roughly 30 TB in size, stored on University of Wisconsin-Madison servers.   Here, we extracted a sub-region over the Northeast Climate Science Center domain for select surface variables alone. Only 20-year time chunks for 1980-1999, 2040-2059, and 2080-2099 are provided here. Contact Michael Notaro if you wish to access additional variables and/or regions."/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="31.077085"/>
+        <attribute name="geospatial_lat_max" type="String" value="54.030327"/>
+        <attribute name="geospatial_lon_min" type="String" value="-100.042442"/>
+        <attribute name="geospatial_lon_max" type="String" value="-60.740917"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
