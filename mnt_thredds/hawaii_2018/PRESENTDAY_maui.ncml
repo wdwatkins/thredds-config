@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" enhance="false">
+<aggregation type="union">
+	<netcdf location="maui_static_vars.nc"/>
+	<netcdf>
+	<aggregation type="joinExisting"  dimName="Time">
+		<scan location="PRESENTDAY/maui" suffix=".nc"/>
+	</aggregation>
+	</netcdf>
+</aggregation>
+<!--- rename description to long_name for all vars -->
+<variable name="CFRACL">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="CFRACT">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="FGDP">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="GLW">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="GRDFLX">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="GSW">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="HFX">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="LAI">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="LH">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="LU_INDEX">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="LWP">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="PSFC">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="Q2">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="RAINNC">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="SNOW">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="SNOWC">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="SNOWH">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="T2">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="TSK">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="U10">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="V10">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="HGT">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="LANDMASK">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="XLAT">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<variable name="XLONG">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+<!--- global atts -->
+<attribute name="conventions" value="CF-1.7.3"/>
+</netcdf>

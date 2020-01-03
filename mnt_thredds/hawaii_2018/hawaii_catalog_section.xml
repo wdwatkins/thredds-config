@@ -1,0 +1,59 @@
+		<dataset name="Very fine resolution dynamically downscaled climate data for Hawaii">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="https://www.sciencebase.gov/catalog/item/5a2710b6e4b03852bafb5b21" xlink:title="Very fine resolution dynamically downscaled climate data for Hawaii"/>
+				<documentation type="Summary">Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</documentation>
+				<documentation type="Reference">Zhang, C. and Y. Wang, 2017: Projected Future Changes of Tropical Cyclone Activity over the Western North and South Pacific in a 20-km-Mesh Regional Climate Model. J. Climate, 30, 5923–5941, https://doi.org/10.1175/JCLI-D-16-0597.1</documentation>
+				
+				<keyword>Hawaii</keyword>
+
+				<keyword>Maui</keyword>
+
+				<keyword>climate</keyword>
+
+				<keyword>downscaling</keyword>
+				<creator>
+					<name>Chunxi Zhang</name>
+					<contact url="http://iprc.soest.hawaii.edu/people/zhang_c.php" email="chunxi@hawaii.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>18.906525</start>
+						<size>2.338226</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-157.334305</start>
+						<size>2.540085</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start></start>
+				<end></end>
+				<resolution>hourly</resolution>
+			</timeCoverage>
+			<dataset name="Hawaii Present Day" ID="cida.usgs.gov/hawaii_hawaii_present" serviceName="Services" urlPath="hawaii_hawaii_present">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/hawaii_2018/Hawaii_Present.ncml"/>
+			</dataset>
+			<dataset name="Maui Present Day" ID="cida.usgs.gov/hawaii_maui_present" serviceName="Services" urlPath="hawaii_maui_present">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/hawaii_2018/Maui_Present.ncml"/>
+			</dataset>
+			<dataset name="Hawaii RCP45" ID="cida.usgs.gov/hawaii_hawaii_rcp45" serviceName="Services" urlPath="hawaii_hawaii_rcp45">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/hawaii_2018/Hawaii_RCP45.ncml"/>
+			</dataset>
+			<dataset name="Maui RCP45" ID="cida.usgs.gov/hawaii_maui_rcp45" serviceName="Services" urlPath="hawaii_maui_rcp45">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/hawaii_2018/Maui_RCP45.ncml"/>
+			</dataset>
+			<dataset name="Hawaii RCP85" ID="cida.usgs.gov/hawaii_hawaii_rcp85" serviceName="Services" urlPath="hawaii_hawaii_rcp85">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/hawaii_2018/Hawaii_RCP85.ncml"/>
+			</dataset>
+			<dataset name="Maui RCP85" ID="cida.usgs.gov/hawaii_maui_rcp85" serviceName="Services" urlPath="hawaii_maui_rcp85">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/hawaii_2018/Maui_RCP85.ncml"/>
+			</dataset>
+		</dataset>
