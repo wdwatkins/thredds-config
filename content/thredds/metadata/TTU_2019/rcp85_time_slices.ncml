@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/TTU_2019/rcp85_time_slices/union.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="NULL"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="project" type="String" value="Quantifying Future Precipitation in the South Central U.S. for for Stakeholder Planning"/>
+        <attribute name="title" type="String" value="High-Resolution Precipitation Projections for the South Central U.S."/>
+        <attribute name="id" type="String" value="cida.usgs.gov/TTU_2019"/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="grid"/>
+        <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Katharine Hayhoe"/>
+        <attribute name="creator_email" type="String" value="katharine.hayhoe@ttu.edu"/>
+        <attribute name="time_coverage_start" type="String" value="1950-07-01"/>
+        <attribute name="time_coverage_end" type="String" value="2100-07-01"/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="summary" type="String" value="Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought have been generated for 8701 weather stations covering the entire United States, and for a 198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the future downscaled projections using the Asynchronous Regional Regression Model. The data covers the period from 1950 to 2100. The high-resolution future projections are statistically downscaled from simulations by 12 global climate models from the Coupled Model Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5, CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5 scenarios. 
+The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979,  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as  July 7th of the first year of the slice. "/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="25.1563"/>
+        <attribute name="geospatial_lat_max" type="String" value="37.4688"/>
+        <attribute name="geospatial_lon_min" type="String" value="-109.03"/>
+        <attribute name="geospatial_lon_max" type="String" value="-88.03"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				

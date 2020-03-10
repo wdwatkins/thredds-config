@@ -17,9 +17,9 @@ datasets <- list()
 i <- 1
 for(ds in dataset_names) {
   meta <- yaml::read_yaml('config_meta.yaml')
-  if(grepl(pattern = "slice", x = ds, ignore.case = TRUE)) {
+  if(grepl(pattern = "station", x = ds, ignore.case = TRUE)) {
     meta$note <- "The NetcdfSubset service does not work with this dataset"   
-  }
+  } 
   ds_lower <- tolower(ds) %>% gsub(pattern = " ", replacement = "_", x = .) 
   meta$data_type <- ifelse(test = grepl(pattern = 'station', x = ds_lower), 
                            yes = "point", no = "grid")

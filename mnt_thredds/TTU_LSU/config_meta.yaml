@@ -51,3 +51,4 @@ attribute_description:
     - ddx_url: https://cida.usgs.gov/thredds/dodsC/TTU_2019.ddx
     - ddx_description: "OPeNDAP description"
 opendap_url: https://cida.usgs.gov/thredds/dodsC/TTU_2019
+note: false
