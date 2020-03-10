@@ -1,0 +1,53 @@
+location_parent: /mnt/thredds/TTU_2019
+acknowledgement: &acknowledgement 
+  - 
+link: *acknowledgement
+title: &title 
+  - "High-Resolution Precipitation Projections for the South Central U.S."
+link_title: *title
+project: "Quantifying Future Precipitation in the South Central U.S. for for Stakeholder Planning"
+id: cida.usgs.gov/TTU_2019
+creator_name: Katharine Hayhoe
+creator_email: katharine.hayhoe@ttu.edu
+creator_org: Texas Tech University
+creator_url: https://www.depts.ttu.edu/csc/people.php
+publication_date: 
+creation_date: 2019-06-06
+summary: >- 
+  Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought
+  have been generated for 8701 weather stations covering the entire United States, and for a
+  198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the
+  future downscaled projections using the Asynchronous Regional Regression Model. The data
+  covers the period from 1950 to 2100. The high-resolution future projections are statistically
+  downscaled from simulations by 12 global climate models from the Coupled Model
+  Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5,
+  CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM
+  under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5
+  scenarios. 
+  
+  The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979, 
+  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as 
+  July 7th of the first year of the slice. 
+  
+lat_min: 25.1563
+lat_max: 37.4688
+lon_min: -109.03
+lon_max: -88.03
+resolution: annual
+keywords:
+  - 'high-resolution precipitation projections'
+  - 'extreme precipitation'
+  - 'drought'
+references: 
+  - > 
+start_time: &start
+  - "1950-07-01"
+time_start: *start
+end_time: &end
+  - "2100-07-01"
+time_end: *end
+sciencebase_id: '5dbc953fe4b06957974edf3d'
+attribute_description:
+    - ddx_url: https://cida.usgs.gov/thredds/dodsC/TTU_2019.ddx
+    - ddx_description: "OPeNDAP description"
+opendap_url: https://cida.usgs.gov/thredds/dodsC/TTU_2019
