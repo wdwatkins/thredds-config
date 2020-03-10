@@ -1,0 +1,57 @@
+		<dataset name="High-Resolution Precipitation Projections for the South Central U.S.">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="NULL" xlink:title="High-Resolution Precipitation Projections for the South Central U.S."/>
+				<documentation type="Summary">Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought have been generated for 8701 weather stations covering the entire United States, and for a 198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the future downscaled projections using the Asynchronous Regional Regression Model. The data covers the period from 1950 to 2100. The high-resolution future projections are statistically downscaled from simulations by 12 global climate models from the Coupled Model Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5, CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5 scenarios. 
+The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979,  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as  July 7th of the first year of the slice. </documentation>
+				<documentation type="Reference"></documentation>
+				<keyword>high-resolution precipitation projections</keyword>
+				<keyword>extreme precipitation</keyword>
+				<keyword>drought</keyword>
+				<creator>
+					<name>Katharine Hayhoe</name>
+					<contact url="https://www.depts.ttu.edu/csc/people.php" email="katharine.hayhoe@ttu.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>25.1563</start>
+						<size>12.3125</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-109.03</start>
+						<size>21</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start>1950-07-01</start>
+				<end>2100-07-01</end>
+				<resolution>annual</resolution>
+			</timeCoverage>
+			<dataset name="RCP45 Gridded Annual Data" ID="cida.usgs.gov/TTU_2019/rcp45_gridded_annual_data" serviceName="Services" urlPath="TTU_2019_rcp45_gridded_annual_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp45_gridded_annual_data.ncml"/>
+			</dataset>
+			<dataset name="RCP85 Gridded Annual Data" ID="cida.usgs.gov/TTU_2019/rcp85_gridded_annual_data" serviceName="Services" urlPath="TTU_2019_rcp85_gridded_annual_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp85_gridded_annual_data.ncml"/>
+			</dataset>
+			<dataset name="RCP45 Time Slices" ID="cida.usgs.gov/TTU_2019/rcp45_time_slices" serviceName="Services" urlPath="TTU_2019_rcp45_time_slices">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp45_time_slices.ncml"/>
+			</dataset>
+			<dataset name="RCP85 Time Slices" ID="cida.usgs.gov/TTU_2019/rcp85_time_slices" serviceName="Services" urlPath="TTU_2019_rcp85_time_slices">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp85_time_slices.ncml"/>
+			</dataset>
+			<dataset name="RCP45 Station Data" ID="cida.usgs.gov/TTU_2019/rcp45_station_data" serviceName="Services" urlPath="TTU_2019_rcp45_station_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp45_station_data.ncml"/>
+				<documentation type="Note">The NetcdfSubset service does not work with this dataset</documentation>
+			</dataset>
+			<dataset name="RCP85 Station Data" ID="cida.usgs.gov/TTU_2019/rcp85_station_data" serviceName="Services" urlPath="TTU_2019_rcp85_station_data">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/TTU_2019/rcp85_station_data.ncml"/>
+				<documentation type="Note">The NetcdfSubset service does not work with this dataset</documentation>
+			</dataset>
+		</dataset>
