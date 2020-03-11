@@ -22,6 +22,54 @@
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
   </gmd:hierarchyLevel>
+   <gmd:contact>
+   <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+        </gmd:contact>
+        <gmd:contact>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Jung-Hee Ryu</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>jung-hee.ryu@ttu.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+        </gmd:contact>
  <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
   </gmd:metadataStandardName>

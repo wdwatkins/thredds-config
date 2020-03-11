@@ -3,7 +3,7 @@ library(dplyr)
 rm(list=ls())
 catalog_template <- readLines('catalog_dataset_template.xml')
 thredds_ncml_template <- readLines('thredds_config_ncml_template.ncml')
-sb_iso_template <- readLines('../notaro/iso_template.xml')
+sb_iso_template <- readLines('iso_template.xml')
 dataset_names <- c("RCP45 Gridded Annual Data",
               "RCP85 Gridded Annual Data",
               "RCP45 Time Slices",
