@@ -8,7 +8,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
   xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>5a2710b6e4b03852bafb5b21</gco:CharacterString>
+    <gco:CharacterString>5dbc953fe4b06957974edf3d</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -22,6 +22,54 @@
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
   </gmd:hierarchyLevel>
+   <gmd:contact>
+   <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+        </gmd:contact>
+        <gmd:contact>
+           <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Jung-Hee Ryu</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>jung-hee.ryu@ttu.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+        </gmd:contact>
  <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
   </gmd:metadataStandardName>
@@ -33,12 +81,12 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Very fine resolution dynamically downscaled climate data for Hawaii</gco:CharacterString>
+            <gco:CharacterString>High-Resolution Precipitation Projections for the South Central U.S.</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2018-11-01</gco:Date>
+                <gco:Date>2019-06-06</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
@@ -66,31 +114,31 @@
                 </gmd:CI_Citation>
               </gmd:authority>
               <gmd:code>
-                <gco:CharacterString>cida.usgs.gov/hawaii_2018</gco:CharacterString>
+                <gco:CharacterString>cida.usgs.gov/TTU_2019</gco:CharacterString>
               </gmd:code>
             </gmd:MD_Identifier>
           </gmd:identifier>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
-                <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
+                <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>University of Hawaii</gco:CharacterString>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
               </gmd:organisationName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
+                        <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
+                        <gmd:URL>https://www.depts.ttu.edu/csc/people.php</gmd:URL>
                       </gmd:linkage>
                       <gmd:protocol>
                         <gco:CharacterString>http</gco:CharacterString>
@@ -117,37 +165,38 @@
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
           <gmd:otherCitationDetails>
-            <gco:CharacterString>hourly temporal resolution</gco:CharacterString>
+            <gco:CharacterString>annual temporal resolution</gco:CharacterString>
           </gmd:otherCitationDetails>
         </gmd:CI_Citation>
       </gmd:citation>
 	<gmd:credit>
-                <gco:CharacterString>Zhang, C. and Y. Wang, 2017: Projected Future Changes of Tropical Cyclone Activity over the Western North and South Pacific in a 20-km-Mesh Regional Climate Model. J. Climate, 30, 5923–5941, https://doi.org/10.1175/JCLI-D-16-0597.1</gco:CharacterString>
+                <gco:CharacterString></gco:CharacterString>
             </gmd:credit>
       <gmd:abstract>
-        <gco:CharacterString>Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</gco:CharacterString>
+        <gco:CharacterString>Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought have been generated for 8701 weather stations covering the entire United States, and for a 198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the future downscaled projections using the Asynchronous Regional Regression Model. The data covers the period from 1950 to 2100. The high-resolution future projections are statistically downscaled from simulations by 12 global climate models from the Coupled Model Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5, CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5 scenarios. 
+The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979,  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as  July 7th of the first year of the slice. </gco:CharacterString>
       </gmd:abstract>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName>
-            <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
+            <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
-            <gco:CharacterString>University of Hawaii</gco:CharacterString>
+            <gco:CharacterString>Texas Tech University</gco:CharacterString>
           </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
               <gmd:address>
                 <gmd:CI_Address>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
+                    <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
               <gmd:onlineResource>
                 <gmd:CI_OnlineResource>
                   <gmd:linkage>
-                    <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
+                    <gmd:URL>https://www.depts.ttu.edu/csc/people.php</gmd:URL>
                   </gmd:linkage>
                   <gmd:protocol>
                     <gco:CharacterString>http</gco:CharacterString>
@@ -176,16 +225,13 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>Hawaii</gco:CharacterString>
+            <gco:CharacterString>high-resolution precipitation projections</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>Maui</gco:CharacterString>
+            <gco:CharacterString>extreme precipitation</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>climate</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>downscaling</gco:CharacterString>
+            <gco:CharacterString>drought</gco:CharacterString>
           </gmd:keyword>
           <gmd:type>
             <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
@@ -203,7 +249,7 @@
           <gmd:aggregateDataSetName>
             <gmd:CI_Citation>
               <gmd:title>
-                <gco:CharacterString>Very fine resolution dynamically downscaled climate data for Hawaii</gco:CharacterString>
+                <gco:CharacterString>High-Resolution Precipitation Projections for the South Central U.S.</gco:CharacterString>
               </gmd:title>
               <gmd:date gco:nilReason="inapplicable"/>
             </gmd:CI_Citation>
@@ -255,16 +301,16 @@
                 <gco:Boolean>1</gco:Boolean>
               </gmd:extentTypeCode>
               <gmd:westBoundLongitude>
-                <gco:Decimal>-157.334305</gco:Decimal>
+                <gco:Decimal>-109.03</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
-                <gco:Decimal>-154.79422</gco:Decimal>
+                <gco:Decimal>-88.03</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>18.906525</gco:Decimal>
+                <gco:Decimal>25.1563</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>21.244751</gco:Decimal>
+                <gco:Decimal>37.4688</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -273,8 +319,8 @@
               <gmd:extent>
                 <gml32:TimePeriod gml32:id="d5">
                   <gml32:description>seconds</gml32:description>
-                  <gml32:beginPosition>1990-01-01</gml32:beginPosition>
-                  <gml32:endPosition>2009-12-31</gml32:endPosition>
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2100-07-01</gml32:endPosition>
                 </gml32:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -284,16 +330,16 @@
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:identificationInfo>
-    <srv:SV_ServiceIdentification id="OPeNDAP_Hawaii_Present">
+    <srv:SV_ServiceIdentification id="OPeNDAP_1">
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Hawaii Present Day</gco:CharacterString>
+            <gco:CharacterString>RCP45 Gridded Annual Data</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2018-11-01</gco:Date>
+                <gco:Date>2019-06-06</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
@@ -303,24 +349,24 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
-                <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
+                <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>University of Hawaii</gco:CharacterString>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
               </gmd:organisationName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
+                        <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
+                        <gmd:URL>https://www.depts.ttu.edu/csc/people.php</gmd:URL>
                       </gmd:linkage>
                       <gmd:protocol>
                         <gco:CharacterString>http</gco:CharacterString>
@@ -349,7 +395,8 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</gco:CharacterString>
+        <gco:CharacterString>Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought have been generated for 8701 weather stations covering the entire United States, and for a 198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the future downscaled projections using the Asynchronous Regional Regression Model. The data covers the period from 1950 to 2100. The high-resolution future projections are statistically downscaled from simulations by 12 global climate models from the Coupled Model Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5, CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5 scenarios. 
+The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979,  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as  July 7th of the first year of the slice. </gco:CharacterString>
       </gmd:abstract>
       <srv:serviceType>
         <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -362,16 +409,16 @@
                 <gco:Boolean>1</gco:Boolean>
               </gmd:extentTypeCode>
               <gmd:westBoundLongitude>
-                <gco:Decimal>-157.334305</gco:Decimal>
+                <gco:Decimal>-109.03</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
-                <gco:Decimal>-154.79422</gco:Decimal>
+                <gco:Decimal>-88.03</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>18.906525</gco:Decimal>
+                <gco:Decimal>25.1563</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>21.244751</gco:Decimal>
+                <gco:Decimal>37.4688</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -379,8 +426,8 @@
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml32:TimePeriod gml32:id="d5e74">
-                  <gml32:beginPosition>1990-01-01</gml32:beginPosition>
-                  <gml32:endPosition>2009-12-31</gml32:endPosition>
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2100-07-01</gml32:endPosition>
                 </gml32:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -399,7 +446,7 @@
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida.usgs.gov/thredds/dodsC/hawaii_hawaii_present</gmd:URL>
+                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp45_gridded_annual_data</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -418,16 +465,16 @@
     </srv:SV_ServiceIdentification>
   </gmd:identificationInfo>
   <gmd:identificationInfo>
-    <srv:SV_ServiceIdentification id="OPeNDAP_Maui_Present">
+    <srv:SV_ServiceIdentification id="OPeNDAP_2">
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Maui Present Day</gco:CharacterString>
+            <gco:CharacterString>RCP85 Gridded Annual Data</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2018-11-01</gco:Date>
+                <gco:Date>2019-06-06</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
@@ -437,24 +484,24 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
-                <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
+                <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>University of Hawaii</gco:CharacterString>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
               </gmd:organisationName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
+                        <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
+                        <gmd:URL>https://www.depts.ttu.edu/csc/people.php</gmd:URL>
                       </gmd:linkage>
                       <gmd:protocol>
                         <gco:CharacterString>http</gco:CharacterString>
@@ -483,7 +530,8 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</gco:CharacterString>
+        <gco:CharacterString>Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought have been generated for 8701 weather stations covering the entire United States, and for a 198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the future downscaled projections using the Asynchronous Regional Regression Model. The data covers the period from 1950 to 2100. The high-resolution future projections are statistically downscaled from simulations by 12 global climate models from the Coupled Model Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5, CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5 scenarios. 
+The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979,  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as  July 7th of the first year of the slice. </gco:CharacterString>
       </gmd:abstract>
       <srv:serviceType>
         <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -496,16 +544,16 @@
                 <gco:Boolean>1</gco:Boolean>
               </gmd:extentTypeCode>
               <gmd:westBoundLongitude>
-                <gco:Decimal>-157.334305</gco:Decimal>
+                <gco:Decimal>-109.03</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
-                <gco:Decimal>-154.79422</gco:Decimal>
+                <gco:Decimal>-88.03</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>18.906525</gco:Decimal>
+                <gco:Decimal>25.1563</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>21.244751</gco:Decimal>
+                <gco:Decimal>37.4688</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -513,8 +561,8 @@
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml32:TimePeriod gml32:id="d5e74">
-                  <gml32:beginPosition>1990-01-01</gml32:beginPosition>
-                  <gml32:endPosition>2009-12-31</gml32:endPosition>
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2100-07-01</gml32:endPosition>
                 </gml32:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -533,7 +581,7 @@
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida.usgs.gov/thredds/dodsC/hawaii_maui_present</gmd:URL>
+                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp85_gridded_annual_data</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -552,16 +600,16 @@
     </srv:SV_ServiceIdentification>
   </gmd:identificationInfo>
   <gmd:identificationInfo>
-    <srv:SV_ServiceIdentification id="OPeNDAP_Hawaii_RCP45">
+    <srv:SV_ServiceIdentification id="OPeNDAP_3">
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Hawaii RCP45</gco:CharacterString>
+            <gco:CharacterString>RCP45 Time Slices</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2018-11-01</gco:Date>
+                <gco:Date>2019-06-06</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
@@ -571,24 +619,24 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
-                <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
+                <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>University of Hawaii</gco:CharacterString>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
               </gmd:organisationName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
+                        <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
+                        <gmd:URL>https://www.depts.ttu.edu/csc/people.php</gmd:URL>
                       </gmd:linkage>
                       <gmd:protocol>
                         <gco:CharacterString>http</gco:CharacterString>
@@ -617,7 +665,8 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</gco:CharacterString>
+        <gco:CharacterString>Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought have been generated for 8701 weather stations covering the entire United States, and for a 198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the future downscaled projections using the Asynchronous Regional Regression Model. The data covers the period from 1950 to 2100. The high-resolution future projections are statistically downscaled from simulations by 12 global climate models from the Coupled Model Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5, CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5 scenarios. 
+The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979,  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as  July 7th of the first year of the slice. </gco:CharacterString>
       </gmd:abstract>
       <srv:serviceType>
         <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -630,16 +679,16 @@
                 <gco:Boolean>1</gco:Boolean>
               </gmd:extentTypeCode>
               <gmd:westBoundLongitude>
-                <gco:Decimal>-157.334305</gco:Decimal>
+                <gco:Decimal>-109.03</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
-                <gco:Decimal>-154.79422</gco:Decimal>
+                <gco:Decimal>-88.03</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>18.906525</gco:Decimal>
+                <gco:Decimal>25.1563</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>21.244751</gco:Decimal>
+                <gco:Decimal>37.4688</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -647,8 +696,8 @@
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml32:TimePeriod gml32:id="d5e74">
-                  <gml32:beginPosition>1990-01-01</gml32:beginPosition>
-                  <gml32:endPosition>2009-12-31</gml32:endPosition>
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2100-07-01</gml32:endPosition>
                 </gml32:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -667,7 +716,7 @@
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida.usgs.gov/thredds/dodsC/hawaii_hawaii_rcp45</gmd:URL>
+                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp45_time_slices</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -686,16 +735,16 @@
     </srv:SV_ServiceIdentification>
   </gmd:identificationInfo>
   <gmd:identificationInfo>
-    <srv:SV_ServiceIdentification id="OPeNDAP_Maui_RCP45">
+    <srv:SV_ServiceIdentification id="OPeNDAP_4">
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Maui RCP45</gco:CharacterString>
+            <gco:CharacterString>RCP85 Time Slices</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2018-11-01</gco:Date>
+                <gco:Date>2019-06-06</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
@@ -705,24 +754,24 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
-                <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
+                <gco:CharacterString>Katharine Hayhoe</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>University of Hawaii</gco:CharacterString>
+                <gco:CharacterString>Texas Tech University</gco:CharacterString>
               </gmd:organisationName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
+                        <gco:CharacterString>katharine.hayhoe@ttu.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
+                        <gmd:URL>https://www.depts.ttu.edu/csc/people.php</gmd:URL>
                       </gmd:linkage>
                       <gmd:protocol>
                         <gco:CharacterString>http</gco:CharacterString>
@@ -751,7 +800,8 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</gco:CharacterString>
+        <gco:CharacterString>Precipitation-related indicators for seasonal precipiation, extreme precipiation, and drought have been generated for 8701 weather stations covering the entire United States, and for a 198x337 grid (on a resolution of 1/16 th degree) covering the South Central region from the future downscaled projections using the Asynchronous Regional Regression Model. The data covers the period from 1950 to 2100. The high-resolution future projections are statistically downscaled from simulations by 12 global climate models from the Coupled Model Intercomparison Project phase 5 (ACCESS1-0, ACCESS1-3, CCSM4, CMCC-CM, CNRM-CM5, CSIRO-Mk3.6.0, MPI-ESM-LR, HadGEM2-CC, INMCM4, IPSL-CM5A-LR, MIROC5 and MRI-CGCM under the lower Representative Concentration Pathway (RCP) 4.5 and the higher RCP 8.5 scenarios. 
+The time slice dataset is derived over the pre-determined 30-year periods, including 1950-1979,  1980-2009, 2010-2039, 2040-2069, and 2070-2099.  Each time slice is represented in the data as  July 7th of the first year of the slice. </gco:CharacterString>
       </gmd:abstract>
       <srv:serviceType>
         <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -764,16 +814,16 @@
                 <gco:Boolean>1</gco:Boolean>
               </gmd:extentTypeCode>
               <gmd:westBoundLongitude>
-                <gco:Decimal>-157.334305</gco:Decimal>
+                <gco:Decimal>-109.03</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
-                <gco:Decimal>-154.79422</gco:Decimal>
+                <gco:Decimal>-88.03</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>18.906525</gco:Decimal>
+                <gco:Decimal>25.1563</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>21.244751</gco:Decimal>
+                <gco:Decimal>37.4688</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -781,8 +831,8 @@
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml32:TimePeriod gml32:id="d5e74">
-                  <gml32:beginPosition>1990-01-01</gml32:beginPosition>
-                  <gml32:endPosition>2009-12-31</gml32:endPosition>
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2100-07-01</gml32:endPosition>
                 </gml32:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -801,275 +851,7 @@
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida.usgs.gov/thredds/dodsC/hawaii_maui_rcp45</gmd:URL>
-              </gmd:linkage>
-              <gmd:name>
-                <gco:CharacterString>OPeNDAP</gco:CharacterString>
-              </gmd:name>
-              <gmd:description>
-                <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
-              </gmd:description>
-              <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download"/>
-              </gmd:function>
-            </gmd:CI_OnlineResource>
-          </srv:connectPoint>
-        </srv:SV_OperationMetadata>
-      </srv:containsOperations>
-      <srv:operatesOn xlink:href="#DataIdentification"/>
-    </srv:SV_ServiceIdentification>
-  </gmd:identificationInfo>
-  <gmd:identificationInfo>
-    <srv:SV_ServiceIdentification id="OPeNDAP_Hawaii_RCP85">
-      <gmd:citation>
-        <gmd:CI_Citation>
-          <gmd:title>
-            <gco:CharacterString>Hawaii RCP85</gco:CharacterString>
-          </gmd:title>
-          <gmd:date>
-            <gmd:CI_Date>
-              <gmd:date>
-                <gco:Date>2018-11-01</gco:Date>
-              </gmd:date>
-              <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
-              </gmd:dateType>
-            </gmd:CI_Date>
-          </gmd:date>
-          <gmd:citedResponsibleParty>
-            <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
-              </gmd:individualName>
-              <gmd:organisationName>
-                <gco:CharacterString>University of Hawaii</gco:CharacterString>
-              </gmd:organisationName>
-              <gmd:contactInfo>
-                <gmd:CI_Contact>
-                  <gmd:address>
-                    <gmd:CI_Address>
-                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
-                      </gmd:electronicMailAddress>
-                    </gmd:CI_Address>
-                  </gmd:address>
-                  <gmd:onlineResource>
-                    <gmd:CI_OnlineResource>
-                      <gmd:linkage>
-                        <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
-                      </gmd:linkage>
-                      <gmd:protocol>
-                        <gco:CharacterString>http</gco:CharacterString>
-                      </gmd:protocol>
-                      <gmd:applicationProfile>
-                        <gco:CharacterString>web browser</gco:CharacterString>
-                      </gmd:applicationProfile>
-                      <gmd:name gco:nilReason="missing">
-                        <gco:CharacterString/>
-                      </gmd:name>
-                      <gmd:description gco:nilReason="missing">
-                        <gco:CharacterString/>
-                      </gmd:description>
-                      <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
-                      </gmd:function>
-                    </gmd:CI_OnlineResource>
-                  </gmd:onlineResource>
-                </gmd:CI_Contact>
-              </gmd:contactInfo>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
-          </gmd:citedResponsibleParty>
-        </gmd:CI_Citation>
-      </gmd:citation>
-      <gmd:abstract>
-        <gco:CharacterString>Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</gco:CharacterString>
-      </gmd:abstract>
-      <srv:serviceType>
-        <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
-      </srv:serviceType>
-      <srv:extent>
-        <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:extentTypeCode>
-                <gco:Boolean>1</gco:Boolean>
-              </gmd:extentTypeCode>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-157.334305</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>-154.79422</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>18.906525</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>21.244751</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
-          <gmd:temporalElement>
-            <gmd:EX_TemporalExtent>
-              <gmd:extent>
-                <gml32:TimePeriod gml32:id="d5e74">
-                  <gml32:beginPosition>1990-01-01</gml32:beginPosition>
-                  <gml32:endPosition>2009-12-31</gml32:endPosition>
-                </gml32:TimePeriod>
-              </gmd:extent>
-            </gmd:EX_TemporalExtent>
-          </gmd:temporalElement>
-        </gmd:EX_Extent>
-      </srv:extent>
-      <srv:couplingType>
-        <srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight"/>
-      </srv:couplingType>
-      <srv:containsOperations>
-        <srv:SV_OperationMetadata>
-          <srv:operationName>
-            <gco:CharacterString>OPeNDAP Client Access</gco:CharacterString>
-          </srv:operationName>
-          <srv:DCP gco:nilReason="unknown"/>
-          <srv:connectPoint>
-            <gmd:CI_OnlineResource>
-              <gmd:linkage>
-                <gmd:URL>https://cida.usgs.gov/thredds/dodsC/hawaii_hawaii_rcp85</gmd:URL>
-              </gmd:linkage>
-              <gmd:name>
-                <gco:CharacterString>OPeNDAP</gco:CharacterString>
-              </gmd:name>
-              <gmd:description>
-                <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
-              </gmd:description>
-              <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download"/>
-              </gmd:function>
-            </gmd:CI_OnlineResource>
-          </srv:connectPoint>
-        </srv:SV_OperationMetadata>
-      </srv:containsOperations>
-      <srv:operatesOn xlink:href="#DataIdentification"/>
-    </srv:SV_ServiceIdentification>
-  </gmd:identificationInfo>
-  <gmd:identificationInfo>
-    <srv:SV_ServiceIdentification id="OPeNDAP_Maui_RCP85">
-      <gmd:citation>
-        <gmd:CI_Citation>
-          <gmd:title>
-            <gco:CharacterString>Maui RCP85</gco:CharacterString>
-          </gmd:title>
-          <gmd:date>
-            <gmd:CI_Date>
-              <gmd:date>
-                <gco:Date>2018-11-01</gco:Date>
-              </gmd:date>
-              <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
-              </gmd:dateType>
-            </gmd:CI_Date>
-          </gmd:date>
-          <gmd:citedResponsibleParty>
-            <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Chunxi Zhang</gco:CharacterString>
-              </gmd:individualName>
-              <gmd:organisationName>
-                <gco:CharacterString>University of Hawaii</gco:CharacterString>
-              </gmd:organisationName>
-              <gmd:contactInfo>
-                <gmd:CI_Contact>
-                  <gmd:address>
-                    <gmd:CI_Address>
-                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>chunxi@hawaii.edu</gco:CharacterString>
-                      </gmd:electronicMailAddress>
-                    </gmd:CI_Address>
-                  </gmd:address>
-                  <gmd:onlineResource>
-                    <gmd:CI_OnlineResource>
-                      <gmd:linkage>
-                        <gmd:URL>http://iprc.soest.hawaii.edu/people/zhang_c.php</gmd:URL>
-                      </gmd:linkage>
-                      <gmd:protocol>
-                        <gco:CharacterString>http</gco:CharacterString>
-                      </gmd:protocol>
-                      <gmd:applicationProfile>
-                        <gco:CharacterString>web browser</gco:CharacterString>
-                      </gmd:applicationProfile>
-                      <gmd:name gco:nilReason="missing">
-                        <gco:CharacterString/>
-                      </gmd:name>
-                      <gmd:description gco:nilReason="missing">
-                        <gco:CharacterString/>
-                      </gmd:description>
-                      <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
-                      </gmd:function>
-                    </gmd:CI_OnlineResource>
-                  </gmd:onlineResource>
-                </gmd:CI_Contact>
-              </gmd:contactInfo>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
-          </gmd:citedResponsibleParty>
-        </gmd:CI_Citation>
-      </gmd:citation>
-      <gmd:abstract>
-        <gco:CharacterString>Clouds often come in contact with vegetation (often named fogs) within a certain elevation range on Hawai‘i’s mountains. Propelled by strong winds, cloud droplets are driven onto the stems and leaves of plants where they are deposited. Some of the water that accumulates on the plants in this way drips to the ground, adding additional water over and above the water supplied by rainfall. Prior observations show that the amount of cloud water intercepted by vegetation is substantial, but also quite variable from place to place. It is, therefore, important to create a map for the complex spatial patterns of cloud water interception (CWI) in Hawai‘i. In this project, we propose to create the CWI map at 0.8-km resolution based on the 20-year present-day climate simulations using the Hawai’i Regional Climate Model (HRCM) equipped with a well-tested fog deposition scheme. The map will be verified against measurements at five representative observational sites across the Hawaiian Islands. We will also assess the projected changes in the CWI patterns in Hawai’i by the later 21st century under both weak and strong global warming scenarios.</gco:CharacterString>
-      </gmd:abstract>
-      <srv:serviceType>
-        <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
-      </srv:serviceType>
-      <srv:extent>
-        <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:extentTypeCode>
-                <gco:Boolean>1</gco:Boolean>
-              </gmd:extentTypeCode>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-157.334305</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>-154.79422</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>18.906525</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>21.244751</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
-          <gmd:temporalElement>
-            <gmd:EX_TemporalExtent>
-              <gmd:extent>
-                <gml32:TimePeriod gml32:id="d5e74">
-                  <gml32:beginPosition>1990-01-01</gml32:beginPosition>
-                  <gml32:endPosition>2009-12-31</gml32:endPosition>
-                </gml32:TimePeriod>
-              </gmd:extent>
-            </gmd:EX_TemporalExtent>
-          </gmd:temporalElement>
-        </gmd:EX_Extent>
-      </srv:extent>
-      <srv:couplingType>
-        <srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight"/>
-      </srv:couplingType>
-      <srv:containsOperations>
-        <srv:SV_OperationMetadata>
-          <srv:operationName>
-            <gco:CharacterString>OPeNDAP Client Access</gco:CharacterString>
-          </srv:operationName>
-          <srv:DCP gco:nilReason="unknown"/>
-          <srv:connectPoint>
-            <gmd:CI_OnlineResource>
-              <gmd:linkage>
-                <gmd:URL>https://cida.usgs.gov/thredds/dodsC/hawaii_maui_rcp85</gmd:URL>
+                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp85_time_slices</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1090,7 +872,7 @@
     <gmd:contentInfo>
         <gmi:MI_CoverageDescription>
                 <gmd:attributeDescription>
-                        <gco:RecordType xlink:href="https://cida.usgs.gov/thredds/dodsC/Hawaii_RCP45.ddx"></gco:RecordType>
+                        <gco:RecordType xlink:href="https://cida.usgs.gov/thredds/dodsC/TTU_2019.ddx">OPeNDAP description</gco:RecordType>
                 </gmd:attributeDescription>
                 <gmd:contentType>
                         <gmd:MD_CoverageContentTypeCode codeList="MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
@@ -1160,7 +942,7 @@
               <gmd:onLine>
                 <gmd:CI_OnlineResource>
                   <gmd:linkage>
-                    <gmd:URL>https://cida.usgs.gov/thredds/dodsC/Hawaii_RCP45.html</gmd:URL>
+                    <gmd:URL>https://cida.usgs.gov/thredds/dodsC/TTU_2019</gmd:URL>
                   </gmd:linkage>
                   <gmd:name>
                     <gco:CharacterString>File Information</gco:CharacterString>
