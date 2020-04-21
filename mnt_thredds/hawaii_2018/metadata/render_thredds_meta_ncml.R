@@ -25,7 +25,7 @@ for(g in gcms) {
     if(g == "Present") {g_name <- "Present Day"} else { g_name <- g}
     dataset_name <-  paste(island, g_name)
     service_id <- paste("OPeNDAP", island, g, sep = "_")
-    thredds_url <- paste("https://cida-test.er.usgs.gov/thredds/dodsC/hawaii",
+    thredds_url <- paste("https://cida.usgs.gov/thredds/dodsC/hawaii",
                          tolower(island), tolower(g), sep = "_")
     datasets[[i]] <- list(
       dataset_name = dataset_name,
