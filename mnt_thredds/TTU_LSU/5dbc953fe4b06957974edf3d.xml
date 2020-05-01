@@ -446,7 +446,7 @@ The time slice dataset is derived over the pre-determined 30-year periods, inclu
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp45_gridded_annual_data</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//TTU_2019_rcp45_gridded_annual_data</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -581,7 +581,7 @@ The time slice dataset is derived over the pre-determined 30-year periods, inclu
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp85_gridded_annual_data</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//TTU_2019_rcp85_gridded_annual_data</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -716,7 +716,7 @@ The time slice dataset is derived over the pre-determined 30-year periods, inclu
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp45_time_slices</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//TTU_2019_rcp45_time_slices</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -851,7 +851,7 @@ The time slice dataset is derived over the pre-determined 30-year periods, inclu
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//TTU_2019_rcp85_time_slices</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//TTU_2019_rcp85_time_slices</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
