@@ -1,0 +1,40 @@
+location_parent: /mnt/thredds/wootten_2020
+acknowledgement: &acknowledgement 
+  - 
+link: *acknowledgement
+title: &title 
+  - "Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S"
+link_title: *title
+project: "Characterizing Uncertainties in Climate Projections to Support Regional Decision-Making"
+id: cida.usgs.gov/TTU_2019
+creator_name: Adrienne Wootten
+creator_email: amwootte@ou.edu
+creator_org: University of Oklahoma
+creator_url: https://www.ou.edu
+publication_date: 
+creation_date: xxxx
+summary: >- 
+
+  
+lat_min: 26.05
+lat_max: 39.95
+lon_min: -108.95
+lon_max: -90.05
+resolution: daily
+keywords:
+
+references: 
+  - > 
+start_time: &start
+  - "1950-07-01"
+time_start: *start
+ - "2006-01-01"
+end_time: &end
+  - "20991231"
+time_end: *end
+sciencebase_id: '5dbc953fe4b06957974edf3d'
+attribute_description:
+    - ddx_url: https://cida.usgs.gov/thredds/dodsC/TTU_2019.ddx
+    - ddx_description: "OPeNDAP description"
+opendap_url: https://cida.usgs.gov/thredds/dodsC/TTU_2019
+note: false
