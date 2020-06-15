@@ -1,0 +1,62 @@
+		<dataset name="Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="NULL" xlink:title="Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S"/>
+				<documentation type="Summary">Global climate models (GCMs) are numerically complex, computationally intensive,  physics-based research tools used to simulate our planet’s inter-connected climate system.  In addition to improving the scientific understanding of how the large-scale climate system  works, GCM simulations of past and future climate conditions can be useful in applied research contexts. When seeking to apply information from global-scale climate projections to address  local- and regional-scale climate questions, GCM-generated datasets often undergo statistical  post-processing generally known as statistical downscaling (hereafter, SD). There are many  different SD techniques, with all using information from observations to address GCM biases  and to provide information at finer spatial scales than that of a GCM, thereby yielding data  products often considered more suitable for use in climate impacts-related applications. 
+  This collection of statistically downscaled future climate projections includes 81 sets of 
+SD-processed projections of daily high temperature, daily low temperature, and daily total  precipitation across the south-central United States. The 81 sets can be viewed as a 3x3x3x3  matrix, created based on a combination of three GCMs from the CMIP5 archive (CCSM4, MIROC5,  and MPI-ESM-LR), each of which simulated 21st century climate responses for three different  future atmospheric composition scenarios (known as representative concentration pathways or  RCPs 2.6, 4.5, and 8.5). Three different SD techniques were employed, and each used three  gridded observation-based data products to train (i.e. calibrate) the SD methods. The three  downscaling techniques include a delta method (DeltaSD), an equi-distant quantile mapping  method (EDQM), and a piecewise asynchronous regression method (PARM). The observational data  products used for training were Daymet v. 2.1, Livneh v. 1.2, and PRISM AN81d v. D1. The  resulting SD-processed projections are on a 10 km by 10 km grid covering the south-central  United States (all of AR, KS, LA, NM, OK, TX, and portions of CO and MO). Both historical  baseline files (1981-2005) and future projections (2006-2099) are provided, as appropriate.
+  Though not exhaustive, these downscaled climate projections for the south central US region 
+represent a range of potential future climate trajectories that can serve as a component of  climate impacts research studies. That 81 sets of future projections, and not just one, are  provided is indicative that some uncertainties exist regarding the trajectory of the 21st  century climate change, though all show notable warming. Uncertainties in how human activity  may change future atmospheric composition are represented by the different RCP scenarios.  Differences in how sensitive the surface climate of this region will be to atmospheric  composition changes are sampled by the use of different GCMs. Similarly, because each SD  method has different performance characteristics and observational products differ, the use of different SD techniques and training data set combinations acknowledges that SD methodological choices influence the value-added statistically refined climate projection data products. Applied researchers may explore aspects of their applications’ sensitivities to some climate projection uncertainties by sampling from these 81 sets of SD data products. However, this collection should not be considered comprehensive in spanning the entire scope of SD processed climate projections for the south central US region. These climate projection data products are provided as is without any warranty and no agreement to support subsequent projects based on this dataset, beyond providing the data to public domain through the USGS  GeoData Portal.</documentation>
+				<documentation type="Reference">Dixon K.W., A.M. Wootten, M.J. Nath, J. Lanzante,  D.J. Adams-Smith, C.E. Whitlock, C.F. Gaitán, R.A. McPherson, 2020: South Central Climate Projections Evaluation Project (C-PrEP), South Central Climate Adaptation Science Center, Norman, Oklahoma, USA.</documentation>
+				<documentation type="Reference">Wootten A.M., K. W. Dixon, D.J. Adams-Smith, Renee A. McPherson, in press: Statistically Downscaled Precipitation Sensitivity to Gridded Observation Data and Downscaling Technique, International Journal of Climatology.</documentation>
+				<creator>
+					<name>Adrienne Wootten</name>
+					<contact url="https://www.ou.edu" email="amwootte@ou.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>26.05</start>
+						<size>13.9</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-108.95</start>
+						<size>18.9</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start>1950-07-01</start>
+				<end>2099-12-31</end>
+				<resolution>daily</resolution>
+			</timeCoverage>
+			<dataset name="CCSM4, RCP2.6 downscaled by FUDGE icing-testing-20180329 I35prp1-DeltaSD-A12D01K00" ID="cida.usgs.gov/wootten_2020/pr_day_I35prp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc" serviceName="Services" urlPath="wootten_2020_pr_day_I35prp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/wootten_2020/pr_day_I35prp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.ncml"/>
+			  <timeCoverage>
+				  <start>2006-01-01</start>
+				  <end>2099-12-31</end>
+				<resolution>daily</resolution>
+			</timeCoverage>
+			</dataset>
+			<dataset name="CCSM4, RCP2.6 downscaled by FUDGE icing-testing-20180329 I35prp1-DeltaSD-A12L01K00" ID="cida.usgs.gov/wootten_2020/pr_day_I35prp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc" serviceName="Services" urlPath="wootten_2020_pr_day_I35prp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/wootten_2020/pr_day_I35prp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.ncml"/>
+			  <timeCoverage>
+				  <start>2006-01-01</start>
+				  <end>2099-12-31</end>
+				<resolution>daily</resolution>
+			</timeCoverage>
+			</dataset>
+			<dataset name="CCSM4, RCP2.6 downscaled by FUDGE icing-testing-20180329 I35prp1-DeltaSD-A12P01K00" ID="cida.usgs.gov/wootten_2020/pr_day_I35prp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc" serviceName="Services" urlPath="wootten_2020_pr_day_I35prp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/wootten_2020/pr_day_I35prp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.ncml"/>
+			  <timeCoverage>
+				  <start>2006-01-01</start>
+				  <end>2099-12-31</end>
+				<resolution>daily</resolution>
+			</timeCoverage>
+			</dataset>
+		</dataset>
