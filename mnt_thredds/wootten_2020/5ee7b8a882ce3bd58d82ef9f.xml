@@ -1,0 +1,820 @@
+<gmd:MD_Metadata 
+  xmlns:gco="http://www.isotc211.org/2005/gco" 
+  xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+  xmlns:gml32="http://www.opengis.net/gml/3.2" 
+  xmlns:gmi="http://www.isotc211.org/2005/gmi" 
+  xmlns:srv="http://www.isotc211.org/2005/srv" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>5ee7b8a882ce3bd58d82ef9f</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="UTF8">UTF8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
+  </gmd:hierarchyLevel>
+   <gmd:contact>
+   <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Adrienne Wootten</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>University of Oklahoma</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>amwootte@ou.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+        </gmd:contact>
+ <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification id="DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-09-25</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2020-07-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>cida.usgs.gov</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="inapplicable"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gco:CharacterString>cida.usgs.gov/pr_day_I35prp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Adrienne Wootten</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>University of Oklahoma</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>amwootte@ou.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ou.edu</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>http</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:name>
+                      <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>daily temporal resolution</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:citation>
+	<gmd:credit>
+                <gco:CharacterString>Dixon K.W., A.M. Wootten, M.J. Nath, J. Lanzante,  D.J. Adams-Smith, C.E. Whitlock, C.F. Gaitán, R.A. McPherson, 2020: South Central Climate Projections Evaluation Project (C-PrEP), South Central Climate Adaptation Science Center, Norman, Oklahoma, USA.</gco:CharacterString>
+                <gco:CharacterString>Wootten A.M., K. W. Dixon, D.J. Adams-Smith, Renee A. McPherson, in press: Statistically Downscaled Precipitation Sensitivity to Gridded Observation Data and Downscaling Technique, International Journal of Climatology.</gco:CharacterString>
+            </gmd:credit>
+      <gmd:abstract>
+        <gco:CharacterString>Global climate models (GCMs) are numerically complex, computationally intensive,  physics-based research tools used to simulate our planet’s inter-connected climate system.  In addition to improving the scientific understanding of how the large-scale climate system  works, GCM simulations of past and future climate conditions can be useful in applied research contexts. When seeking to apply information from global-scale climate projections to address  local- and regional-scale climate questions, GCM-generated datasets often undergo statistical  post-processing generally known as statistical downscaling (hereafter, SD). There are many  different SD techniques, with all using information from observations to address GCM biases  and to provide information at finer spatial scales than that of a GCM, thereby yielding data  products often considered more suitable for use in climate impacts-related applications. 
+  This collection of statistically downscaled future climate projections includes 81 sets of 
+SD-processed projections of daily high temperature, daily low temperature, and daily total  precipitation across the south-central United States. The 81 sets can be viewed as a 3x3x3x3  matrix, created based on a combination of three GCMs from the CMIP5 archive (CCSM4, MIROC5,  and MPI-ESM-LR), each of which simulated 21st century climate responses for three different  future atmospheric composition scenarios (known as representative concentration pathways or  RCPs 2.6, 4.5, and 8.5). Three different SD techniques were employed, and each used three  gridded observation-based data products to train (i.e. calibrate) the SD methods. The three  downscaling techniques include a delta method (DeltaSD), an equi-distant quantile mapping  method (EDQM), and a piecewise asynchronous regression method (PARM). The observational data  products used for training were Daymet v. 2.1, Livneh v. 1.2, and PRISM AN81d v. D1. The  resulting SD-processed projections are on a 10 km by 10 km grid covering the south-central  United States (all of AR, KS, LA, NM, OK, TX, and portions of CO and MO). Both historical  baseline files (1981-2005) and future projections (2006-2099) are provided, as appropriate.
+  Though not exhaustive, these downscaled climate projections for the south central US region 
+represent a range of potential future climate trajectories that can serve as a component of  climate impacts research studies. That 81 sets of future projections, and not just one, are  provided is indicative that some uncertainties exist regarding the trajectory of the 21st  century climate change, though all show notable warming. Uncertainties in how human activity  may change future atmospheric composition are represented by the different RCP scenarios.  Differences in how sensitive the surface climate of this region will be to atmospheric  composition changes are sampled by the use of different GCMs. Similarly, because each SD  method has different performance characteristics and observational products differ, the use of different SD techniques and training data set combinations acknowledges that SD methodological choices influence the value-added statistically refined climate projection data products. Applied researchers may explore aspects of their applications’ sensitivities to some climate projection uncertainties by sampling from these 81 sets of SD data products. However, this collection should not be considered comprehensive in spanning the entire scope of SD processed climate projections for the south central US region. These climate projection data products are provided as is without any warranty and no agreement to support subsequent projects based on this dataset, beyond providing the data to public domain through the USGS  GeoData Portal.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Adrienne Wootten</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>University of Oklahoma</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>amwootte@ou.edu</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.ou.edu</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>http</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>web browser</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name gco:nilReason="missing">
+                    <gco:CharacterString/>
+                  </gmd:name>
+                  <gmd:description gco:nilReason="missing">
+                    <gco:CharacterString/>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title gco:nilReason="missing"/>
+              <gmd:date gco:nilReason="unknown"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"/>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#DS_InitiativeTypeCode" codeListValue="project"/>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetIdentifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>Unidata Common Data Model</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="inapplicable"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gco:CharacterString>Grid</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:aggregateDataSetIdentifier>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation"/>
+          </gmd:associationType>
+          <gmd:initiativeType>
+            <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#DS_InitiativeTypeCode" codeListValue="project"/>
+          </gmd:initiativeType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent">
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+              <gmd:extentTypeCode>
+                <gco:Boolean>1</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-108.95</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-90.05</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>26.05</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>39.95</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+              <gmd:extent>
+                <gml32:TimePeriod gml32:id="d5">
+                  <gml32:description>seconds</gml32:description>
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2099-12-31</gml32:endPosition>
+                </gml32:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification id="OPeNDAP_1">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>CCSM4, RCP2.6 downscaled by FUDGE icing-testing-20180329 I35prp1-DeltaSD-A12D01K00</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-09-25</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Adrienne Wootten</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>University of Oklahoma</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>amwootte@ou.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ou.edu</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>http</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:name>
+                      <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Global climate models (GCMs) are numerically complex, computationally intensive,  physics-based research tools used to simulate our planet’s inter-connected climate system.  In addition to improving the scientific understanding of how the large-scale climate system  works, GCM simulations of past and future climate conditions can be useful in applied research contexts. When seeking to apply information from global-scale climate projections to address  local- and regional-scale climate questions, GCM-generated datasets often undergo statistical  post-processing generally known as statistical downscaling (hereafter, SD). There are many  different SD techniques, with all using information from observations to address GCM biases  and to provide information at finer spatial scales than that of a GCM, thereby yielding data  products often considered more suitable for use in climate impacts-related applications. 
+  This collection of statistically downscaled future climate projections includes 81 sets of 
+SD-processed projections of daily high temperature, daily low temperature, and daily total  precipitation across the south-central United States. The 81 sets can be viewed as a 3x3x3x3  matrix, created based on a combination of three GCMs from the CMIP5 archive (CCSM4, MIROC5,  and MPI-ESM-LR), each of which simulated 21st century climate responses for three different  future atmospheric composition scenarios (known as representative concentration pathways or  RCPs 2.6, 4.5, and 8.5). Three different SD techniques were employed, and each used three  gridded observation-based data products to train (i.e. calibrate) the SD methods. The three  downscaling techniques include a delta method (DeltaSD), an equi-distant quantile mapping  method (EDQM), and a piecewise asynchronous regression method (PARM). The observational data  products used for training were Daymet v. 2.1, Livneh v. 1.2, and PRISM AN81d v. D1. The  resulting SD-processed projections are on a 10 km by 10 km grid covering the south-central  United States (all of AR, KS, LA, NM, OK, TX, and portions of CO and MO). Both historical  baseline files (1981-2005) and future projections (2006-2099) are provided, as appropriate.
+  Though not exhaustive, these downscaled climate projections for the south central US region 
+represent a range of potential future climate trajectories that can serve as a component of  climate impacts research studies. That 81 sets of future projections, and not just one, are  provided is indicative that some uncertainties exist regarding the trajectory of the 21st  century climate change, though all show notable warming. Uncertainties in how human activity  may change future atmospheric composition are represented by the different RCP scenarios.  Differences in how sensitive the surface climate of this region will be to atmospheric  composition changes are sampled by the use of different GCMs. Similarly, because each SD  method has different performance characteristics and observational products differ, the use of different SD techniques and training data set combinations acknowledges that SD methodological choices influence the value-added statistically refined climate projection data products. Applied researchers may explore aspects of their applications’ sensitivities to some climate projection uncertainties by sampling from these 81 sets of SD data products. However, this collection should not be considered comprehensive in spanning the entire scope of SD processed climate projections for the south central US region. These climate projection data products are provided as is without any warranty and no agreement to support subsequent projects based on this dataset, beyond providing the data to public domain through the USGS  GeoData Portal.</gco:CharacterString>
+      </gmd:abstract>
+      <srv:serviceType>
+        <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
+      </srv:serviceType>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:extentTypeCode>
+                <gco:Boolean>1</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-108.95</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-90.05</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>26.05</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>39.95</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml32:TimePeriod gml32:id="d5e74">
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2099-12-31</gml32:endPosition>
+                </gml32:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight"/>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>OPeNDAP Client Access</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown"/>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//wootten_2020_pr_day_I35prp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>OPeNDAP</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:operatesOn xlink:href="#DataIdentification"/>
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification id="OPeNDAP_2">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>CCSM4, RCP2.6 downscaled by FUDGE icing-testing-20180329 I35prp1-DeltaSD-A12L01K00</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-09-25</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Adrienne Wootten</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>University of Oklahoma</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>amwootte@ou.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ou.edu</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>http</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:name>
+                      <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Global climate models (GCMs) are numerically complex, computationally intensive,  physics-based research tools used to simulate our planet’s inter-connected climate system.  In addition to improving the scientific understanding of how the large-scale climate system  works, GCM simulations of past and future climate conditions can be useful in applied research contexts. When seeking to apply information from global-scale climate projections to address  local- and regional-scale climate questions, GCM-generated datasets often undergo statistical  post-processing generally known as statistical downscaling (hereafter, SD). There are many  different SD techniques, with all using information from observations to address GCM biases  and to provide information at finer spatial scales than that of a GCM, thereby yielding data  products often considered more suitable for use in climate impacts-related applications. 
+  This collection of statistically downscaled future climate projections includes 81 sets of 
+SD-processed projections of daily high temperature, daily low temperature, and daily total  precipitation across the south-central United States. The 81 sets can be viewed as a 3x3x3x3  matrix, created based on a combination of three GCMs from the CMIP5 archive (CCSM4, MIROC5,  and MPI-ESM-LR), each of which simulated 21st century climate responses for three different  future atmospheric composition scenarios (known as representative concentration pathways or  RCPs 2.6, 4.5, and 8.5). Three different SD techniques were employed, and each used three  gridded observation-based data products to train (i.e. calibrate) the SD methods. The three  downscaling techniques include a delta method (DeltaSD), an equi-distant quantile mapping  method (EDQM), and a piecewise asynchronous regression method (PARM). The observational data  products used for training were Daymet v. 2.1, Livneh v. 1.2, and PRISM AN81d v. D1. The  resulting SD-processed projections are on a 10 km by 10 km grid covering the south-central  United States (all of AR, KS, LA, NM, OK, TX, and portions of CO and MO). Both historical  baseline files (1981-2005) and future projections (2006-2099) are provided, as appropriate.
+  Though not exhaustive, these downscaled climate projections for the south central US region 
+represent a range of potential future climate trajectories that can serve as a component of  climate impacts research studies. That 81 sets of future projections, and not just one, are  provided is indicative that some uncertainties exist regarding the trajectory of the 21st  century climate change, though all show notable warming. Uncertainties in how human activity  may change future atmospheric composition are represented by the different RCP scenarios.  Differences in how sensitive the surface climate of this region will be to atmospheric  composition changes are sampled by the use of different GCMs. Similarly, because each SD  method has different performance characteristics and observational products differ, the use of different SD techniques and training data set combinations acknowledges that SD methodological choices influence the value-added statistically refined climate projection data products. Applied researchers may explore aspects of their applications’ sensitivities to some climate projection uncertainties by sampling from these 81 sets of SD data products. However, this collection should not be considered comprehensive in spanning the entire scope of SD processed climate projections for the south central US region. These climate projection data products are provided as is without any warranty and no agreement to support subsequent projects based on this dataset, beyond providing the data to public domain through the USGS  GeoData Portal.</gco:CharacterString>
+      </gmd:abstract>
+      <srv:serviceType>
+        <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
+      </srv:serviceType>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:extentTypeCode>
+                <gco:Boolean>1</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-108.95</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-90.05</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>26.05</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>39.95</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml32:TimePeriod gml32:id="d5e74">
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2099-12-31</gml32:endPosition>
+                </gml32:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight"/>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>OPeNDAP Client Access</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown"/>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//wootten_2020_pr_day_I35prp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>OPeNDAP</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:operatesOn xlink:href="#DataIdentification"/>
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification id="OPeNDAP_3">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>CCSM4, RCP2.6 downscaled by FUDGE icing-testing-20180329 I35prp1-DeltaSD-A12P01K00</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-09-25</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Adrienne Wootten</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>University of Oklahoma</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>amwootte@ou.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.ou.edu</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>http</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>web browser</gco:CharacterString>
+                      </gmd:applicationProfile>
+                      <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:name>
+                      <gmd:description gco:nilReason="missing">
+                        <gco:CharacterString/>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Global climate models (GCMs) are numerically complex, computationally intensive,  physics-based research tools used to simulate our planet’s inter-connected climate system.  In addition to improving the scientific understanding of how the large-scale climate system  works, GCM simulations of past and future climate conditions can be useful in applied research contexts. When seeking to apply information from global-scale climate projections to address  local- and regional-scale climate questions, GCM-generated datasets often undergo statistical  post-processing generally known as statistical downscaling (hereafter, SD). There are many  different SD techniques, with all using information from observations to address GCM biases  and to provide information at finer spatial scales than that of a GCM, thereby yielding data  products often considered more suitable for use in climate impacts-related applications. 
+  This collection of statistically downscaled future climate projections includes 81 sets of 
+SD-processed projections of daily high temperature, daily low temperature, and daily total  precipitation across the south-central United States. The 81 sets can be viewed as a 3x3x3x3  matrix, created based on a combination of three GCMs from the CMIP5 archive (CCSM4, MIROC5,  and MPI-ESM-LR), each of which simulated 21st century climate responses for three different  future atmospheric composition scenarios (known as representative concentration pathways or  RCPs 2.6, 4.5, and 8.5). Three different SD techniques were employed, and each used three  gridded observation-based data products to train (i.e. calibrate) the SD methods. The three  downscaling techniques include a delta method (DeltaSD), an equi-distant quantile mapping  method (EDQM), and a piecewise asynchronous regression method (PARM). The observational data  products used for training were Daymet v. 2.1, Livneh v. 1.2, and PRISM AN81d v. D1. The  resulting SD-processed projections are on a 10 km by 10 km grid covering the south-central  United States (all of AR, KS, LA, NM, OK, TX, and portions of CO and MO). Both historical  baseline files (1981-2005) and future projections (2006-2099) are provided, as appropriate.
+  Though not exhaustive, these downscaled climate projections for the south central US region 
+represent a range of potential future climate trajectories that can serve as a component of  climate impacts research studies. That 81 sets of future projections, and not just one, are  provided is indicative that some uncertainties exist regarding the trajectory of the 21st  century climate change, though all show notable warming. Uncertainties in how human activity  may change future atmospheric composition are represented by the different RCP scenarios.  Differences in how sensitive the surface climate of this region will be to atmospheric  composition changes are sampled by the use of different GCMs. Similarly, because each SD  method has different performance characteristics and observational products differ, the use of different SD techniques and training data set combinations acknowledges that SD methodological choices influence the value-added statistically refined climate projection data products. Applied researchers may explore aspects of their applications’ sensitivities to some climate projection uncertainties by sampling from these 81 sets of SD data products. However, this collection should not be considered comprehensive in spanning the entire scope of SD processed climate projections for the south central US region. These climate projection data products are provided as is without any warranty and no agreement to support subsequent projects based on this dataset, beyond providing the data to public domain through the USGS  GeoData Portal.</gco:CharacterString>
+      </gmd:abstract>
+      <srv:serviceType>
+        <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
+      </srv:serviceType>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:extentTypeCode>
+                <gco:Boolean>1</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-108.95</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-90.05</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>26.05</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>39.95</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml32:TimePeriod gml32:id="d5e74">
+                  <gml32:beginPosition>1950-07-01</gml32:beginPosition>
+                  <gml32:endPosition>2099-12-31</gml32:endPosition>
+                </gml32:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.isotc211.org/2005/iso19119/resources/Codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight"/>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>OPeNDAP Client Access</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown"/>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//wootten_2020_pr_day_I35prp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>OPeNDAP</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:operatesOn xlink:href="#DataIdentification"/>
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+    <gmd:contentInfo>
+        <gmi:MI_CoverageDescription>
+                <gmd:attributeDescription>
+                        <gco:RecordType xlink:href="https://cida.usgs.gov/thredds/dodsC/wootten_2020.ddx">OPeNDAP description</gco:RecordType>
+                </gmd:attributeDescription>
+                <gmd:contentType>
+                        <gmd:MD_CoverageContentTypeCode codeList="MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+                </gmd:contentType>
+	</gmi:MI_CoverageDescription>
+</gmd:contentInfo>
+<gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+				<gco:CharacterString>David Watkins</gco:CharacterString>
+			    </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>USGS Water Misson Area</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>wwatkins@usgs.gov</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>https://water.usgs.gov/</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>http</gco:CharacterString>
+                                            </gmd:protocol>
+                                            <gmd:applicationProfile>
+                                                <gco:CharacterString>web browser</gco:CharacterString>
+                                            </gmd:applicationProfile>
+                                            <gmd:name>
+                                                <gco:CharacterString>URL for the data publisher</gco:CharacterString>
+                                            </gmd:name>
+                                            <gmd:description>
+                                                <gco:CharacterString>This URL provides contact information for the publisher of this dataset</gco:CharacterString>
+                                            </gmd:description>
+                                            <gmd:function>
+                                                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                                            </gmd:function>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>OPeNDAP</gco:CharacterString>
+              </gmd:name>
+              <gmd:version gco:nilReason="unknown"/>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://cida.usgs.gov/thredds/dodsC/wootten_2020</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:name>
+                    <gco:CharacterString>File Information</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

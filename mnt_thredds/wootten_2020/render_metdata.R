@@ -4,46 +4,43 @@ rm(list=ls())
 catalog_template <- readLines('catalog_dataset_template.xml')
 thredds_ncml_template <- readLines('thredds_config_ncml_template.ncml')
 sb_iso_template <- readLines('iso_template.xml')
-dataset_names <- c("RCP45 Gridded Annual Data",
-              "RCP85 Gridded Annual Data",
-              "RCP45 Time Slices",
-              "RCP85 Time Slices",
-              "RCP45 Station Data",
-              "RCP85 Station Data")
+dataset_names <- readr::read_tsv('titles.txt', col_names = c("file", "title")) %>% 
+  mutate(dates = stringr::str_sub(file, -20,-4),
+         file_path = file.path('/mnt/thredds/wootten_2020', file)) %>% 
+  tidyr::separate(col = dates, into = c("start", "end"), sep = "-") %>% 
+  mutate_at(.vars = c("start", "end"), .funs = as.Date, format = "%Y%m%d") %>% 
+  slice(1:3)
 
-#for each of 6 datasets:
 #render ncml metadata - only location and data type needs to change
 datasets <- list()
 i <- 1
-for(ds in dataset_names) {
-  meta <- yaml::read_yaml('config_meta.yaml')
-  if(grepl(pattern = "station", x = ds, ignore.case = TRUE)) {
-    meta$note <- "The NetcdfSubset service does not work with this dataset"   
-  } 
-  ds_lower <- tolower(ds) %>% gsub(pattern = " ", replacement = "_", x = .) 
-  meta$data_type <- ifelse(test = grepl(pattern = 'station', x = ds_lower), 
-                           yes = "point", no = "grid")
-  meta$location <- file.path(meta$location_parent, ds_lower, "union.ncml")
-  #meta$id <- file.path('cida.usgs.gov', ds_lower)
+meta <- yaml::read_yaml('config_meta.yaml')
+for(i in seq_along(dataset_names$title)) {
+  file <- dataset_names$file[i]
+  title <- dataset_names$title[i]
+  meta$location <- dataset_names$file_path[i]
+  meta$id <- file.path('cida.usgs.gov', file)
+  meta$dataset_start_time <- dataset_names$start[i]
+  meta$dataset_end_time <- dataset_names$end[i]
   ncml_out <- whisker::whisker.render(thredds_ncml_template, meta)
-  ncml_path <- paste0(file.path("~/Documents/nonR/thredds-config/content/thredds/metadata/TTU_2019", 
-                                ds_lower), ".ncml")
+  ncml_path <- paste0(file.path("~/Documents/nonR/thredds-config/content/thredds/metadata/wootten_2020", 
+                                tools::file_path_sans_ext(file)), ".ncml")
   cat(ncml_out, file=ncml_path)
   
   #render catalog.xml section
-  #section for each of 6 datasets
+  #section for each of datasets
   #name, id, path, location changes
   meta[['lat_size']] <- meta$lat_max - meta$lat_min
   meta[['lon_size']] <- meta$lon_max - meta$lon_min
-  dataset_url_path <- paste("TTU_2019", ds_lower, sep = "_")
+  dataset_url_path <- paste("wootten_2020", file, sep = "_")
   datasets[[i]] <- list(
-    dataset_name = ds,
+    dataset_name = title,
     dataset_url_path = dataset_url_path,
-    dataset_id = file.path("cida.usgs.gov/TTU_2019", ds_lower),
-    dataset_meta_location = paste0(file.path("metadata/TTU_2019", ds_lower), ".ncml"),
-    dataset_title = ds,
-    start_time = meta$start_time,
-    end_time = meta$end_time,
+    dataset_id = file.path("cida.usgs.gov/wootten_2020", file),
+    dataset_meta_location = paste0(file.path("metadata/wootten_2020", tools::file_path_sans_ext(file)), ".ncml"),
+    dataset_title = title,
+    dataset_start_time = meta$dataset_start_time,
+    dataset_end_time = meta$dataset_end_time,
     note = meta$note,
     thredds_url = file.path('https://cida.usgs.gov/thredds/dodsC/', dataset_url_path),
     service_id = paste('OPeNDAP', i, sep = "_"))
@@ -53,9 +50,7 @@ for(ds in dataset_names) {
 }
 meta$datasets <- datasets
 catalog_out <- whisker::whisker.render(catalog_template, meta)
-cat(catalog_out, file = "TTU_catalog_section.xml")
+cat(catalog_out, file = "wootten_catalog_section.xml")
 
-#Drop station data for Sciencebase ISO XML, since GDP can't handle it
-meta$datasets <- meta$datasets[1:4]
 iso_out <- whisker::whisker.render(sb_iso_template, meta)
 cat(iso_out, file = paste0(meta$sciencebase_id, ".xml"))
