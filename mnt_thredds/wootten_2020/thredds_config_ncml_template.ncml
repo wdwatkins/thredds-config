@@ -15,7 +15,6 @@
         <attribute name="time_coverage_start" type="String" value="{{dataset_start_time}}"/>
         <attribute name="time_coverage_end" type="String" value="{{dataset_end_time}}"/>
         <attribute name="date_issued" type="String" value="{{date_issued}}"/>
-        <attribute name="summary" type="String" value="{{summary}}"/>
         <attribute name="publisher_name" type="String" value="David Watkins"/>
         <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
         <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
