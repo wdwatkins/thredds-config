@@ -1,3 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" xmlns:xlink="http://www.w3.org/1999/xlink" name="CIDA THREDDS Server.">
+        <service name="Services" serviceType="Compound" base="">
+                <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+                <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/"/>
+                <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+                <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+                <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+        </service>
+        <service name="services_no_ncss" serviceType="Compound" base="">
+                <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+                <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+                <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+                <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+        </service>
+        <service name="services_http" serviceType="Compound" base="">
+                <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+                <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+                <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/"/>
+                <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+                <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+                <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+        </service>
+        <service name="http" serviceType="Compound" base="">
+                <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+        </service>
 		<dataset name="{{title}}">
 			<metadata inherited="true">
 				<!-- THREDDS catalog metadata as documented here:  -->
@@ -46,3 +72,4 @@
 			</dataset>
 			{{/datasets}}
 		</dataset>
+</catalog>
