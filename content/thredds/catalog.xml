@@ -2381,6 +2381,6 @@ The time slice dataset is derived over the pre-determined 30-year periods, inclu
 				<documentation type="Note">The NetcdfSubset service does not work with this dataset</documentation>
 			</dataset>
 		</dataset>
-  <catalogRef xlink:title="wootten_catalog.xml" name="Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S"/>
+  <catalogRef xlink:title="Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S" xlink:href="wootten_catalog.xml" name="Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S"/>
 	</dataset>
 </catalog>
