@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/wootten_2020/pr_day_I35prp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="NULL"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="project" type="String" value="Characterizing Uncertainties in Climate Projections to Support Regional Decision-Making"/>
+        <attribute name="title" type="String" value="Developing and Analyzing Statistically Downscaled Climate Projections for the South Central U.S"/>
+        <attribute name="id" type="String" value="cida.usgs.gov/pr_day_I35prp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc"/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="grid"/>
+        <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Adrienne Wootten"/>
+        <attribute name="creator_email" type="String" value="amwootte@ou.edu"/>
+        <attribute name="time_coverage_start" type="String" value="2006-01-01"/>
+        <attribute name="time_coverage_end" type="String" value="2099-12-31"/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="26.05"/>
+        <attribute name="geospatial_lat_max" type="String" value="39.95"/>
+        <attribute name="geospatial_lon_min" type="String" value="-108.95"/>
+        <attribute name="geospatial_lon_max" type="String" value="-90.05"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
