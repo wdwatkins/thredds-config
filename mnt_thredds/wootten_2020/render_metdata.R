@@ -8,8 +8,7 @@ dataset_names <- readr::read_tsv('titles.txt', col_names = c("file", "title")) %
   mutate(dates = stringr::str_sub(file, -20,-4),
          file_path = file.path('/mnt/thredds/wootten_2020', file)) %>% 
   tidyr::separate(col = dates, into = c("start", "end"), sep = "-") %>% 
-  mutate_at(.vars = c("start", "end"), .funs = as.Date, format = "%Y%m%d") %>% 
-  slice(1:3)
+  mutate_at(.vars = c("start", "end"), .funs = as.Date, format = "%Y%m%d") 
 
 #render ncml metadata - only location and data type needs to change
 datasets <- list()
@@ -50,7 +49,7 @@ for(i in seq_along(dataset_names$title)) {
 }
 meta$datasets <- datasets
 catalog_out <- whisker::whisker.render(catalog_template, meta)
-cat(catalog_out, file = "wootten_catalog_section.xml")
+cat(catalog_out, file = "../../content/thredds/wootten_catalog.xml")
 
 iso_out <- whisker::whisker.render(sb_iso_template, meta)
 cat(iso_out, file = paste0(meta$sciencebase_id, ".xml"))
