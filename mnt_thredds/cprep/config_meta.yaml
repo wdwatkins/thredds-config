@@ -76,5 +76,5 @@ sciencebase_id: '5ee7b8a882ce3bd58d82ef9f'
 attribute_description:
     - ddx_url: https://cida.usgs.gov/thredds/dodsC/cprep.ddx
     - ddx_description: "OPeNDAP description"
-opendap_url: https://cida-test.er.usgs.gov/thredds/dodsC/cprep
+opendap_url: https://cida.usgs.gov/thredds/dodsC/cprep
 note: false
