@@ -436,7 +436,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -576,7 +576,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -716,7 +716,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -856,7 +856,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -996,7 +996,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1136,7 +1136,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1276,7 +1276,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1416,7 +1416,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1556,7 +1556,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1696,7 +1696,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1836,7 +1836,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -1976,7 +1976,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -2116,7 +2116,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -2256,7 +2256,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -2396,7 +2396,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -2536,7 +2536,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -2676,7 +2676,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -2816,7 +2816,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -2956,7 +2956,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -3096,7 +3096,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -3236,7 +3236,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -3376,7 +3376,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -3516,7 +3516,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -3656,7 +3656,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -3796,7 +3796,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -3936,7 +3936,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -4076,7 +4076,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-DeltaSD-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -4216,7 +4216,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -4356,7 +4356,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -4496,7 +4496,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -4636,7 +4636,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -4776,7 +4776,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -4916,7 +4916,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -5056,7 +5056,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -5196,7 +5196,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -5336,7 +5336,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -5476,7 +5476,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -5616,7 +5616,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -5756,7 +5756,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -5896,7 +5896,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -6036,7 +6036,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -6176,7 +6176,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -6316,7 +6316,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -6456,7 +6456,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -6596,7 +6596,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -6736,7 +6736,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -6876,7 +6876,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7016,7 +7016,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7156,7 +7156,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7296,7 +7296,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7436,7 +7436,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7576,7 +7576,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7716,7 +7716,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7856,7 +7856,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-DeltaSD-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -7996,7 +7996,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -8136,7 +8136,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -8276,7 +8276,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -8416,7 +8416,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -8556,7 +8556,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -8696,7 +8696,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -8836,7 +8836,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -8976,7 +8976,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -9116,7 +9116,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -9256,7 +9256,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -9396,7 +9396,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -9536,7 +9536,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -9676,7 +9676,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -9816,7 +9816,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -9956,7 +9956,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -10096,7 +10096,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -10236,7 +10236,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -10376,7 +10376,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -10516,7 +10516,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -10656,7 +10656,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -10796,7 +10796,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -10936,7 +10936,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -11076,7 +11076,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -11216,7 +11216,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -11356,7 +11356,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -11496,7 +11496,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -11636,7 +11636,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-DeltaSD-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -11776,7 +11776,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -11916,7 +11916,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -12056,7 +12056,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -12196,7 +12196,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -12336,7 +12336,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -12476,7 +12476,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -12616,7 +12616,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -12756,7 +12756,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -12896,7 +12896,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -13036,7 +13036,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -13176,7 +13176,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -13316,7 +13316,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -13456,7 +13456,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -13596,7 +13596,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -13736,7 +13736,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -13876,7 +13876,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14016,7 +14016,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14156,7 +14156,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14296,7 +14296,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14436,7 +14436,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14576,7 +14576,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14716,7 +14716,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14856,7 +14856,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -14996,7 +14996,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -15136,7 +15136,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -15276,7 +15276,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -15416,7 +15416,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -15556,7 +15556,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -15696,7 +15696,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -15836,7 +15836,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -15976,7 +15976,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -16116,7 +16116,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -16256,7 +16256,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -16396,7 +16396,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -16536,7 +16536,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -16676,7 +16676,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -16816,7 +16816,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -16956,7 +16956,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -17096,7 +17096,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -17236,7 +17236,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -17376,7 +17376,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -17516,7 +17516,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -17656,7 +17656,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -17796,7 +17796,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -17936,7 +17936,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -18076,7 +18076,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -18216,7 +18216,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -18356,7 +18356,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -18496,7 +18496,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -18636,7 +18636,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -18776,7 +18776,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -18916,7 +18916,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -19056,7 +19056,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -19196,7 +19196,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -19336,7 +19336,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -19476,7 +19476,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -19616,7 +19616,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -19756,7 +19756,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -19896,7 +19896,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -20036,7 +20036,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -20176,7 +20176,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -20316,7 +20316,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -20456,7 +20456,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -20596,7 +20596,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -20736,7 +20736,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -20876,7 +20876,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21016,7 +21016,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21156,7 +21156,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21296,7 +21296,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21436,7 +21436,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21576,7 +21576,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21716,7 +21716,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21856,7 +21856,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -21996,7 +21996,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -22136,7 +22136,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -22276,7 +22276,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -22416,7 +22416,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -22556,7 +22556,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -22696,7 +22696,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -22836,7 +22836,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -22976,7 +22976,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -23116,7 +23116,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -23256,7 +23256,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -23396,7 +23396,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -23536,7 +23536,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -23676,7 +23676,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -23816,7 +23816,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -23956,7 +23956,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -24096,7 +24096,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -24236,7 +24236,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-QDM-A30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -24376,7 +24376,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -24516,7 +24516,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -24656,7 +24656,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -24796,7 +24796,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -24936,7 +24936,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -25076,7 +25076,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -25216,7 +25216,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -25356,7 +25356,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -25496,7 +25496,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txp1-EDQM-A30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -25636,7 +25636,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -25776,7 +25776,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -25916,7 +25916,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -26056,7 +26056,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -26196,7 +26196,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -26336,7 +26336,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -26476,7 +26476,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -26616,7 +26616,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -26756,7 +26756,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tnp1-EDQM-A30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -26896,7 +26896,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -27036,7 +27036,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -27176,7 +27176,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -27316,7 +27316,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -27456,7 +27456,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -27596,7 +27596,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -27736,7 +27736,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -27876,7 +27876,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28016,7 +28016,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28156,7 +28156,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28296,7 +28296,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28436,7 +28436,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28576,7 +28576,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28716,7 +28716,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28856,7 +28856,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -28996,7 +28996,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -29136,7 +29136,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -29276,7 +29276,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -29416,7 +29416,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -29556,7 +29556,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -29696,7 +29696,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -29836,7 +29836,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -29976,7 +29976,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -30116,7 +30116,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -30256,7 +30256,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -30396,7 +30396,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -30536,7 +30536,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -30676,7 +30676,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -30816,7 +30816,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -30956,7 +30956,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -31096,7 +31096,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -31236,7 +31236,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -31376,7 +31376,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -31516,7 +31516,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -31656,7 +31656,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -31796,7 +31796,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -31936,7 +31936,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -32076,7 +32076,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -32216,7 +32216,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -32356,7 +32356,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -32496,7 +32496,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -32636,7 +32636,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -32776,7 +32776,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -32916,7 +32916,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -33056,7 +33056,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -33196,7 +33196,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -33336,7 +33336,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -33476,7 +33476,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -33616,7 +33616,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -33756,7 +33756,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -33896,7 +33896,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -34036,7 +34036,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -34176,7 +34176,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -34316,7 +34316,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -34456,7 +34456,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd12D01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -34596,7 +34596,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd12L01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -34736,7 +34736,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd12P01K00_rcp26_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -34876,7 +34876,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd14D01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35016,7 +35016,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd14L01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35156,7 +35156,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd14P01K00_rcp45_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35296,7 +35296,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd18D01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35436,7 +35436,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd18L01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35576,7 +35576,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd18P01K00_rcp85_r6i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35716,7 +35716,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd22D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35856,7 +35856,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd22L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -35996,7 +35996,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd22P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -36136,7 +36136,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd24D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -36276,7 +36276,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd24L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -36416,7 +36416,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd24P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -36556,7 +36556,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd28D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -36696,7 +36696,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd28L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -36836,7 +36836,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd28P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -36976,7 +36976,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd32D01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -37116,7 +37116,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd32L01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -37256,7 +37256,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd32P01K00_rcp26_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -37396,7 +37396,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd34D01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -37536,7 +37536,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd34L01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -37676,7 +37676,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd34P01K00_rcp45_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -37816,7 +37816,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd38D01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -37956,7 +37956,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd38L01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -38096,7 +38096,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd38P01K00_rcp85_r1i1p1_I35Land_20060101-20991231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -38236,7 +38236,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -38376,7 +38376,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -38516,7 +38516,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -38656,7 +38656,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -38796,7 +38796,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -38936,7 +38936,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -39076,7 +39076,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -39216,7 +39216,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -39356,7 +39356,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_pr_day_I35prp1-PARM-B30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -39496,7 +39496,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -39636,7 +39636,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -39776,7 +39776,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -39916,7 +39916,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -40056,7 +40056,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -40196,7 +40196,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -40336,7 +40336,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -40476,7 +40476,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -40616,7 +40616,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmax_day_I35txdetrp1-PARM-B30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -40756,7 +40756,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd10D01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -40896,7 +40896,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd10L01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41036,7 +41036,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd10P01K00_historical_r6i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41176,7 +41176,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd20D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41316,7 +41316,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd20L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41456,7 +41456,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd20P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41596,7 +41596,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd30D01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41736,7 +41736,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd30L01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41876,7 +41876,7 @@ represent a range of potential future climate trajectories that can serve as a c
           <srv:connectPoint>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
+                <gmd:URL>https://cida.usgs.gov/thredds/dodsC//cprep_tasmin_day_I35tndetrp1-PARM-Bd30P01K00_historical_r1i1p1_I35Land_19810101-20051231.nc</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -41967,7 +41967,7 @@ represent a range of potential future climate trajectories that can serve as a c
               <gmd:onLine>
                 <gmd:CI_OnlineResource>
                   <gmd:linkage>
-                    <gmd:URL>https://cida-test.er.usgs.gov/thredds/dodsC/cprep</gmd:URL>
+                    <gmd:URL>https://cida.usgs.gov/thredds/dodsC/cprep</gmd:URL>
                   </gmd:linkage>
                   <gmd:name>
                     <gco:CharacterString>File Information</gco:CharacterString>

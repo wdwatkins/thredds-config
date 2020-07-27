@@ -43,7 +43,7 @@ for(i in seq_along(dataset_names$title)) {
     dataset_start_time = meta$dataset_start_time,
     dataset_end_time = meta$dataset_end_time,
     note = meta$note,
-    thredds_url = file.path('https://cida-test.er.usgs.gov/thredds/dodsC/', dataset_url_path),
+    thredds_url = file.path('https://cida.usgs.gov/thredds/dodsC/', dataset_url_path),
     service_id = paste('OPeNDAP', i, sep = "_"))
   i <- i + 1
   meta[['attribute_description']] <- list(ddx_description = meta$attribute_description[[2]],
