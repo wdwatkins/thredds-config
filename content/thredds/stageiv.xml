@@ -19,6 +19,17 @@
 			<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/opt/tomcat/data/qpe/ncml/stageiv_combined.ncml"/>
 		</dataset>
 	</dataset>
+        <dataset name="New National Stage IV Quantitative Precipitation Estimate Mosaic Real Time" ID="cida.usgs.gov/thredds/stageiv_new_01hRT/">
+                <featureCollection featureType="GRIB2" name="stageiv_new_01hRT" path="stageiv/new_01hRT">
+                        <metadata inherited="true">
+                                <serviceName>all</serviceName>
+                                <dataType>Grid</dataType>
+                        </metadata>
+                        <collection name="stageiv_new_01hRT" spec="/mnt/thredds/qpe/ncep/st4.*01h.grb2$"/>
+                        <update startup="test" rescan="0 0/5 * * * ? *"/>
+                        <gribConfig datasetTypes="Best"/>
+                </featureCollection>
+        </dataset>
 	<dataset name="Sample National Precipitation Analysis of Record" ID="cida.usgs.gov/thredds/AORC_sample_hrap/">
 		<featureCollection featureType="GRIB1" name="Sample AORC with HRAP Coordinates" path="AORC_sample_hrap">
 			<metadata inherited="true">
