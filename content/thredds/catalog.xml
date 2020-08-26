@@ -2382,5 +2382,51 @@ The time slice dataset is derived over the pre-determined 30-year periods, inclu
 			</dataset>
 		</dataset>
   <catalogRef xlink:title="South Central Climate Projections Evaluation Project (C-PrEP)" xlink:href="cprep_catalog.xml" name="South Central Climate Projections Evaluation Project (C-PrEP)"/>
+		<dataset name="Gridded 20km Daily Reference Evapotranspiration for the State of Alaska from 1979 to 2017">
+			<metadata inherited="true">
+				<!-- THREDDS catalog metadata as documented here:  -->
+				<documentation xlink:href="NULL" xlink:title="Gridded 20km Daily Reference Evapotranspiration for the State of Alaska from 1979 to 2017"/>
+				<documentation type="Summary">Reference evapotranspiration (ET0), like potential evapotranspiration, is a measure of  atmospheric evaporative demand. It was used in the context of this study to evaluate drought  conditions that can lead to wildfire activity in Alaska using the Evaporative Demand Drought  Index (EDDI) and the Standardized Precipitation Evapotranspiration Index (SPEI). The ET0 data are  on a 20km grid with daily temporal resolution and were computed using the meteorological inputs  from the dynamically downscaled ERA-Interim reanalysis and two global climate model projections  (CCSM4 and GFDL-CM3). The model projections are from CMIP5 and use the RCP8.5 scenario. The  dynamically downscaled data are available at https://registry.opendata.aws/wrf-alaska-snap/.  The ET0 was computed following the American Society of Civil Engineers Standardized Reference  Evapotranspiration Equation based on the downscaled daily temperature, humidity and winds. The  full details of the computation of ET0, an evaluation of the underlying data, and the assessment  of the fire indices are described in Ziel et al. (2020; https://doi.org/10.3390/f11050516).</documentation>
+				<documentation type="Reference">Ziel, R.H.; Bieniek, P.A.; Bhatt, U.S.; Strader, H.; Rupp, T.S.; York, A. A Comparison of Fire Weather Indices with MODIS Fire Days for the Natural Regions of Alaska. Forests 2020, 11, 516</documentation>
+				<keyword>reference evapotranspiration</keyword>
+				<keyword>Alaska</keyword>
+				<keyword>drought</keyword>
+				<keyword>wildfire</keyword>
+				<creator>
+					<name>Peter Bieniek</name>
+					<contact url="https://akcasc.org/directory-entries/peter-bieniek/" email="pbieniek@alaska.edu"/>
+				</creator>
+				<publisher>
+					<name>Integrated Information Dissemination Division</name>
+					<contact url="https://water.usgs.gov" email="wwatkins@usgs.gov"/>
+				</publisher>
+				<geospatialCoverage>
+					<northsouth>
+						<start>37.23</start>
+						<size>51.03</size>
+						<units>degrees_north</units>
+					</northsouth>
+					<eastwest>
+						<start>-65.4</start>
+						<size>172.3</size>
+						<units>degrees_east</units>
+					</eastwest>
+				</geospatialCoverage>
+			</metadata>
+			<timeCoverage>
+				<start>1979-04-01</start>
+				<end>2099-09-30</end>
+				<resolution>daily</resolution>
+			</timeCoverage>
+			<dataset name="GFDL historical simulation" ID="cida.usgs.gov/alaska_et_2020/gfdl_historical_simulation" serviceName="Services" urlPath="alaska_et_2020_gfdl_historical_simulation">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/alaska_et_2020/gfdl_historical_simulation.ncml"/>
+			</dataset>
+			<dataset name="CCSM4 historical simulation" ID="cida.usgs.gov/alaska_et_2020/ccsm4_historical_simulation" serviceName="Services" urlPath="alaska_et_2020_ccsm4_historical_simulation">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/alaska_et_2020/ccsm4_historical_simulation.ncml"/>
+			</dataset>
+			<dataset name="ERA-Interim reanalysis" ID="cida.usgs.gov/alaska_et_2020/era-interim_reanalysis" serviceName="Services" urlPath="alaska_et_2020_era-interim_reanalysis">
+				<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="metadata/alaska_et_2020/era-interim_reanalysis.ncml"/>
+			</dataset>
+		</dataset>
 	</dataset>
 </catalog>

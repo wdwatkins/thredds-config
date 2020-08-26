@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/mnt/thredds/alaska_et_2020/era-interim/era-interim.ncml">
+<!-- Global Attributes for Dataset Discovery -->
+<attribute name="acknowledgment" type="String" value="NULL"/>
+        <attribute name="Metadata_Conventions" type="String" value="Unidata Dataset Discovery v1.0"/>
+        <attribute name="project" type="String" value="Assessing Seasonal Wildfire Forecasting Methods in Alaska"/>
+        <attribute name="title" type="String" value="Gridded 20km Daily Reference Evapotranspiration for the State of Alaska from 1979 to 2017"/>
+        <attribute name="id" type="String" value="cida.usgs.gov/era-interim_reanalysis"/>
+        <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
+        <attribute name="cdm_data_type" type="String" value="grid"/>
+        <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="creator_name" type="String" value="Peter Bieniek"/>
+        <attribute name="creator_email" type="String" value="pbieniek@alaska.edu"/>
+        <attribute name="time_coverage_start" type="String" value=""/>
+        <attribute name="time_coverage_end" type="String" value=""/>
+        <attribute name="date_issued" type="String" value=""/>
+        <attribute name="publisher_name" type="String" value="David Watkins"/>
+        <attribute name="publisher_email" type="String" value="wwatkins@usgs.gov"/>
+        <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
+        <attribute name="geospatial_lat_min" type="String" value="37.23"/>
+        <attribute name="geospatial_lat_max" type="String" value="88.26"/>
+        <attribute name="geospatial_lon_min" type="String" value="-65.4"/>
+        <attribute name="geospatial_lon_max" type="String" value="122.3"/>
+        <attribute name="license" type="String" value="Freely available"/>
+	<!-- end - Global Attributes for Dataset Discovery -->
+</netcdf>				
