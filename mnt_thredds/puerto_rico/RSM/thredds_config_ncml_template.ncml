@@ -7,13 +7,14 @@
         <attribute name="title" type="String" value="{{title}}"/>
         <attribute name="id" type="String" value="{{id}}"/>
         <attribute name="naming_authority" type="String" value="cida.usgs.gov"/>
-        <attribute name="cdm_data_type" type="String" value="{{data_type}}"/>
+        <attribute name="cdm_data_type" type="String" value="Grid"/>
         <attribute name="publisher_name" type="String" value="Integrated Information Dissemination Division"/>
         <attribute name="publisher_url" type="String" value="https://water.usgs.gov/"/>
         <attribute name="creator_name" type="String" value="{{creator_name}}"/>
         <attribute name="creator_email" type="String" value="{{creator_email}}"/>
         <attribute name="time_coverage_start" type="String" value="{{start_time}}"/>
         <attribute name="time_coverage_end" type="String" value="{{end_time}}"/>
+        <attribute name="history" type="String" value="{{history}}"/>
         <attribute name="date_issued" type="String" value="{{date_issued}}"/>
         <attribute name="summary" type="String" value="{{summary}}"/>
         <attribute name="publisher_name" type="String" value="David Watkins"/>

@@ -1,0 +1,8 @@
+{{#vars}}
+<variable name="{{.}}">
+  <attribute name="long_name" orgName="description"/>
+</variable>
+{{/vars}}
+<variable name="Time">
+  <attribute name="long_name" value="time"/>
+</variable>
